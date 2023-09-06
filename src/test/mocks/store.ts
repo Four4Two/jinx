@@ -32,7 +32,7 @@ export const mockStore: ReduxState = {
   zapper: mockApiFactory('zapper' as const),
   swapperApi: mockApiFactory('swapperApi' as const),
   swappersApi: mockApiFactory('swappersApi' as const),
-  foxyApi: mockApiFactory('foxyApi' as const),
+  jinxyApi: mockApiFactory('jinxyApi' as const),
   fiatRampApi: mockApiFactory('fiatRampApi' as const),
   opportunitiesApi: mockApiFactory('opportunitiesApi' as const),
   abiApi: mockApiFactory('abiApi' as const),
@@ -58,6 +58,7 @@ export const mockStore: ReduxState = {
   preferences: {
     featureFlags: {
       Jaypegz: false,
+      Highbury: false,
       Optimism: false,
       Polygon: false,
       Gnosis: false,
@@ -81,7 +82,7 @@ export const mockStore: ReduxState = {
       TradeRates: false,
       Mixpanel: false,
       LifiSwap: false,
-      FoxBondCTA: false,
+      JinxBondCTA: false,
       DynamicLpAssets: false,
       ReadOnlyAssets: false,
       OneInch: false,

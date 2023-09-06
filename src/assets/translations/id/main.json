@@ -88,7 +88,7 @@
     "routeTitle": "Beli atau Jual",
     "routeTitleForGem": "Permata di Ramp",
     "title": "Beli atau Jual Crypto",
-    "titleMessage": "ShapeShift telah bermitra dengan beberapa penyedia jalan fiat untuk membeli dan menjual cryptocurrency.",
+    "titleMessage": "BlackFury telah bermitra dengan beberapa penyedia jalan fiat untuk membeli dan menjual cryptocurrency.",
     "gem": "PERMATA",
     "junoPay": "Di Juno",
     "comingSoon": "Segera hadir ...",
@@ -104,7 +104,7 @@
     "insufficientCryptoAmountToSell": "Jumlah minimum untuk menjual $%{amount}"
   },
   "connectWalletPage": {
-    "shapeshift": "ShapeShift",
+    "shapeshift": "BlackFury",
     "exploreThe": "Jelajahi",
     "defiUniverse": "Alam Semesta DeFi",
     "body": "100% Gratis. Sumber Terbuka. Milik Komunitas. Non-Penahanan. Pribadi.",
@@ -153,12 +153,12 @@
           "learnMore": "Pelajari Lebih Lanjut "
         }
       },
-      "foxyOverview": {
-        "header": "Setor FOX untuk mendapatkan FOXy untuk menghasilkan",
-        "body": "FOXy adalah token rebasing yang dipatok dengan harga FOX. Staked FOX bekerja di berbagai protokol DeFi untuk mendapatkan hasil terbaik.",
+      "jinxOverview": {
+        "header": "Setor JINX untuk mendapatkan JINXy untuk menghasilkan",
+        "body": "JINXy adalah token rebasing yang dipatok dengan harga JINX. Staked JINX bekerja di berbagai protokol DeFi untuk mendapatkan hasil terbaik.",
         "rewards": "Imbalan yang Anda peroleh akan bertambah secara otomatis.",
-        "cta": "Setor FOX Sekarang ",
-        "foxyBalance": "Saldo FOXy",
+        "cta": "Setor JINX Sekarang ",
+        "jinxBalance": "Saldo JINXy",
         "withdrawals": "Penarikan",
         "emptyWithdraws": "Penarikan tertunda atau aktif akan ditampilkan di sini.",
         "availableDate": "tersedia %{date}"
@@ -271,7 +271,7 @@
     "overview": "Ringkasan ",
     "transactions": "Transaksi",
     "tradeHistory": "Sejarah Perdagangan",
-    "foxToken": "FOX Opportunities",
+    "jinxToken": "JINX Opportunities",
     "featureFlags": "Fitur Bendera"
   },
   "transactionRow": {
@@ -312,7 +312,7 @@
       "thor": {
         "transferOut": "Transfer keluar"
       },
-      "foxy": {
+      "jinx": {
         "stake": "Stake",
         "unstake": "Unstake",
         "instantUnstake": "Unstake Instan",
@@ -326,7 +326,7 @@
     "previewTrade": "Pratinjau Perdagangan",
     "rate": "Tarif",
     "minerFee": "Biaya Penambang",
-    "shapeshiftFee": "Biaya ShapeShift",
+    "shapeshiftFee": "Biaya BlackFury",
     "confirmDetails": "Detail Konfirmasi",
     "confirmAndTrade": "Konfirmasi dan Perdagangan",
     "complete": "Perdagangan Selesai",
@@ -338,8 +338,8 @@
     "viewTransaction": "Lihat Transaksi",
     "tooltip": {
       "rate": "Ini adalah tingkat yang diharapkan untuk pasangan perdagangan ini.",
-      "minerFee": "Ini adalah biaya untuk memproses transaksi di blockchain, ini bukan biaya yang dibebankan oleh ShapeShift.",
-      "shapeshiftFee": "ShapeShift tidak menambahkan biaya pada perdagangan 🎉"
+      "minerFee": "Ini adalah biaya untuk memproses transaksi di blockchain, ini bukan biaya yang dibebankan oleh BlackFury.",
+      "shapeshiftFee": "BlackFury tidak menambahkan biaya pada perdagangan 🎉"
     },
     "errors": {
       "title": "Ada yang salah",
@@ -515,7 +515,7 @@
       }
     },
     "approve": {
-      "shapeshiftRouterName": "ShapeShift DAO Router",
+      "shapeshiftRouterName": "BlackFury DAO Router",
       "body": "Kami membutuhkan izin Anda untuk menggunakan %{asset}",
       "learnMore": "Mengapa saya perlu melakukan ini??",
       "depositFee": "Akan ada biaya gas terpisah untuk deposit.",
@@ -707,7 +707,7 @@
       },
       "redirect": {
         "header": "Buka di Aplikasi MetaMask",
-        "body": "Klik untuk membuka dasbor ShapeShift di MetaMask",
+        "body": "Klik untuk membuka dasbor BlackFury di MetaMask",
         "button": "Buka"
       }
     },
@@ -744,8 +744,8 @@
         "showWords": "Tampillkan Kata"
       },
       "start": {
-        "header": " Dompet ShapeShift",
-        "body": "Anda dapat memiliki beberapa dompet ShapeShift. Anda dapat memuat dompet, mengimpor dompet dari Frase Pemulihan Rahasia, atau membuat dompet baru.",
+        "header": " Dompet BlackFury",
+        "body": "Anda dapat memiliki beberapa dompet BlackFury. Anda dapat memuat dompet, mengimpor dompet dari Frase Pemulihan Rahasia, atau membuat dompet baru.",
         "import": "Impor Dompet",
         "create": "Buat dompet baru",
         "load": "Dompet Tersimpan"
@@ -795,15 +795,15 @@
         "confirmDelete": "Apakah Anda yakin ingin menghapus nama panggilan dompet ini??"
       },
       "legacy": {
-        "deprecatedWarning": "ShapeShift Log In tidak digunakan lagi",
+        "deprecatedWarning": "BlackFury Log In tidak digunakan lagi",
         "learnMore": "Pelajari Lebih Lanjut ",
         "alreadySavedConfirm": "Saya mengonfirmasi bahwa Frase Pemulihan Rahasia saya telah dicadangkan dengan aman.",
-        "mobileWalletTitle": "Dompet Seluler ShapeShift",
-        "importInformations": "Untuk terus menggunakan Dompet Seluler ShapeShift, Anda harus mengimpornya.",
+        "mobileWalletTitle": "Dompet Seluler BlackFury",
+        "importInformations": "Untuk terus menggunakan Dompet Seluler BlackFury, Anda harus mengimpornya.",
         "importWallet": "Impor Dompet",
-        "haveMobileWallet": "Punya Dompet Seluler ShapeShift?",
-        "loginWithAccount": "Masuk dengan Akun ShapeShift",
-        "loginInformations": "Masukkan alamat email dan kata sandi yang Anda gunakan untuk masuk ke Aplikasi Seluler ShapeShift Anda.",
+        "haveMobileWallet": "Punya Dompet Seluler BlackFury?",
+        "loginWithAccount": "Masuk dengan Akun BlackFury",
+        "loginInformations": "Masukkan alamat email dan kata sandi yang Anda gunakan untuk masuk ke Aplikasi Seluler BlackFury Anda.",
         "loginSuccess": "Berhasil Masuk",
         "emailAddress": "Alamat email",
         "password": "Kata Sandi",
@@ -812,7 +812,7 @@
         "invalidCaptcha": "Captcha tidak valid",
         "captchaRequired": "Captcha diperlukan",
         "invalidLogin": "Invalid login",
-        "noWallet": "Tidak dapat menemukan dompet ShapeShift Asli untuk login Anda. Jika Anda merasa pesan ini salah, silakan hubungi dukungan ShapeShift.",
+        "noWallet": "Tidak dapat menemukan dompet BlackFury Asli untuk login Anda. Jika Anda merasa pesan ini salah, silakan hubungi dukungan BlackFury.",
         "decryptionError": "Terjadi kesalahan saat mendekripsi dompet Anda.",
         "twoFactorAuthentication": "Otentikasi Dua Faktor",
         "twoFactorPlaceholder": "Kode 6 digit",
@@ -823,7 +823,7 @@
     },
     "selectModal": {
       "header": "Hubungkan Dompet",
-      "body": "Dengan menghubungkan dompet, Anda menyetujui Persyaratan Layanan ShapeShift dan mengakui bahwa Anda telah membaca dan memahami penafian ShapeShift.",
+      "body": "Dengan menghubungkan dompet, Anda menyetujui Persyaratan Layanan BlackFury dan mengakui bahwa Anda telah membaca dan memahami penafian BlackFury.",
       "footer": "Tidak punya dompet?",
       "create": "Buat Satu"
     },
@@ -936,7 +936,7 @@
     },
     "downloadCSV": "Unduh CSV",
     "csv": {
-      "fileName": "Riwayat Transaksi ShapeShift",
+      "fileName": "Riwayat Transaksi BlackFury",
       "txid": "TX ID",
       "type": "Tipe TX",
       "timestamp": "stempel waktu",

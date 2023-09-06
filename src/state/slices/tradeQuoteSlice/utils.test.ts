@@ -1,7 +1,7 @@
 import type { AssetId } from '@shapeshiftoss/caip'
 import BigNumber from 'bignumber.js'
 import { baseUnitToHuman, bn, convertPrecision } from 'lib/bignumber/bignumber'
-import { BTC, ETH, FOX_MAINNET } from 'lib/swapper/swappers/utils/test-data/assets'
+import { BTC, ETH, JINX_MAINNET } from 'lib/swapper/swappers/utils/test-data/assets'
 import { cryptoMarketDataById } from 'lib/swapper/swappers/utils/test-data/cryptoMarketDataById'
 import type { ProtocolFee } from 'lib/swapper/types'
 import {
@@ -15,8 +15,8 @@ describe('sumProtocolFeesToDenom', () => {
 
     const result = sumProtocolFeesToDenom({
       cryptoMarketDataById,
-      outputExponent: FOX_MAINNET.precision,
-      outputAssetPriceUsd: cryptoMarketDataById[FOX_MAINNET.assetId].price,
+      outputExponent: JINX_MAINNET.precision,
+      outputAssetPriceUsd: cryptoMarketDataById[JINX_MAINNET.assetId].price,
       protocolFees,
     })
 
@@ -39,34 +39,34 @@ describe('sumProtocolFeesToDenom', () => {
 
     const result = sumProtocolFeesToDenom({
       cryptoMarketDataById,
-      outputExponent: FOX_MAINNET.precision,
-      outputAssetPriceUsd: cryptoMarketDataById[FOX_MAINNET.assetId].price,
+      outputExponent: JINX_MAINNET.precision,
+      outputAssetPriceUsd: cryptoMarketDataById[JINX_MAINNET.assetId].price,
       protocolFees,
     })
 
-    const btcToFoxPriceRatio = bn(cryptoMarketDataById[BTC.assetId].price).div(
-      cryptoMarketDataById[FOX_MAINNET.assetId].price,
+    const btcToJinxPriceRatio = bn(cryptoMarketDataById[BTC.assetId].price).div(
+      cryptoMarketDataById[JINX_MAINNET.assetId].price,
     )
-    const ethToFoxPriceRatio = bn(cryptoMarketDataById[ETH.assetId].price).div(
-      cryptoMarketDataById[FOX_MAINNET.assetId].price,
+    const ethToJinxPriceRatio = bn(cryptoMarketDataById[ETH.assetId].price).div(
+      cryptoMarketDataById[JINX_MAINNET.assetId].price,
     )
 
-    expect(btcToFoxPriceRatio.gt(0)).toBe(true)
-    expect(ethToFoxPriceRatio.gt(0)).toBe(true)
+    expect(btcToJinxPriceRatio.gt(0)).toBe(true)
+    expect(ethToJinxPriceRatio.gt(0)).toBe(true)
 
-    const btcAmountInFox = convertPrecision({
+    const btcAmountInJinx = convertPrecision({
       value: '3000000',
       inputExponent: BTC.precision,
-      outputExponent: FOX_MAINNET.precision,
-    }).times(btcToFoxPriceRatio)
+      outputExponent: JINX_MAINNET.precision,
+    }).times(btcToJinxPriceRatio)
 
-    const ethAmountInFox = convertPrecision({
+    const ethAmountInJinx = convertPrecision({
       value: '500000000000000000',
       inputExponent: ETH.precision,
-      outputExponent: FOX_MAINNET.precision,
-    }).times(ethToFoxPriceRatio)
+      outputExponent: JINX_MAINNET.precision,
+    }).times(ethToJinxPriceRatio)
 
-    const expectation = btcAmountInFox.plus(ethAmountInFox).toString()
+    const expectation = btcAmountInJinx.plus(ethAmountInJinx).toString()
 
     expect(result).toEqual(expectation)
   })

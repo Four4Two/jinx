@@ -109,13 +109,12 @@
     "feedbackAndSupport": "Feedback & Support",
     "getSupport": "Get Support",
     "viewMyWallet": "View My Wallet",
-    "submitFeatureRequest": "Submit a Feature Request",
-    "learnMore": "Learn more"
+    "submitFeatureRequest": "Submit a Feature Request"
   },
   "consentBanner": {
     "body": {
-      "1": "Our dApp uses anonymized click tracking to analyze performance and improve your experience. By using app.shapeshift.com, you agree to our tracking. Visit",
-      "2": "private.shapeshift.com",
+      "1": "Our dApp uses anonymized click tracking to analyze performance and improve your experience. By using boom.jinx.army, you agree to our tracking. Visit",
+      "2": "private.jinx.army",
       "3": "if you don't want to be anonymously tracked. See our",
       "4": "Privacy Policy",
       "5": "for more details."
@@ -136,7 +135,7 @@
     "disclaimer": "*You can also sell crypto directly for cash into your bank account.",
     "cta": {
       "title": {
-        "first": "You can also use ShapeShift with all the top wallets to trade, earn yield and",
+        "first": "You can also use BlackFury with all the top wallets to trade, earn yield and",
         "second": "track your crypto across %{chainCount} chains"
       }
     },
@@ -223,11 +222,11 @@
     "notSupported": "%{asset} is not supported by %{wallet}"
   },
   "connectWalletPage": {
-    "shapeshift": "ShapeShift",
+    "shapeshift": "Blackfury",
     "exploreThe": "Explore the",
     "defiUniverse": "DeFi Universe",
     "body": "100% Free. Open Source. Community Owned. Non-Custodial. Private.",
-    "body2": "Welcome to the new ShapeShift. 100% Free. Open Source. Community Owned. Non-Custodial. Private.",
+    "body2": "Welcome to the new BlackFury. 100% Free. Open Source. Community Owned. Non-Custodial. Private.",
     "header": "Please connect a wallet to get started",
     "cta": "Connect Wallet",
     "viewADemo": "View a Demo"
@@ -282,22 +281,22 @@
         "emptyWithdraws": "Pending unstaking requests will show here.",
         "availableDate": "available %{date}"
       },
-      "foxyOverview": {
-        "header": "Deposit FOX to get FOXy to earn",
-        "body": "FOXy is a rebasing token pegged to the price of FOX. Staked FOX is put to work across different DeFi protocols to earn the best yield possible.",
+      "jinxOverview": {
+        "header": "Deposit JINX to get JINXy to earn",
+        "body": "JINXy is a rebasing token pegged to the price of JINX. Staked JINX is put to work across different DeFi protocols to earn the best yield possible.",
         "rewards": "The rewards you earn will accrue automatically.",
-        "cta": "Deposit FOX Now",
-        "foxyBalance": "FOXy Balance",
+        "cta": "Deposit JINX Now",
+        "jinxBalance": "JINXy Balance",
         "withdrawals": "Withdrawals",
         "emptyWithdraws": "Pending or active withdrawals will show here.",
         "availableDate": "available %{date}"
       },
-      "foxFarmingOverview": {
-        "header": "Deposit ETH-FOX LP tokens to %{opportunity} to earn",
-        "body": "Approve and stake your liquidity tokens to earn bonus FOX rewards.",
+      "jinxFarmingOverview": {
+        "header": "Deposit ETH-JINX LP tokens to %{opportunity} to earn",
+        "body": "Approve and stake your liquidity tokens to earn bonus JINX rewards.",
         "rewards": "The rewards you earn will accrue automatically.",
-        "cta": "Deposit ETH-FOX LP tokens Now",
-        "foxFarmingBalance": "ETH-FOX LP tokens Balance",
+        "cta": "Deposit ETH-JINX LP tokens Now",
+        "jinxFarmingBalance": "ETH-JINX LP tokens Balance",
         "withdrawals": "Withdrawals",
         "emptyWithdraws": "Pending or active withdrawals will show here.",
         "availableDate": "available %{date}"
@@ -355,7 +354,7 @@
     },
     "memoNote": {
       "title": "Please don't edit the transaction memo",
-      "body": "Transactions originating from ShapeShift help support the DAO."
+      "body": "Transactions originating from BlackFury help support the DAO."
     },
     "amountToStake": "Amount to Stake",
     "amountToUnstake": "Amount to Unstake",
@@ -408,7 +407,7 @@
     "earnBalance": "Earn Balance",
     "rewardsBalance": "Rewards Balance",
     "earnBody": "Earn passive income by staking your assets or depositing them into a DeFi strategy.",
-    "clickHereToEarn": "Click here to earn %{apr} APR* by farming your ETH-FOX liquidity pool tokens",
+    "clickHereToEarn": "Click here to earn %{apr} APR* by farming your ETH-JINX liquidity pool tokens",
     "overview": "Overview",
     "myPositions": "My Positions",
     "myPositionsBody": "Your active positions will appear here.",
@@ -503,7 +502,7 @@
     "overview": "Overview",
     "transactions": "Transactions",
     "tradeHistory": "Trade History",
-    "foxToken": "FOX Opportunities",
+    "jinxToken": "JINX Opportunities",
     "dApps": "dApps",
     "featureFlags": "Feature Flags",
     "demoMode": "Demo Mode",
@@ -516,8 +515,8 @@
     "buyCrypto": "Buy/Sell Crypto",
     "buyCryptoShort": "Buy/Sell",
     "arkeo": "Arkeo Airdrop",
-    "foxMissions": "FOX Missions",
-    "foxMissionsShort": "Missions"
+    "jinxMissions": "JINX Missions",
+    "jinxMissionsShort": "Missions"
   },
   "transactionRow": {
     "send": "Sent",
@@ -568,7 +567,7 @@
       "thor": {
         "transferOut": "Transfer out"
       },
-      "foxy": {
+      "jinx": {
         "stake": "Stake",
         "unstake": "Unstake",
         "instantUnstake": "Instant Unstake",
@@ -598,7 +597,6 @@
       },
       "swap": {
         "deposit": "Swap",
-        "streamingSwap": "Streaming Swap",
         "out": "Swap",
         "refund": "Refund",
         "outbound": "Outbound"
@@ -658,9 +656,8 @@
     "payWith": "Pay With",
     "youGet": "You Get",
     "tradeTo": "Trade to",
-    "availableRoutes": "Available Routes",
     "minerFee": "Miner Fee",
-    "donation": "ShapeShift Donation",
+    "donation": "BlackFury Donation",
     "protocolFee": "Protocol Fee",
     "protocol": "Protocol",
     "tradeFeeSource": "%{tradeFeeSource} Fee",
@@ -678,8 +675,6 @@
     "approvingAsset": "Approving %{symbol}",
     "viewTransaction": "View Transaction",
     "unlimited": "Unlimited",
-    "streamStatus": "Stream Status",
-    "swapsFailed": "%{failedSwaps} swaps failed",
     "exact": "Exact",
     "expectedAmount": "Expected Amount",
     "beforeFees": "Before Fees",
@@ -694,12 +689,12 @@
       "rate": "This is the expected rate for this trade pair.",
       "noRateAvailable": "This is often due to very limited or no liquidity on the trade pair.",
       "priceImpact": "A swap of this size may have a high price impact given the current liquidity in the pool. There may be a large difference between the amount of your input token and what you will receive in the output token",
-      "minerFee": "This is the fee to process the transaction on the blockchain, this is not a fee charged by ShapeShift.",
-      "donation": "Help support ShapeShift and keep us up and running.",
+      "minerFee": "This is the fee to process the transaction on the blockchain, this is not a fee charged by BlackFury.",
+      "donation": "Help support BlackFury and keep us up and running.",
       "protocol": "This is the protocol where your trade is being routed.",
       "protocolLifi": "This is the protocol where your trade is being routed. LI.FI executes a series of intermediary trades under the hood for the best overall combination of price, safety and speed.",
-      "protocolFee": "This is the fee charged by the protocol selected to process this transaction, this is not a fee charged by ShapeShift",
-      "shapeshiftFee": "ShapeShift does not add fees on trades 🎉",
+      "protocolFee": "This is the fee charged by the protocol selected to process this transaction, this is not a fee charged by BlackFury",
+      "shapeshiftFee": "BlackFury does not add fees on trades 🎉",
       "manualReceiveAddress": "This is the address you will receive your funds to. It has been manually entered, please ensure it is correct."
     },
     "rates": {
@@ -885,7 +880,7 @@
         "info": {
           "title": "Your Secret Recovery Phrase",
           "description": "Write these 12 words down and store them securely offline. This 12 word phrase is used to recover your wallet private keys.",
-          "warning": "Note: if you lose your Secret Recovery Phrase, ShapeShift can't help you recover your wallet and your funds will be lost forever."
+          "warning": "Note: if you lose your Secret Recovery Phrase, BlackFury can't help you recover your wallet and your funds will be lost forever."
         },
         "success": {
           "title": "Success",
@@ -915,7 +910,6 @@
         "sendAsset": "Send %{asset}",
         "send": "Send",
         "sendTo": "Send To",
-        "customNonce": "Custom Nonce",
         "sendFrom": "Send From",
         "edit": "Edit",
         "total": "Total",
@@ -1017,7 +1011,7 @@
     },
     "approve": {
       "header": "Allow %{spenderName} to use your %{asset}",
-      "shapeshiftRouterName": "ShapeShift DAO Router",
+      "shapeshiftRouterName": "BlackFury DAO Router",
       "body": "needs your permission to use your %{asset}",
       "learnMore": "Why do I need to do this?",
       "depositFee": "There will be a separate gas fee to deposit.",
@@ -1115,7 +1109,7 @@
     "mobileWelcome": {
       "success": {
         "header": "Your wallet has been imported!",
-        "body": "Welcome to the new ShapeShift App.",
+        "body": "Welcome to the new BlackFury App.",
         "primaryCta": "Continue"
       },
       "notice": {
@@ -1261,7 +1255,7 @@
       },
       "redirect": {
         "header": "Open in MetaMask App",
-        "body": "Click to open ShapeShift dashboard in MetaMask",
+        "body": "Click to open BlackFury dashboard in MetaMask",
         "button": "Open"
       }
     },
@@ -1313,7 +1307,7 @@
       },
       "redirect": {
         "header": "Open in XDEFI App",
-        "body": "Click to open ShapeShift dashboard in XDEFI",
+        "body": "Click to open BlackFury dashboard in XDEFI",
         "button": "Open"
       }
     },
@@ -1340,7 +1334,7 @@
       "password": {
         "header": "Create a New Password",
         "body": "Enter a strong password to encrypt your imported wallet. This is how you will access your wallet.",
-        "warning": "Note: If you forget your password, ShapeShift can’t help you recover it.",
+        "warning": "Note: If you forget your password, BlackFury can’t help you recover it.",
         "button": "Next",
         "connect": "Connect to another wallet"
       },
@@ -1352,8 +1346,8 @@
         "showWords": "Show Words"
       },
       "start": {
-        "header": "ShapeShift Wallet",
-        "body": "You can have multiple ShapeShift wallets. You may load a wallet, import a wallet from a Secret Recovery Phrase, or create a new wallet.",
+        "header": "BlackFury Wallet",
+        "body": "You can have multiple BlackFury wallets. You may load a wallet, import a wallet from a Secret Recovery Phrase, or create a new wallet.",
         "import": "Import a wallet",
         "create": "Create a new wallet",
         "load": "Saved wallets"
@@ -1403,15 +1397,15 @@
         "confirmDelete": "Are you sure you want to delete the nickname of this wallet?"
       },
       "legacy": {
-        "deprecatedWarning": "ShapeShift Log In is being Deprecated",
+        "deprecatedWarning": "BlackFury Log In is being Deprecated",
         "learnMore": "Learn More",
         "alreadySavedConfirm": "I confirm that my Secret Recovery Phrase is already backed up securely.",
-        "mobileWalletTitle": "ShapeShift Mobile Wallet",
-        "importInformations": "To continue using your ShapeShift Mobile Wallet, you'll need to import it.",
+        "mobileWalletTitle": "BlackFury Mobile Wallet",
+        "importInformations": "To continue using your BlackFury Mobile Wallet, you'll need to import it.",
         "importWallet": "Import Wallet",
-        "haveMobileWallet": "Have a ShapeShift Mobile Wallet?",
-        "loginWithAccount": "Log In with ShapeShift Account",
-        "loginInformations": "Enter your email address and password you use to login to your ShapeShift Mobile App.",
+        "haveMobileWallet": "Have a BlackFury Mobile Wallet?",
+        "loginWithAccount": "Log In with BlackFury Account",
+        "loginInformations": "Enter your email address and password you use to login to your BlackFury Mobile App.",
         "loginSuccess": "Successfully Logged In",
         "emailAddress": "Email Address",
         "password": "Password",
@@ -1421,7 +1415,7 @@
         "captchaRequired": "Captcha is required",
         "tooManyAttempts": "Too many attempts, please try again later.",
         "invalidLogin": "Invalid login",
-        "noWallet": "Could not find a ShapeShift Wallet for your login. If you feel this message is in error, please contact ShapeShift support.",
+        "noWallet": "Could not find a BlackFury Wallet for your login. If you feel this message is in error, please contact BlackFury support.",
         "decryptionError": "Something went wrong decrypting your wallet.",
         "twoFactorAuthentication": "Two-Factor Authentication",
         "twoFactorPlaceholder": "6-digit code",
@@ -1431,9 +1425,9 @@
       },
       "onboarding": {
         "skip": "Skip",
-        "shapeshiftWallet": "ShapeShift Wallet",
+        "shapeshiftWallet": "BlackFury Wallet",
         "selfCustody": {
-          "title": "Your ShapeShift Wallet is Self-Custody",
+          "title": "Your BlackFury Wallet is Self-Custody",
           "subTitle": "You hold the keys and you're the only one who can access it.",
           "body": "A self-custody wallet means that you own it, and only you have access to your funds. Your secret recovery phrase is your key to accessing it. Nobody can block you from accessing your funds.",
           "cta": "Next"
@@ -1441,12 +1435,12 @@
         "multiChain": {
           "title": "Multiple chains are supported simultaneously",
           "subTitle": "You never need to switch chains in the wallet, it works with each chain seamlessly.",
-          "body": "When a new chain is added on ShapeShift, your ShapeShift Wallet will automatically support it.",
+          "body": "When a new chain is added on BlackFury, your BlackFury Wallet will automatically support it.",
           "cta": "Next"
         },
         "easyToUse": {
           "title": "It's easy to use!",
-          "subTitle": "With ShapeShift Wallet you can:",
+          "subTitle": "With BlackFury Wallet you can:",
           "trackBalance": "Track your balances",
           "sendReceive": "Send/receive crypto",
           "buyCrypto": "Buy crypto",
@@ -1459,7 +1453,7 @@
     },
     "selectModal": {
       "header": "Connect A Wallet",
-      "body": "By connecting a wallet, you agree to ShapeShift's Terms of Service and acknowledge that you have read and understand the ShapeShift disclaimer.",
+      "body": "By connecting a wallet, you agree to BlackFury's Terms of Service and acknowledge that you have read and understand the BlackFury disclaimer.",
       "footer": "Don't have a wallet?",
       "create": "Create one"
     },
@@ -1589,7 +1583,7 @@
     },
     "downloadCSV": "Download CSV",
     "csv": {
-      "fileName": "ShapeShift Transactions History",
+      "fileName": "BlackFury Transactions History",
       "txid": "TX ID",
       "type": "TX type",
       "timestamp": "Timestamp",
@@ -1628,57 +1622,57 @@
     "transfers": "Transfers"
   },
   "plugins": {
-    "foxPage": {
+    "jinxPage": {
       "buyAssetOnCoinbase": "Buy %{assetSymbol} on Coinbase",
-      "totalFoxValue": "Total Fox Value",
-      "foxToken": "ShapeShift %{assetSymbol} Token",
-      "foxDescription": "Since 2019, our shapeshifting FOX Token has been offering users an ever-expanding world of utility and advantages. Today, our ERC-20 governance token not only enables you to influence the future of ShapeShift through your vote, you also have an ever-expanding universe of investing opportunities. Invest, track, and manage your FOX holdings here.",
+      "totalJinxValue": "Total Jinx Value",
+      "jinxToken": "BlackFury %{assetSymbol} Token",
+      "jinxDescription": "Since 2019, our shapeshifting JINX Token has been offering users an ever-expanding world of utility and advantages. Today, our ERC-20 governance token not only enables you to influence the future of BlackFury through your vote, you also have an ever-expanding universe of investing opportunities. Invest, track, and manage your JINX holdings here.",
       "getAsset": "Get %{assetSymbol}",
       "trade": "Trade",
       "receive": "Receive",
       "mainStakingTitle": "%{assetSymbol} Token Staking",
-      "mainStakingDescription": "Put your FOX to work in single-sided staking contracts to earn FOX rewards. (FOX can still be used in governance while staked, but is otherwise locked into the contract during staking.)",
+      "mainStakingDescription": "Put your JINX to work in single-sided staking contracts to earn JINX rewards. (JINX can still be used in governance while staked, but is otherwise locked into the contract during staking.)",
       "tvl": "TVL",
       "currentApy": "Current APY",
       "balance": "Balance",
       "getStarted": "Get Started",
       "manage": "Manage",
       "currentPrice": "Current Price",
-      "tradingUnavailable": "%{assetSymbol} is not yet tradeable on ShapeShift. You can trade %{assetSymbol} on ElasticSwap.",
+      "tradingUnavailable": "%{assetSymbol} is not yet tradeable on BlackFury. You can trade %{assetSymbol} on ElasticSwap.",
       "tradeOnElasticSwap": "Trade %{assetSymbol} on ElasticSwap",
       "otherOpportunitiesTitle": {
-        "FOX": "Other Opportunities",
-        "FOXy": "Opportunities"
+        "JINX": "Other Opportunities",
+        "JINXy": "Opportunities"
       },
       "otherOpportunitiesDescription": {
-        "FOX": "Explore the many opportunities for providing liquidity, farming for yield, lending and borrowing. Click the “Get Started” links below to visit the external sites of interest to learn more—and put your FOX to work for you.",
-        "FOXy": "Quickly and easily purchase FOXy, the industry’s first DAO rebasing token that offers both yield and profit rewards."
+        "JINX": "Explore the many opportunities for providing liquidity, farming for yield, lending and borrowing. Click the “Get Started” links below to visit the external sites of interest to learn more—and put your JINX to work for you.",
+        "JINXy": "Quickly and easily purchase JINXy, the industry’s first DAO rebasing token that offers both yield and profit rewards."
       },
       "liquidityPools": "Liquidity Pools",
       "farming": "Farming",
       "borrowingAndLending": "Borrowing & Lending",
       "governanceTitle": "Governance",
-      "governanceDescription": "As a FOX holder, you can have a voice in the future of ShapeShift. Below are active or recently passed DAO proposals voted on by token holders.",
+      "governanceDescription": "As a JINX holder, you can have a voice in the future of BlackFury. Below are active or recently passed DAO proposals voted on by token holders.",
       "seeAllProposals": "See All Proposals",
       "availableToTradeOn": "Available to Trade On",
       "dex": "DEX",
       "centralized": "Centralized",
       "dappBack": {
-        "title": "✨ Get FOX rewards + more! ✨",
-        "body": "Earn FOX rewards by completing tasks on DappBack",
+        "title": "✨ Get JINX rewards + more! ✨",
+        "body": "Earn JINX rewards by completing tasks on DappBack",
         "cta": "Launch DappBack"
       },
       "bondProtocol": {
-        "title": "Buy FOX at a Discount!",
-        "body": "Buy FOX at a discount with BondProtocol",
+        "title": "Buy JINX at a Discount!",
+        "body": "Buy JINX at a discount with BondProtocol",
         "cta": "Launch BondProtocol"
       }
     },
     "analytics": {
       "optInModal": {
-        "title": "Help us improve ShapeShift",
-        "description": "ShapeShift would like to gather usage data to better understand how our users interact with the app. This data will be used to continually improve the usability and user experience of our product.",
-        "actionsSentence": "ShapeShift will...",
+        "title": "Help us improve BlackFury",
+        "description": "BlackFury would like to gather usage data to better understand how our users interact with the app. This data will be used to continually improve the usability and user experience of our product.",
+        "actionsSentence": "BlackFury will...",
         "noThanks": "No thanks, take me to the private version",
         "sendEvents": "Send anonymized click and pageview events",
         "neverCollectPersonalInformations": "Never collect keys, addresses, transactions, balances, or any personal information ",
@@ -1689,7 +1683,7 @@
     "walletConnectToDapps": {
       "unsupportedToast": {
         "title": "Unsupported Chain",
-        "description": "ShapeShift currently only supports %{supportedChainNames} with WalletConnect."
+        "description": "BlackFury currently only supports %{supportedChainNames} with WalletConnect."
       },
       "header": {
         "connectDapp": "Connect dApp",
@@ -1809,7 +1803,7 @@
       "usdcAddress": "Yat USDC address",
       "ethAddress": "Yat ETH address",
       "noAddressFound": "No %{symbol} address found",
-      "viewInApp": "View in ShapeShift Mobile App"
+      "viewInApp": "View in BlackFury Mobile App"
     }
   },
   "gasInput": {
@@ -1922,7 +1916,7 @@
       "bodyParts": {
         "1": "Last year, alongside",
         "2": "Coinbase Cloud",
-        "3": "ShapeShift incubated a project called Arkeo. Mainnet launch is just around the corner!",
+        "3": "BlackFury incubated a project called Arkeo. Mainnet launch is just around the corner!",
         "4": "Arkeo was created to be a decentralized back-end for all node data. Applications that use Arkeo will benefit from increased development velocity, censorship-resistance and",
         "5": "nakamoto coefficient",
         "6": "while reducing reliance on centralized data sources."
@@ -1930,7 +1924,7 @@
     },
     "whoQualifies": {
       "title": "Who qualifies for the Arkeo Airdrop?",
-      "body": "There are a number of ways you can qualify for the airdrop using the ShapeShift dApp. The snapshot is rolling, you still have time to qualify!"
+      "body": "There are a number of ways you can qualify for the airdrop using the BlackFury dApp. The snapshot is rolling, you still have time to qualify!"
     },
     "staking": {
       "title": "%{asset} Stakers",
@@ -1939,37 +1933,46 @@
     },
     "lp": {
       "title": "%{asset1}/%{asset2} Providers",
-      "body": "Got %{asset1} and %{asset2}? Provide liquidity to the Uniswap V2 Pool to earn %{apy} APR. PLUS the underlying FOX in the FOX/ETH LP tokens you hold will qualify for the Arkeo airdrop.",
+      "body": "Got %{asset1} and %{asset2}? Provide liquidity to the Uniswap V2 Pool to earn %{apy} APR. PLUS the underlying JINX in the JINX/ETH LP tokens you hold will qualify for the Arkeo airdrop.",
       "cta": "Deposit Liquidity"
     },
-    "foxTokenHolders": {
-      "title": "FOX Token Holders",
-      "body": "Hodling FOX tokens. The larger your bag, the larger your Arkeo airdrop.",
-      "cta": "Trade for FOX",
-      "secondary": "Buy FOX"
+    "jinxTokenHolders": {
+      "title": "JINX Token Holders",
+      "body": "Hodling JINX tokens. The larger your bag, the larger your Arkeo airdrop.",
+      "cta": "Trade for JINX",
+      "secondary": "Buy JINX"
     },
-    "foxFarmers": {
-      "title": "FOX/ETH LP Farmers",
-      "body": "Earn up to %{apy} APR for staking your ETH/FOX LP tokens in the FOX Farm. PLUS the underlying FOX in the ETH/FOX LP tokens you stake in Round 5 of the FOX Farm will qualify for the Arkeo airdrop.",
-      "cta": "Stake FOX/ETH LP"
+    "jinxFarmers": {
+      "title": "JINX/ETH LP Farmers",
+      "body": "Earn up to %{apy} APR for staking your ETH/JINX LP tokens in the JINX Farm. PLUS the underlying JINX in the ETH/JINX LP tokens you stake in Round 5 of the JINX Farm will qualify for the Arkeo airdrop.",
+      "cta": "Stake JINX/ETH LP"
     },
-    "foxyTokenHolders": {
-      "title": "FOXy Token Holders",
-      "body": "Earn up to %{apy} APR on your idle FOX with FOX Yieldy (FOXy). PLUS FOXy held in your wallet will be treated the same as FOX and will qualify for the Arkeo airdrop.",
-      "cta": "Stake FOX Tokens"
+    "jinxTokenHolders": {
+      "title": "JINXy Token Holders",
+      "body": "Earn up to %{apy} APR on your idle JINX with JINX Yieldy (JINXy). PLUS JINXy held in your wallet will be treated the same as JINX and will qualify for the Arkeo airdrop.",
+      "cta": "Stake JINX Tokens"
     },
-    "foxEthProviders": {
-      "title": "FOX/ETH Uniswap V2 LPs",
-      "body": "Got %{asset1} and %{asset2}? Provide liquidity to the Uniswap V2 Pool to earn %{apy} APR. PLUS the underlying FOX in the FOX/ETH LP tokens you hold will qualify for the Arkeo airdrop.",
+    "jinxEthProviders": {
+      "title": "JINX/ETH Uniswap V2 LPs",
+      "body": "Got %{asset1} and %{asset2}? Provide liquidity to the Uniswap V2 Pool to earn %{apy} APR. PLUS the underlying JINX in the JINX/ETH LP tokens you hold will qualify for the Arkeo airdrop.",
+      "cta": "Deposit Liquidity"
+    },
+    "atomOsmoProviders": {
+      "title": "ATOM/OSMO LP Providers",
+      "body": "Got ATOM and OSMO? Provide liquidity into the pool, to earn %{apy} APR and qualify for the airdrop.",
       "cta": "Deposit Liquidity"
     },
     "stakeAtom": {
       "title": "Stake ATOM",
-      "body": "Earn up to %{apr} APR on your idle ATOM. PLUS any ATOM you stake earns you Arkeo tokens. If you stake to the ShapeShift DAO Validator you can 2X your airdrop qualification.",
+      "body": "Earn up to %{apr} APR on your idle ATOM. PLUS any ATOM you stake earns you Arkeo tokens. If you stake to the BlackFury DAO Validator you can 2X your airdrop qualification.",
       "cta": "Stake ATOM"
     },
+    "stakeOsmo": {
+      "title": "Stake OSMO",
+      "body": "Earn up to %{apr} APR on your idle OSMO. PLUS any OSMO you stake earns you Arkeo tokens. If you stake to the BlackFury DAO Validator you can 2X your airdrop qualification."
+    },
     "footer": {
-      "title": "There are other ways you can qualify too, outside of the ShapeShift dApp. For a complete list, check out the governance proposal.",
+      "title": "There are other ways you can qualify too, outside of the BlackFury dApp. For a complete list, check out the governance proposal.",
       "cta": "Check out the governance proposal",
       "disclaimer": {
         "body": "* Self-custody wallets only will qualify. Tokens held or staked in a wallet via a centralized exchange do not qualify. Need a wallet?",
@@ -1978,7 +1981,7 @@
     }
   },
   "nft": {
-    "customizeFoxatar": "Customize FOXatar",
+    "customizeJinxatar": "Customize JINXatar",
     "setAsAvatar": "Set as Avatar",
     "floorPrice": "Floor Price",
     "lastPrice": "Last Price",
@@ -1997,7 +2000,7 @@
     "emptyBody": "Don't worry, we've sent out a search party to bring back more amazing NFTs. In the meantime, feel free to stare at this blank space and ponder the meaning of existence."
   },
   "missions": {
-    "subtitle": "FOX Missions",
+    "subtitle": "JINX Missions",
     "missionEnded": "Mission Ended",
     "viewMission": "View Mission",
     "comingSoon": "Coming Soon",
@@ -2007,7 +2010,7 @@
       "1": "Unleash the Decentralized Universe and",
       "2": "Reap Rewards"
     },
-    "body": "Embark on Missions, Earn Rewards, and expand your knowledge of the Ever-Expanding ShapeShift Ecosystem",
+    "body": "Embark on Missions, Earn Rewards, and expand your knowledge of the Ever-Expanding BlackFury Ecosystem",
     "ends": "Ends",
     "ongoing": "Ongoing Mission",
     "optimism": {
@@ -2015,14 +2018,14 @@
       "subtitle": "Explore Optimism",
       "cta": "Start Mission"
     },
-    "foxatar": {
+    "jinxatar": {
       "title": "Get a Free & Customizable NFT",
-      "subtitle": "Mint a FOXatar",
+      "subtitle": "Mint a JINXatar",
       "cta": "Start Mission"
     },
-    "foxArmy": {
-      "subtitle": "Join the FOX Army",
-      "title": "20,000 FOX Pool",
+    "jinxArmy": {
+      "subtitle": "Join the JINX Army",
+      "title": "20,000 JINX Pool",
       "cta": "Start Mission"
     },
     "yat": {
@@ -2035,9 +2038,9 @@
       "title": "Launch a Mission for Your Project",
       "cta": "Submit Project"
     },
-    "foxRewards": {
+    "jinxRewards": {
       "subtitle": "Buy, sell, trade, earn, and more",
-      "title": "Earn FOX",
+      "title": "Earn JINX",
       "cta": "Start Mission"
     }
   },

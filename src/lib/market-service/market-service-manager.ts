@@ -12,8 +12,8 @@ import { _getRelatedAssetIds } from 'state/apis/zerion/zerionApi'
 import type { MarketService } from './api'
 import { CoinCapMarketService } from './coincap/coincap'
 import { CoinGeckoMarketService } from './coingecko/coingecko'
-import { FoxyMarketService } from './foxy/foxy'
 import { IdleMarketService } from './idle/idle'
+import { JinxyMarketService } from './jinxy/jinxy'
 // import { YearnTokenMarketCapService } from './yearn/yearn-tokens'
 // import { YearnVaultMarketCapService } from './yearn/yearn-vaults'
 
@@ -49,7 +49,7 @@ export class MarketServiceManager {
       // new YearnVaultMarketCapService({ yearnSdk }),
       // new YearnTokenMarketCapService({ yearnSdk }),
       new IdleMarketService({ providerUrls }),
-      new FoxyMarketService({ providerUrls }),
+      new JinxyMarketService({ providerUrls }),
     ]
   }
 

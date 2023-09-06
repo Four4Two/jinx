@@ -4,6 +4,7 @@ import {
   bscChainId,
   ethChainId,
   gnosisChainId,
+  highburyChainId,
   optimismChainId,
   polygonChainId,
 } from '@shapeshiftoss/caip'
@@ -16,6 +17,8 @@ export const rpcUrlByChainId = (chainId: ChainId): string => {
       return getConfig().REACT_APP_AVALANCHE_NODE_URL
     case optimismChainId:
       return getConfig().REACT_APP_OPTIMISM_NODE_URL
+    case highburyChainId:
+      return getConfig().REACT_APP_HIGHBURY_NODE_URL
     case bscChainId:
       return getConfig().REACT_APP_BNBSMARTCHAIN_NODE_URL
     case polygonChainId:

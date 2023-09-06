@@ -116,7 +116,7 @@ export const LegacyLogin: React.FC<LegacyLoginProps> = ({ onLoginSuccess }) => {
           return
         }
 
-        // Successful account login, but no ShapeShift Wallet for account.
+        // Successful account login, but no BlackFury Wallet for account.
         if (
           err.response.status === LoginErrors.noWallet.httpCode &&
           err.response.data.error.msg.startsWith(LoginErrors.noWallet.msg)

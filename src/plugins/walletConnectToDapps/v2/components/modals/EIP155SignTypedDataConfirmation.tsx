@@ -7,7 +7,7 @@ import type { EthSignTypedDataCallRequest } from 'plugins/walletConnectToDapps/v
 import type { WalletConnectRequestModalProps } from 'plugins/walletConnectToDapps/v2/WalletConnectModalManager'
 import type { FC } from 'react'
 import { useTranslate } from 'react-polyglot'
-import { FoxIcon } from 'components/Icons/FoxIcon'
+import { JinxIcon } from 'components/Icons/JinxIcon'
 import { Text } from 'components/Text'
 import { useWallet } from 'hooks/useWallet/useWallet'
 import { assertIsDefined } from 'lib/utils'
@@ -20,7 +20,7 @@ export const EIP155SignTypedDataConfirmation: FC<
 
   const translate = useTranslate()
   const walletInfo = useWallet().state.walletInfo
-  const WalletIcon = walletInfo?.icon ?? FoxIcon
+  const WalletIcon = walletInfo?.icon ?? JinxIcon
 
   return (
     <>

@@ -1,12 +1,12 @@
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import { Box, Button, Card, CardBody, CardHeader, Heading, HStack } from '@chakra-ui/react'
 import type { AccountId, AssetId } from '@shapeshiftoss/caip'
-import { foxAssetId, foxyAssetId, fromAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId, jinxAssetId, jinxyAssetId } from '@shapeshiftoss/caip'
 import qs from 'qs'
 import { useEffect, useMemo } from 'react'
 import { NavLink, useHistory, useLocation } from 'react-router-dom'
 import { Text } from 'components/Text'
-import { useFoxEth } from 'context/FoxEthProvider/FoxEthProvider'
+import { useJinxEth } from 'context/JinxEthProvider/JinxEthProvider'
 import { WalletActions } from 'context/WalletProvider/actions'
 import { useWallet } from 'hooks/useWallet/useWallet'
 import type { EarnOpportunityType } from 'state/slices/opportunitiesSlice/types'
@@ -42,7 +42,7 @@ export const EarnOpportunities = ({ assetId, accountId }: EarnOpportunitiesProps
 
   const lpOpportunities = useAppSelector(selectAggregatedEarnUserLpOpportunities)
 
-  const { setFarmingAccountId } = useFoxEth()
+  const { setFarmingAccountId } = useJinxEth()
 
   useEffect(() => {
     if (accountId) {
@@ -58,8 +58,8 @@ export const EarnOpportunities = ({ assetId, accountId }: EarnOpportunitiesProps
             row =>
               row.assetId.toLowerCase() === asset.assetId.toLowerCase() ||
               (row.underlyingAssetIds.length && row.underlyingAssetIds.includes(asset.assetId)) ||
-              // show foxy opportunity in the foxy asset page
-              (row.assetId === foxAssetId && asset.assetId === foxyAssetId),
+              // show jinxy opportunity in the jinxy asset page
+              (row.assetId === jinxAssetId && asset.assetId === jinxyAssetId),
           ),
     [asset, lpOpportunities, stakingOpportunities],
   )

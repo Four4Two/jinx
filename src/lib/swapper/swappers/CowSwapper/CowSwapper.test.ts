@@ -1,8 +1,8 @@
 import {
   BTC,
   ETH,
-  FOX_GNOSIS,
-  FOX_MAINNET,
+  JINX_GNOSIS,
+  JINX_MAINNET,
   WBTC,
   WETH,
   XDAI,
@@ -18,8 +18,8 @@ jest.mock('state/slices/assetsSlice/selectors', () => {
   const {
     BTC,
     ETH,
-    FOX_GNOSIS,
-    FOX_MAINNET,
+    JINX_GNOSIS,
+    JINX_MAINNET,
     WBTC,
     WETH,
     XDAI,
@@ -30,8 +30,8 @@ jest.mock('state/slices/assetsSlice/selectors', () => {
     selectAssets: jest.fn(() => ({
       [BTC.assetId]: BTC,
       [ETH.assetId]: ETH,
-      [FOX_GNOSIS.assetId]: FOX_GNOSIS,
-      [FOX_MAINNET.assetId]: FOX_MAINNET,
+      [JINX_GNOSIS.assetId]: JINX_GNOSIS,
+      [JINX_MAINNET.assetId]: JINX_MAINNET,
       [WBTC.assetId]: WBTC,
       [WETH.assetId]: WETH,
       [XDAI.assetId]: XDAI,
@@ -39,7 +39,7 @@ jest.mock('state/slices/assetsSlice/selectors', () => {
   }
 })
 
-const ASSETS = [ETH, WBTC, WETH, BTC, FOX_MAINNET, XDAI]
+const ASSETS = [ETH, WBTC, WETH, BTC, JINX_MAINNET, XDAI]
 
 describe('CowSwapper', () => {
   describe('filterAssetIdsBySellable', () => {
@@ -51,16 +51,16 @@ describe('CowSwapper', () => {
       expect(await cowSwapper.filterAssetIdsBySellable(ASSETS)).toEqual([
         WBTC.assetId,
         WETH.assetId,
-        FOX_MAINNET.assetId,
+        JINX_MAINNET.assetId,
       ])
     })
 
     it('returns array filtered out of unsupported tokens', async () => {
-      const assetIds = [FOX_MAINNET, FOX_GNOSIS, BTC]
+      const assetIds = [JINX_MAINNET, JINX_GNOSIS, BTC]
 
       expect(await cowSwapper.filterAssetIdsBySellable(assetIds)).toEqual([
-        FOX_MAINNET.assetId,
-        FOX_GNOSIS.assetId,
+        JINX_MAINNET.assetId,
+        JINX_GNOSIS.assetId,
       ])
     })
   })
@@ -96,33 +96,33 @@ describe('CowSwapper', () => {
           assets: ASSETS,
           sellAsset: WETH,
         }),
-      ).toEqual([ETH.assetId, WBTC.assetId, FOX_MAINNET.assetId])
+      ).toEqual([ETH.assetId, WBTC.assetId, JINX_MAINNET.assetId])
       expect(
         await cowSwapper.filterBuyAssetsBySellAssetId({
           assets: ASSETS,
           sellAsset: WBTC,
         }),
-      ).toEqual([ETH.assetId, WETH.assetId, FOX_MAINNET.assetId])
+      ).toEqual([ETH.assetId, WETH.assetId, JINX_MAINNET.assetId])
       expect(
         await cowSwapper.filterBuyAssetsBySellAssetId({
           assets: ASSETS,
-          sellAsset: FOX_MAINNET,
+          sellAsset: JINX_MAINNET,
         }),
       ).toEqual([ETH.assetId, WBTC.assetId, WETH.assetId])
     })
 
     it('returns array filtered out of unsupported tokens when called with a sellable sellAssetId', async () => {
-      const assets = [FOX_MAINNET, BTC]
+      const assets = [JINX_MAINNET, BTC]
       expect(
         await cowSwapper.filterBuyAssetsBySellAssetId({
           assets,
           sellAsset: WETH,
         }),
-      ).toEqual([FOX_MAINNET.assetId])
+      ).toEqual([JINX_MAINNET.assetId])
       expect(
         await cowSwapper.filterBuyAssetsBySellAssetId({
           assets,
-          sellAsset: FOX_MAINNET,
+          sellAsset: JINX_MAINNET,
         }),
       ).toEqual([])
     })

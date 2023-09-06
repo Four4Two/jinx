@@ -322,7 +322,7 @@ export const ThorchainSaversOverview: React.FC<OverviewProps> = ({
                 </AlertDescription>
                 <Button
                   as={Link}
-                  href={`https://twitter.com/intent/tweet?text=Hey%20%40THORChain%20%23raisethecaps%20already%20so%20I%20can%20deposit%20%23${underlyingAsset?.symbol}%20into%20a%20savers%20vault%20at%20%40ShapeShift`}
+                  href={`https://twitter.com/intent/tweet?text=Hey%20%40THORChain%20%23raisethecaps%20already%20so%20I%20can%20deposit%20%23${underlyingAsset?.symbol}%20into%20a%20savers%20vault%20at%20%40BlackFury`}
                   isExternal
                   mt={4}
                   colorScheme='twitter'

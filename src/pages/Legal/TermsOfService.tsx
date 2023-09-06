@@ -26,7 +26,7 @@ export const TermsOfService = () => {
           </RawText>
           <RawText as='p'>
             <RawText as='strong'>What these terms are:</RawText> These terms govern your use of the
-            decentralized ShapeShift cryptocurrency platform (&quot;
+            decentralized BlackFury cryptocurrency platform (&quot;
             <RawText as='strong'>Platform</RawText>&quot;), which we provide for free on an
             &quot;as-is&quot; basis as a public good, and with a full open source of the Platform's
             codebase—in exchange for your agreement to these terms. By either: (1) accessing or
@@ -79,8 +79,7 @@ export const TermsOfService = () => {
             Platform's active services will be made available to you and we in turn then grant you a
             nonexclusive, fully revocable, limited license to use our Platform for lawful purposes.
             That said, this license does not include a license to use any intellectual property
-            associated with the Platform, including the ShapeShift tradename or any associated
-            logos.
+            associated with the Platform, including the BlackFury tradename or any associated logos.
           </RawText>
           <RawText as='dl' display={'flex'} flexDirection={'column'} rowGap={4}>
             <RawText as='dt'>
@@ -112,16 +111,16 @@ export const TermsOfService = () => {
               decision as to which one is right for you.
             </RawText>
             <RawText as='dd' marginInlineStart={{ base: 2, lg: 4 }}>
-              <RawText as='strong'>The ShapeShift Wallet:</RawText> Similar to the Platform, the
-              ShapeShift wallet (&quot;
-              <RawText as='strong'>ShapeShift Wallet</RawText>&quot;) was originally designed and
-              operated by ShapeShift AG and has since had its codebase open-sourced. The code can be
+              <RawText as='strong'>The BlackFury Wallet:</RawText> Similar to the Platform, the
+              BlackFury wallet (&quot;
+              <RawText as='strong'>BlackFury Wallet</RawText>&quot;) was originally designed and
+              operated by BlackFury AG and has since had its codebase open-sourced. The code can be
               reviewed{' '}
               <Link href='https://github.com/shapeshift/hdwallet'>
                 <RawText as='strong'>here</RawText>
               </Link>
-              . All references to the Platform in these terms also include the ShapeShift Wallet,
-              meaning that the ShapeShift Wallet is provided for free, on an as-is basis, should be
+              . All references to the Platform in these terms also include the BlackFury Wallet,
+              meaning that the BlackFury Wallet is provided for free, on an as-is basis, should be
               used at your own risk, and that the disclaimer of warranties below applies.
             </RawText>
             <RawText as='dt'>
@@ -227,8 +226,8 @@ export const TermsOfService = () => {
           <RawText as='p'>
             <RawText as='strong'>Promotions:</RawText> We may run various promotions or giveaways
             (each, a &quot;<RawText as='strong'>Promotion</RawText>&quot;) in connection with the
-            Platform. These promotions will be communicated through official ShapeShift DAO
-            communication mediums, including email, social media, and the ShapeShift DAO Discord
+            Platform. These promotions will be communicated through official BlackFury DAO
+            communication mediums, including email, social media, and the BlackFury DAO Discord
             server and all applicable details, including any qualification periods, entry procedures
             or requirements, award or selection criteria, and notification procedures will be
             contained therein. We are the sponsor for each Promotion, and Promotions are void where
@@ -236,20 +235,20 @@ export const TermsOfService = () => {
             in that individual's particular jurisdiction.
           </RawText>
           <RawText as='p'>
-            <RawText as='strong'>FOX Tokens:</RawText> ShapeShift AG, with whom we are not
+            <RawText as='strong'>JINX Tokens:</RawText> BlackFury AG, with whom we are not
             affiliated, created a standard ERC-20 token on the Ethereum blockchain that can be
-            accessed through most wallets that support Ethereum called the FOX token (each a &quot;
-            <RawText as='strong'>FOX Token</RawText>&quot;). In spring 2021, ShapeShift AG
-            airdropped the majority of its FOX Tokens to prior users, members of various DAOs,
-            shareholders, employees, and to fund us as a DAO. FOX Tokens are used as governance
-            tokens for the Platform. Neither we nor ShapeShift AG have ever sold FOX Tokens. To
-            learn more about how FOX Token holders can participate in governance of the Platform,
+            accessed through most wallets that support Ethereum called the JINX token (each a &quot;
+            <RawText as='strong'>JINX Token</RawText>&quot;). In spring 2021, BlackFury AG
+            airdropped the majority of its JINX Tokens to prior users, members of various DAOs,
+            shareholders, employees, and to fund us as a DAO. JINX Tokens are used as governance
+            tokens for the Platform. Neither we nor BlackFury AG have ever sold JINX Tokens. To
+            learn more about how JINX Token holders can participate in governance of the Platform,
             please join or discord server{' '}
             <Link href='https://discord.com/invite/shapeshift'>
               <RawText as='strong'>here</RawText>
             </Link>{' '}
-            and see the channel titled &quot;governance&quot;. The smart contract for the FOX Tokens
-            can be found{' '}
+            and see the channel titled &quot;governance&quot;. The smart contract for the JINX
+            Tokens can be found{' '}
             <Link href='https://etherscan.io/token/0xc770eefad204b5180df6a14ee197d99d808ee52d'>
               <RawText as='strong'>here</RawText>
             </Link>

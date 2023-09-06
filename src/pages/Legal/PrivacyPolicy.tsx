@@ -14,7 +14,7 @@ export const PrivacyPolicy = () => {
           </Center>
           <RawText as='p'>
             This notice summarizes our data collection, transfer, and protection practices
-            associated with the decentralized ShapeShift platform (&quot;
+            associated with the decentralized BlackFury platform (&quot;
             <RawText as='strong'>Platform</RawText>&quot;), and more generally outlines what we do
             with your data when you interact with the Platform in any way. Your use of the Platform
             constitutes your acceptance of all aspects of this notice, so read this notice
@@ -86,7 +86,7 @@ export const PrivacyPolicy = () => {
           </RawText>
           <RawText as='p'>
             <RawText as='strong'>Who we are and how to contact us:</RawText> The Platform and this
-            notice are maintained by the ShapeShift decentralized autonomous organization. The best
+            notice are maintained by the BlackFury decentralized autonomous organization. The best
             way to get in touch with us is through our discord server, which you can join{' '}
             <Link href='https://discord.com/invite/shapeshift'>
               <RawText as='strong'>here</RawText>

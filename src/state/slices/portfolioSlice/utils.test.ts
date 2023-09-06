@@ -2,6 +2,7 @@ import {
   avalancheAssetId,
   bscAssetId,
   ethAssetId,
+  highburyAssetId,
   optimismAssetId,
   polygonAssetId,
 } from '@shapeshiftoss/caip'
@@ -33,6 +34,11 @@ describe('accountIdToFeeAssetId', () => {
     const accountId = 'eip155:10:0xdef1cafe'
     const result = accountIdToFeeAssetId(accountId)
     expect(result).toEqual(optimismAssetId)
+  })
+  it('can get highbury feeAssetId from accountId', () => {
+    const accountId = 'eip155:710:0xdef1cafe'
+    const result = accountIdToFeeAssetId(accountId)
+    expect(result).toEqual(highburyAssetId)
   })
   it('can get bnbsmartchain feeAssetId from accountId', () => {
     const accountId = 'eip155:56:0xdef1cafe'
@@ -122,19 +128,19 @@ describe('findAccountsByAssetId', () => {
 
 describe('trimWithEndEllipsis', () => {
   it('should trim the description according to the max number of characters', () => {
-    const LongFoxDescription =
-      'FOX is an ERC-20 token created by ShapeShift which serves as the governance token for the ShapeShift DAO, token holders can vote on proposals relating to the operation and treasury of the DAO. The token supports'
-    const ExpectedTrimmedFoxDescription =
-      'FOX is an ERC-20 token created by ShapeShift which serves as the governance token for the ShapeShift DAO, token holders can vote on proposals relating to the operation and treasury of the DAO...'
+    const LongJinxDescription =
+      'JINX is an ERC-20 token created by BlackFury which serves as the governance token for the BlackFury DAO, token holders can vote on proposals relating to the operation and treasury of the DAO. The token supports'
+    const ExpectedTrimmedJinxDescription =
+      'JINX is an ERC-20 token created by BlackFury which serves as the governance token for the BlackFury DAO, token holders can vote on proposals relating to the operation and treasury of the DAO...'
 
     expect(trimWithEndEllipsis(undefined)).toEqual('')
     expect(trimWithEndEllipsis('')).toEqual('')
     expect(trimWithEndEllipsis('abcdef')).toEqual('abcdef')
-    expect(trimWithEndEllipsis(LongFoxDescription)).toEqual(LongFoxDescription)
+    expect(trimWithEndEllipsis(LongJinxDescription)).toEqual(LongJinxDescription)
 
     expect(trimWithEndEllipsis(undefined, 191)).toEqual('')
     expect(trimWithEndEllipsis('', 191)).toEqual('')
     expect(trimWithEndEllipsis('abcdef', 191)).toEqual('abcdef')
-    expect(trimWithEndEllipsis(LongFoxDescription, 191)).toEqual(ExpectedTrimmedFoxDescription)
+    expect(trimWithEndEllipsis(LongJinxDescription, 191)).toEqual(ExpectedTrimmedJinxDescription)
   })
 })

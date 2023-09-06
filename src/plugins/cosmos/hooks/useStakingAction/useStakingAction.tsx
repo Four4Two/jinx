@@ -52,7 +52,7 @@ export const useStakingAction = () => {
         throw new Error(`no staking support for chainId: ${asset.chainId}`)
       }
 
-      const memo = shapeshiftValidators.includes(validator) ? 'Delegated with ShapeShift' : ''
+      const memo = shapeshiftValidators.includes(validator) ? 'Delegated with BlackFury' : ''
 
       const { txToSign } = await (() => {
         const { accountNumber } = bip44Params

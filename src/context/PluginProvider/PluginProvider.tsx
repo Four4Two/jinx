@@ -105,6 +105,7 @@ export const PluginProvider = ({ children }: PluginProviderProps): JSX.Element =
     setRoutes(pluginRoutes)
 
     const _supportedChains = Object.values<ChainId>(KnownChainIds).filter(chainId => {
+      if (!featureFlags.Highbury && chainId === KnownChainIds.HighburyMainnet) return false
       if (!featureFlags.Optimism && chainId === KnownChainIds.OptimismMainnet) return false
       if (!featureFlags.Polygon && chainId === KnownChainIds.PolygonMainnet) return false
       if (!featureFlags.Gnosis && chainId === KnownChainIds.GnosisMainnet) return false

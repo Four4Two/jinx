@@ -28,17 +28,17 @@ export const StakingCard: React.FC<StakingCardProps> = props => {
 
   const { title, body, cta } = (() => {
     switch (provider) {
-      case DefiProvider.ShapeShift:
+      case DefiProvider.BlackFury:
         return {
-          title: 'arkeo.foxyTokenHolders.title',
-          body: 'arkeo.foxyTokenHolders.body',
-          cta: 'arkeo.foxyTokenHolders.cta',
+          title: 'arkeo.jinxyTokenHolders.title',
+          body: 'arkeo.jinxyTokenHolders.body',
+          cta: 'arkeo.jinxyTokenHolders.cta',
         }
-      case DefiProvider.EthFoxStaking:
+      case DefiProvider.EthJinxStaking:
         return {
-          title: 'arkeo.foxFarmers.title',
-          body: 'arkeo.foxFarmers.body',
-          cta: 'arkeo.foxFarmers.cta',
+          title: 'arkeo.jinxFarmers.title',
+          body: 'arkeo.jinxFarmers.body',
+          cta: 'arkeo.jinxFarmers.cta',
         }
       default:
         return {

@@ -12,6 +12,7 @@ import {
   supportsBSC,
   supportsETH,
   supportsGnosis,
+  supportsHighbury,
   supportsOptimism,
   supportsPolygon,
 } from '@shapeshiftoss/hdwallet-core'
@@ -46,7 +47,7 @@ import type {
 import { ValidAddressResultType } from '../types'
 import { getAssetNamespace, toAddressNList, toRootDerivationPath } from '../utils'
 import { bnOrZero } from '../utils/bignumber'
-import type { avalanche, bnbsmartchain, ethereum, gnosis, optimism, polygon } from '.'
+import type { avalanche, bnbsmartchain, ethereum, gnosis, highbury, optimism, polygon } from '.'
 import type {
   BuildCustomApiTxInput,
   BuildCustomTxInput,
@@ -63,6 +64,7 @@ export const evmChainIds = [
   KnownChainIds.BnbSmartChainMainnet,
   KnownChainIds.PolygonMainnet,
   KnownChainIds.GnosisMainnet,
+  KnownChainIds.HighburyMainnet,
 ] as const
 
 export type EvmChainId = (typeof evmChainIds)[number]
@@ -73,6 +75,7 @@ export type EvmChainAdapter =
   | optimism.ChainAdapter
   | bnbsmartchain.ChainAdapter
   | polygon.ChainAdapter
+  | highbury.ChainAdapter
   | gnosis.ChainAdapter
 
 export const isEvmChainId = (
@@ -159,6 +162,8 @@ export abstract class EvmBaseAdapter<T extends EvmChainId> implements IChainAdap
         return supportsPolygon(wallet)
       case Number(fromChainId(KnownChainIds.GnosisMainnet).chainReference):
         return supportsGnosis(wallet)
+      case Number(fromChainId(KnownChainIds.HighburyMainnet).chainReference):
+        return supportsHighbury(wallet)
       default:
         return false
     }
@@ -201,6 +206,11 @@ export abstract class EvmBaseAdapter<T extends EvmChainId> implements IChainAdap
         name: 'xDAI',
         symbol: 'xDAI',
         explorer: 'https://gnosisscan.io/',
+      },
+      [KnownChainIds.HighburyMainnet]: {
+        name: 'JINX',
+        symbol: 'JINX',
+        explorer: 'https://explorer.furya.xyz/',
       },
       [KnownChainIds.EthereumMainnet]: {
         name: 'Ethereum',

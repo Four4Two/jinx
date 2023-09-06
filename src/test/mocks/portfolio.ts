@@ -4,6 +4,7 @@ import {
   btcAssetId,
   cosmosAssetId,
   ethAssetId,
+  highburyAssetId,
   optimismAssetId,
   polygonAssetId,
   thorchainAssetId,
@@ -69,6 +70,13 @@ export const mockChainAdapters = new Map([
     {
       getFeeAssetId: () => optimismAssetId,
       getDisplayName: () => 'Optimism',
+    },
+  ],
+  [
+    KnownChainIds.HighburyMainnet,
+    {
+      getFeeAssetId: () => highburyAssetId,
+      getDisplayName: () => 'Highbury',
     },
   ],
   [

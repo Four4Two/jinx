@@ -114,7 +114,7 @@ export const NftModal: React.FC<NftModalProps> = ({ nftAssetId }) => {
   const assetLink = collectionOpenseaNetwork
     ? `https://opensea.io/assets/${collectionOpenseaNetwork}/${nftAddress}`
     : null
-  const customizeLink = nftCollection?.socialLinks?.find(link => link.key === 'customizeFoxatar')
+  const customizeLink = nftCollection?.socialLinks?.find(link => link.key === 'customizeJinxatar')
 
   const mediaBoxProps = useMemo(
     () =>

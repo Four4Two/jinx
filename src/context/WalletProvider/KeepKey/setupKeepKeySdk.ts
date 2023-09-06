@@ -1,6 +1,6 @@
 import type { PairingInfo } from '@keepkey/keepkey-sdk'
 import { KeepKeySdk } from '@keepkey/keepkey-sdk'
-import { foxAssetId } from '@shapeshiftoss/caip'
+import { jinxAssetId } from '@shapeshiftoss/caip'
 import { store } from 'state/store'
 
 type Config = {
@@ -12,12 +12,12 @@ type SetupKeepKeySDK = () => Promise<KeepKeySdk | undefined>
 
 export const setupKeepKeySDK: SetupKeepKeySDK = async () => {
   const serviceKey = window.localStorage.getItem('@app/serviceKey') || ''
-  const imageUrl = store.getState().assets.byId[foxAssetId]?.icon || ''
+  const imageUrl = store.getState().assets.byId[jinxAssetId]?.icon || ''
 
   const config: Config = {
     apiKey: serviceKey,
     pairingInfo: {
-      name: 'ShapeShift',
+      name: 'BlackFury',
       imageUrl,
       url: 'https://app.shapeshift.com',
     },

@@ -1,4 +1,4 @@
-// Wallets relating to the ShapeShift DAO Treasury
+// Wallets relating to the Blackfury DAO Treasury
 // https://forum.shapeshift.com/thread/dao-treasuries-and-multisigs-43646
 
 // Safes
@@ -7,6 +7,7 @@ export const DAO_TREASURY_OPTIMISM = '0x6268d07327f4fb7380732dc6d63d95F88c0E083b
 export const DAO_TREASURY_AVALANCHE = '0x74d63F31C2335b5b3BA7ad2812357672b2624cEd'
 export const DAO_TREASURY_POLYGON = '0xB5F944600785724e31Edb90F9DFa16dBF01Af000'
 export const DAO_TREASURY_GNOSIS = '0xb0E3175341794D1dc8E5F02a02F9D26989EbedB3'
+export const DAO_TREASURY_HIGHBURY = '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266'
 export const DAO_TREASURY_BSC = '0x8b92b1698b57bEDF2142297e9397875ADBb2297E'
 
 // Multisigs

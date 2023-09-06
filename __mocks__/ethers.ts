@@ -23,7 +23,7 @@ const ethers = {
     name: () => {
       switch (address as string) {
         case '0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d':
-          return 'FOX'
+          return 'JINX'
         case '0x470e8de2eBaef52014A47Cb5E6aF86884947F08c':
           return 'Uniswap V2'
         case '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2':
@@ -35,7 +35,7 @@ const ethers = {
     symbol: () => {
       switch (address as string) {
         case '0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d':
-          return 'FOX'
+          return 'JINX'
         case '0x470e8de2eBaef52014A47Cb5E6aF86884947F08c':
           return 'UNI-V2'
         case '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2':

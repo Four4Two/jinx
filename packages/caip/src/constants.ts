@@ -9,15 +9,16 @@ export const ltcAssetId: AssetId = 'bip122:12a765e31ffd4059bada1e25190f6e98/slip
 export const ethAssetId: AssetId = 'eip155:1/slip44:60'
 export const avalancheAssetId: AssetId = 'eip155:43114/slip44:60'
 export const optimismAssetId: AssetId = 'eip155:10/slip44:60'
+export const highburyAssetId: AssetId = 'eip155:710/slip44:60'
 export const bscAssetId: AssetId = 'eip155:56/slip44:60'
 export const polygonAssetId: AssetId = 'eip155:137/slip44:60'
 export const gnosisAssetId: AssetId = 'eip155:100/slip44:60'
-export const foxOnGnosisAssetId: AssetId =
+export const jinxOnGnosisAssetId: AssetId =
   'eip155:100/erc20:0x21a42669643f45bc0e086b8fc2ed70c23d67509d'
-export const foxAssetId: AssetId = 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d'
-export const foxatarAssetId: AssetId =
+export const jinxAssetId: AssetId = 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d'
+export const jinxatarAssetId: AssetId =
   'eip155:137/erc721:0x2e727c425a11ce6b8819b3004db332c12d2af2a2'
-export const foxyAssetId: AssetId = 'eip155:1/erc20:0xdc49108ce5c57bc3408c3a5e95f3d864ec386ed3'
+export const jinxyAssetId: AssetId = 'eip155:1/erc20:0xdc49108ce5c57bc3408c3a5e95f3d864ec386ed3'
 
 export const cosmosAssetId: AssetId = 'cosmos:cosmoshub-4/slip44:118'
 export const thorchainAssetId: AssetId = 'cosmos:thorchain-mainnet-v1/slip44:931'
@@ -34,6 +35,7 @@ export const ltcChainId: ChainId = 'bip122:12a765e31ffd4059bada1e25190f6e98'
 export const ethChainId: ChainId = 'eip155:1'
 export const avalancheChainId: ChainId = 'eip155:43114'
 export const optimismChainId: ChainId = 'eip155:10'
+export const highburyChainId: ChainId = 'eip155:710'
 export const bscChainId: ChainId = 'eip155:56'
 export const polygonChainId: ChainId = 'eip155:137'
 export const gnosisChainId: ChainId = 'eip155:100'
@@ -80,6 +82,7 @@ export const CHAIN_REFERENCE = {
   SecretMainnet: 'secret-4', // https://docs.scrt.network/secret-network-documentation/development/api-endpoints
   SecretTestnet: 'pulsar-2', // https://docs.scrt.network/secret-network-documentation/development/api-endpoints
   OptimismMainnet: '10', //https://community.optimism.io/docs/useful-tools/networks/#optimism-mainnet
+  HighburyMainnet: '710', //https://community.optimism.io/docs/useful-tools/networks/#optimism-mainnet
   BnbSmartChainMainnet: '56', // https://docs.bnbchain.org/docs/wallet_api/#chain-ids
   PolygonMainnet: '137', // https://wiki.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/
   GnosisMainnet: '100', // https://docs.gnosischain.com/tools/wallets/metamask/
@@ -113,6 +116,7 @@ export const ASSET_REFERENCE = {
   Terra: '330',
   Secret: '529',
   Optimism: '60', // evm chain which uses ethereum derivation path as common practice
+  Highbury: '60', // evm chain which uses ethereum derivation path as common practice
   BnbSmartChain: '60', // evm chain which uses ethereum derivation path as common practice
   Polygon: '60', // evm chain which uses ethereum derivation path as common practice
   Gnosis: '60', // evm chain which uses ethereum derivation path as common practice
@@ -131,6 +135,7 @@ export const VALID_CHAIN_IDS: ValidChainMap = Object.freeze({
     CHAIN_REFERENCE.EthereumRopsten,
     CHAIN_REFERENCE.EthereumRinkeby,
     CHAIN_REFERENCE.AvalancheCChain,
+    CHAIN_REFERENCE.HighburyMainnet,
     CHAIN_REFERENCE.OptimismMainnet,
     CHAIN_REFERENCE.BnbSmartChainMainnet,
     CHAIN_REFERENCE.PolygonMainnet,
@@ -182,6 +187,7 @@ export const FEE_ASSET_IDS = [
   ltcAssetId,
   avalancheAssetId,
   optimismAssetId,
+  highburyAssetId,
   bscAssetId,
   polygonAssetId,
   gnosisAssetId,

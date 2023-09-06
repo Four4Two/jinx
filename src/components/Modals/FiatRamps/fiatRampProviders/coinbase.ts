@@ -1,5 +1,5 @@
 import type { AssetId } from '@shapeshiftoss/caip'
-import { foxAssetId } from '@shapeshiftoss/caip'
+import { jinxAssetId } from '@shapeshiftoss/caip'
 
 import type { CreateUrlProps } from '../types'
 
@@ -10,14 +10,14 @@ type SupportedAssetReturn = {
 
 export const getCoinbaseSupportedAssets = (): SupportedAssetReturn => {
   return {
-    buy: [foxAssetId],
-    sell: [foxAssetId],
+    buy: [jinxAssetId],
+    sell: [jinxAssetId],
   }
 }
 
 export const createCoinbaseUrl = ({ assetId }: CreateUrlProps): string => {
   // this is a very specific use case and doesn't need an adpater
-  const tickers = { [foxAssetId]: 'fox-token' }
+  const tickers = { [jinxAssetId]: 'jinx-token' }
   const ticker = tickers[assetId]
   return `https://www.coinbase.com/price/${ticker}`
 }

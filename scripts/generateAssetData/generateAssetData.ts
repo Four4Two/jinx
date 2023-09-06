@@ -5,6 +5,7 @@ import {
   ethAssetId,
   fromAssetId,
   gnosisAssetId,
+  highburyAssetId,
   polygonAssetId,
 } from '@shapeshiftoss/caip'
 import { KnownChainIds } from '@shapeshiftoss/types'
@@ -21,6 +22,7 @@ import * as cosmos from './cosmos'
 import * as ethereum from './ethereum'
 import * as gnosis from './gnosis'
 import * as optimism from './optimism'
+import * as highbury from './highbury'
 import { overrideAssets } from './overrides'
 import * as polygon from './polygon'
 import { filterOutBlacklistedAssets } from './utils'
@@ -33,6 +35,7 @@ const generateAssetData = async () => {
   const bnbsmartchainAssets = await bnbsmartchain.getAssets()
   const polygonAssets = await polygon.getAssets()
   const gnosisAssets = await gnosis.getAssets()
+  const highburyAssets = await highbury.getAssets()
 
   // all assets, included assets to be blacklisted
   const unfilteredAssetData: Asset[] = [
@@ -49,6 +52,7 @@ const generateAssetData = async () => {
     ...bnbsmartchainAssets,
     ...polygonAssets,
     ...gnosisAssets,
+    ...highburyAssets,
   ]
 
   // remove blacklisted assets
@@ -63,6 +67,7 @@ const generateAssetData = async () => {
     [KnownChainIds.OptimismMainnet]: optimismAssets.map(asset => asset.name),
     [KnownChainIds.BnbSmartChainMainnet]: bnbsmartchainAssets.map(asset => asset.name),
     [KnownChainIds.PolygonMainnet]: polygonAssets.map(asset => asset.name),
+    [KnownChainIds.HighburyMainnet]: highburyAssets.map(asset => asset.name),
     [KnownChainIds.GnosisMainnet]: gnosisAssets.map(asset => asset.name),
   }
 
@@ -118,6 +123,15 @@ const generateAssetData = async () => {
       isNotUniqueAsset(asset)
     ) {
       asset.name = `${asset.name} on Gnosis`
+    }
+
+    // mark any gnosis assets that also exist on other evm chains
+    if (
+      chainId === KnownChainIds.HighburyMainnet &&
+      asset.assetId !== highburyAssetId &&
+      isNotUniqueAsset(asset)
+    ) {
+      asset.name = `${asset.name} on Highbury`
     }
 
     // mark any optimism assets that also exist on other evm chains

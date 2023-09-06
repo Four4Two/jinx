@@ -7,7 +7,7 @@ import { tradeQuoteSlice } from 'state/slices/tradeQuoteSlice/tradeQuoteSlice'
 import { abiApi } from './apis/abi/abiApi'
 import { covalentApi } from './apis/covalent/covalentApi'
 import { fiatRampApi } from './apis/fiatRamps/fiatRamps'
-import { foxyApi } from './apis/foxy/foxyApi'
+import { jinxyApi } from './apis/jinxy/jinxyApi'
 import { nft, nftApi } from './apis/nft/nftApi'
 import { swappersApi } from './apis/swappers/swappersApi'
 import { zapper, zapperApi } from './apis/zapper/zapperApi'
@@ -59,7 +59,7 @@ export const apiSlices = {
   txHistoryApi,
   swapperApi,
   swappersApi,
-  foxyApi,
+  jinxyApi,
   fiatRampApi,
   zapper,
   zapperApi,
@@ -77,7 +77,7 @@ export const apiReducers = {
   [txHistoryApi.reducerPath]: txHistoryApi.reducer,
   [swapperApi.reducerPath]: swapperApi.reducer,
   [swappersApi.reducerPath]: swappersApi.reducer,
-  [foxyApi.reducerPath]: foxyApi.reducer,
+  [jinxyApi.reducerPath]: jinxyApi.reducer,
   [fiatRampApi.reducerPath]: fiatRampApi.reducer,
   [zapperApi.reducerPath]: zapperApi.reducer,
   [nftApi.reducerPath]: nftApi.reducer,

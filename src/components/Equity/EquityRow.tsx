@@ -52,7 +52,7 @@ export const EquityRowLoading = () => {
         <Skeleton>
           <Amount.Crypto
             value={'0.00'}
-            symbol={'FOX'}
+            symbol={'JINX'}
             fontSize={{ base: 'xs', md: 'sm' }}
             lineHeight={1}
           />

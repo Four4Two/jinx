@@ -88,7 +88,7 @@
     "routeTitle": "구매하기",
     "routeTitleForGem": "Gem으로 on-Ramp 거래하기",
     "title": "암호화폐 거래하기",
-    "titleMessage": "ShapeShift에서는 암호화폐의 원활한 매매를 위해 여러 fiat-on-ramp 서비스 제공 업체들과 제휴 중입니다.",
+    "titleMessage": "BlackFury에서는 암호화폐의 원활한 매매를 위해 여러 fiat-on-ramp 서비스 제공 업체들과 제휴 중입니다.",
     "gem": "GEM",
     "junoPay": "JunoPay",
     "banxa": "Banxa",
@@ -105,7 +105,7 @@
     "insufficientCryptoAmountToSell": "최소 거래 가능 수량 $%{amount}"
   },
   "connectWalletPage": {
-    "shapeshift": "ShapeShift (셰이프시프트)",
+    "shapeshift": "BlackFury (셰이프시프트)",
     "exploreThe": "광활한 Defi Universe를",
     "defiUniverse": "지금 탐험해 보세요",
     "body": "100% 무료인, 중개인이 없는 비 수탁형(Non-custodial) 오픈소스 플랫폼입니다.",
@@ -154,12 +154,12 @@
           "learnMore": "더 알아보기"
         }
       },
-      "foxyOverview": {
-        "header": "FOXy를 적립하려면 FOX를 입금하세요.",
-        "body": "FOXy는 FOX 가격에 페깅되어 있는 리베이스 토큰입니다. 스테이크된 FOX는 다양한 DeFi 프로토콜에 연동되어 가능한 한 최고의 수익을 얻을 수 있게 합니다.",
+      "jinxOverview": {
+        "header": "JINXy를 적립하려면 JINX를 입금하세요.",
+        "body": "JINXy는 JINX 가격에 페깅되어 있는 리베이스 토큰입니다. 스테이크된 JINX는 다양한 DeFi 프로토콜에 연동되어 가능한 한 최고의 수익을 얻을 수 있게 합니다.",
         "rewards": "획득한 보상은 자동으로 적립됩니다.",
-        "cta": "FOX 입금하기",
-        "foxyBalance": "FOXy 밸런스",
+        "cta": "JINX 입금하기",
+        "jinxBalance": "JINXy 밸런스",
         "withdrawals": "출금",
         "emptyWithdraws": "보류 중이거나 활성인 출금이 여기에 표시됩니다.",
         "availableDate": "가능한 날짜 %{date}"
@@ -263,7 +263,7 @@
     "overview": "개요",
     "transactions": "트랜잭션 기록",
     "tradeHistory": "거래 내역",
-    "foxToken": "FOX 토큰",
+    "jinxToken": "JINX 토큰",
     "featureFlags": "Feature Flags",
     "demoMode": "테스트 모드",
     "clickToConnect": "여기를 눌러 지갑 연결하기"
@@ -308,7 +308,7 @@
       "thor": {
         "transferOut": "출금"
       },
-      "foxy": {
+      "jinx": {
         "stake": "스테이크",
         "unstake": "언스테이크",
         "instantUnstake": "즉시 언스테이크",
@@ -339,7 +339,7 @@
     "tooltip": {
       "rate": "해당 거래 페어에 대한 예상 거래 비율입니다.",
       "minerFee": "이 수수료는 해당 블록체인에 거래를 하기 위한 수수료이며, 절대 셰이프시프트에서 부과하는 수수료가 아닙니다!",
-      "shapeshiftFee": "ShapeShift는 별도의 거래 수수료를 요구하지 않습니다 🎉"
+      "shapeshiftFee": "BlackFury는 별도의 거래 수수료를 요구하지 않습니다 🎉"
     },
     "errors": {
       "title": "문제가 발생했습니다.",
@@ -779,7 +779,7 @@
       },
       "redirect": {
         "header": "XDEFI 앱에서 열기",
-        "body": "여기를 눌러 XDEFI에서 ShapeShift 대시보드 열기",
+        "body": "여기를 눌러 XDEFI에서 BlackFury 대시보드 열기",
         "button": "열기"
       }
     },
@@ -805,7 +805,7 @@
       "password": {
         "header": "비밀번호를 입력하세요.",
         "body": "지갑을 암호화할 비밀번호를 입력하세요. 비밀번호를 입력하여 보유한 지갑에 접근 가능합니다. 이 비밀번호는 절대 잊어버리지 않도록 주의하세요.",
-        "warning": "주의: 비밀번호를 잃어버리셨다면, ShapeShift에서는 복구 과정을 도와드릴 수 없습니다.",
+        "warning": "주의: 비밀번호를 잃어버리셨다면, BlackFury에서는 복구 과정을 도와드릴 수 없습니다.",
         "button": "다음",
         "connect": "다른 지갑에 연결하기"
       },
@@ -868,15 +868,15 @@
         "confirmDelete": "이 지갑의 닉네임을 삭제하시겠습니까?"
       },
       "legacy": {
-        "deprecatedWarning": "ShapeShift 로그인 기능은 곧 사라집니다",
+        "deprecatedWarning": "BlackFury 로그인 기능은 곧 사라집니다",
         "learnMore": "더 알아보기",
         "alreadySavedConfirm": "저는 비밀 복구 구문을 별도로 안전한 장소에 백업해두었습니다.",
-        "mobileWalletTitle": "ShapeShift 모바일 지갑",
-        "importInformations": "ShapeShift 모바일 지갑을 사용하기 위해서는 우선 지갑을 가져올 필요가 있습니다.",
+        "mobileWalletTitle": "BlackFury 모바일 지갑",
+        "importInformations": "BlackFury 모바일 지갑을 사용하기 위해서는 우선 지갑을 가져올 필요가 있습니다.",
         "importWallet": "지갑 가져오기",
-        "haveMobileWallet": "ShapeShift 모바일 지갑을 갖고 계신가요?",
-        "loginWithAccount": "ShapeShift 계정으로 로그인하기",
-        "loginInformations": "ShapeShift 모바일 앱에 로그인하기 위해 사용하시는 이메일 주소와 비밀번호를 입력해주세요.",
+        "haveMobileWallet": "BlackFury 모바일 지갑을 갖고 계신가요?",
+        "loginWithAccount": "BlackFury 계정으로 로그인하기",
+        "loginInformations": "BlackFury 모바일 앱에 로그인하기 위해 사용하시는 이메일 주소와 비밀번호를 입력해주세요.",
         "loginSuccess": "로그인 성공",
         "emailAddress": "이메일 주소",
         "password": "비밀번호",
@@ -886,7 +886,7 @@
         "captchaRequired": "보안문자가 필요합니다",
         "tooManyAttempts": "시도 횟수가 너무 많습니다. 나중에 다시 시도해주세요.",
         "invalidLogin": "로그인 실패",
-        "noWallet": "로그인을 하기 위한 ShapeShift 기본 지갑을 찾을 수 없습니다. 이 안내에 오류가 있다고 생각하시면 ShapeShift 고객 지원 센터에 문의해주세요.",
+        "noWallet": "로그인을 하기 위한 BlackFury 기본 지갑을 찾을 수 없습니다. 이 안내에 오류가 있다고 생각하시면 BlackFury 고객 지원 센터에 문의해주세요.",
         "decryptionError": "지갑을 복호화하는 중에 오류가 발생하였습니다.",
         "twoFactorAuthentication": "이중 보안 인증(2FA)",
         "twoFactorPlaceholder": "6자리 숫자 코드",
@@ -1012,7 +1012,7 @@
     },
     "downloadCSV": "CSV 파일로 다운로드",
     "csv": {
-      "fileName": "ShapeShift Transaction History",
+      "fileName": "BlackFury Transaction History",
       "txid": "TX ID",
       "type": "TX type",
       "timestamp": "Timestamp",
@@ -1049,36 +1049,36 @@
     "transfers": "전송 내역"
   },
   "plugins": {
-    "foxPage": {
+    "jinxPage": {
       "buyAssetOnCoinbase": "Coinbase에서 %{assetSymbol} 구입하기",
-      "totalFoxValue": "총 Fox 가치",
-      "foxToken": "ShapeShift %{assetSymbol} 토큰",
+      "totalJinxValue": "총 Jinx 가치",
+      "jinxToken": "BlackFury %{assetSymbol} 토큰",
       "getAsset": "%{assetSymbol} 가져오기",
       "trade": "거래",
       "receive": "수신",
       "mainStakingTitle": "%{assetSymbol} 토큰 스테이킹",
-      "mainStakingDescription": "FOX 보상을 받으려면 FOX를 일방적인 스테이킹 계약으로 사용하십시오. (FOX는 스테이킹되는 동안 거버넌스에서 계속 사용할 수 있지만, 스테이킹하는 중에는 컨트랙트에 묶인 상태가 됩니다.)",
+      "mainStakingDescription": "JINX 보상을 받으려면 JINX를 일방적인 스테이킹 계약으로 사용하십시오. (JINX는 스테이킹되는 동안 거버넌스에서 계속 사용할 수 있지만, 스테이킹하는 중에는 컨트랙트에 묶인 상태가 됩니다.)",
       "tvl": "TVL",
       "currentApy": "현재 연 수익률",
       "balance": "자산 요약",
       "getStarted": "시작하기",
       "manage": "관리",
       "currentPrice": "현재 가격",
-      "tradingUnavailable": "아직 ShapeShift에서는 %{assetSymbol} 거래가 불가능합니다. 대신 Elastic Swap에서 %{assetSymbol} 거래가 가능합니다.",
+      "tradingUnavailable": "아직 BlackFury에서는 %{assetSymbol} 거래가 불가능합니다. 대신 Elastic Swap에서 %{assetSymbol} 거래가 가능합니다.",
       "tradeOnElasticSwap": "ElasticSwap에서 %{assetSymbol} 거래하기",
       "otherOpportunitiesTitle": {
-        "FOX": "다른 수익 기회",
-        "FOXy": "수익 기회"
+        "JINX": "다른 수익 기회",
+        "JINXy": "수익 기회"
       },
       "otherOpportunitiesDescription": {
-        "FOX": "유동성 공급, 이자 농사, 대출 및 차입 등의 다양한 기회를 확인하세요. 아래의 시작하기 링크를 클릭하여 관심있는 외부 사이트를 방문하여 자세히 알아보시고, FOX를 사용해보세요.",
-        "FOXy": "이자 농사와 비용 수익을 제공하는, 업계 첫 DAO 리베이스 토큰인 FOXy를 빠르고 쉽게 구매해보세요!"
+        "JINX": "유동성 공급, 이자 농사, 대출 및 차입 등의 다양한 기회를 확인하세요. 아래의 시작하기 링크를 클릭하여 관심있는 외부 사이트를 방문하여 자세히 알아보시고, JINX를 사용해보세요.",
+        "JINXy": "이자 농사와 비용 수익을 제공하는, 업계 첫 DAO 리베이스 토큰인 JINXy를 빠르고 쉽게 구매해보세요!"
       },
       "liquidityPools": "유동성 풀",
       "farming": "이자 농사",
       "borrowingAndLending": "대출 및 차입",
       "governanceTitle": "거버넌스",
-      "governanceDescription": "FOX 홀더라면 ShapeShift의 미래를 위해 목소리를 내실 수 있습니다. 다음은 토큰 홀더가 투표한 활성 중이거나 최근 통과된 DAO 제안 목록입니다.",
+      "governanceDescription": "JINX 홀더라면 BlackFury의 미래를 위해 목소리를 내실 수 있습니다. 다음은 토큰 홀더가 투표한 활성 중이거나 최근 통과된 DAO 제안 목록입니다.",
       "seeAllProposals": "전체 제안 확인하기",
       "availableToTradeOn": "거래 가능",
       "dex": "DEX",
@@ -1086,9 +1086,9 @@
     },
     "analytics": {
       "optInModal": {
-        "title": "ShapeShift의 발전을 도와주세요",
-        "description": "ShapeShift는 이용자의 앱 경험을 잘 이해하기 위해서 이용자 데이터를 수집하고자 합니다. 이 데이터는 제품의 사용성과 사용자 경험을 지속적으로 개선하는 데에 사용됩니다.",
-        "actionsSentence": "ShapeShift는...",
+        "title": "BlackFury의 발전을 도와주세요",
+        "description": "BlackFury는 이용자의 앱 경험을 잘 이해하기 위해서 이용자 데이터를 수집하고자 합니다. 이 데이터는 제품의 사용성과 사용자 경험을 지속적으로 개선하는 데에 사용됩니다.",
+        "actionsSentence": "BlackFury는...",
         "noThanks": "괜찮습니다. 비공개 버전으로 옮겨주세요.",
         "sendEvents": "익명으로 처리된 클릭 및 페이지뷰 이벤트 보내기",
         "neverCollectPersonalInformations": "키, 주소, 거래, 잔액 그 외의 어떠한 개인 정보도 절대 수집하지 않습니다.",

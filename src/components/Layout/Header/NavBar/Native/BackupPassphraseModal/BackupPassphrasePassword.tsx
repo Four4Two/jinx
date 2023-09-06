@@ -29,7 +29,7 @@ import type { LocationState } from './BackupPassphraseCommon'
 import { BackupPassphraseRoutes } from './BackupPassphraseCommon'
 
 /**
- * This component only works for ShapeShift wallets encrypted using hdwallet Vault
+ * This component only works for BlackFury wallets encrypted using hdwallet Vault
  */
 export const BackupPassphrasePassword: React.FC<LocationState> = props => {
   const { revocableWallet } = props

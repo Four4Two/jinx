@@ -5,12 +5,12 @@ import type { Asset } from 'lib/asset-service'
 import { bn, bnOrZero } from 'lib/bignumber/bignumber'
 import { fromBaseUnit } from 'lib/math'
 
-import { foxEthAssetIds, STAKING_ID_DELIMITER } from '../constants'
+import { jinxEthAssetIds, STAKING_ID_DELIMITER } from '../constants'
 import type {
   CosmosSdkStakingSpecificUserStakingOpportunity,
   UserUndelegation,
 } from '../resolvers/cosmosSdk/types'
-import type { FoxySpecificUserStakingOpportunity } from '../resolvers/foxy/types'
+import type { JinxySpecificUserStakingOpportunity } from '../resolvers/jinxy/types'
 import type {
   OpportunityId,
   OpportunityMetadataBase,
@@ -158,7 +158,7 @@ export const supportsUndelegations = (
   userStakingOpportunity: Partial<UserStakingOpportunity>,
 ): userStakingOpportunity is
   | CosmosSdkStakingSpecificUserStakingOpportunity
-  | FoxySpecificUserStakingOpportunity => 'undelegations' in userStakingOpportunity
+  | JinxySpecificUserStakingOpportunity => 'undelegations' in userStakingOpportunity
 
 export const makeTotalUndelegationsCryptoBaseUnit = (undelegations: UserUndelegation[]) =>
   undelegations.reduce((a, { undelegationAmountCryptoBaseUnit: b }) => a.plus(b), bn(0))
@@ -181,7 +181,7 @@ export const isActiveStakingOpportunity = (
 export const isActiveStakingEarnOpportunity = (
   earnUserStakingOpportunity: StakingEarnOpportunityType,
 ): boolean => isActiveStakingOpportunity(earnUserStakingOpportunity as UserStakingOpportunity)
-export const isFoxEthStakingAssetId = (assetId: AssetId) => foxEthAssetIds.includes(assetId)
+export const isJinxEthStakingAssetId = (assetId: AssetId) => jinxEthAssetIds.includes(assetId)
 
 // Returns either
 // - underlying asset icons
@@ -223,7 +223,7 @@ type GetOpportunityAccessor = (args: GetOpportunityAccessorArgs) => GetOpportuni
 
 export const getOpportunityAccessor: GetOpportunityAccessor = ({ provider, type }) => {
   if (type === DefiType.Staking) {
-    if (provider === DefiProvider.EthFoxStaking) {
+    if (provider === DefiProvider.EthJinxStaking) {
       return 'underlyingAssetId'
     }
   }

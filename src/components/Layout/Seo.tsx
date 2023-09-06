@@ -12,15 +12,15 @@ type SeoProps = {
 export const SEO: React.FC<SeoProps> = memo(
   ({
     title,
-    description = 'ShapeShift DAO | Your Web3 & DeFi Portal',
+    description = 'BlackFury DAO | Your Web3 & DeFi Portal',
     type = 'website',
-    name = 'ShapeShift',
+    name = 'BlackFury',
   }) => {
     const publicUrl = window.location.origin
     return (
       <Helmet>
         {/* Standard metadata tags */}
-        <title>{title ? `${title} | ShapeShift` : 'ShapeShift'}</title>
+        <title>{title ? `${title} | BlackFury` : 'BlackFury'}</title>
         <meta name='description' content={description} />
         {/* End standard metadata tags */}
         {/* Facebook tags */}

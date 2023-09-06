@@ -135,7 +135,7 @@
     "disclaimer": "*Ayrıca kriptonuzu banka hesabınıza doğrudan nakit olarak satabilirsiniz.",
     "cta": {
       "title": {
-        "first": "Ayrıca ShapeShift'i en iyi cüzdanların tümü ile takas yapmak, kazanç elde etmek ve",
+        "first": "Ayrıca BlackFury'i en iyi cüzdanların tümü ile takas yapmak, kazanç elde etmek ve",
         "second": "Kripto paranızı %{chainCount} farklı ağda takip edebilirsiniz"
       }
     },
@@ -222,11 +222,11 @@
     "notSupported": "%{asset}, %{wallet} tarafından desteklenmiyor"
   },
   "connectWalletPage": {
-    "shapeshift": "ShapeShift",
+    "shapeshift": "BlackFury",
     "exploreThe": "DeFi Dünyası'nı",
     "defiUniverse": "Keşfedin",
     "body": "%100 Ücretsiz. Açık kaynak. Topluluk Sahibi. Çevrimdışı. Özel.",
-    "body2": "Yeni ShapeShift'e hoş geldiniz. %100 Ücretsiz. Açık kaynak. Topluluk Sahibi. Çevrimdışı. Özel.",
+    "body2": "Yeni BlackFury'e hoş geldiniz. %100 Ücretsiz. Açık kaynak. Topluluk Sahibi. Çevrimdışı. Özel.",
     "header": "Başlamak için lütfen bir cüzdan bağlayın",
     "cta": "Cüzdanı Bağla",
     "viewADemo": "Demo Görüntüle"
@@ -281,22 +281,22 @@
         "emptyWithdraws": "Bekleyen staking istekleri burada gösterilir.",
         "availableDate": "kullanılabilir %{date}"
       },
-      "foxyOverview": {
-        "header": "FOXy'yi kazanmak için FOX yatırın",
-        "body": "FOXy, FOX fiyatına sabitlenmiş bir yeniden değerleme tokenidir. Stake edilmiş FOX, mümkün olan en iyi getiriyi elde etmek için farklı DeFi protokollerinde çalışır.",
+      "jinxOverview": {
+        "header": "JINXy'yi kazanmak için JINX yatırın",
+        "body": "JINXy, JINX fiyatına sabitlenmiş bir yeniden değerleme tokenidir. Stake edilmiş JINX, mümkün olan en iyi getiriyi elde etmek için farklı DeFi protokollerinde çalışır.",
         "rewards": "Kazandığınız ödüller otomatik olarak tahakkuk edecektir.",
-        "cta": "Şimdi FOX Yatırın",
-        "foxyBalance": "FOXy Bakiyesi",
+        "cta": "Şimdi JINX Yatırın",
+        "jinxBalance": "JINXy Bakiyesi",
         "withdrawals": "Para Çekme",
         "emptyWithdraws": "Bekleyen veya etkin para çekme işlemleri burada gösterilir.",
         "availableDate": "kullanılabilir %{date}"
       },
-      "foxFarmingOverview": {
-        "header": "Kazanmak için ETH-FOX LP jetonlarını %{opportunity}'e yatırın",
-        "body": "Bonus FOX ödülleri kazanmak için likidite jetonlarınızı onaylayın ve stake edin.",
+      "jinxFarmingOverview": {
+        "header": "Kazanmak için ETH-JINX LP jetonlarını %{opportunity}'e yatırın",
+        "body": "Bonus JINX ödülleri kazanmak için likidite jetonlarınızı onaylayın ve stake edin.",
         "rewards": "Kazandığınız ödüller otomatik olarak tahakkuk edecektir.",
-        "cta": "Şimdi ETH-FOX LP jetonlarını Yatırın",
-        "foxFarmingBalance": "ETH-FOX LP token Bakiyesi",
+        "cta": "Şimdi ETH-JINX LP jetonlarını Yatırın",
+        "jinxFarmingBalance": "ETH-JINX LP token Bakiyesi",
         "withdrawals": "Para çekme",
         "emptyWithdraws": "Bekleyen veya etkin para çekme işlemleri burada gösterilir.",
         "availableDate": "kullanılabilir %{date}"
@@ -354,7 +354,7 @@
     },
     "memoNote": {
       "title": "Lütfen işlem notunu düzenlemeyin",
-      "body": "ShapeShift'ten kaynaklanan işlemler, DAO'nun desteklenmesine yardımcı olur."
+      "body": "BlackFury'ten kaynaklanan işlemler, DAO'nun desteklenmesine yardımcı olur."
     },
     "amountToStake": "Stake Miktarı",
     "amountToUnstake": "Kaldırılacak Stake Miktarı",
@@ -407,7 +407,7 @@
     "earnBalance": "Kazanç Bakiyesi",
     "rewardsBalance": "Ödül Bakiyesi",
     "earnBody": "Varlıklarınızı stake ederek veya bir DeFi stratejisine yatırarak pasif gelir elde edin.",
-    "clickHereToEarn": "ETH-FOX likidite havuzu belirteçlerinizi biriktirerek %{apr} APR* kazanmak için burayı tıklayın",
+    "clickHereToEarn": "ETH-JINX likidite havuzu belirteçlerinizi biriktirerek %{apr} APR* kazanmak için burayı tıklayın",
     "overview": "Genel Bakış",
     "myPositions": "Pozisyonlarım",
     "myPositionsBody": "Aktif pozisyonlarınız burada görünecektir.",
@@ -502,7 +502,7 @@
     "overview": "Genel Bakış",
     "transactions": "İşlemler",
     "tradeHistory": "Takas Geçmişi",
-    "foxToken": "FOX Fırsatları",
+    "jinxToken": "JINX Fırsatları",
     "dApps": "dApps",
     "featureFlags": "Özellik Bayrakları",
     "demoMode": "Deneme Modu",
@@ -515,8 +515,8 @@
     "buyCrypto": "Kripto Al/Sat",
     "buyCryptoShort": "Al/Sat",
     "arkeo": "Arkeo Airdrop",
-    "foxMissions": "FOX Görevleri",
-    "foxMissionsShort": "Görevler"
+    "jinxMissions": "JINX Görevleri",
+    "jinxMissionsShort": "Görevler"
   },
   "transactionRow": {
     "send": "Gönderilen",
@@ -567,7 +567,7 @@
       "thor": {
         "transferOut": "Dışa Aktar"
       },
-      "foxy": {
+      "jinx": {
         "stake": "Stake Et",
         "unstake": "Stake Kaldır",
         "instantUnstake": "Stake'i Anında Geri Al",
@@ -641,7 +641,6 @@
     "previewTrade": "Takası Önizleyin",
     "rate": "Oran",
     "tradeFrom": "Buradan Takasla",
-    "priceImpact": "Fiyat Etkisi",
     "slippage": {
       "maxSlippage": "Maks. Kayma",
       "auto": "Otomatik",
@@ -651,21 +650,17 @@
     },
     "from": "'dan",
     "to": "'a",
-    "on": "üstünde",
     "youPay": "Öde",
-    "payWith": "İle Öde",
     "youGet": "Al",
     "tradeTo": "Buraya Takasla",
-    "availableRoutes": "Mevcut Rotalar",
     "minerFee": "Madenci Ücreti",
-    "donation": "ShapeShift Bağışı",
+    "donation": "BlackFury Bağışı",
     "protocolFee": "Protokol Ücreti",
     "protocol": "Protokol",
     "tradeFeeSource": "%{tradeFeeSource} Ücret",
     "gasFeeExceedsTradeAmountThreshold": "Gaz ücreti, ticaret tutarının %{percentage}%'sini aşıyor",
     "confirmDetails": "Ayrıntıları Onaylayın",
     "confirmAndTrade": "Onaylayın ve Takas Yapın",
-    "tradeAnyway": "Yine de Takasla",
     "pending": "İşlem Beklemede",
     "complete": "Takas Tamamlandı",
     "approveAsset": "%{symbol} ile etkileşimi onaylayın",
@@ -689,13 +684,12 @@
     "tooltip": {
       "rate": "Bu, bu işlem çifti için beklenen orandır.",
       "noRateAvailable": "Bunun nedeni genellikle ticaret çiftinde çok sınırlı veya hiç likidite olmamasıdır.",
-      "priceImpact": "Havuzdaki mevcut likidite göz önüne alındığında, bu büyüklükteki bir takasın yüksek bir fiyat etkisi olabilir. Giriş jetonunuzun miktarı ile çıkış jetonunda alacağınız miktar arasında büyük bir fark olabilir.",
-      "minerFee": "Bu, blok zincirindeki işlemi işlemek için alınan ücrettir, ShapeShift tarafından alınan bir ücret değildir.",
-      "donation": "ShapeShift'i desteklemeye yardımcı olun ve bizi çalışır durumda tutun.",
+      "minerFee": "Bu, blok zincirindeki işlemi işlemek için alınan ücrettir, BlackFury tarafından alınan bir ücret değildir.",
+      "donation": "BlackFury'i desteklemeye yardımcı olun ve bizi çalışır durumda tutun.",
       "protocol": "Bu, ticaretinizin yönlendirildiği protokoldür.",
       "protocolLifi": "Bu, ticaretinizin yönlendirildiği protokoldür. LI.FI, fiyat, güvenlik ve hızın en iyi genel kombinasyonu için başlık altında bir dizi aracı işlem yürütür.",
-      "protocolFee": "Bu, bu işlemi gerçekleştirmek için seçilen protokol tarafından alınan ücrettir, ShapeShift tarafından alınan bir ücret değildir.",
-      "shapeshiftFee": "ShapeShift, işlemlerde ücret eklemiyor 🎉",
+      "protocolFee": "Bu, bu işlemi gerçekleştirmek için seçilen protokol tarafından alınan ücrettir, BlackFury tarafından alınan bir ücret değildir.",
+      "shapeshiftFee": "BlackFury, işlemlerde ücret eklemiyor 🎉",
       "manualReceiveAddress": "Bu, fonunuzu çekeceğiniz adrestir. Manuel olarak girilmiştir, lütfen doğru olduğundan emin olun."
     },
     "rates": {
@@ -711,7 +705,7 @@
       "buyAssetMiddleSentence": "varlık satın al",
       "notEnoughEth": "Bu işlemdeki gaz ücreti için yeterli ETH yok.",
       "amountTooSmall": "Minimum: %{minLimit}",
-      "amountTooSmallUnknownMinimum": "Tutar çok düşük",
+      "amountTooSmallOrInvalidTradePair": "Tutar çok düşük veya rota yok",
       "sellAmountDoesNotCoverFee": "Ücretten daha düşük satış tutarı",
       "negativeMax": "Bu işlemde madenci ücreti için yeterli para yok. Tahmini madenci ücreti %{estimatedMinerFee}",
       "invalidMax": "Geçersiz Tutar. Bu çift için maksimum ticaret miktarı %{maxLimit}'tir.",
@@ -723,7 +717,6 @@
       "insufficientFundsForProtocolFee": "%{chainName} üzerinde ücretler için yetersiz %{symbol}",
       "invalidTradePair": "Geçersiz işlem çifti: %{sellAssetName} ve %{buyAssetName}",
       "invalidTradePairBtnText": "Geçersiz İşlem Çifti",
-      "unsupportedTradePair": "Desteklenmeyen Takas Çifti",
       "noLiquidityError": "Kullanılabilir likidite mevcut değil",
       "overMaxSlippage": "Bu ticaret, %{slippagePercentage}% üzerinde kaymaya neden olur. Lütfen daha iyi bir fiyat için, daha düşük bir miktar işlem yapın",
       "balanceToLow": "Bakiye çok düşük. Bu çift için minimum işlem tutarı %{minLimit}",
@@ -749,7 +742,6 @@
       "assetNotSupportedByWallet": "%{assetSymbol}, cüzdan tarafından desteklenmiyor",
       "noReceiveAddress": "%{assetSymbol} için alım adresi yok",
       "tradingNotActive": "İşlemler %{assetSymbol} için geçici olarak durduruldu",
-      "tradingNotActiveNoAssetSymbol": "Bu rota için takas geçici olarak durduruldu",
       "signing": {
         "failed": "İşlem imzalanırken bir hata oluştu",
         "required": "İmzalanmış bir işlem gerekli"
@@ -767,8 +759,7 @@
     "unknownGas": "(Bilinmeyen)",
     "receiveAddress": "Alıcı Adresi",
     "receiveAddressDescription": "Bağlı cüzdandan hiçbir %{chainName} adresi bulunamadı. Devam etmek için adresi manuel olarak girin.",
-    "addressPlaceholder": "%{chainName} adresi",
-    "priceImpactWarning": "Mevcut likiditeye göre bu işlemin boyutu nedeniyle, bu işlemin beklenen fiyat etkisi %{priceImpactPercentage}% şeklindedir. Takas yapmak istediğinizden emin misiniz?"
+    "addressPlaceholder": "%{chainName} adresi"
   },
   "modals": {
     "popup": {
@@ -881,7 +872,7 @@
         "info": {
           "title": "Gizli Kurtarma İfadeniz",
           "description": "Bu 12 kelimeyi bir yere yazın ve çevrimdışı olarak güvenli bir şekilde saklayın. Bu 12 kelimelik cümle, cüzdan özel anahtarlarınızı kurtarmak için kullanılır.",
-          "warning": "Not: Gizli Kurtarma İfadenizi kaybederseniz, ShapeShift cüzdanınızı kurtarmanıza yardımcı olamaz ve paranız sonsuza kadar kaybolur."
+          "warning": "Not: Gizli Kurtarma İfadenizi kaybederseniz, BlackFury cüzdanınızı kurtarmanıza yardımcı olamaz ve paranız sonsuza kadar kaybolur."
         },
         "success": {
           "title": "Başarılı",
@@ -911,7 +902,6 @@
         "sendAsset": "%{asset} gönder",
         "send": "Gönder",
         "sendTo": "Send To",
-        "customNonce": "Özel Nonce",
         "sendFrom": "Send From",
         "edit": "Düzenle",
         "total": "Toplam",
@@ -1013,7 +1003,7 @@
     },
     "approve": {
       "header": "%{spenderName}'ın %{asset} öğenizi kullanmasına izin verin",
-      "shapeshiftRouterName": "ShapeShift DAO Yönlendirici",
+      "shapeshiftRouterName": "BlackFury DAO Yönlendirici",
       "body": "%{asset} kullanımınız için izniniz gerekiyor",
       "learnMore": "Bunu neden yapmam gerekiyor?",
       "depositFee": "Yatırmak için ayrı bir gaz ücreti gerekecektir.",
@@ -1111,7 +1101,7 @@
     "mobileWelcome": {
       "success": {
         "header": "Cüzdanınız içe aktarıldı!",
-        "body": "Yeni ShapeShift Uygulamasına hoş geldiniz.",
+        "body": "Yeni BlackFury Uygulamasına hoş geldiniz.",
         "primaryCta": "Devam et"
       },
       "notice": {
@@ -1257,7 +1247,7 @@
       },
       "redirect": {
         "header": "MetaMask Uygulamasında Aç",
-        "body": "ShapeShift panosunu MetaMask'ta açmak için tıklayın",
+        "body": "BlackFury panosunu MetaMask'ta açmak için tıklayın",
         "button": "Aç"
       }
     },
@@ -1309,7 +1299,7 @@
       },
       "redirect": {
         "header": "XDEFI Uygulamasında aç",
-        "body": "XDEFI'de ShapeShift kontrol panelini açmak için tıklayın",
+        "body": "XDEFI'de BlackFury kontrol panelini açmak için tıklayın",
         "button": "Aç"
       }
     },
@@ -1336,7 +1326,7 @@
       "password": {
         "header": "Yeni bir şifre oluştur",
         "body": "İçe aktarılan cüzdanınızı şifrelemek için güçlü bir parola girin. Cüzdanınıza bu şekilde erişeceksiniz.",
-        "warning": "Not: Parolanızı unutursanız, ShapeShift parolanızı kurtarmanıza yardımcı olamaz.",
+        "warning": "Not: Parolanızı unutursanız, BlackFury parolanızı kurtarmanıza yardımcı olamaz.",
         "button": "Sonraki",
         "connect": "Başka bir cüzdana bağlan"
       },
@@ -1348,8 +1338,8 @@
         "showWords": "Kelimeleri Göster"
       },
       "start": {
-        "header": "ShapeShift Cüzdanı",
-        "body": "Birden fazla ShapeShift cüzdanınız olabilir. Bir cüzdan yükleyebilir, bir Gizli Kurtarma ifadesinden bir cüzdan ekleyebilir veya yeni bir cüzdan oluşturabilirsiniz.",
+        "header": "BlackFury Cüzdanı",
+        "body": "Birden fazla BlackFury cüzdanınız olabilir. Bir cüzdan yükleyebilir, bir Gizli Kurtarma ifadesinden bir cüzdan ekleyebilir veya yeni bir cüzdan oluşturabilirsiniz.",
         "import": "Bir cüzdanı içe aktar",
         "create": "Yeni bir cüzdan oluştur",
         "load": "Kayıtlı cüzdanlar"
@@ -1399,15 +1389,15 @@
         "confirmDelete": "Bu cüzdanın takma adını silmek istediğinizden emin misiniz?"
       },
       "legacy": {
-        "deprecatedWarning": "ShapeShift Oturum Açma Kullanımdan Kaldırılıyor",
+        "deprecatedWarning": "BlackFury Oturum Açma Kullanımdan Kaldırılıyor",
         "learnMore": "Daha fazla bilgi edin",
         "alreadySavedConfirm": "Gizli Kurtarma İfademin zaten güvenli bir şekilde yedeklendiğini onaylıyorum.",
-        "mobileWalletTitle": "ShapeShift Mobil Cüzdan",
-        "importInformations": "ShapeShift Mobil Cüzdanınızı kullanmaya devam etmek için onu içe aktarmanız gerekir.",
+        "mobileWalletTitle": "BlackFury Mobil Cüzdan",
+        "importInformations": "BlackFury Mobil Cüzdanınızı kullanmaya devam etmek için onu içe aktarmanız gerekir.",
         "importWallet": "Cüzdanı İçe Aktar",
-        "haveMobileWallet": "ShapeShift Mobil Cüzdanınız mı var?",
-        "loginWithAccount": "ShapeShift Hesabı ile Giriş Yapın",
-        "loginInformations": "ShapeShift Mobil Uygulamanıza giriş yapmak için kullandığınız e-posta adresinizi ve şifrenizi girin.",
+        "haveMobileWallet": "BlackFury Mobil Cüzdanınız mı var?",
+        "loginWithAccount": "BlackFury Hesabı ile Giriş Yapın",
+        "loginInformations": "BlackFury Mobil Uygulamanıza giriş yapmak için kullandığınız e-posta adresinizi ve şifrenizi girin.",
         "loginSuccess": "Başarıyla Giriş Yapıldı",
         "emailAddress": "E-posta Adresi",
         "password": "Şifre",
@@ -1417,7 +1407,7 @@
         "captchaRequired": "Güvenlik kodu gerekli",
         "tooManyAttempts": "Çok fazla denendi. Lütfen daha sonra tekrar deneyiniz.",
         "invalidLogin": "Geçersiz giriş",
-        "noWallet": "Oturum açmanız için bir ShapeShift cüzdanı bulunamadı. Bu mesajın hatalı olduğunu düşünüyorsanız, lütfen ShapeShift desteği ile iletişime geçin.",
+        "noWallet": "Oturum açmanız için bir BlackFury cüzdanı bulunamadı. Bu mesajın hatalı olduğunu düşünüyorsanız, lütfen BlackFury desteği ile iletişime geçin.",
         "decryptionError": "Cüzdanınızın şifresi çözülürken bir sorun oluştu.",
         "twoFactorAuthentication": "İki Faktörlü Kimlik Doğrulama",
         "twoFactorPlaceholder": "6 haneli kod",
@@ -1427,9 +1417,9 @@
       },
       "onboarding": {
         "skip": "Geç",
-        "shapeshiftWallet": "ShapeShift Cüzdanı",
+        "shapeshiftWallet": "BlackFury Cüzdanı",
         "selfCustody": {
-          "title": "ShapeShift Cüzdanınız kişisel velayettir",
+          "title": "BlackFury Cüzdanınız kişisel velayettir",
           "subTitle": "Anahtarlar sizde ve ona erişebilecek tek kişi sizsiniz.",
           "body": "Kişisel velayet cüzdanı, ona sahip olduğunuz ve paranıza yalnızca sizin erişebileceğiniz anlamına gelir. Gizli kurtarma ifadeniz, ona erişmenin anahtarıdır. Paranıza erişmenizi kimse engelleyemez.",
           "cta": "Sonraki"
@@ -1437,12 +1427,12 @@
         "multiChain": {
           "title": "Aynı anda birden çok zincir desteklenir",
           "subTitle": "Cüzdandaki zincirleri asla değiştirmenize gerek yoktur, her zincirle sorunsuz bir şekilde çalışır.",
-          "body": "ShapeShift'e yeni bir zincir eklendiğinde, Cüzdanınız bunu otomatik olarak destekleyecektir.",
+          "body": "BlackFury'e yeni bir zincir eklendiğinde, Cüzdanınız bunu otomatik olarak destekleyecektir.",
           "cta": "Sonraki"
         },
         "easyToUse": {
           "title": "Kullanımı kolay!",
-          "subTitle": "ShapeShift Cüzdan ile şunları yapabilirsiniz:",
+          "subTitle": "BlackFury Cüzdan ile şunları yapabilirsiniz:",
           "trackBalance": "Bakiyenizi takip edin",
           "sendReceive": "Kripto gönder/al",
           "buyCrypto": "Kripto Satın Al",
@@ -1455,7 +1445,7 @@
     },
     "selectModal": {
       "header": "Bir Cüzdan Bağlayın",
-      "body": "Bir cüzdan bağlayarak, ShapeShift'in Hizmet Şartlarını kabul etmiş ve ShapeShift sorumluluk reddini okuyup anladığınızı kabul etmiş olursunuz.",
+      "body": "Bir cüzdan bağlayarak, BlackFury'in Hizmet Şartlarını kabul etmiş ve BlackFury sorumluluk reddini okuyup anladığınızı kabul etmiş olursunuz.",
       "footer": "Cüzdanınız yok mu?",
       "create": "Bir tane yaratın"
     },
@@ -1585,7 +1575,7 @@
     },
     "downloadCSV": "CSV'yi indir",
     "csv": {
-      "fileName": "ShapeShift İşlem Geçmişi",
+      "fileName": "BlackFury İşlem Geçmişi",
       "txid": "TX ID",
       "type": "TX type",
       "timestamp": "Zaman Damgası",
@@ -1624,57 +1614,57 @@
     "transfers": "Transferler"
   },
   "plugins": {
-    "foxPage": {
+    "jinxPage": {
       "buyAssetOnCoinbase": "Coinbase'de %{assetSymbol} satın alın",
-      "totalFoxValue": "Toplam FOX Değeri",
-      "foxToken": "ShapeShift %{assetSymbol} Jetonu",
-      "foxDescription": "2019'dan bu yana, ShapeShift FOX Token'ımız, kullanıcılara sürekli genişleyen bir fayda ve avantajlar dünyası sunuyor. Bugün, ERC-20 yönetişim belirtecimiz, oylarınızla ShapeShift'in geleceğini etkilemenizi sağlamakla kalmıyor, aynı zamanda sürekli genişleyen bir yatırım fırsatları evrenine de sahipsiniz. Burada FOX varlıklarınıza yatırım yapın, izleyin ve yönetin.",
+      "totalJinxValue": "Toplam JINX Değeri",
+      "jinxToken": "BlackFury %{assetSymbol} Jetonu",
+      "jinxDescription": "2019'dan bu yana, BlackFury JINX Token'ımız, kullanıcılara sürekli genişleyen bir fayda ve avantajlar dünyası sunuyor. Bugün, ERC-20 yönetişim belirtecimiz, oylarınızla BlackFury'in geleceğini etkilemenizi sağlamakla kalmıyor, aynı zamanda sürekli genişleyen bir yatırım fırsatları evrenine de sahipsiniz. Burada JINX varlıklarınıza yatırım yapın, izleyin ve yönetin.",
       "getAsset": "%{assetSymbol} alın",
       "trade": "Takas",
       "receive": "Al",
       "mainStakingTitle": "%{assetSymbol} Jeton Stake Etme",
-      "mainStakingDescription": "FOX ödüllerini kazanmak için FOX'unuzu tek taraflı staking sözleşmelerinde çalıştırın. (FOX, stake edilirken yönetişimde hala kullanılabilir, ancak bunun dışında staking sırasında sözleşmeye kilitlenir.)",
+      "mainStakingDescription": "JINX ödüllerini kazanmak için JINX'unuzu tek taraflı staking sözleşmelerinde çalıştırın. (JINX, stake edilirken yönetişimde hala kullanılabilir, ancak bunun dışında staking sırasında sözleşmeye kilitlenir.)",
       "tvl": "TVL",
       "currentApy": "Mevcut APY",
       "balance": "Bakiye",
       "getStarted": "Başlayın",
       "manage": "Yönet",
       "currentPrice": "Mevcut Fiyat",
-      "tradingUnavailable": "%{assetSymbol}, ShapeShift'te henüz takas edilemez. ElasticSwap'te %{assetSymbol} ile işlem yapabilirsiniz.",
+      "tradingUnavailable": "%{assetSymbol}, BlackFury'te henüz takas edilemez. ElasticSwap'te %{assetSymbol} ile işlem yapabilirsiniz.",
       "tradeOnElasticSwap": "ElasticSwap'te %{assetSymbol} ile işlem yapın",
       "otherOpportunitiesTitle": {
-        "FOX": "Diğer Fırsatlar",
-        "FOXy": "Fırsatlar"
+        "JINX": "Diğer Fırsatlar",
+        "JINXy": "Fırsatlar"
       },
       "otherOpportunitiesDescription": {
-        "FOX": "Likidite sağlama, verim için çiftçilik yapma, borç verme ve borç alma için birçok fırsatı keşfedin. Daha fazla bilgi edinmek ve FOX'unuzu sizin için çalıştırmaya başlamak üzere ilgili harici siteleri ziyaret etmek için aşağıdaki \"Başlayın\" bağlantılarını tıklayın.",
-        "FOXy": "Sektörün hem getiri hem de kâr ödülleri sunan ilk DAO yeniden temellendirme belirteci olan FOXy'yi hızlı ve kolay bir şekilde satın alın."
+        "JINX": "Likidite sağlama, verim için çiftçilik yapma, borç verme ve borç alma için birçok fırsatı keşfedin. Daha fazla bilgi edinmek ve JINX'unuzu sizin için çalıştırmaya başlamak üzere ilgili harici siteleri ziyaret etmek için aşağıdaki \"Başlayın\" bağlantılarını tıklayın.",
+        "JINXy": "Sektörün hem getiri hem de kâr ödülleri sunan ilk DAO yeniden temellendirme belirteci olan JINXy'yi hızlı ve kolay bir şekilde satın alın."
       },
       "liquidityPools": "Likidite Havuzları",
       "farming": "Çiftçilik",
       "borrowingAndLending": "Borç Alma ve Verme",
       "governanceTitle": "Yönetim",
-      "governanceDescription": "Bir FOX sahibi olarak ShapeShift'in geleceğinde söz sahibi olabilirsiniz. Aşağıda, belirteç sahipleri tarafından oylanan aktif veya yakın zamanda geçen DAO teklifleri bulunmaktadır.",
+      "governanceDescription": "Bir JINX sahibi olarak BlackFury'in geleceğinde söz sahibi olabilirsiniz. Aşağıda, belirteç sahipleri tarafından oylanan aktif veya yakın zamanda geçen DAO teklifleri bulunmaktadır.",
       "seeAllProposals": "Tüm Teklifleri Gör",
       "availableToTradeOn": "Takas Edilebilir",
       "dex": "DEX",
       "centralized": "Merkezileştirilmiş",
       "dappBack": {
-        "title": "✨ FOX ödüllerini ve daha fazlasını alın! ✨",
-        "body": "DappBack'teki görevleri tamamlayarak FOX ödülleri kazanın",
+        "title": "✨ JINX ödüllerini ve daha fazlasını alın! ✨",
+        "body": "DappBack'teki görevleri tamamlayarak JINX ödülleri kazanın",
         "cta": "DappBack'i Başlatın"
       },
       "bondProtocol": {
-        "title": "FOX'u İndirimli Satın Alın!",
-        "body": "BondProtocol ile FOX'u indirimli satın alın",
+        "title": "JINX'u İndirimli Satın Alın!",
+        "body": "BondProtocol ile JINX'u indirimli satın alın",
         "cta": "BondProtocol'ü Başlat"
       }
     },
     "analytics": {
       "optInModal": {
-        "title": "ShapeShift'i iyileştirmemize yardımcı olun",
-        "description": "ShapeShift, kullanıcılarımızın uygulamayla nasıl etkileşime girdiğini daha iyi anlamak için kullanım verilerini toplamak istiyor. Bu veriler, ürünümüzün kullanılabilirliğini ve kullanıcı deneyimini sürekli olarak iyileştirmek için kullanılacaktır.",
-        "actionsSentence": "ShapeShift ...",
+        "title": "BlackFury'i iyileştirmemize yardımcı olun",
+        "description": "BlackFury, kullanıcılarımızın uygulamayla nasıl etkileşime girdiğini daha iyi anlamak için kullanım verilerini toplamak istiyor. Bu veriler, ürünümüzün kullanılabilirliğini ve kullanıcı deneyimini sürekli olarak iyileştirmek için kullanılacaktır.",
+        "actionsSentence": "BlackFury ...",
         "noThanks": "Hayır teşekkürler, beni özel sürüme götür",
         "sendEvents": "Anonimleştirilmiş tıklama ve sayfa görüntüleme etkinlikleri gönderildi",
         "neverCollectPersonalInformations": "Hiçbir zaman anahtarları, adresleri, işlemleri, bakiyeleri veya herhangi bir kişisel bilgiyi toplamaz",
@@ -1685,7 +1675,7 @@
     "walletConnectToDapps": {
       "unsupportedToast": {
         "title": "Desteklenmeyen Zincir",
-        "description": "ShapeShift şu anda WalletConnect ile yalnızca %{supportedChainNames}'i desteklemektedir."
+        "description": "BlackFury şu anda WalletConnect ile yalnızca %{supportedChainNames}'i desteklemektedir."
       },
       "header": {
         "connectDapp": "dApp'e Bağlanın",
@@ -1805,7 +1795,7 @@
       "usdcAddress": "Yat USDC adresi",
       "ethAddress": "Yat ETH adresi",
       "noAddressFound": "%{symbol} adresi bulunamadı",
-      "viewInApp": "ShapeShift Mobil Uygulamasında Görüntüle"
+      "viewInApp": "BlackFury Mobil Uygulamasında Görüntüle"
     }
   },
   "gasInput": {
@@ -1926,7 +1916,7 @@
     },
     "whoQualifies": {
       "title": "Arkeo Airdrop'a kimler hak kazanır?",
-      "body": "ShapeShift dApp'i kullanarak airdrop'a katılmaya hak kazanmanın birkaç yolu vardır. Anlık görüntü yayınlanıyor, kalifiye olmak için hala zamanınız var!"
+      "body": "BlackFury dApp'i kullanarak airdrop'a katılmaya hak kazanmanın birkaç yolu vardır. Anlık görüntü yayınlanıyor, kalifiye olmak için hala zamanınız var!"
     },
     "staking": {
       "title": "%{asset} Staker",
@@ -1935,37 +1925,46 @@
     },
     "lp": {
       "title": "%{asset1}/%{asset2} Sağlayıcılar",
-      "body": "Elinizde %{asset1} ve %{asset2} var mı? %{apy} APR kazanmak için Uniswap V2 Havuzuna likidite sağlayın. AYRICA, sahip olduğunuz FOX/ETH LP tokenlarındaki temel FOX, Arkeo airdrop için uygun olacaktır.",
+      "body": "Elinizde %{asset1} ve %{asset2} var mı? %{apy} APR kazanmak için Uniswap V2 Havuzuna likidite sağlayın. AYRICA, sahip olduğunuz JINX/ETH LP tokenlarındaki temel JINX, Arkeo airdrop için uygun olacaktır.",
       "cta": "Likidite Ekleyin"
     },
-    "foxTokenHolders": {
-      "title": "FOX Token Sahipleri",
-      "body": "Cüzdanda tutulan FOX token'ları. Çantanız ne kadar büyükse, Arkeo airdrop'unuz da o kadar büyük olur.",
-      "cta": "FOX Takas yap",
-      "secondary": "FOX Satın Al"
+    "jinxTokenHolders": {
+      "title": "JINX Token Sahipleri",
+      "body": "Cüzdanda tutulan JINX token'ları. Çantanız ne kadar büyükse, Arkeo airdrop'unuz da o kadar büyük olur.",
+      "cta": "JINX Takas yap",
+      "secondary": "JINX Satın Al"
     },
-    "foxFarmers": {
-      "title": "FOX/ETH LP Çiftçiler",
-      "body": "FOX Farm'da ETH/FOX LP jetonlarınızı staking yaparak %{apy} APR'ye kadar kazanın. AYRICA FOX Farm'ın 5. Turunda yatırdığınız ETH/FOX LP tokenlerinin temelinde yatan FOX, Arkeo airdrop'u için hak kazanacaktır.",
-      "cta": "FOX/ETH LP Stake Et"
+    "jinxFarmers": {
+      "title": "JINX/ETH LP Çiftçiler",
+      "body": "JINX Farm'da ETH/JINX LP jetonlarınızı staking yaparak %{apy} APR'ye kadar kazanın. AYRICA JINX Farm'ın 5. Turunda yatırdığınız ETH/JINX LP tokenlerinin temelinde yatan JINX, Arkeo airdrop'u için hak kazanacaktır.",
+      "cta": "JINX/ETH LP Stake Et"
     },
-    "foxyTokenHolders": {
-      "title": "FOXy Token Sahipleri",
-      "body": "FOX Yieldy (FOXy) ile boştaki FOX'unuzdan %{apy}'ye kadar APR kazanın. AYRICA Cüzdanınızda tutulan FOXy, FOX ile aynı muameleyi görecek ve Arkeo airdrop için uygun olacaktır.",
-      "cta": "FOX Token Stake Et"
+    "jinxTokenHolders": {
+      "title": "JINXy Token Sahipleri",
+      "body": "JINX Yieldy (JINXy) ile boştaki JINX'unuzdan %{apy}'ye kadar APR kazanın. AYRICA Cüzdanınızda tutulan JINXy, JINX ile aynı muameleyi görecek ve Arkeo airdrop için uygun olacaktır.",
+      "cta": "JINX Token Stake Et"
     },
-    "foxEthProviders": {
-      "title": "FOX/ETH Uniswap V2 LP'ler",
-      "body": "%{asset1} ve %{asset2}'ye sahip misiniz? Uniswap V2 Havuzuna likidite sağlayarak %{apy} APR kazanın. AYRICA, sahip olduğunuz FOX/ETH LP tokenlarındaki temel FOX, Arkeo airdrop için uygun olacaktır.",
+    "jinxEthProviders": {
+      "title": "JINX/ETH Uniswap V2 LP'ler",
+      "body": "%{asset1} ve %{asset2}'ye sahip misiniz? Uniswap V2 Havuzuna likidite sağlayarak %{apy} APR kazanın. AYRICA, sahip olduğunuz JINX/ETH LP tokenlarındaki temel JINX, Arkeo airdrop için uygun olacaktır.",
+      "cta": "Likidite Ekleyin"
+    },
+    "atomOsmoProviders": {
+      "title": "ATOM/OSMO LP Sağlayıcıları",
+      "body": "ATOM ve OSMO'nuz var mı? %{apy} APR kazanmak ve airdrop'a hak kazanmak için havuza likidite sağlayın.",
       "cta": "Likidite Ekleyin"
     },
     "stakeAtom": {
       "title": "ATOM Stake",
-      "body": "Boş ATOM'nuzdan %{apr} APR'ye kadar kazanın. AYRICA, stake ettiğiniz herhangi bir ATOM size Arkeo jetonları kazandırır. ShapeShift DAO Validator'a stake yaparsanız, airdrop kalifikasyonunuzu 2 kat artırabilirsiniz.",
+      "body": "Boş ATOM'nuzdan %{apr} APR'ye kadar kazanın. AYRICA, stake ettiğiniz herhangi bir ATOM size Arkeo jetonları kazandırır. BlackFury DAO Validator'a stake yaparsanız, airdrop kalifikasyonunuzu 2 kat artırabilirsiniz.",
       "cta": "ATOM Stake"
     },
+    "stakeOsmo": {
+      "title": "OSMO Stake ",
+      "body": "Boştaki OSMO'nuzdan %{apr} APR'ye kadar kazanın. AYRICA, stake ettiğiniz herhangi bir OSMO size Arkeo jetonları kazandırır. BlackFury DAO Validator'a stake yaparsanız, airdrop kalifikasyonunuzu 2 kat artırabilirsiniz."
+    },
     "footer": {
-      "title": "ShapeShift dApp dışında hak kazanabileceğiniz başka yollar da var. Tam liste için yönetişim teklifine göz atın.",
+      "title": "BlackFury dApp dışında hak kazanabileceğiniz başka yollar da var. Tam liste için yönetişim teklifine göz atın.",
       "cta": "Yönetişim teklifine göz atın",
       "disclaimer": {
         "body": "* Yalnızca kişisel saklama cüzdanları geçerli olacaktır. Merkezi bir borsa aracılığıyla bir cüzdanda tutulan veya stake edilen jetonlar uygun değildir. Cüzdana mı ihtiyacınız var?",
@@ -1974,7 +1973,7 @@
     }
   },
   "nft": {
-    "customizeFoxatar": "FOXatar'ını Özelleştir",
+    "customizeJinxatar": "JINXatar'ını Özelleştir",
     "setAsAvatar": "Avatar olarak ayarla",
     "floorPrice": "Taban Fiyat",
     "lastPrice": "Son fiyat",
@@ -1993,7 +1992,7 @@
     "emptyBody": "Endişelenmeyin, daha harika NFT'leri geri getirmek için bir arama grubu gönderdik. Bu arada, bu boşluğa bakıp varoluşun anlamını düşünmekten çekinmeyin."
   },
   "missions": {
-    "subtitle": "FOX Görevleri",
+    "subtitle": "JINX Görevleri",
     "missionEnded": "Görev Sona Erdi",
     "viewMission": "Görevleri Görüntüle",
     "comingSoon": "Yakında",
@@ -2003,7 +2002,7 @@
       "1": "Merkezi Olmayan Evreni Serbest Bırakın ve",
       "2": "Ödülleri Dağıt"
     },
-    "body": "Görevlere Katılın, Ödüller Kazanın ve Sürekli Genişleyen ShapeShift Ekosistemi hakkındaki bilginizi artırın",
+    "body": "Görevlere Katılın, Ödüller Kazanın ve Sürekli Genişleyen BlackFury Ekosistemi hakkındaki bilginizi artırın",
     "ends": "Son",
     "ongoing": "Devam Eden Görev",
     "optimism": {
@@ -2011,14 +2010,14 @@
       "subtitle": "Optimism'i Keşfedin",
       "cta": "Göreve Başla"
     },
-    "foxatar": {
+    "jinxatar": {
       "title": "Ücretsiz ve Özelleştirilebilir bir NFT edinin",
-      "subtitle": "FOXatar'ı Basın",
+      "subtitle": "JINXatar'ı Basın",
       "cta": "Göreve Başla"
     },
-    "foxArmy": {
-      "subtitle": "FOX Ordusuna Katılın",
-      "title": "20.000 FOX Havuzu",
+    "jinxArmy": {
+      "subtitle": "JINX Ordusuna Katılın",
+      "title": "20.000 JINX Havuzu",
       "cta": "Göreve Başla"
     },
     "yat": {
@@ -2031,9 +2030,9 @@
       "title": "Görevler İçin Bir Proje Başlatın",
       "cta": "Projeyi Gönder"
     },
-    "foxRewards": {
+    "jinxRewards": {
       "subtitle": "Satın alın, satın, ticaret yapın, kazanın ve daha fazlasını yapın",
-      "title": "FOX Kazanın",
+      "title": "JINX Kazanın",
       "cta": "Göreve Başla"
     }
   },

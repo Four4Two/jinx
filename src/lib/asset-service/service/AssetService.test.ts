@@ -83,7 +83,7 @@ describe('AssetService', () => {
       delete assetDescriptions[EthAsset.assetId]
 
       const assetService = new AssetService()
-      const description = { en: 'a blue fox' }
+      const description = { en: 'a blue jinx' }
       mockedAxios.get.mockResolvedValue({ data: { description } })
       await expect(assetService.description(EthAsset.assetId)).resolves.toEqual({
         description: description.en,
@@ -96,7 +96,7 @@ describe('AssetService', () => {
       delete assetDescriptions[EthAsset.assetId]
 
       const assetService = new AssetService()
-      const description = { en: 'a blue fox', es: '¿Qué dice el zorro?' }
+      const description = { en: 'a blue jinx', es: '¿Qué dice el zorro?' }
       mockedAxios.get.mockResolvedValue({ data: { description } })
       await expect(assetService.description(EthAsset.assetId, locale)).resolves.toEqual({
         description: description.es,

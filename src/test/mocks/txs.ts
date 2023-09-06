@@ -1,5 +1,5 @@
 import { AddressZero } from '@ethersproject/constants'
-import { ethAssetId, ethChainId, foxAssetId } from '@shapeshiftoss/caip'
+import { ethAssetId, ethChainId, jinxAssetId } from '@shapeshiftoss/caip'
 import { UtxoAccountType } from '@shapeshiftoss/types'
 import { Dex, TradeType, TransferType, TxStatus } from '@shapeshiftoss/unchained-client'
 import type { Tx } from 'state/slices/txHistorySlice/txHistorySlice'
@@ -75,7 +75,7 @@ export const BtcSend: Tx = {
   ],
 }
 
-export const FOXSend: Tx = {
+export const JINXSend: Tx = {
   address: '0x2d44C8B87D0Ec0D19A5249aDccf3BaCc43c5afe6',
   blockHash: '0x8e93bec969f88f472da18a88d68eaac9a4f4b6025a9e4699aedebfa8a08969c4',
   blockHeight: 13011202,
@@ -91,7 +91,7 @@ export const FOXSend: Tx = {
   status: TxStatus.Confirmed,
   transfers: [
     {
-      assetId: foxAssetId,
+      assetId: jinxAssetId,
       from: '0x2d44C8B87D0Ec0D19A5249aDccf3BaCc43c5afe6',
       to: '0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d',
       value: '4448382624806275089213',

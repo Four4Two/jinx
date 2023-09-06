@@ -1,7 +1,7 @@
 import { CosmosManager } from 'features/defi/providers/cosmos/components/CosmosManager/CosmosManager'
-import { FoxFarmingManager } from 'features/defi/providers/fox-farming/components/FoxFarmingManager/FoxFarmingManager'
-import { FoxyManager } from 'features/defi/providers/foxy/components/FoxyManager/FoxyManager'
 import { IdleManager } from 'features/defi/providers/idle/components/IdleManager/IdleManager'
+import { JinxFarmingManager } from 'features/defi/providers/jinx-farming/components/JinxFarmingManager/JinxFarmingManager'
+import { JinxyManager } from 'features/defi/providers/jinxy/components/JinxyManager/JinxyManager'
 import { ThorchainSaversManager } from 'features/defi/providers/thorchain-savers/components/ThorchainSaversManager/ThorchainSaversManager'
 import { UniV2LpManager } from 'features/defi/providers/univ2/components/UniV2Manager/UniV2LpManager'
 import { DefiProvider, DefiType } from 'state/slices/opportunitiesSlice/types'
@@ -10,8 +10,8 @@ export const DefiProviderToDefiModuleResolverByDeFiType = {
   [`${DefiProvider.UniV2}`]: {
     [`${DefiType.LiquidityPool}`]: UniV2LpManager,
   },
-  [`${DefiProvider.EthFoxStaking}`]: {
-    [`${DefiType.Staking}`]: FoxFarmingManager,
+  [`${DefiProvider.EthJinxStaking}`]: {
+    [`${DefiType.Staking}`]: JinxFarmingManager,
   },
   [DefiProvider.Idle]: {
     [`${DefiType.Staking}`]: IdleManager,
@@ -19,7 +19,7 @@ export const DefiProviderToDefiModuleResolverByDeFiType = {
   [DefiProvider.ThorchainSavers]: {
     [`${DefiType.Staking}`]: ThorchainSaversManager,
   },
-  [DefiProvider.ShapeShift]: FoxyManager,
+  [DefiProvider.BlackFury]: JinxyManager,
   [DefiProvider.CosmosSdk]: CosmosManager,
 }
 // Not curried since we can either have a list of providers by DefiType, or a single one for providers not yet migrated to the abstraction

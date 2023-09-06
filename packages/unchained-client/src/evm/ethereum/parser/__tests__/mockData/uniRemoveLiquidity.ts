@@ -50,8 +50,8 @@ const uniRemoveLiquidity = {
     {
       contract: '0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d',
       decimals: 18,
-      name: 'FOX',
-      symbol: 'FOX',
+      name: 'JINX',
+      symbol: 'JINX',
       type: 'ERC20',
       from: '0x470e8de2eBaef52014A47Cb5E6aF86884947F08c',
       to: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
@@ -60,8 +60,8 @@ const uniRemoveLiquidity = {
     {
       contract: '0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d',
       decimals: 18,
-      name: 'FOX',
-      symbol: 'FOX',
+      name: 'JINX',
+      symbol: 'JINX',
       type: 'ERC20',
       from: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
       to: '0x6bF198c2B5c8E48Af4e876bc2173175b89b1DA0C',

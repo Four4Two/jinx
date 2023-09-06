@@ -2,7 +2,7 @@ import { Center } from '@chakra-ui/react'
 import { AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { CircularProgress } from 'components/CircularProgress/CircularProgress'
-import { FoxIcon } from 'components/Icons/FoxIcon'
+import { JinxIcon } from 'components/Icons/JinxIcon'
 import { SlideTransitionY } from 'components/SlideTransitionY'
 import { useIsAnyApiFetching } from 'hooks/useIsAnyApiFetching/useIsAnyApiFetching'
 
@@ -19,7 +19,7 @@ export const AppLoadingIcon: React.FC = () => {
           </SlideTransitionY>
         ) : (
           <SlideTransitionY key='logo'>
-            <FoxIcon boxSize='7' />
+            <JinxIcon boxSize='7' />
           </SlideTransitionY>
         )}
       </AnimatePresence>

@@ -5,7 +5,7 @@ import { TypedMessageInfo } from 'plugins/walletConnectToDapps/components/modals
 import type { WalletConnectEthSignTypedDataCallRequest } from 'plugins/walletConnectToDapps/v1/bridge/types'
 import { useWalletConnect } from 'plugins/walletConnectToDapps/v1/WalletConnectBridgeContext'
 import { useTranslate } from 'react-polyglot'
-import { FoxIcon } from 'components/Icons/FoxIcon'
+import { JinxIcon } from 'components/Icons/JinxIcon'
 import { Text } from 'components/Text'
 import { useWallet } from 'hooks/useWallet/useWallet'
 
@@ -23,7 +23,7 @@ export const SignTypedDataConfirmation: React.FC<SignTypedDataConfirmationPropsP
   const walletConnect = useWalletConnect()
   const translate = useTranslate()
   const walletInfo = useWallet().state.walletInfo
-  const WalletIcon = walletInfo?.icon ?? FoxIcon
+  const WalletIcon = walletInfo?.icon ?? JinxIcon
 
   if (!walletConnect.connector || !walletConnect.dapp) return null
   const address = walletConnect.connector.accounts[0]

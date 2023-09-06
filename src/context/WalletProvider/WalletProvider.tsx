@@ -417,7 +417,7 @@ export const WalletProvider = ({ children }: { children: React.ReactNode }): JSX
               const localNativeWallet = await nativeAdapters?.[0]?.pairDevice(localWalletDeviceId)
               if (localNativeWallet) {
                 /**
-                 * This will eventually fire an event, which the ShapeShift wallet
+                 * This will eventually fire an event, which the BlackFury wallet
                  * password modal will be shown
                  */
                 await localNativeWallet.initialize()
@@ -693,6 +693,7 @@ export const WalletProvider = ({ children }: { children: React.ReactNode }): JSX
               rpc: {
                 [CHAIN_REFERENCE.EthereumMainnet]: getConfig().REACT_APP_ETHEREUM_NODE_URL,
                 [CHAIN_REFERENCE.OptimismMainnet]: getConfig().REACT_APP_OPTIMISM_NODE_URL,
+                [CHAIN_REFERENCE.HighburyMainnet]: getConfig().REACT_APP_HIGHBURY_NODE_URL,
                 [CHAIN_REFERENCE.BnbSmartChainMainnet]:
                   getConfig().REACT_APP_BNBSMARTCHAIN_NODE_URL,
                 [CHAIN_REFERENCE.GnosisMainnet]: getConfig().REACT_APP_GNOSIS_NODE_URL,
@@ -752,7 +753,7 @@ export const WalletProvider = ({ children }: { children: React.ReactNode }): JSX
                   }
                 case 'coinbase':
                   return {
-                    appName: 'ShapeShift',
+                    appName: 'BlackFury',
                     appLogoUrl: 'https://avatars.githubusercontent.com/u/52928763?s=50&v=4',
                     defaultJsonRpcUrl: getConfig().REACT_APP_ETHEREUM_NODE_URL,
                     defaultChainId: 1,

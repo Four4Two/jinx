@@ -6,6 +6,7 @@ import {
   bscChainId,
   fromAssetId,
   gnosisChainId,
+  highburyChainId,
   optimismChainId,
   polygonChainId,
 } from '@shapeshiftoss/caip'
@@ -126,6 +127,7 @@ export const assetApi = createApi({
         const service = getAssetService()
         const assets = Object.entries(service?.assetsById ?? {}).reduce<AssetsById>(
           (prev, [assetId, asset]) => {
+            if (!flags.Highbury && asset.chainId === highburyChainId) return prev
             if (!flags.Optimism && asset.chainId === optimismChainId) return prev
             if (!flags.BnbSmartChain && asset.chainId === bscChainId) return prev
             if (!flags.Polygon && asset.chainId === polygonChainId) return prev

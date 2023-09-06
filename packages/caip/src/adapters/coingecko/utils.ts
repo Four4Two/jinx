@@ -19,6 +19,8 @@ import {
   ethChainId,
   gnosisAssetId,
   gnosisChainId,
+  highburyAssetId,
+  highburyChainId,
   ltcChainId,
   optimismAssetId,
   optimismChainId,
@@ -132,6 +134,20 @@ export const parseData = (coins: CoingeckoCoin[]): AssetMap => {
         }
       }
 
+      if (Object.keys(platforms).includes(CoingeckoAssetPlatform.Highbury)) {
+        try {
+          const assetId = toAssetId({
+            chainNamespace: CHAIN_NAMESPACE.Evm,
+            chainReference: CHAIN_REFERENCE.HighburyMainnet,
+            assetNamespace: 'erc20',
+            assetReference: platforms[CoingeckoAssetPlatform.Highbury],
+          })
+          prev[gnosisChainId][assetId] = id
+        } catch (err) {
+          // unable to create assetId, skip token
+        }
+      }
+
       return prev
     },
     {
@@ -141,6 +157,7 @@ export const parseData = (coins: CoingeckoCoin[]): AssetMap => {
       [bscChainId]: { [bscAssetId]: 'binancecoin' },
       [polygonChainId]: { [polygonAssetId]: 'matic-network' },
       [gnosisChainId]: { [gnosisAssetId]: 'xdai' },
+      [highburyChainId]: { [highburyAssetId]: 'fanfury' },
     },
   )
 

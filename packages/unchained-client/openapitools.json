@@ -96,6 +96,19 @@
           "useSingleRequestParameter": true
         }
       },
+      "highbury": {
+        "inputSpec": "https://raw.githubusercontent.com/Four4Two/unchained/develop/node/coinstacks/highbury/api/src/swagger.json",
+        "generatorName": "typescript-fetch",
+        "output": "#{cwd}/src/generated/highbury",
+        "enablePostProcessFile": true,
+        "reservedWordsMappings": {
+          "in": "in"
+        },
+        "additionalProperties": {
+          "supportsES6": "true",
+          "useSingleRequestParameter": true
+        }
+      },
       "litecoin": {
         "inputSpec": "https://raw.githubusercontent.com/shapeshift/unchained/develop/node/coinstacks/litecoin/api/src/swagger.json",
         "generatorName": "typescript-fetch",

@@ -20,7 +20,7 @@ import type { PortfolioAccountBalancesById } from 'state/slices/portfolioSlice/p
 import { selectPortfolioLoadingStatusGranular } from 'state/slices/portfolioSlice/selectors'
 import { selectFeatureFlags } from 'state/slices/preferencesSlice/selectors'
 
-import { foxEthLpAssetIds } from '../../constants'
+import { jinxEthLpAssetIds } from '../../constants'
 import type {
   GetOpportunityIdsOutput,
   GetOpportunityMetadataOutput,
@@ -293,7 +293,7 @@ export const uniV2LpLpOpportunityIdsResolver = ({
   const state: any = getState()
   const { DynamicLpAssets } = selectFeatureFlags(state)
 
-  if (!DynamicLpAssets) return Promise.resolve({ data: [...foxEthLpAssetIds] })
+  if (!DynamicLpAssets) return Promise.resolve({ data: [...jinxEthLpAssetIds] })
 
   const zapperApiQueries = selectZapperFulfilled(state)
   const uniV2AssetIds = (zapperApiQueries.find(

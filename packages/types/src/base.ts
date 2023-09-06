@@ -10,6 +10,7 @@ export enum KnownChainIds {
   EthereumMainnet = 'eip155:1',
   AvalancheMainnet = 'eip155:43114',
   OptimismMainnet = 'eip155:10',
+  HighburyMainnet = 'eip155:710',
   BnbSmartChainMainnet = 'eip155:56',
   PolygonMainnet = 'eip155:137',
   GnosisMainnet = 'eip155:100',

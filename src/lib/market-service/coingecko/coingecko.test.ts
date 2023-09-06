@@ -79,11 +79,11 @@ describe('CoinGecko market service', () => {
       last_updated: '2021-10-10T22:16:22.950Z',
     }
 
-    const fox: CoinGeckoMarketCap = {
-      id: 'shapeshift-fox-token',
-      symbol: 'fox',
-      name: 'ShapeShift FOX Token',
-      image: 'https://assets.coingecko.com/coins/images/9988/large/FOX.png?1574330622',
+    const jinx: CoinGeckoMarketCap = {
+      id: 'shapeshift-jinx-token',
+      symbol: 'jinx',
+      name: 'BlackFury JINX Token',
+      image: 'https://assets.coingecko.com/coins/images/9988/large/JINX.png?1574330622',
       current_price: 0.162007,
       market_cap: 59502764,
       market_cap_rank: 387,
@@ -248,8 +248,8 @@ describe('CoinGecko market service', () => {
       expect(result[ethAssetId!]).toEqual(ethResult)
     })
 
-    it('extract correct values for fox', async () => {
-      const foxResult = {
+    it('extract correct values for jinx', async () => {
+      const jinxResult = {
         price: '0.162007',
         marketCap: '59502764',
         changePercent24Hr: 3.74881,
@@ -258,10 +258,10 @@ describe('CoinGecko market service', () => {
         maxSupply: '1000001337',
       }
 
-      mockedAxios.get.mockResolvedValue({ data: [fox] })
+      mockedAxios.get.mockResolvedValue({ data: [jinx] })
       const result = await coinGeckoMarketService.findAll()
-      const foxAssetId = adapters.coingeckoToAssetIds('shapeshift-fox-token')[0]
-      expect(result[foxAssetId!]).toEqual(foxResult)
+      const jinxAssetId = adapters.coingeckoToAssetIds('shapeshift-jinx-token')[0]
+      expect(result[jinxAssetId!]).toEqual(jinxResult)
     })
   })
 
@@ -325,7 +325,7 @@ describe('CoinGecko market service', () => {
       expect(await coinGeckoMarketService.findByAssetId(args)).toEqual(result)
     })
 
-    it('should return market data for FOX', async () => {
+    it('should return market data for JINX', async () => {
       const result: MarketData = {
         price: '0.25007',
         marketCap: '59502764',

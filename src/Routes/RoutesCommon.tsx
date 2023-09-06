@@ -3,7 +3,7 @@ import { FaCreditCard, FaFlag } from 'react-icons/fa'
 import { AssetsIcon } from 'components/Icons/Assets'
 import { DashboardIcon } from 'components/Icons/Dashboard'
 import { DefiIcon } from 'components/Icons/DeFi'
-import { FoxIcon } from 'components/Icons/FoxIcon'
+import { JinxIcon } from 'components/Icons/JinxIcon'
 import { SwapIcon } from 'components/Icons/SwapIcon'
 import { TxHistoryIcon } from 'components/Icons/TxHistory'
 import { assetIdPaths } from 'hooks/useRouteAssetId/useRouteAssetId'
@@ -124,9 +124,9 @@ export const routes: NestedRoute[] = [
   },
   {
     path: '/missions',
-    label: 'navBar.foxMissions',
-    shortLabel: 'navBar.foxMissionsShort',
-    icon: <FoxIcon />,
+    label: 'navBar.jinxMissions',
+    shortLabel: 'navBar.jinxMissionsShort',
+    icon: <JinxIcon />,
     main: Missions,
     category: RouteCategory.Explore,
     isNew: true,

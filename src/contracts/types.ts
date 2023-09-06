@@ -1,8 +1,8 @@
-import type { FoxEthStakingContractAddress } from 'state/slices/opportunitiesSlice/constants'
+import type { JinxEthStakingContractAddress } from 'state/slices/opportunitiesSlice/constants'
 
 import type {
-  ETH_FOX_POOL_CONTRACT_ADDRESS,
-  FOX_TOKEN_CONTRACT_ADDRESS,
+  ETH_JINX_POOL_CONTRACT_ADDRESS,
+  JINX_TOKEN_CONTRACT_ADDRESS,
   UNISWAP_V2_ROUTER_02_CONTRACT_ADDRESS,
 } from './constants'
 import type {
@@ -24,9 +24,9 @@ export type KnownContractByType<T extends ContractType> = ReturnType<
 >
 
 export type KnownContractAddress =
-  | typeof ETH_FOX_POOL_CONTRACT_ADDRESS
-  | FoxEthStakingContractAddress
-  | typeof FOX_TOKEN_CONTRACT_ADDRESS
+  | typeof ETH_JINX_POOL_CONTRACT_ADDRESS
+  | JinxEthStakingContractAddress
+  | typeof JINX_TOKEN_CONTRACT_ADDRESS
   | typeof UNISWAP_V2_ROUTER_02_CONTRACT_ADDRESS
 
 export type DefinedContract = {

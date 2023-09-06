@@ -248,7 +248,7 @@ const getDonationSummaryStep = ({
 }): StepperStep => {
   return {
     title: donationAmountFiatFormatted,
-    description: 'ShapeShift Donation',
+    description: 'BlackFury Donation',
     stepIndicator: <StarIcon />,
   }
 }

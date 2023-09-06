@@ -5,6 +5,7 @@ import {
   bscChainId,
   ethChainId,
   gnosisChainId,
+  highburyChainId,
   optimismChainId,
   polygonChainId,
   toAssetId,
@@ -19,6 +20,7 @@ export enum SupportedZapperNetwork {
   BinanceSmartChain = 'binance-smart-chain',
   Ethereum = 'ethereum',
   Optimism = 'optimism',
+  Highbury = 'highbury',
   // Unsupported networks - uncomment as we implement them
   Polygon = 'polygon', // Technically supported by Zapper as far as Apps/Wallet goes, but no NFTs returned
   Gnosis = 'gnosis',
@@ -38,6 +40,7 @@ export enum SupportedZapperNetworkIncludeUnsupported {
   Base = 'base',
   BinanceSmartChain = 'binance-smart-chain',
   Ethereum = 'ethereum',
+  Highbury = 'highbury',
   Optimism = 'optimism',
   Polygon = 'polygon', // Technically supported by Zapper as far as Apps/Wallet goes, but no NFTs returned
   Gnosis = 'gnosis',
@@ -56,6 +59,7 @@ export const ZAPPER_NETWORKS_TO_CHAIN_ID_MAP: Record<SupportedZapperNetwork, Cha
   [SupportedZapperNetwork.Avalanche]: avalancheChainId,
   [SupportedZapperNetwork.BinanceSmartChain]: bscChainId,
   [SupportedZapperNetwork.Ethereum]: ethChainId,
+  [SupportedZapperNetwork.Highbury]: highburyChainId,
   [SupportedZapperNetwork.Optimism]: optimismChainId,
   [SupportedZapperNetwork.Polygon]: polygonChainId,
   [SupportedZapperNetwork.Gnosis]: gnosisChainId,

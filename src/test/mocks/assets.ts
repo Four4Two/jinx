@@ -1,4 +1,4 @@
-import { btcAssetId, btcChainId, ethAssetId, ethChainId, foxAssetId } from '@shapeshiftoss/caip'
+import { btcAssetId, btcChainId, ethAssetId, ethChainId, jinxAssetId } from '@shapeshiftoss/caip'
 import merge from 'lodash/merge'
 import type { Asset } from 'lib/asset-service'
 
@@ -54,17 +54,17 @@ export const zero: Asset = {
   symbol: 'ZERO',
 }
 
-export const fox: Asset = {
+export const jinx: Asset = {
   chainId: ethChainId,
-  assetId: foxAssetId,
+  assetId: jinxAssetId,
   color: '#FFFFFF',
   explorer: 'https://etherscan.io',
   explorerTxLink: 'https://etherscan.io/tx/',
   explorerAddressLink: 'https://etherscan.io/address/',
-  icon: 'https://assets.coincap.io/assets/icons/fox@2x.png',
-  name: 'Fox',
+  icon: 'https://assets.coincap.io/assets/icons/jinx@2x.png',
+  name: 'Jinx',
   precision: 18,
-  symbol: 'FOX',
+  symbol: 'JINX',
 }
 
 export const bitcoin: Asset = {
@@ -85,12 +85,12 @@ export const mockAssetState = (obj?: Record<string, any>) =>
     {
       byId: {
         [ethereum.assetId]: ethereum,
-        [fox.assetId]: fox,
+        [jinx.assetId]: jinx,
         [usdc.assetId]: usdc,
         [zero.assetId]: zero,
         [bitcoin.assetId]: bitcoin,
       },
-      ids: [ethereum.assetId, fox.assetId, usdc.assetId, bitcoin.assetId],
+      ids: [ethereum.assetId, jinx.assetId, usdc.assetId, bitcoin.assetId],
     },
     obj,
   )

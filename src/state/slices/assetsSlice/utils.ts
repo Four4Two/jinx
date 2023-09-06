@@ -47,6 +47,8 @@ export const chainIdFeeAssetReferenceMap = (
             return ASSET_REFERENCE.Ethereum
           case CHAIN_REFERENCE.OptimismMainnet:
             return ASSET_REFERENCE.Optimism
+          case CHAIN_REFERENCE.HighburyMainnet:
+            return ASSET_REFERENCE.Highbury
           case CHAIN_REFERENCE.BnbSmartChainMainnet:
             return ASSET_REFERENCE.BnbSmartChain
           case CHAIN_REFERENCE.PolygonMainnet:

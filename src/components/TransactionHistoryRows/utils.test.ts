@@ -1,5 +1,5 @@
 import { MaxUint256 } from '@ethersproject/constants'
-import { ethChainId, foxAssetId } from '@shapeshiftoss/caip'
+import { ethChainId, jinxAssetId } from '@shapeshiftoss/caip'
 import type { TxMetadata } from '@shapeshiftoss/chain-adapters'
 import type { MarketData } from '@shapeshiftoss/types'
 import { mockMarketData } from 'test/mocks/marketData'
@@ -21,19 +21,19 @@ describe('TransactionHistoryRow/utils', () => {
       parser: TxMetadata['parser']
     }): [string, MarketData, Asset, TxMetadata['parser']] => [value, marketData, asset, parser]
 
-    const foxMarketData = mockMarketData({
+    const jinxMarketData = mockMarketData({
       price: '1',
       supply: '415853375.7215277',
       maxSupply: '1000001337',
     })
-    const foxAsset = {
-      assetId: foxAssetId,
+    const jinxAsset = {
+      assetId: jinxAssetId,
       chainId: ethChainId,
-      name: 'Fox',
+      name: 'Jinx',
       precision: 18,
       color: '#222E51',
       icon: 'https://rawcdn.githack.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d/logo.png',
-      symbol: 'FOX',
+      symbol: 'JINX',
       explorer: 'https://etherscan.io',
       explorerAddressLink: 'https://etherscan.io/address/',
       explorerTxLink: 'https://etherscan.io/tx/',
@@ -42,8 +42,8 @@ describe('TransactionHistoryRow/utils', () => {
     it('can parse erc20 parser revokes', () => {
       const args = makeRestArgsTuple({
         value: '0',
-        marketData: foxMarketData,
-        asset: foxAsset,
+        marketData: jinxMarketData,
+        asset: jinxAsset,
         parser: 'erc20',
       })
 
@@ -56,13 +56,13 @@ describe('TransactionHistoryRow/utils', () => {
     it('can parse erc20 exact approvals', () => {
       const args = makeRestArgsTuple({
         value: '3000000000000000000',
-        marketData: foxMarketData,
-        asset: foxAsset,
+        marketData: jinxMarketData,
+        asset: jinxAsset,
         parser: 'erc20',
       })
 
       const actual = makeAmountOrDefault(...args)
-      const expected = '3 FOX'
+      const expected = '3 JINX'
 
       expect(actual).toEqual(expected)
     })
@@ -70,8 +70,8 @@ describe('TransactionHistoryRow/utils', () => {
     it('can parse erc20 infinite (max solidity uint256) approvals', () => {
       const args = makeRestArgsTuple({
         value: MaxUint256.toString(),
-        marketData: foxMarketData,
-        asset: foxAsset,
+        marketData: jinxMarketData,
+        asset: jinxAsset,
         parser: 'erc20',
       })
 

@@ -42,6 +42,7 @@ export const chainIdToChainLabel = (chainId: ChainId): string => {
         case CHAIN_REFERENCE.EthereumRinkeby:
         case CHAIN_REFERENCE.EthereumRopsten:
         case CHAIN_REFERENCE.AvalancheCChain:
+        case CHAIN_REFERENCE.HighburyMainnet:
         case CHAIN_REFERENCE.OptimismMainnet:
         case CHAIN_REFERENCE.BnbSmartChainMainnet:
         case CHAIN_REFERENCE.PolygonMainnet:

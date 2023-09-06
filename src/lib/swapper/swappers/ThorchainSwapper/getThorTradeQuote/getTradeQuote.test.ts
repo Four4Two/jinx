@@ -4,7 +4,7 @@ import { omit } from 'lodash'
 
 import type { GetTradeQuoteInput } from '../../../types'
 import { SwapperName } from '../../../types'
-import { ETH, FOX_MAINNET } from '../../utils/test-data/assets'
+import { ETH, JINX_MAINNET } from '../../utils/test-data/assets'
 import { setupQuote } from '../../utils/test-data/setupSwapQuote'
 import { getThorTxInfo } from '../evm/utils/getThorTxData'
 import type {
@@ -72,7 +72,7 @@ const expectedQuoteResponse: Omit<ThorEvmTradeQuote, 'id'>[] = [
         rate: '137845.94361267605633802817',
         source: SwapperName.Thorchain,
         buyAsset: ETH,
-        sellAsset: FOX_MAINNET,
+        sellAsset: JINX_MAINNET,
         accountNumber: 0,
       },
     ],
@@ -105,7 +105,7 @@ const expectedQuoteResponse: Omit<ThorEvmTradeQuote, 'id'>[] = [
         rate: '151555.07377464788732394366',
         source: `${SwapperName.Thorchain} • Streaming`,
         buyAsset: ETH,
-        sellAsset: FOX_MAINNET,
+        sellAsset: JINX_MAINNET,
         accountNumber: 0,
       },
     ],
@@ -176,7 +176,7 @@ describe('getTradeQuote', () => {
       ...quoteInput,
       sellAmountIncludingProtocolFeesCryptoBaseUnit: '713014679420',
       buyAsset: ETH,
-      sellAsset: FOX_MAINNET,
+      sellAsset: JINX_MAINNET,
       slippageTolerancePercentage: '0.04357',
     }
 

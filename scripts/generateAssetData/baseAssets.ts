@@ -174,3 +174,20 @@ export const gnosis: AssetWithNetworkName = {
   explorerAddressLink: 'https://gnosisscan.io/address/',
   explorerTxLink: 'https://gnosisscan.io/tx/',
 }
+
+export const highbury: AssetWithNetworkName = {
+  assetId: caip.highburyAssetId,
+  chainId: caip.highburyChainId,
+  name: 'FURY',
+  networkName: 'Highbury',
+  symbol: 'FURY',
+  precision: 18,
+  color: '#33765c',
+  icon: 'https://assets.coingecko.com/coins/images/27079/large/fury.png?1661761670',
+  networkIcon:
+    'https://assets.coingecko.com/coins/images/27079/large/fury.png?1661761670',
+  explorer: 'https://explorer.furya.io/',
+  explorerAddressLink: 'https://explorer.furya.io/address/',
+  explorerTxLink: 'https://explorer.furya.io/tx/',
+}
+

@@ -131,7 +131,7 @@ export const makeGemPartnerUrl = memoize(({ action: intent, assetId, address }: 
   const selectedAssetTicker = adapters.assetIdToGemTicker(assetId)
   if (!selectedAssetTicker) return
   const GEM_URL = 'https://onramp.gem.co'
-  const partnerName = 'ShapeShift'
+  const partnerName = 'BlackFury'
   const environment = getConfig().REACT_APP_GEM_ENV
   // TODO(0xdef1cafe): this doesn't resolve to anything
   const partnerIconUrl =

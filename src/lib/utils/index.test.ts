@@ -4,8 +4,8 @@ import {
   cosmosAssetId,
   cosmosChainId,
   ethChainId,
-  foxAssetId,
-  foxyAssetId,
+  jinxAssetId,
+  jinxyAssetId,
 } from '@shapeshiftoss/caip'
 import { fauxmesAccountId } from 'state/slices/opportunitiesSlice/mocks'
 import type {
@@ -37,13 +37,13 @@ import {
 describe('lib/utils', () => {
   describe('opportunityIdToChainId', () => {
     test('returns the correct chain ID for an LpId', () => {
-      const lpId: LpId = foxAssetId as LpId
+      const lpId: LpId = jinxAssetId as LpId
       const result: ChainId = opportunityIdToChainId(lpId)
       expect(result).toEqual(ethChainId)
     })
 
     test('returns the correct chain ID for a StakingId', () => {
-      const stakingId: StakingId = foxyAssetId as StakingId
+      const stakingId: StakingId = jinxyAssetId as StakingId
       const result: ChainId = opportunityIdToChainId(stakingId)
       expect(result).toEqual(ethChainId)
     })

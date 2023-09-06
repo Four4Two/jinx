@@ -11,11 +11,11 @@ Generally to add a new fiat ramp provider, you should complement `SupportedFiatR
 - The new provider should have a `onSubmit` property for passing the data to the provider API.
 - `isImplemeted` field is used to show whether the provider is ready to use or a `coming soon` text should be shown instead.
 
-You will also need to add a two-way mapping from ShapeShift AssetId <> ramp ticker / ID in the `@shapeshiftoss/caip` package, located in [lib](https://github.com/shapeshift/lib).
+You will also need to add a two-way mapping from BlackFury AssetId <> ramp ticker / ID in the `@shapeshiftoss/caip` package, located in [lib](https://github.com/shapeshift/lib).
 Refer to the README in that repo to work with lib packages locally.
 
 This mapping serves two purposes:
-- have a source of truth for the intersection of the assets ShapeShift and the ramp support
+- have a source of truth for the intersection of the assets BlackFury and the ramp support
 - be able to convert from our internal [`AssetId`](https://github.com/shapeshift/lib/tree/main/packages/caip#assetid-caip19---asset-type-and-asset-id-specification)s to the ramp's ticker / ID, so we can build the payload/link to the ramp
 
 See these commits for reference:

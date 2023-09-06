@@ -13,6 +13,7 @@ import {
   fromAssetId,
   fromChainId,
   gnosisChainId,
+  highburyChainId,
   isNft,
   ltcChainId,
   optimismChainId,
@@ -29,6 +30,7 @@ import {
   supportsCosmos,
   supportsETH,
   supportsGnosis,
+  supportsHighbury,
   supportsOptimism,
   supportsPolygon,
   supportsThorchain,
@@ -66,6 +68,7 @@ export const accountIdToLabel = (accountId: AccountId): string => {
   switch (chainId) {
     case avalancheChainId:
     case optimismChainId:
+    case highburyChainId:
     case ethChainId:
     case polygonChainId:
     case gnosisChainId:
@@ -266,6 +269,8 @@ export const isAssetSupportedByWallet = (assetId: AssetId, wallet: HDWallet): bo
       return supportsAvalanche(wallet)
     case optimismChainId:
       return supportsOptimism(wallet)
+    case highburyChainId:
+      return supportsHighbury(wallet)
     case bscChainId:
       return supportsBSC(wallet)
     case polygonChainId:

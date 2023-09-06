@@ -3,6 +3,7 @@ import {
   avalancheAssetId,
   btcAssetId,
   ethAssetId,
+  highburyAssetId,
   optimismAssetId,
   thorchainAssetId,
 } from '@shapeshiftoss/caip'
@@ -16,6 +17,7 @@ const testAssetId2: AssetId = avalancheAssetId
 const testAssetId3: AssetId = optimismAssetId
 const testAssetId4: AssetId = thorchainAssetId
 const testAssetId5: AssetId = btcAssetId
+const testAssetId6: AssetId = highburyAssetId
 
 describe('filterEvmAssetIdsBySellable', () => {
   const assets = {
@@ -36,6 +38,9 @@ describe('filterEvmAssetIdsBySellable', () => {
     },
     [testAssetId5]: {
       chainId: KnownChainIds.BitcoinMainnet,
+    },
+    [testAssetId6]: {
+      chainId: KnownChainIds.HighburyMainnet,
     },
   } as Record<AssetId, Asset>
 

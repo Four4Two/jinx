@@ -360,7 +360,7 @@ export const useUniV2LiquidityPool = ({
     const ethInReserve = bn(fromBaseUnit(reserves?.[0]?.toString(), asset0.precision))
 
     // Total market cap of liquidity pool in usdc.
-    // Multiplied by 2 to show equal amount of eth and fox.
+    // Multiplied by 2 to show equal amount of eth and jinx.
     const totalLiquidity = ethInReserve.times(asset0Price).times(2)
     return totalLiquidity.toString()
   }, [asset0.precision, asset0Price, uniV2LPContract])

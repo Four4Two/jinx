@@ -3,7 +3,7 @@ import type { AccountId, ChainId } from '@shapeshiftoss/caip'
 import { fromAccountId } from '@shapeshiftoss/caip'
 import { store } from 'state/store'
 
-import { foxEthStakingIds } from '../opportunitiesSlice/constants'
+import { jinxEthStakingIds } from '../opportunitiesSlice/constants'
 import { CHAIN_ID_TO_SUPPORTED_DEFI_OPPORTUNITIES } from './mappings'
 import { opportunitiesApi } from './opportunitiesApiSlice'
 import { DefiProvider, DefiType } from './types'
@@ -42,13 +42,13 @@ export const fetchAllStakingOpportunitiesMetadataByChainId = async (
 
   const queries = CHAIN_ID_TO_SUPPORTED_DEFI_OPPORTUNITIES[chainId]
 
-  const ethFoxStakingQueries = foxEthStakingIds.map(opportunityId =>
+  const ethJinxStakingQueries = jinxEthStakingIds.map(opportunityId =>
     store.dispatch(
       getOpportunityMetadata.initiate(
         {
           opportunityId,
           defiType: DefiType.Staking,
-          defiProvider: DefiProvider.EthFoxStaking,
+          defiProvider: DefiProvider.EthJinxStaking,
         },
         // Any previous query without portfolio loaded will be rejected, the first successful one will be cached
         { forceRefetch: false, ...options },
@@ -70,7 +70,7 @@ export const fetchAllStakingOpportunitiesMetadataByChainId = async (
           ),
         ),
       )
-      .concat(ethFoxStakingQueries),
+      .concat(ethJinxStakingQueries),
   )
 }
 
@@ -108,14 +108,14 @@ export const fetchAllStakingOpportunitiesUserDataByAccountId = async (
   const chainId = fromAccountId(accountId).chainId
   const queries = CHAIN_ID_TO_SUPPORTED_DEFI_OPPORTUNITIES[chainId]
 
-  const ethFoxStakingQueries = foxEthStakingIds.map(opportunityId =>
+  const ethJinxStakingQueries = jinxEthStakingIds.map(opportunityId =>
     store.dispatch(
       getOpportunityUserData.initiate(
         {
           accountId,
           opportunityId,
           defiType: DefiType.Staking,
-          defiProvider: DefiProvider.EthFoxStaking,
+          defiProvider: DefiProvider.EthJinxStaking,
         },
         // Any previous query without portfolio loaded will be rejected, the first successful one will be cached
         { forceRefetch: false, ...options },
@@ -139,7 +139,7 @@ export const fetchAllStakingOpportunitiesUserDataByAccountId = async (
           ),
         ),
       )
-      .concat(ethFoxStakingQueries),
+      .concat(ethJinxStakingQueries),
   )
 }
 

@@ -187,14 +187,14 @@ export const reloadWebview = (): Promise<boolean> => {
 }
 
 /**
- * Get a password hash for logging into legacy ShapeShift
+ * Get a password hash for logging into legacy BlackFury
  */
 export const hashPassword = (email: string, password: string): Promise<string | null> => {
   return postMessage<string | null>({ cmd: 'hashPassword', email, password })
 }
 
 /**
- * Decrypt a legacy ShapeShift wallet
+ * Decrypt a legacy BlackFury wallet
  */
 export const decryptWallet = (
   email: string,

@@ -8,6 +8,7 @@ import {
   dogeChainId,
   ethChainId,
   gnosisChainId,
+  highburyChainId,
   ltcChainId,
   optimismChainId,
   polygonChainId,
@@ -21,6 +22,7 @@ import {
   supportsCosmos,
   supportsETH,
   supportsGnosis,
+  supportsHighbury,
   supportsOptimism,
   supportsPolygon,
   supportsThorchain,
@@ -44,6 +46,8 @@ export const walletSupportsChain: UseWalletSupportsChain = ({ chainId, wallet })
       return supportsAvalanche(wallet)
     case optimismChainId:
       return supportsOptimism(wallet)
+    case highburyChainId:
+      return supportsHighbury(wallet)
     case bscChainId:
       return supportsBSC(wallet)
     case polygonChainId:

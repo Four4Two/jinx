@@ -51,6 +51,7 @@ jest.mock('hooks/useWallet/useWallet')
 const mockEvmChainIds = [
   KnownChainIds.EthereumMainnet,
   KnownChainIds.AvalancheMainnet,
+  KnownChainIds.HighburyMainnet,
   KnownChainIds.OptimismMainnet,
   KnownChainIds.BnbSmartChainMainnet,
   KnownChainIds.PolygonMainnet,

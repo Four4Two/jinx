@@ -17,9 +17,9 @@ import xdaiStandard from './mockData/xdaiStandard'
 const mockedApi = jest.mocked(new V1Api())
 
 const tokenMetadata: evm.TokenMetadata = {
-  name: 'Foxy',
-  description: 'The foxiest Fox',
-  media: { url: 'http://foxy.fox', type: 'image' },
+  name: 'Jinxy',
+  description: 'The jinxiest Jinx',
+  media: { url: 'http://jinxy.jinx', type: 'image' },
 }
 
 mockedApi.getTokenMetadata = jest.fn().mockResolvedValue(tokenMetadata)

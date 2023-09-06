@@ -39,7 +39,7 @@ export const LoginErrors = {
   },
   noWallet: {
     httpCode: 404,
-    msg: 'no ShapeShift wallet located for',
+    msg: 'no BlackFury wallet located for',
   },
   invalidCaptcha: {
     httpCode: 400,

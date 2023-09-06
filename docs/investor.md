@@ -97,9 +97,9 @@ In some protocols, there is no separate `Asset` to represent the position. In th
 
 #### Examples
 
-For example, there may be a Vault protocol that accepts deposits of `FOX` ERC20 token and then user receives `spFOX` tokens. The user's balance of `spFOX` represents their position. When the user initiates a WITHDRAWAL with their `spFOX` balance, they receive `FOX`.
+For example, there may be a Vault protocol that accepts deposits of `JINX` ERC20 token and then user receives `spJINX` tokens. The user's balance of `spJINX` represents their position. When the user initiates a WITHDRAWAL with their `spJINX` balance, they receive `JINX`.
 
-In this example, `FOX` is the `UnderlyingAsset` and `spFOX` is the `PositionAsset`.
+In this example, `JINX` is the `UnderlyingAsset` and `spJINX` is the `PositionAsset`.
 
 #### `assetId: string`
 
@@ -125,9 +125,9 @@ When a user WITHDRAWS from their `PositionAsset` they will receive `BigNumber(Po
 
 ##### Example
 
-For example, if a user deposits 10 `FOX` tokens into a `Opportunity` and receives back 1 `sFOX`, the `underlyingPerPosition` value would be `BigNumber(10)`
+For example, if a user deposits 10 `JINX` tokens into a `Opportunity` and receives back 1 `sJINX`, the `underlyingPerPosition` value would be `BigNumber(10)`
 
-When the user withdraws/sells their 1 `sFOX` they will get back 10 `FOX`.
+When the user withdraws/sells their 1 `sJINX` they will get back 10 `JINX`.
  
 ### `feeAsset: { assetId: string }`
 
@@ -163,8 +163,8 @@ Typically, this will be the same as either `underlyingAsset.assetId` or `positio
 
 This is the balance of the total value in the `Opportunity`.
 
-For example, if there is an `Opportunity` that has `FOX` as an `UnderlyingAsset`,
-and there are 10,000,000 FOX deposited into the contract, then balance would be `BigNumber(1e25)`, since `FOX` has a precision of 18.
+For example, if there is an `Opportunity` that has `JINX` as an `UnderlyingAsset`,
+and there are 10,000,000 JINX deposited into the contract, then balance would be `BigNumber(1e25)`, since `JINX` has a precision of 18.
 
 ### `metadata?: MetaData`
 
@@ -186,7 +186,7 @@ This function should validate the user's address, position balance, and any othe
 
 `amount: BigNumber` - The amount of `PositionAsset` that the user wants to withdraw.
 
-`amount` must be an integer value, without asset precision applied. For example, 1 FOX would be `BigNumber(1e18)`
+`amount` must be an integer value, without asset precision applied. For example, 1 JINX would be `BigNumber(1e18)`
 
 #### Returns `TxType`
 
@@ -204,7 +204,7 @@ This function should validate the user's address, underlying asset balance, and 
 
 `amount: BigNumber` - The amount of `UnderlyingAsset` that the user wants to deposit.
 
-`amount` must be an integer value, without asset precision applied. For example, 1 FOX would be `BigNumber(1e18)`
+`amount` must be an integer value, without asset precision applied. For example, 1 JINX would be `BigNumber(1e18)`
 
 #### Returns `TxType`
 

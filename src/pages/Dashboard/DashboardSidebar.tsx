@@ -1,5 +1,5 @@
 import { Flex, Image } from '@chakra-ui/react'
-import { dogeAssetId, foxAssetId } from '@shapeshiftoss/caip'
+import { dogeAssetId, jinxAssetId } from '@shapeshiftoss/caip'
 import { memo } from 'react'
 import OnRamperLogo from 'assets/on-ramper.png'
 import SaversVaultTop from 'assets/savers-vault-top.png'
@@ -17,7 +17,7 @@ const promoData: PromoItem[] = [
     title: 'promo.onRamper.title',
     body: 'promo.onRamper.body',
     cta: 'promo.onRamper.cta',
-    image: `url(https://uploads-ssl.webflow.com/5cec55545d0f47cfe2a39a8e/637d3eab8977b9c820ecb3fc_foxy-promo-1.jpg)`,
+    image: `url(https://uploads-ssl.webflow.com/5cec55545d0f47cfe2a39a8e/637d3eab8977b9c820ecb3fc_jinxy-promo-1.jpg)`,
     startDate: '2023-01-01 08:00 AM',
     endDate: '2023-01-01 08:00 AM',
     id: 'apple-pay',
@@ -40,16 +40,16 @@ const promoData: PromoItem[] = [
     rightElement: <AssetIcon assetId={dogeAssetId} />,
   },
   {
-    title: 'plugins.foxPage.dappBack.title',
-    body: 'plugins.foxPage.dappBack.body',
-    cta: 'plugins.foxPage.dappBack.cta',
+    title: 'plugins.jinxPage.dappBack.title',
+    body: 'plugins.jinxPage.dappBack.body',
+    cta: 'plugins.jinxPage.dappBack.cta',
     startDate: '2023-03-01 8:00 AM',
     endDate: '2023-03-07 8:00 AM',
     id: 'dappback-promo',
     href: 'https://dappback.com/shapeshift',
     walletRequired: false,
     isExternal: true,
-    rightElement: <AssetIcon assetId={foxAssetId} />,
+    rightElement: <AssetIcon assetId={jinxAssetId} />,
   },
 ]
 

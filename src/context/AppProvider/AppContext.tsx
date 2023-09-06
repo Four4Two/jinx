@@ -187,7 +187,7 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
     ;(async () => {
       if (portfolioLoadingStatus === 'loading') return
 
-      const { getFoxyRebaseHistoryByAccountId } = txHistoryApi.endpoints
+      const { getJinxyRebaseHistoryByAccountId } = txHistoryApi.endpoints
 
       dispatch(nftApi.endpoints.getNftUserTokens.initiate({ accountIds: requestedAccountIds }))
 
@@ -222,9 +222,9 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
             })()
 
             /**
-             * fetch all rebase history for foxy
+             * fetch all rebase history for jinxy
              *
-             * foxy rebase history is most closely linked to transactions.
+             * jinxy rebase history is most closely linked to transactions.
              * unfortunately, we have to call this for a specific asset here
              * because we need it for the dashboard balance chart
              *
@@ -232,7 +232,7 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
              * stop, and make a getRebaseHistoryByAccountId that takes
              * an accountId and assetId[] in the txHistoryApi
              */
-            dispatch(getFoxyRebaseHistoryByAccountId.initiate({ accountId, portfolioAssetIds }))
+            dispatch(getJinxyRebaseHistoryByAccountId.initiate({ accountId, portfolioAssetIds }))
             break
           default:
         }

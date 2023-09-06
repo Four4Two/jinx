@@ -12,6 +12,7 @@ import * as cosmos from './cosmos'
 import * as ethereum from './ethereum'
 import * as gnosis from './gnosis'
 import * as optimism from './optimism'
+import * as highbury from './highbury'
 import * as polygon from './polygon'
 import { setColors } from './setColors'
 import { filterOutBlacklistedAssets } from './utils'
@@ -25,6 +26,7 @@ const generateColorMap = async () => {
   const bnbsmartchainAssets = await bnbsmartchain.getAssets()
   const polygonAssets = await polygon.getAssets()
   const gnosisAssets = await gnosis.getAssets()
+  const highburyAssets = await highbury.getAssets()
   const cosmosAssets = await cosmos.getAssets()
 
   // all assets, included assets to be blacklisted
@@ -42,6 +44,7 @@ const generateColorMap = async () => {
     ...bnbsmartchainAssets,
     ...polygonAssets,
     ...gnosisAssets,
+    ...highburyAssets,
   ]
   // remove blacklisted assets
   const filteredAssetData = filterOutBlacklistedAssets(unfilteredAssetData)

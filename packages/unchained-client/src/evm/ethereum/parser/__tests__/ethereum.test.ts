@@ -7,21 +7,21 @@ import { Dex, TradeType, TransferType, TxStatus } from '../../../../types'
 import type { ParsedTx } from '../../../parser'
 import { V1Api } from '../../index'
 import {
-  FOXY_STAKING_CONTRACT,
-  UNI_V2_FOX_STAKING_REWARDS_V3,
+  JINXY_STAKING_CONTRACT,
+  UNI_V2_JINX_STAKING_REWARDS_V3,
   WETH_CONTRACT_MAINNET,
 } from '../constants'
 import { TransactionParser, ZRX_ETHEREUM_PROXY_CONTRACT } from '../index'
 import erc721 from './mockData/erc721'
 import erc1155 from './mockData/erc1155'
 import ethSelfSend from './mockData/ethSelfSend'
-import foxClaim from './mockData/foxClaim'
-import foxExit from './mockData/foxExit'
-import foxStake from './mockData/foxStake'
-import foxyClaimWithdraw from './mockData/foxyClaimWithdraw'
-import foxyInstantUnstake from './mockData/foxyInstantUnstake'
-import foxyStake from './mockData/foxyStake'
-import foxyUnstake from './mockData/foxyUnstake'
+import jinxClaim from './mockData/jinxClaim'
+import jinxExit from './mockData/jinxExit'
+import jinxStake from './mockData/jinxStake'
+import jinxyClaimWithdraw from './mockData/jinxyClaimWithdraw'
+import jinxyInstantUnstake from './mockData/jinxyInstantUnstake'
+import jinxyStake from './mockData/jinxyStake'
+import jinxyUnstake from './mockData/jinxyUnstake'
 import multiSigSendEth from './mockData/multiSigSendEth'
 import thorSwapDepositEth from './mockData/thorSwapDepositEth'
 import thorSwapDepositUsdc from './mockData/thorSwapDepositUsdc'
@@ -30,8 +30,8 @@ import thorSwapTransferOutEth from './mockData/thorSwapTransferOutEth'
 import thorSwapTransferOutUsdc from './mockData/thorSwapTransferOutUsdc'
 import {
   bondToken,
-  foxToken,
-  foxyToken,
+  jinxToken,
+  jinxyToken,
   kishuToken,
   maticToken,
   tribeToken,
@@ -62,9 +62,9 @@ mockedAxios.get.mockImplementation(() => {
 const mockedApi = jest.mocked(new V1Api())
 
 const tokenMetadata: evm.TokenMetadata = {
-  name: 'Foxy',
-  description: 'The foxiest Fox',
-  media: { url: 'http://foxy.fox', type: 'image' },
+  name: 'Jinxy',
+  description: 'The jinxiest Jinx',
+  media: { url: 'http://jinxy.jinx', type: 'image' },
 }
 
 mockedApi.getTokenMetadata = jest.fn().mockResolvedValue(tokenMetadata)
@@ -1024,8 +1024,8 @@ describe('parseTx', () => {
             token: {
               contract: '0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d',
               decimals: 18,
-              name: 'FOX',
-              symbol: 'FOX',
+              name: 'JINX',
+              symbol: 'JINX',
             },
           },
           {
@@ -1081,7 +1081,7 @@ describe('parseTx', () => {
             assetId: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
             totalValue: '100000000000000000000',
             components: [{ value: '100000000000000000000' }],
-            token: foxToken,
+            token: jinxToken,
           },
           {
             type: TransferType.Receive,
@@ -1173,7 +1173,7 @@ describe('parseTx', () => {
             assetId: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
             totalValue: '15785079906515930982',
             components: [{ value: '15785079906515930982' }],
-            token: foxToken,
+            token: jinxToken,
           },
           {
             type: TransferType.Receive,
@@ -1192,9 +1192,9 @@ describe('parseTx', () => {
     })
   })
 
-  describe('fox', () => {
+  describe('jinx', () => {
     it('should be able to parse claim', async () => {
-      const { tx } = foxClaim
+      const { tx } = jinxClaim
       const address = '0x6bF198c2B5c8E48Af4e876bc2173175b89b1DA0C'
 
       const expected: ParsedTx = {
@@ -1219,7 +1219,7 @@ describe('parseTx', () => {
             assetId: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
             totalValue: '1500000000000000000000',
             components: [{ value: '1500000000000000000000' }],
-            token: foxToken,
+            token: jinxToken,
           },
         ],
       }
@@ -1230,7 +1230,7 @@ describe('parseTx', () => {
     })
 
     it('should be able to parse stake mempool', async () => {
-      const { txMempool } = foxStake
+      const { txMempool } = jinxStake
       const address = '0x6bF198c2B5c8E48Af4e876bc2173175b89b1DA0C'
 
       const expected: ParsedTx = {
@@ -1254,7 +1254,7 @@ describe('parseTx', () => {
     })
 
     it('should be able to parse stake', async () => {
-      const { tx } = foxStake
+      const { tx } = jinxStake
       const address = '0x6bF198c2B5c8E48Af4e876bc2173175b89b1DA0C'
 
       const expected: ParsedTx = {
@@ -1278,7 +1278,7 @@ describe('parseTx', () => {
           {
             type: TransferType.Send,
             from: address,
-            to: UNI_V2_FOX_STAKING_REWARDS_V3,
+            to: UNI_V2_JINX_STAKING_REWARDS_V3,
             assetId: 'eip155:1/erc20:0x470e8de2ebaef52014a47cb5e6af86884947f08c',
             totalValue: '99572547380794318',
             components: [{ value: '99572547380794318' }],
@@ -1293,7 +1293,7 @@ describe('parseTx', () => {
     })
 
     it('should be able to parse exit mempool', async () => {
-      const { txMempool } = foxExit
+      const { txMempool } = jinxExit
       const address = '0x6bF198c2B5c8E48Af4e876bc2173175b89b1DA0C'
 
       const expected: ParsedTx = {
@@ -1317,7 +1317,7 @@ describe('parseTx', () => {
     })
 
     it('should be able to parse exit', async () => {
-      const { tx } = foxExit
+      const { tx } = jinxExit
       const address = '0x6bF198c2B5c8E48Af4e876bc2173175b89b1DA0C'
 
       const expected: ParsedTx = {
@@ -1340,7 +1340,7 @@ describe('parseTx', () => {
         transfers: [
           {
             type: TransferType.Receive,
-            from: UNI_V2_FOX_STAKING_REWARDS_V3,
+            from: UNI_V2_JINX_STAKING_REWARDS_V3,
             to: address,
             assetId: 'eip155:1/erc20:0x470e8de2ebaef52014a47cb5e6af86884947f08c',
             totalValue: '531053586030903030',
@@ -1349,12 +1349,12 @@ describe('parseTx', () => {
           },
           {
             type: TransferType.Receive,
-            from: UNI_V2_FOX_STAKING_REWARDS_V3,
+            from: UNI_V2_JINX_STAKING_REWARDS_V3,
             to: address,
             assetId: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
             totalValue: '317669338073988',
             components: [{ value: '317669338073988' }],
-            token: foxToken,
+            token: jinxToken,
           },
         ],
       }
@@ -1365,9 +1365,9 @@ describe('parseTx', () => {
     })
   })
 
-  describe('foxy', () => {
+  describe('jinxy', () => {
     it('should be able to parse stake', async () => {
-      const { tx } = foxyStake
+      const { tx } = jinxyStake
       const address = '0xCBa38513451bCE398A87F9950a154034Cad59cE9'
 
       const expected: ParsedTx = {
@@ -1380,7 +1380,7 @@ describe('parseTx', () => {
         confirmations: tx.confirmations,
         data: {
           method: 'stake',
-          parser: 'foxy',
+          parser: 'jinxy',
         },
         status: TxStatus.Confirmed,
         fee: {
@@ -1391,21 +1391,21 @@ describe('parseTx', () => {
         transfers: [
           {
             type: TransferType.Send,
-            to: FOXY_STAKING_CONTRACT,
+            to: JINXY_STAKING_CONTRACT,
             from: address,
             assetId: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
             totalValue: '109548875260073394762',
             components: [{ value: '109548875260073394762' }],
-            token: foxToken,
+            token: jinxToken,
           },
           {
             type: TransferType.Receive,
             to: address,
-            from: FOXY_STAKING_CONTRACT,
+            from: JINXY_STAKING_CONTRACT,
             assetId: 'eip155:1/erc20:0xdc49108ce5c57bc3408c3a5e95f3d864ec386ed3',
             totalValue: '109548875260073394762',
             components: [{ value: '109548875260073394762' }],
-            token: foxyToken,
+            token: jinxyToken,
           },
         ],
       }
@@ -1416,7 +1416,7 @@ describe('parseTx', () => {
     })
 
     it('should be able to parse unstake', async () => {
-      const { tx } = foxyUnstake
+      const { tx } = jinxyUnstake
       const address = '0x557C61Ec8F7A675BE03EFe11962430ac8Cff4229'
 
       const expected: ParsedTx = {
@@ -1429,7 +1429,7 @@ describe('parseTx', () => {
         confirmations: tx.confirmations,
         data: {
           method: 'unstake',
-          parser: 'foxy',
+          parser: 'jinxy',
         },
         status: TxStatus.Confirmed,
         fee: {
@@ -1440,21 +1440,21 @@ describe('parseTx', () => {
         transfers: [
           {
             type: TransferType.Send,
-            to: FOXY_STAKING_CONTRACT,
+            to: JINXY_STAKING_CONTRACT,
             from: address,
             assetId: 'eip155:1/erc20:0xdc49108ce5c57bc3408c3a5e95f3d864ec386ed3',
             totalValue: '24292579090466512304',
             components: [{ value: '24292579090466512304' }],
-            token: foxyToken,
+            token: jinxyToken,
           },
           {
             type: TransferType.Receive,
             to: address,
-            from: FOXY_STAKING_CONTRACT,
+            from: JINXY_STAKING_CONTRACT,
             assetId: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
             totalValue: '22438383781076552673',
             components: [{ value: '22438383781076552673' }],
-            token: foxToken,
+            token: jinxToken,
           },
         ],
       }
@@ -1465,7 +1465,7 @@ describe('parseTx', () => {
     })
 
     it('should be able to parse instant unstake', async () => {
-      const { tx } = foxyInstantUnstake
+      const { tx } = jinxyInstantUnstake
       const address = '0x1f41A6429D2035035253859f6edBd6438Ecf5d39'
 
       const expected: ParsedTx = {
@@ -1478,7 +1478,7 @@ describe('parseTx', () => {
         confirmations: tx.confirmations,
         data: {
           method: 'instantUnstake',
-          parser: 'foxy',
+          parser: 'jinxy',
         },
         status: TxStatus.Confirmed,
         fee: {
@@ -1489,12 +1489,12 @@ describe('parseTx', () => {
         transfers: [
           {
             type: TransferType.Send,
-            to: FOXY_STAKING_CONTRACT,
+            to: JINXY_STAKING_CONTRACT,
             from: address,
             assetId: 'eip155:1/erc20:0xdc49108ce5c57bc3408c3a5e95f3d864ec386ed3',
             totalValue: '9885337259647255313',
             components: [{ value: '9885337259647255313' }],
-            token: foxyToken,
+            token: jinxyToken,
           },
           {
             type: TransferType.Receive,
@@ -1503,7 +1503,7 @@ describe('parseTx', () => {
             assetId: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
             totalValue: '9638203828156073931',
             components: [{ value: '9638203828156073931' }],
-            token: foxToken,
+            token: jinxToken,
           },
         ],
       }
@@ -1514,7 +1514,7 @@ describe('parseTx', () => {
     })
 
     it('should be able to parse claim withdraw', async () => {
-      const { tx } = foxyClaimWithdraw
+      const { tx } = jinxyClaimWithdraw
       const address = '0x55FB947880EE0660C90bC2055748aD70956FbE3c'
 
       const expected: ParsedTx = {
@@ -1527,7 +1527,7 @@ describe('parseTx', () => {
         confirmations: tx.confirmations,
         data: {
           method: 'claimWithdraw',
-          parser: 'foxy',
+          parser: 'jinxy',
         },
         status: TxStatus.Confirmed,
         fee: {
@@ -1539,11 +1539,11 @@ describe('parseTx', () => {
           {
             type: TransferType.Receive,
             to: address,
-            from: FOXY_STAKING_CONTRACT,
+            from: JINXY_STAKING_CONTRACT,
             assetId: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
             totalValue: '1200000000000000000000',
             components: [{ value: '1200000000000000000000' }],
-            token: foxToken,
+            token: jinxToken,
           },
         ],
       }

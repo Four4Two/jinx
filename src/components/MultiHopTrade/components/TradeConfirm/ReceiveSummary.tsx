@@ -197,7 +197,7 @@ export const ReceiveSummary: FC<ReceiveSummaryProps> = memo(
             )}
             <Row>
               <Row.Label display='flex'>
-                <Text translation={['trade.tradeFeeSource', { tradeFeeSource: 'ShapeShift' }]} />
+                <Text translation={['trade.tradeFeeSource', { tradeFeeSource: 'BlackFury' }]} />
                 {shapeShiftFee && shapeShiftFee.amountFiatPrecision !== '0' && (
                   <RawText>&nbsp;{` (${shapeShiftFee.amountBps} bps)`}</RawText>
                 )}

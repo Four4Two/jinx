@@ -11,7 +11,7 @@ import { ERC20_ABI } from '../../parser/abi/erc20'
 import { UNIV2_ABI } from './abi/uniV2'
 import { UNIV2_STAKING_REWARDS_ABI } from './abi/uniV2StakingRewards'
 import {
-  UNI_V2_FOX_STAKING_REWARDS_CONTRACTS,
+  UNI_V2_JINX_STAKING_REWARDS_CONTRACTS,
   UNI_V2_ROUTER_CONTRACT,
   WETH_CONTRACT_MAINNET,
   WETH_CONTRACT_ROPSTEN,
@@ -178,11 +178,11 @@ export class Parser implements SubParser<Tx> {
     if (txInteractsWithContract(tx, UNI_V2_ROUTER_CONTRACT)) return await this.parseUniV2(tx)
 
     // TODO: parse any transaction that has input data that is able to be decoded using the `stakingRewardsInterface`
-    const isFoxStakingRewards = UNI_V2_FOX_STAKING_REWARDS_CONTRACTS.some(contract =>
+    const isJinxStakingRewards = UNI_V2_JINX_STAKING_REWARDS_CONTRACTS.some(contract =>
       txInteractsWithContract(tx, contract),
     )
 
-    if (isFoxStakingRewards) return await Promise.resolve(this.parseStakingRewards(tx))
+    if (isJinxStakingRewards) return await Promise.resolve(this.parseStakingRewards(tx))
   }
 
   private static pairFor(tokenA: string, tokenB: string): string {

@@ -131,7 +131,7 @@
 
 ### Features
 
-* **caip:** add FOX & FOXy assetIds to constants ([#1013](https://github.com/shapeshift/lib/issues/1013)) ([e38b623](https://github.com/shapeshift/lib/commit/e38b62396d2170f03efe863262b2d565df2725d7))
+* **caip:** add JINX & JINXy assetIds to constants ([#1013](https://github.com/shapeshift/lib/issues/1013)) ([e38b623](https://github.com/shapeshift/lib/commit/e38b62396d2170f03efe863262b2d565df2725d7))
 
 # [@shapeshiftoss/caip-v8.0.0](https://github.com/shapeshift/lib/compare/@shapeshiftoss/caip-v7.0.0...@shapeshiftoss/caip-v8.0.0) (2022-09-02)
 

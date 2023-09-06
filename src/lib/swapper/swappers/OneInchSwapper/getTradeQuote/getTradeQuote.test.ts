@@ -48,8 +48,8 @@ describe('getTradeQuote', () => {
             Ok({
               data: {
                 fromToken: {
-                  symbol: 'FOX',
-                  name: 'FOX',
+                  symbol: 'JINX',
+                  name: 'JINX',
                   decimals: 18,
                   address: '0xc770eefad204b5180df6a14ee197d99d808ee52d',
                   logoURI: 'https://tokens.1inch.io/0xc770eefad204b5180df6a14ee197d99d808ee52d.png',

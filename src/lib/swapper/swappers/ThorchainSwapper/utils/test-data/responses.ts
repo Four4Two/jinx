@@ -37,9 +37,9 @@ export const ethThornodePool: ThornodePoolResponse = {
   synth_units: '36567637964216',
 }
 
-export const foxThornodePool: ThornodePoolResponse = {
+export const jinxThornodePool: ThornodePoolResponse = {
   LP_units: '10015457121887',
-  asset: 'ETH.FOX-0XC770EEFAD204B5180DF6A14EE197D99D808EE52D',
+  asset: 'ETH.JINX-0XC770EEFAD204B5180DF6A14EE197D99D808EE52D',
   balance_asset: '166650912393467',
   balance_rune: '8838681437152',
   pending_inbound_asset: '0',
@@ -74,7 +74,7 @@ export const usdcThornodePool: ThornodePoolResponse = {
 export const thornodePools: ThornodePoolResponse[] = [
   btcThornodePool,
   ethThornodePool,
-  foxThornodePool,
+  jinxThornodePool,
   usdcThornodePool,
 ]
 

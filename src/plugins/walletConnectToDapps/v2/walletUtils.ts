@@ -23,7 +23,7 @@ export const getWalletConnectWallet = async () => {
     walletConnectWallet = await Web3Wallet.init({
       core, // <- pass the shared `core` instance
       metadata: {
-        name: 'ShapeShift',
+        name: 'BlackFury',
         description:
           'A free open source platform to trade, track, buy, and earn. Community-owned. Private. Non-custodial. Multi-chain.',
         url: 'https://app.shapeshift.com/',

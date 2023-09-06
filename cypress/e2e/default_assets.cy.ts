@@ -4,7 +4,7 @@ describe('Default assets', () => {
     cy.getBySel('connect-demo-wallet-button').click()
 
     cy.getBySel('asset-input-selection-button').first().should('have.text', 'ETH')
-    cy.getBySel('asset-input-selection-button').last().should('have.text', 'FOX')
+    cy.getBySel('asset-input-selection-button').last().should('have.text', 'JINX')
 
     cy.get('[data-test="account-row-asset-name-DOGE"] > .chakra-text').click()
     cy.getBySel('asset-input-selection-button').first().should('have.text', 'ETH')

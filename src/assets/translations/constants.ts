@@ -31,8 +31,4 @@ export const locales = [
     key: 'uk',
     label: 'українська',
   },
-  {
-    key: 'zh',
-    label: '中文',
-  },
 ]

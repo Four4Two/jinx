@@ -7,7 +7,7 @@ import { getChainAdapterManager } from 'context/PluginProvider/chainAdapterSingl
 import { selectAssetById, selectFeeAssetById } from 'state/slices/selectors'
 import { useAppSelector } from 'state/store'
 
-import { FoxIcon } from './Icons/FoxIcon'
+import { JinxIcon } from './Icons/JinxIcon'
 
 type AssetIconProps = {
   assetId?: string
@@ -86,7 +86,7 @@ export const AssetIcon = memo(({ assetId, showNetworkIcon, src, ...rest }: Asset
       <Avatar
         src={asset.networkIcon}
         bg={assetIconBg}
-        icon={<FoxIcon boxSize='16px' color={assetIconColor} />}
+        icon={<JinxIcon boxSize='16px' color={assetIconColor} />}
         {...rest}
       />
     )
@@ -101,7 +101,7 @@ export const AssetIcon = memo(({ assetId, showNetworkIcon, src, ...rest }: Asset
               key={i}
               src={iconSrc}
               ml={i === 0 ? '0' : '-2.5'}
-              icon={<FoxIcon boxSize='16px' color={assetIconColor} />}
+              icon={<JinxIcon boxSize='16px' color={assetIconColor} />}
               {...rest}
             />
           ))}
@@ -113,7 +113,7 @@ export const AssetIcon = memo(({ assetId, showNetworkIcon, src, ...rest }: Asset
       <AssetWithNetwork
         assetId={assetId}
         src={src}
-        icon={<FoxIcon boxSize='16px' color={assetIconColor} />}
+        icon={<JinxIcon boxSize='16px' color={assetIconColor} />}
         showNetworkIcon={showNetworkIcon}
         {...rest}
       />
@@ -124,7 +124,7 @@ export const AssetIcon = memo(({ assetId, showNetworkIcon, src, ...rest }: Asset
     <Avatar
       src={src}
       bg={assetIconBg}
-      icon={<FoxIcon boxSize='16px' color={assetIconColor} />}
+      icon={<JinxIcon boxSize='16px' color={assetIconColor} />}
       {...rest}
     />
   )

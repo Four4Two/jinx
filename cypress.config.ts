@@ -35,7 +35,7 @@ export default defineConfig({
     walletIndexedDbName: 'c8e4859b-a0ca-5da8-b29a-05007e09151f',
     '0xApi': 'https://api.0x.org/',
     coinGeckoApi: 'https://api.coingecko.com/api/v3/',
-    foxContract: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
+    jinxContract: 'eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d',
     linkContract: 'eip155:1/erc20:0x514910771af9ca656af840dff83e8264ecf986ca',
   },
   e2e: {

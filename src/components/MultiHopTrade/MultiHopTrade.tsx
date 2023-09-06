@@ -1,7 +1,7 @@
 import type { CardProps } from '@chakra-ui/react'
 import { Card, CardBody } from '@chakra-ui/react'
 import type { AssetId } from '@shapeshiftoss/caip'
-import { ethAssetId, foxAssetId } from '@shapeshiftoss/caip'
+import { ethAssetId, jinxAssetId } from '@shapeshiftoss/caip'
 import { AnimatePresence } from 'framer-motion'
 import { memo, useEffect } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
@@ -29,7 +29,7 @@ type MatchParams = {
 
 export const MultiHopTrade = memo(
   ({
-    defaultBuyAssetId = foxAssetId,
+    defaultBuyAssetId = jinxAssetId,
     defaultSellAssetId = ethAssetId,
     ...cardProps
   }: TradeCardProps) => {

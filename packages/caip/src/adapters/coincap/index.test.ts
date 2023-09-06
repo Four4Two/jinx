@@ -28,13 +28,13 @@ describe('adapters:coincap', () => {
       expect(coincapToAssetId('ethereum')).toEqual(assetId)
     })
 
-    it('can get AssetId id for FOX', () => {
+    it('can get AssetId id for JINX', () => {
       const chainNamespace = CHAIN_NAMESPACE.Evm
       const chainReference = CHAIN_REFERENCE.EthereumMainnet
       const assetNamespace = 'erc20'
       const assetReference = '0xc770eefad204b5180df6a14ee197d99d808ee52d'
       const assetId = toAssetId({ chainNamespace, chainReference, assetNamespace, assetReference })
-      expect(coincapToAssetId('fox-token')).toEqual(assetId)
+      expect(coincapToAssetId('jinx-token')).toEqual(assetId)
     })
   })
 
@@ -75,13 +75,13 @@ describe('adapters:coincap', () => {
       expect(assetIdToCoinCap(assetId)).toEqual('ethereum')
     })
 
-    it('can get coincap id for FOX', () => {
+    it('can get coincap id for JINX', () => {
       const chainNamespace = CHAIN_NAMESPACE.Evm
       const chainReference = CHAIN_REFERENCE.EthereumMainnet
       const assetNamespace = 'erc20'
       const assetReference = '0xc770eefad204b5180df6a14ee197d99d808ee52d'
       const assetId = toAssetId({ chainNamespace, chainReference, assetNamespace, assetReference })
-      expect(assetIdToCoinCap(assetId)).toEqual('fox-token')
+      expect(assetIdToCoinCap(assetId)).toEqual('jinx-token')
     })
 
     it('can get coincap id for cosmos AssetId', () => {

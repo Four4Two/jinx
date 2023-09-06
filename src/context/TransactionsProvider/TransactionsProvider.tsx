@@ -1,5 +1,5 @@
 import type { AccountId } from '@shapeshiftoss/caip'
-import { ethChainId, foxAssetId, foxatarAssetId, fromAccountId } from '@shapeshiftoss/caip'
+import { ethChainId, fromAccountId, jinxAssetId, jinxatarAssetId } from '@shapeshiftoss/caip'
 import type { Transaction } from '@shapeshiftoss/chain-adapters'
 import { TxStatus } from '@shapeshiftoss/unchained-client'
 import { IDLE_PROXY_1_CONTRACT_ADDRESS, IDLE_PROXY_2_CONTRACT_ADDRESS } from 'contracts/constants'
@@ -11,7 +11,7 @@ import { isSome } from 'lib/utils'
 import { nftApi } from 'state/apis/nft/nftApi'
 import { assets as assetsSlice } from 'state/slices/assetsSlice/assetsSlice'
 import { makeNftAssetsFromTxs } from 'state/slices/assetsSlice/utils'
-import { foxEthLpAssetId } from 'state/slices/opportunitiesSlice/constants'
+import { jinxEthLpAssetId } from 'state/slices/opportunitiesSlice/constants'
 import { opportunitiesApi } from 'state/slices/opportunitiesSlice/opportunitiesApiSlice'
 import type { IdleStakingSpecificMetadata } from 'state/slices/opportunitiesSlice/resolvers/idle/types'
 import {
@@ -76,12 +76,12 @@ export const TransactionsProvider: React.FC<TransactionsProviderProps> = ({ chil
       // Ugly catch-all that should go away now that we are fully migrated to the opportunities slice and know the Tx shape of the opportunities we're dealing with
       const shouldRefetchAllOpportunities = !(
         chainId === ethChainId &&
-        // We don't parse FOX farming Txs with any specific parser, hence we're unable to discriminate by parser type
-        // This will refetch opportunities user data on any FOX/ FOX LP token transfer Tx
+        // We don't parse JINX farming Txs with any specific parser, hence we're unable to discriminate by parser type
+        // This will refetch opportunities user data on any JINX/ JINX LP token transfer Tx
         // But this is the best we can do at the moment to be reactive
         transfers.some(
           ({ assetId }) =>
-            [foxAssetId, foxEthLpAssetId].includes(assetId) ||
+            [jinxAssetId, jinxEthLpAssetId].includes(assetId) ||
             Object.values(stakingOpportunitiesById).some(opportunity =>
               // Detect Txs including a transfer either of either
               // - an asset being wrapped into an Idle token
@@ -152,8 +152,8 @@ export const TransactionsProvider: React.FC<TransactionsProviderProps> = ({ chil
     ({ transfers, status }: Transaction) => {
       if (status !== TxStatus.Confirmed) return
 
-      // Only on FOXatar for now, we may want to generalize this to all NFTs with isNft(assetId) in the future
-      if (transfers.some(({ assetId }) => assetId.includes(foxatarAssetId))) {
+      // Only on JINXatar for now, we may want to generalize this to all NFTs with isNft(assetId) in the future
+      if (transfers.some(({ assetId }) => assetId.includes(jinxatarAssetId))) {
         const { getNftUserTokens } = nftApi.endpoints
         dispatch(
           getNftUserTokens.initiate({ accountIds: walletAccountIds }, { forceRefetch: true }),

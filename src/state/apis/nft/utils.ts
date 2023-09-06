@@ -4,9 +4,9 @@ import {
   bscChainId,
   deserializeNftAssetReference,
   ethChainId,
-  foxatarAssetId,
   fromAccountId,
   fromAssetId,
+  jinxatarAssetId,
   optimismChainId,
   polygonChainId,
 } from '@shapeshiftoss/caip'
@@ -112,11 +112,11 @@ export const updateNftCollection = (
     ? originalItem.socialLinks
     : currentItem.socialLinks
   if (
-    currentItem.assetId === foxatarAssetId &&
-    !draftItem.socialLinks.find(({ key: name }) => name === 'customizeFoxatar')
+    currentItem.assetId === jinxatarAssetId &&
+    !draftItem.socialLinks.find(({ key: name }) => name === 'customizeJinxatar')
   ) {
     draftItem.socialLinks.push({
-      key: 'customizeFoxatar',
+      key: 'customizeJinxatar',
       displayName: '',
       url: 'https://app.mercle.xyz/shapeshift',
     })
@@ -163,7 +163,7 @@ export const getAlchemyCollectionData = async (
 }
 
 // Gets NFT with metadata reinstated in Alchemy - only use for NFTs we explicitly want fresh metadata for
-// i.e FOXatar refresh on customization update
+// i.e JINXatar refresh on customization update
 export const getAlchemyNftData = async (
   assetId: AssetId,
 ): Promise<{ data: NftItemWithCollection }> => {

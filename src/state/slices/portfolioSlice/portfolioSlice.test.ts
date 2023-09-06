@@ -1,4 +1,4 @@
-import { btcAssetId, ethAssetId, foxAssetId } from '@shapeshiftoss/caip'
+import { btcAssetId, ethAssetId, jinxAssetId } from '@shapeshiftoss/caip'
 import type { BIP44Params } from '@shapeshiftoss/types'
 import {
   assetIds,
@@ -58,7 +58,7 @@ describe('portfolioSlice', () => {
           const ethAccount = mockEthAccount({
             chainSpecific: {
               nonce: 1,
-              tokens: [mockEthToken({ balance: '1', assetId: foxAssetId })],
+              tokens: [mockEthToken({ balance: '1', assetId: jinxAssetId })],
             },
           })
 
@@ -74,7 +74,7 @@ describe('portfolioSlice', () => {
           const ethAccount = mockEthAccount({
             chainSpecific: {
               nonce: 1,
-              tokens: [mockEthToken({ balance: '1', assetId: foxAssetId })],
+              tokens: [mockEthToken({ balance: '1', assetId: jinxAssetId })],
             },
           })
 
@@ -147,7 +147,7 @@ describe('portfolioSlice', () => {
               chainSpecific: {
                 nonce: 5,
                 tokens: [
-                  mockEthToken({ balance: '42729243327349401946', assetId: foxAssetId }),
+                  mockEthToken({ balance: '42729243327349401946', assetId: jinxAssetId }),
                   mockEthToken({ balance: '41208456', assetId: usdcAssetId }),
                   mockEthToken({ balance: '8178352', assetId: yvusdcAssetId }),
                 ],
@@ -159,7 +159,7 @@ describe('portfolioSlice', () => {
               chainSpecific: {
                 nonce: 5,
                 tokens: [
-                  mockEthToken({ balance: '40729243327349401946', assetId: foxAssetId }),
+                  mockEthToken({ balance: '40729243327349401946', assetId: jinxAssetId }),
                   mockEthToken({ balance: '41208456', assetId: usdcAssetId }),
                   mockEthToken({ balance: '8178352', assetId: yvusdcAssetId }),
                 ],
@@ -201,7 +201,7 @@ describe('portfolioSlice', () => {
                   mockEthToken({ balance: '4516124', assetId: unknown2AssetId }),
                   mockEthToken({ balance: '41208442', assetId: usdcAssetId }),
                   mockEthToken({ balance: '4516125', assetId: unknown3AssetId }),
-                  mockEthToken({ balance: '40729243327349401958', assetId: foxAssetId }),
+                  mockEthToken({ balance: '40729243327349401958', assetId: jinxAssetId }),
                   mockEthToken({ balance: '4516126', assetId: zeroAssetId }),
                 ],
               },
@@ -261,13 +261,13 @@ describe('portfolioSlice', () => {
         )
 
         const ethMarketData = mockMarketData()
-        const foxMarketData = mockMarketData({ price: '1' })
+        const jinxMarketData = mockMarketData({ price: '1' })
 
         // dispatch market data
         store.dispatch(
           marketDataSlice.actions.setCryptoMarketData({
             [ethAssetId]: ethMarketData,
-            [foxAssetId]: foxMarketData,
+            [jinxAssetId]: jinxMarketData,
           }),
         )
 
@@ -278,7 +278,7 @@ describe('portfolioSlice', () => {
 
         const allocationByAccountId = selectPortfolioAllocationPercentByFilter(state, {
           accountId: ethAccountId,
-          assetId: foxAssetId,
+          assetId: jinxAssetId,
         })
 
         expect(allocationByAccountId).toEqual(60)
@@ -310,13 +310,13 @@ describe('portfolioSlice', () => {
           ),
         )
         const ethMarketData = mockMarketData({ price: null })
-        const foxMarketData = mockMarketData({ price: null })
+        const jinxMarketData = mockMarketData({ price: null })
 
         // dispatch market data
         store.dispatch(
           marketDataSlice.actions.setCryptoMarketData({
             [ethAssetId]: ethMarketData,
-            [foxAssetId]: foxMarketData,
+            [jinxAssetId]: jinxMarketData,
           }),
         )
 
@@ -327,7 +327,7 @@ describe('portfolioSlice', () => {
 
         const allocationByAccountId = selectPortfolioAllocationPercentByFilter(state, {
           accountId: ethAccountId,
-          assetId: foxAssetId,
+          assetId: jinxAssetId,
         })
 
         expect(allocationByAccountId).toEqual(0)
@@ -364,13 +364,13 @@ describe('portfolioSlice', () => {
       it('can select crypto fiat account balance', () => {
         // dispatch market data
         const ethMarketData = mockMarketData({ price: '1000' })
-        const foxMarketData = mockMarketData({ price: '10' })
+        const jinxMarketData = mockMarketData({ price: '10' })
         const usdcMarketData = mockMarketData({ price: '1' })
 
         store.dispatch(
           marketDataSlice.actions.setCryptoMarketData({
             [ethAssetId]: ethMarketData,
-            [foxAssetId]: foxMarketData,
+            [jinxAssetId]: jinxMarketData,
             [usdcAssetId]: usdcMarketData,
           }),
         )
@@ -383,12 +383,12 @@ describe('portfolioSlice', () => {
         const returnValue = {
           [ethAccountId]: {
             [ethAssetId]: '1000.00',
-            [foxAssetId]: '30.00',
+            [jinxAssetId]: '30.00',
             [usdcAssetId]: '10.00',
           },
           [ethAccount2Id]: {
             [ethAssetId]: '200.00',
-            [foxAssetId]: '20.00',
+            [jinxAssetId]: '20.00',
           },
         }
 
@@ -403,12 +403,12 @@ describe('portfolioSlice', () => {
         const returnValue = {
           [ethAccountId]: {
             [ethAssetId]: '0.00',
-            [foxAssetId]: '0.00',
+            [jinxAssetId]: '0.00',
             [usdcAssetId]: '0.00',
           },
           [ethAccount2Id]: {
             [ethAssetId]: '0.00',
-            [foxAssetId]: '0.00',
+            [jinxAssetId]: '0.00',
           },
         }
 
@@ -497,13 +497,13 @@ describe('portfolioSlice', () => {
 
       // dispatch market data
       const ethMarketData = mockMarketData({ price: '1000' })
-      const foxMarketData = mockMarketData({ price: '10' })
+      const jinxMarketData = mockMarketData({ price: '10' })
       const usdcMarketData = mockMarketData({ price: '1' })
 
       store.dispatch(
         marketDataSlice.actions.setCryptoMarketData({
           [ethAssetId]: ethMarketData,
-          [foxAssetId]: foxMarketData,
+          [jinxAssetId]: jinxMarketData,
           [usdcAssetId]: usdcMarketData,
         }),
       )
@@ -523,7 +523,7 @@ describe('portfolioSlice', () => {
         const expected = '30.00'
         const result = selectPortfolioUserCurrencyBalanceByFilter(state, {
           accountId: ethAccountId,
-          assetId: foxAssetId,
+          assetId: jinxAssetId,
         })
         expect(result).toEqual(expected)
       })
@@ -563,13 +563,13 @@ describe('portfolioSlice', () => {
 
       // dispatch market data
       const ethMarketData = mockMarketData({ price: '1000' })
-      const foxMarketData = mockMarketData({ price: '10' })
+      const jinxMarketData = mockMarketData({ price: '10' })
       const usdcMarketData = mockMarketData({ price: '1' })
 
       store.dispatch(
         marketDataSlice.actions.setCryptoMarketData({
           [ethAssetId]: ethMarketData,
-          [foxAssetId]: foxMarketData,
+          [jinxAssetId]: jinxMarketData,
           [usdcAssetId]: usdcMarketData,
         }),
       )
@@ -589,7 +589,7 @@ describe('portfolioSlice', () => {
         const expected = '0.2001'
         const result = selectPortfolioCryptoPrecisionBalanceByFilter(state, {
           accountId: ethAccount2Id,
-          assetId: foxAssetId,
+          assetId: jinxAssetId,
         })
         expect(result).toEqual(expected)
       })
@@ -602,7 +602,7 @@ describe('portfolioSlice', () => {
           balance: '1000000000000000000',
           chainSpecific: {
             tokens: [
-              mockEthToken({ balance: '1000000000000000000', assetId: foxAssetId }),
+              mockEthToken({ balance: '1000000000000000000', assetId: jinxAssetId }),
               mockEthToken({ balance: '1000000', assetId: usdcAssetId }),
               mockEthToken({ balance: '1000000000000000000', assetId: zeroAssetId }),
             ],
@@ -632,14 +632,14 @@ describe('portfolioSlice', () => {
 
       // dispatch market data
       const ethMarketData = mockMarketData({ price: '1000' })
-      const foxMarketData = mockMarketData({ price: '10' })
+      const jinxMarketData = mockMarketData({ price: '10' })
       const usdcMarketData = mockMarketData({ price: '1' })
       const zeroMarketData = mockMarketData({ price: '100' })
 
       store.dispatch(
         marketDataSlice.actions.setCryptoMarketData({
           [ethAssetId]: ethMarketData,
-          [foxAssetId]: foxMarketData,
+          [jinxAssetId]: jinxMarketData,
           [usdcAssetId]: usdcMarketData,
           [zeroAssetId]: zeroMarketData,
         }),
@@ -651,7 +651,7 @@ describe('portfolioSlice', () => {
       const state = store.getState()
 
       it('should return assetIds (excluding fee assets, ie Ethereum) of a given account, sorted by fiat value', () => {
-        const expected = [zeroAssetId, foxAssetId, usdcAssetId]
+        const expected = [zeroAssetId, jinxAssetId, usdcAssetId]
         const result = selectPortfolioAssetIdsByAccountIdExcludeFeeAsset(state, {
           accountId: ethAccountId,
         })
@@ -667,7 +667,7 @@ describe('portfolioSlice', () => {
           balance: '0',
           chainSpecific: {
             tokens: [
-              mockEthToken({ balance: '123456123456315537', assetId: foxAssetId }),
+              mockEthToken({ balance: '123456123456315537', assetId: jinxAssetId }),
               mockEthToken({ balance: '0', assetId: usdcAssetId }),
             ],
           },
@@ -681,13 +681,13 @@ describe('portfolioSlice', () => {
 
       // dispatch market data
       const ethMarketData = mockMarketData({ price: '1000' })
-      const foxMarketData = mockMarketData({ price: '31.39' })
+      const jinxMarketData = mockMarketData({ price: '31.39' })
       const usdcMarketData = mockMarketData({ price: '1' })
 
       store.dispatch(
         marketDataSlice.actions.setCryptoMarketData({
           [ethAssetId]: ethMarketData,
-          [foxAssetId]: foxMarketData,
+          [jinxAssetId]: jinxMarketData,
           [usdcAssetId]: usdcMarketData,
         }),
       )

@@ -135,7 +135,7 @@
     "disclaimer": "*Sie können Krypto auch direkt gegen Bargeld auf Ihr Bankkonto verkaufen.",
     "cta": {
       "title": {
-        "first": "Sie können ShapeShift auch mit allen Top-Wallets verwenden, um zu handeln, Erträge zu erzielen und",
+        "first": "Sie können BlackFury auch mit allen Top-Wallets verwenden, um zu handeln, Erträge zu erzielen und",
         "second": "Verfolgen Sie Ihre Krypto über %{chainCount} Ketten"
       }
     },
@@ -222,11 +222,11 @@
     "notSupported": "%{asset} wird von %{wallet} nicht unterstützt"
   },
   "connectWalletPage": {
-    "shapeshift": "ShapeShift",
+    "shapeshift": "BlackFury",
     "exploreThe": "Entdecken Sie das",
     "defiUniverse": "DeFi Universum",
     "body": "100% kostenlos. Open Source. Gemeinschaftseigentum. Anwenderselbstverwaltung. Privat.",
-    "body2": "Willkommen beim neuen ShapeShift. 100% kostenlos. Open Source. Gemeinschaftseigentum. Anwenderselbstverwaltung. Privat.",
+    "body2": "Willkommen beim neuen BlackFury. 100% kostenlos. Open Source. Gemeinschaftseigentum. Anwenderselbstverwaltung. Privat.",
     "header": "Bitte verbinden Sie eine Wallet, um loszulegen",
     "cta": "Wallet verbinden",
     "viewADemo": "Sehen Sie sich eine Demo an"
@@ -281,22 +281,22 @@
         "emptyWithdraws": "Ausstehende Stake Beendigungs-Anfragen werden hier angezeigt.",
         "availableDate": "verfügbar %{date}"
       },
-      "foxyOverview": {
-        "header": "Zahlen Sie FOX ein, um FOXy zu verdienen",
-        "body": "FOXy ist ein umgewandelter Token, der an den Preis von FOX gekoppelt ist. Staked FOX wird über verschiedene DeFi-Protokolle hinweg eingesetzt, um den bestmöglichen Ertrag zu erzielen.",
+      "jinxOverview": {
+        "header": "Zahlen Sie JINX ein, um JINXy zu verdienen",
+        "body": "JINXy ist ein umgewandelter Token, der an den Preis von JINX gekoppelt ist. Staked JINX wird über verschiedene DeFi-Protokolle hinweg eingesetzt, um den bestmöglichen Ertrag zu erzielen.",
         "rewards": "Die Belohnungen, die Sie verdienen, akkumulieren  sich automatisch.",
-        "cta": "Jetzt FOX einzahlen",
-        "foxyBalance": "FOXy Kontostand",
+        "cta": "Jetzt JINX einzahlen",
+        "jinxBalance": "JINXy Kontostand",
         "withdrawals": "Abhebungen",
         "emptyWithdraws": "Ausstehende oder aktive Auszahlungen werden hier angezeigt.",
         "availableDate": "Verfügbar %{date}"
       },
-      "foxFarmingOverview": {
-        "header": "Zahlen Sie ETH-FOX LP Tokens bei %{opportunity} ein, um zu verdienen",
-        "body": "Genehmigen und Staken Sie Ihre Liquiditätstoken, um Ihre FOX Bonusprämien zu erhalten.",
+      "jinxFarmingOverview": {
+        "header": "Zahlen Sie ETH-JINX LP Tokens bei %{opportunity} ein, um zu verdienen",
+        "body": "Genehmigen und Staken Sie Ihre Liquiditätstoken, um Ihre JINX Bonusprämien zu erhalten.",
         "rewards": "Die Belohnungen, die Sie verdienen, fallen automatisch an.",
-        "cta": "Zahlen Sie jetzt ETH-FOX LP Token ein",
-        "foxFarmingBalance": "ETH-FOX LP Token Guthaben",
+        "cta": "Zahlen Sie jetzt ETH-JINX LP Token ein",
+        "jinxFarmingBalance": "ETH-JINX LP Token Guthaben",
         "withdrawals": "Abhebungen",
         "emptyWithdraws": "Ausstehende oder aktive Auszahlungen werden hier angezeigt.",
         "availableDate": "verfügbar %{date}"
@@ -354,7 +354,7 @@
     },
     "memoNote": {
       "title": "Bitte bearbeiten Sie das Transaktionsmemo nicht",
-      "body": "Transaktionen, die von ShapeShift stammen, unterstützen die DAO."
+      "body": "Transaktionen, die von BlackFury stammen, unterstützen die DAO."
     },
     "amountToStake": "Betrag für Staking",
     "amountToUnstake": "Betrag von Staking entfernen",
@@ -407,7 +407,7 @@
     "earnBalance": "Guthaben Kontostand",
     "rewardsBalance": "Belohnungssaldo",
     "earnBody": "Verdienen Sie passives Einkommen, indem Sie Ihr Guthaben einsetzen oder in eine DeFi-Strategie einzahlen.",
-    "clickHereToEarn": "Klicken Sie hier, um %{apr} APR* zu verdienen, indem Sie Ihre ETH-FOX-Liquiditätspool-Token farmen",
+    "clickHereToEarn": "Klicken Sie hier, um %{apr} APR* zu verdienen, indem Sie Ihre ETH-JINX-Liquiditätspool-Token farmen",
     "overview": "Übersicht",
     "myPositions": "Meine Positionen",
     "myPositionsBody": "Ihre aktiven Positionen werden hier angezeigt.",
@@ -502,7 +502,7 @@
     "overview": "Übersicht",
     "transactions": "Transaktionen",
     "tradeHistory": "Handelsverlauf",
-    "foxToken": "FOX Verdienstmöglichkeiten ",
+    "jinxToken": "JINX Verdienstmöglichkeiten ",
     "dApps": "dApps",
     "featureFlags": "Eigenschaften ändern",
     "demoMode": "Demo Modus",
@@ -515,8 +515,8 @@
     "buyCrypto": "Krypto kaufen/verkaufen",
     "buyCryptoShort": "Kauf/Verkauf",
     "arkeo": "Arkeo Airdrop",
-    "foxMissions": "FOX Mission",
-    "foxMissionsShort": "Missionen"
+    "jinxMissions": "JINX Mission",
+    "jinxMissionsShort": "Missionen"
   },
   "transactionRow": {
     "send": "Gesendet",
@@ -567,7 +567,7 @@
       "thor": {
         "transferOut": "Übertragen"
       },
-      "foxy": {
+      "jinx": {
         "stake": "Stake",
         "unstake": "Staking beenden",
         "instantUnstake": "Staking sofort beenden",
@@ -641,7 +641,6 @@
     "previewTrade": "Vorschau des Handels",
     "rate": "Kurs",
     "tradeFrom": "Handel ab",
-    "priceImpact": "Preisauswirkungen",
     "slippage": {
       "maxSlippage": "Maximaler Slippage",
       "auto": "Automatisch",
@@ -651,21 +650,17 @@
     },
     "from": "von",
     "to": "zu",
-    "on": "auf",
     "youPay": "Sie bezahlen",
-    "payWith": "Bezahle mit",
     "youGet": "Sie bekommen",
     "tradeTo": "Handel bis",
-    "availableRoutes": "Verfügbare Routen",
     "minerFee": "Miner-Gebühr",
-    "donation": "Spende an ShapeShift",
+    "donation": "Spende an BlackFury",
     "protocolFee": "Protokollgebühr",
     "protocol": "Protokoll",
     "tradeFeeSource": "%{tradeFeeSource} Gebühr",
     "gasFeeExceedsTradeAmountThreshold": "Die Gasgebühr übersteigt %{percentage}% des Handelsbetrags",
     "confirmDetails": "Einzelheiten bestätigen",
     "confirmAndTrade": "Bestätigen und Handeln",
-    "tradeAnyway": "Trotzdem handeln",
     "pending": "Handel ausstehend",
     "complete": "Handel abgeschlossen",
     "approveAsset": "Interaktion mit %{symbol} genehmigen",
@@ -689,13 +684,12 @@
     "tooltip": {
       "rate": "Dies ist die erwartete Rate für dieses Handelspaar.",
       "noRateAvailable": "Dies ist häufig auf eine sehr begrenzte oder keine Liquidität des Handelspaars zurückzuführen.",
-      "priceImpact": "Ein Swap dieser Größenordnung kann angesichts der aktuellen Liquidität im Pool erhebliche Auswirkungen auf den Preis haben. Es kann einen großen Unterschied zwischen der Menge Ihres Eingabe-Tokens und dem, was Sie als Ausgabe-Token erhalten, geben",
-      "minerFee": "Dies ist die Gebühr für die Verarbeitung der Transaktion auf der Blockchain, dies ist keine Gebühr, die von ShapeShift erhoben wird.",
-      "donation": "Unterstützen Sie ShapeShift und halten Sie uns am Laufen.",
+      "minerFee": "Dies ist die Gebühr für die Verarbeitung der Transaktion auf der Blockchain, dies ist keine Gebühr, die von BlackFury erhoben wird.",
+      "donation": "Unterstützen Sie BlackFury und halten Sie uns am Laufen.",
       "protocol": "Dies ist das Protokoll, über das Ihr Handel geleitet wird.",
       "protocolLifi": "Dies ist das Protokoll, über das Ihr Handel geleitet wird. LI.FI führt eine Reihe von Zwischengeschäften durch, um die beste Gesamtkombination aus Preis, Sicherheit und Geschwindigkeit zu erzielen.",
-      "protocolFee": "Dies ist die Gebühr, die von dem für die Verarbeitung dieser Transaktion ausgewählten Protokoll erhoben wird, dies ist keine Gebühr, die von ShapeShift erhoben wird",
-      "shapeshiftFee": "ShapeShift erhebt keine Gebühren fürs Handeln 🎉",
+      "protocolFee": "Dies ist die Gebühr, die von dem für die Verarbeitung dieser Transaktion ausgewählten Protokoll erhoben wird, dies ist keine Gebühr, die von BlackFury erhoben wird",
+      "shapeshiftFee": "BlackFury erhebt keine Gebühren fürs Handeln 🎉",
       "manualReceiveAddress": "Dies ist die Adresse, an die Sie Ihr Geld erhalten. Sie wurde manuell eingegeben, bitte stellen Sie sicher, dass sie korrekt ist."
     },
     "rates": {
@@ -711,7 +705,7 @@
       "buyAssetMiddleSentence": "Vermögenswerte kaufen",
       "notEnoughEth": "Nicht genug ETH für die Gasgebühr bei dieser Transaktion.",
       "amountTooSmall": "Minimum: %{minLimit}",
-      "amountTooSmallUnknownMinimum": "Betrag zu niedrig",
+      "amountTooSmallOrInvalidTradePair": "Betrag zu gering oder keine Paarung",
       "sellAmountDoesNotCoverFee": "Verkaufsbetrag niedriger als die Gebühr",
       "negativeMax": "Nicht genügend Kapital für die Miner-Gebühr für diese Transaktion. Geschätzte Minergebühr %{estimatedMinerFee}",
       "invalidMax": "Ungültige Menge. Der maximale Handelsbetrag für dieses Paar beträgt %{maxLimit}.",
@@ -723,7 +717,6 @@
       "insufficientFundsForProtocolFee": "Nicht genügend %{symbol} auf %{chainName} für Gebühren",
       "invalidTradePair": "Ungültiges Handelspaar: %{sellAssetName} und %{buyAssetName}",
       "invalidTradePairBtnText": "Ungültiges Handelspaar",
-      "unsupportedTradePair": "Nicht unterstütztes Handelspaar",
       "noLiquidityError": "Nicht genügend Liquidität vorhanden",
       "overMaxSlippage": "Dieser Handel würde zu einer Marktabweichung von über %{slippagePercentage} % führen. Bitte tauschen Sie einen geringeren Betrag gegen einen besseren Preis",
       "balanceToLow": "Guthaben zu niedrig. Der minimale Handelsbetrag für dieses Paar beträgt %{minLimit}",
@@ -749,7 +742,6 @@
       "assetNotSupportedByWallet": "%{assetSymbol} wird nicht von Ihrer Wallet unterstützt",
       "noReceiveAddress": "Keine Empfangsadresse für %{assetSymbol}",
       "tradingNotActive": "Handel von %{assetSymbol}  vorübergehend angehalten",
-      "tradingNotActiveNoAssetSymbol": "Der Handel auf dieser Route wurde vorübergehend eingestellt",
       "signing": {
         "failed": "Beim Signieren der Transaktion ist ein Fehler aufgetreten",
         "required": "Eine unterzeichnete Transaktion ist erforderlich"
@@ -767,8 +759,7 @@
     "unknownGas": "(unbekannt)",
     "receiveAddress": "Empfangsadresse ",
     "receiveAddressDescription": "Keine %{chainName}-Adresse in verbundener Wallet gefunden. Geben Sie die Adresse manuell ein, um fortzufahren.",
-    "addressPlaceholder": "%{chainName} Adresse",
-    "priceImpactWarning": "Aufgrund der Größe dieses Handels im Verhältnis zur verfügbaren Liquidität beträgt die erwartete Preisauswirkung dieses Handels %{priceImpactPercentage}%. Sind Sie sicher, dass Sie handeln möchten?"
+    "addressPlaceholder": "%{chainName} Adresse"
   },
   "modals": {
     "popup": {
@@ -881,7 +872,7 @@
         "info": {
           "title": "Ihre geheime Wiederherstellungsphrase",
           "description": "Schreiben Sie diese 12 Wörter auf und speichern Sie sie sicher offline. Diese 12-Wort-Phrase wird verwendet, um Ihre privaten Wallet Schlüssel wiederherzustellen.",
-          "warning": "Hinweis: Wenn Sie Ihre geheime Wiederherstellungsphrase verlieren, kann ShapeShift Ihnen nicht helfen, Ihre Wallet  wiederherzustellen, und Ihr Guthaben ist für immer verloren."
+          "warning": "Hinweis: Wenn Sie Ihre geheime Wiederherstellungsphrase verlieren, kann BlackFury Ihnen nicht helfen, Ihre Wallet  wiederherzustellen, und Ihr Guthaben ist für immer verloren."
         },
         "success": {
           "title": "Erfolgreich",
@@ -911,7 +902,6 @@
         "sendAsset": "%{asset} senden",
         "send": "Senden",
         "sendTo": "Senden an",
-        "customNonce": "Benutzerdefinierte Nonce",
         "sendFrom": "Senden von",
         "edit": "Bearbeiten",
         "total": "Gesamt",
@@ -1013,7 +1003,7 @@
     },
     "approve": {
       "header": "Erlaube %{spenderName}, deine %{asset} zu verwenden",
-      "shapeshiftRouterName": "ShapeShift DAO Router",
+      "shapeshiftRouterName": "BlackFury DAO Router",
       "body": "benötigt Ihre Erlaubnis, um Ihr %{asset} zu verwenden",
       "learnMore": "Warum muss ich das tun?",
       "depositFee": "Es wird eine separate Gasgebühr zu hinterlegen sein.",
@@ -1111,7 +1101,7 @@
     "mobileWelcome": {
       "success": {
         "header": "Ihre Wallet wurde importiert!",
-        "body": "Willkommen bei der neuen ShapeShift-App.",
+        "body": "Willkommen bei der neuen BlackFury-App.",
         "primaryCta": "Fortsetzen"
       },
       "notice": {
@@ -1257,7 +1247,7 @@
       },
       "redirect": {
         "header": "In der MetaMask Applikation \n öffnen",
-        "body": "Klicken Sie hier, um das ShapeShift Dashboard in MetaMask zu öffnen",
+        "body": "Klicken Sie hier, um das BlackFury Dashboard in MetaMask zu öffnen",
         "button": "Öffnen"
       }
     },
@@ -1309,7 +1299,7 @@
       },
       "redirect": {
         "header": "In der XDEFI-App öffnen",
-        "body": "Klicken Sie hier, um das ShapeShift-Dashboard in XDEFI zu öffnen",
+        "body": "Klicken Sie hier, um das BlackFury-Dashboard in XDEFI zu öffnen",
         "button": "Öffnen"
       }
     },
@@ -1336,7 +1326,7 @@
       "password": {
         "header": "Erstelle ein neues Passwort",
         "body": "Geben Sie ein starkes Passwort ein, um Ihre importierte Wallet zu verschlüsseln. Damit greifen Sie später auf Ihre Wallet zu.",
-        "warning": "Hinweis: Wenn Sie Ihr Passwort vergessen, kann ShapeShift Ihnen nicht helfen, es wiederherzustellen.",
+        "warning": "Hinweis: Wenn Sie Ihr Passwort vergessen, kann BlackFury Ihnen nicht helfen, es wiederherzustellen.",
         "button": "Weiter",
         "connect": "Verbinden Sie sich mit einem anderen Wallet"
       },
@@ -1348,8 +1338,8 @@
         "showWords": "Wörter zeigen"
       },
       "start": {
-        "header": "ShapeShift Wallet",
-        "body": "Sie können mehrere ShapeShift Wallet haben. Sie können eine Wallet laden, eine aus einer geheimen Wiederherstellungsphrase importieren oder eine neue erstellen.",
+        "header": "BlackFury Wallet",
+        "body": "Sie können mehrere BlackFury Wallet haben. Sie können eine Wallet laden, eine aus einer geheimen Wiederherstellungsphrase importieren oder eine neue erstellen.",
         "import": "Importieren Sie eine Wallet",
         "create": "Erstellen Sie eine neue Wallet",
         "load": "Gespeicherte Wallets"
@@ -1399,15 +1389,15 @@
         "confirmDelete": "Möchten Sie den Spitznamen dieser Wallet wirklich löschen?"
       },
       "legacy": {
-        "deprecatedWarning": "Die ShapeShift Anmeldung ist veraltet",
+        "deprecatedWarning": "Die BlackFury Anmeldung ist veraltet",
         "learnMore": "Erfahren Sie mehr",
         "alreadySavedConfirm": "Ich bestätige, dass meine geheime Wiederherstellungsphrase bereits gesichert habe.",
-        "mobileWalletTitle": "ShapeShift Mobile Wallet",
-        "importInformations": "Um Ihr ShapeShift Mobile Wallet weiterhin verwenden zu können, müssen Sie es importieren.",
+        "mobileWalletTitle": "BlackFury Mobile Wallet",
+        "importInformations": "Um Ihr BlackFury Mobile Wallet weiterhin verwenden zu können, müssen Sie es importieren.",
         "importWallet": "Wallet importieren",
-        "haveMobileWallet": "Haben Sie eine ShapeShift Mobile Wallet?",
-        "loginWithAccount": "Melden Sie sich mit dem ShapeShift-Konto an",
-        "loginInformations": "Geben Sie Ihre E-Mail Adresse und Ihr Passwort ein, mit denen Sie sich bei Ihrer ShapeShift Mobile App anmelden.",
+        "haveMobileWallet": "Haben Sie eine BlackFury Mobile Wallet?",
+        "loginWithAccount": "Melden Sie sich mit dem BlackFury-Konto an",
+        "loginInformations": "Geben Sie Ihre E-Mail Adresse und Ihr Passwort ein, mit denen Sie sich bei Ihrer BlackFury Mobile App anmelden.",
         "loginSuccess": "Erfolgreich eingeloggt",
         "emailAddress": "Email Adresse",
         "password": "Passwort",
@@ -1417,7 +1407,7 @@
         "captchaRequired": "Captcha ist erforderlich",
         "tooManyAttempts": "Zu viele Versuche. Bitte später erneut versuchen.",
         "invalidLogin": "Ungültiger Login",
-        "noWallet": "Es konnte kein ShapeShift Native Wallet für Ihre Anmeldung gefunden werden. Wenn Sie der Meinung sind, dass diese Nachricht falsch ist, wenden Sie sich bitte an den ShapeShift-Support.",
+        "noWallet": "Es konnte kein BlackFury Native Wallet für Ihre Anmeldung gefunden werden. Wenn Sie der Meinung sind, dass diese Nachricht falsch ist, wenden Sie sich bitte an den BlackFury-Support.",
         "decryptionError": "Beim Entschlüsseln Ihrer Wallet ist etwas schief gelaufen.",
         "twoFactorAuthentication": "Zwei-Faktor-Authentifizierung",
         "twoFactorPlaceholder": "6-stelliger Code",
@@ -1427,9 +1417,9 @@
       },
       "onboarding": {
         "skip": "Überspringen",
-        "shapeshiftWallet": "ShapeShift Wallet",
+        "shapeshiftWallet": "BlackFury Wallet",
         "selfCustody": {
-          "title": "Ihre Shapeshift Wallet verwalten Sie",
+          "title": "Ihre Blackfury Wallet verwalten Sie",
           "subTitle": "Sie haben die Schlüssel und Sie sind der einzige, der darauf zugreifen kann.",
           "body": "Eine selbstverwaltete Wallet bedeutet, dass Sie sie besitzen und nur Sie Zugriff auf Ihr Geld haben. Ihre geheime Wiederherstellungsphrase ist Ihr Schlüssel zum Zugriff darauf. Niemand kann Sie daran hindern, auf Ihr Geld zuzugreifen.",
           "cta": "Weiter"
@@ -1437,12 +1427,12 @@
         "multiChain": {
           "title": "Mehrere Ketten werden gleichzeitig unterstützt ",
           "subTitle": "Sie müssen nie das Netzwerk in der Wallet wechseln, es funktioniert mit jeder nahtlos.",
-          "body": "Wenn eine neues Netzwerk in ShapeShift hinzugefügt wird, wird Ihre Native Wallet es automatisch unterstützen.",
+          "body": "Wenn eine neues Netzwerk in BlackFury hinzugefügt wird, wird Ihre Native Wallet es automatisch unterstützen.",
           "cta": "Weiter"
         },
         "easyToUse": {
           "title": "Einfach zu bedienen!",
-          "subTitle": "Mit ShapeShift Native Wallet können Sie:",
+          "subTitle": "Mit BlackFury Native Wallet können Sie:",
           "trackBalance": "Verfolgen Sie Ihre Salden",
           "sendReceive": "Krypto senden/empfangen",
           "buyCrypto": "Krypto kaufen",
@@ -1455,7 +1445,7 @@
     },
     "selectModal": {
       "header": "Verbinden Sie eine Wallet",
-      "body": "Indem Sie eine Wallet verbinden, stimmen Sie den Nutzungsbedingungen von ShapeShift zu und bestätigen, dass Sie den Haftungsausschluss von ShapeShift gelesen und verstanden haben.",
+      "body": "Indem Sie eine Wallet verbinden, stimmen Sie den Nutzungsbedingungen von BlackFury zu und bestätigen, dass Sie den Haftungsausschluss von BlackFury gelesen und verstanden haben.",
       "footer": "Sie haben keine Wallet?",
       "create": "Erstelle eine"
     },
@@ -1585,7 +1575,7 @@
     },
     "downloadCSV": "CSV-Datei herunterladen",
     "csv": {
-      "fileName": "Verlauf der ShapeShift-Transaktionen",
+      "fileName": "Verlauf der BlackFury-Transaktionen",
       "txid": "TX ID",
       "type": "TX-Art",
       "timestamp": "Zeitstempel",
@@ -1624,57 +1614,57 @@
     "transfers": "Überweisungen"
   },
   "plugins": {
-    "foxPage": {
+    "jinxPage": {
       "buyAssetOnCoinbase": "Kaufen Sie %{assetSymbol} auf Coinbase",
-      "totalFoxValue": "Gesamter Fox-Wert",
-      "foxToken": "ShapeShift %{assetSymbol} Token",
-      "foxDescription": "Seit 2019 bietet unser formwandelnder FOX-Token den Benutzern eine sich ständig erweiternde Welt von Nutzen und Vorteilen. Heute ermöglicht Ihnen unser ERC-20 Governance-Token nicht nur, die Zukunft von ShapeShift durch Ihre Stimme zu beeinflussen, Sie haben auch ein ständig wachsendes Universum an Investitionsmöglichkeiten. Investieren, verfolgen und verwalten Sie Ihr FOX-Guthaben hier.",
+      "totalJinxValue": "Gesamter Jinx-Wert",
+      "jinxToken": "BlackFury %{assetSymbol} Token",
+      "jinxDescription": "Seit 2019 bietet unser formwandelnder JINX-Token den Benutzern eine sich ständig erweiternde Welt von Nutzen und Vorteilen. Heute ermöglicht Ihnen unser ERC-20 Governance-Token nicht nur, die Zukunft von BlackFury durch Ihre Stimme zu beeinflussen, Sie haben auch ein ständig wachsendes Universum an Investitionsmöglichkeiten. Investieren, verfolgen und verwalten Sie Ihr JINX-Guthaben hier.",
       "getAsset": "%{assetSymbol} Besorgen",
       "trade": "Handeln",
       "receive": "Erhalten",
       "mainStakingTitle": "%{assetSymbol} Token Staking",
-      "mainStakingDescription": "Setzen Sie Ihre FOX in einseitigen Staking-Verträgen ein, um FOX-Belohnungen zu verdienen. (FOX kann während des Stakens weiterhin in den Abstimmungen verwendet werden, ist aber ansonsten während des Stakens an den Vertrag gebunden.)",
+      "mainStakingDescription": "Setzen Sie Ihre JINX in einseitigen Staking-Verträgen ein, um JINX-Belohnungen zu verdienen. (JINX kann während des Stakens weiterhin in den Abstimmungen verwendet werden, ist aber ansonsten während des Stakens an den Vertrag gebunden.)",
       "tvl": "TVL",
       "currentApy": "Aktueller jährlicher Zinsertrag",
       "balance": "Kontostand",
       "getStarted": "Loslegen",
       "manage": "Verwalten",
       "currentPrice": "Aktueller Preis",
-      "tradingUnavailable": "%{assetSymbol} ist noch nicht auf ShapeShift handelbar. Sie können %{assetSymbol} auf ElasticSwap handeln.",
+      "tradingUnavailable": "%{assetSymbol} ist noch nicht auf BlackFury handelbar. Sie können %{assetSymbol} auf ElasticSwap handeln.",
       "tradeOnElasticSwap": "Handeln Sie %{assetSymbol} auf ElasticSwap",
       "otherOpportunitiesTitle": {
-        "FOX": "Andere Verdienstmöglichkeiten",
-        "FOXy": "Verdienstmöglichkeiten"
+        "JINX": "Andere Verdienstmöglichkeiten",
+        "JINXy": "Verdienstmöglichkeiten"
       },
       "otherOpportunitiesDescription": {
-        "FOX": "Entdecken Sie die vielen Möglichkeiten, Liquidität bereitzustellen, Erträge zu erwirtschaften, zu verleihen und zu leihen. Klicken Sie unten auf die Links „Erste Schritte“, um interessante externe Webseiten zu besuchen und mehr zu erfahren – und Ihre FOX für sich arbeiten zu lassen.",
-        "FOXy": "Kaufen Sie schnell und einfach FOXy, den branchenweit ersten DAO umgewandelten Token, der sowohl Ertrags- als auch Gewinnprämien bietet."
+        "JINX": "Entdecken Sie die vielen Möglichkeiten, Liquidität bereitzustellen, Erträge zu erwirtschaften, zu verleihen und zu leihen. Klicken Sie unten auf die Links „Erste Schritte“, um interessante externe Webseiten zu besuchen und mehr zu erfahren – und Ihre JINX für sich arbeiten zu lassen.",
+        "JINXy": "Kaufen Sie schnell und einfach JINXy, den branchenweit ersten DAO umgewandelten Token, der sowohl Ertrags- als auch Gewinnprämien bietet."
       },
       "liquidityPools": "Liquiditätspools",
       "farming": "Farming",
       "borrowingAndLending": "Ausleihen & Verleihen",
       "governanceTitle": "Governance",
-      "governanceDescription": "Als FOX-Inhaber können Sie die Zukunft von ShapeShift mitbestimmen. Nachfolgend finden Sie aktive oder kürzlich verabschiedete DAO-Vorschläge, über die Token-Inhaber abgestimmt haben.",
+      "governanceDescription": "Als JINX-Inhaber können Sie die Zukunft von BlackFury mitbestimmen. Nachfolgend finden Sie aktive oder kürzlich verabschiedete DAO-Vorschläge, über die Token-Inhaber abgestimmt haben.",
       "seeAllProposals": "Siehe Alle Vorschläge",
       "availableToTradeOn": "Verfügbar zum Handeln auf",
       "dex": "DEX",
       "centralized": "Zentralisiert",
       "dappBack": {
-        "title": "✨ Erhalte FOX-Belohnungen + mehr! ✨",
-        "body": "Verdienen Sie FOX-Belohnungen, indem Sie Aufgaben auf DappBack erledigen",
+        "title": "✨ Erhalte JINX-Belohnungen + mehr! ✨",
+        "body": "Verdienen Sie JINX-Belohnungen, indem Sie Aufgaben auf DappBack erledigen",
         "cta": "Starte DappBack"
       },
       "bondProtocol": {
-        "title": "FOX mit Rabatt kaufen!",
-        "body": "FOX mit Rabatt kaufen über BondProtocol",
+        "title": "JINX mit Rabatt kaufen!",
+        "body": "JINX mit Rabatt kaufen über BondProtocol",
         "cta": "BondProtokoll starten"
       }
     },
     "analytics": {
       "optInModal": {
-        "title": "Helfen Sie uns, ShapeShift zu verbessern",
-        "description": "ShapeShift würde gerne Nutzungsdaten sammeln, um besser zu verstehen wie unsere Benutzer mit der App interagieren. Diese Daten werden verwendet, um die Benutzerfreundlichkeit und das Benutzererlebnis unseres Produkts kontinuierlich zu verbessern.",
-        "actionsSentence": "ShapeShift wird...",
+        "title": "Helfen Sie uns, BlackFury zu verbessern",
+        "description": "BlackFury würde gerne Nutzungsdaten sammeln, um besser zu verstehen wie unsere Benutzer mit der App interagieren. Diese Daten werden verwendet, um die Benutzerfreundlichkeit und das Benutzererlebnis unseres Produkts kontinuierlich zu verbessern.",
+        "actionsSentence": "BlackFury wird...",
         "noThanks": "Nein danke, bring mich zur privaten Version",
         "sendEvents": "Sendet anonymisierte Klick- und Seitenaufrufereignisse",
         "neverCollectPersonalInformations": "Sammelt niemals Schlüssel, Adressen, Transaktionen, Guthaben oder persönliche Informationen",
@@ -1685,7 +1675,7 @@
     "walletConnectToDapps": {
       "unsupportedToast": {
         "title": "Nicht unterstütztes Netzwerk",
-        "description": "ShapeShift unterstützt derzeit nur %{supportedChainNames} mit WalletConnect."
+        "description": "BlackFury unterstützt derzeit nur %{supportedChainNames} mit WalletConnect."
       },
       "header": {
         "connectDapp": "dApp verbinden",
@@ -1805,7 +1795,7 @@
       "usdcAddress": "Yat USDC-Adresse",
       "ethAddress": "Yat ETH-Adresse",
       "noAddressFound": "Keine %{symbol} Adresse gefunden",
-      "viewInApp": "In der mobilen ShapeShift-App anzeigen"
+      "viewInApp": "In der mobilen BlackFury-App anzeigen"
     }
   },
   "gasInput": {
@@ -1918,7 +1908,7 @@
       "bodyParts": {
         "1": "Letztes Jahr, mit",
         "2": "Coinbase Cloud",
-        "3": "ShapeShift hat ein Projekt namens Arkeo ins Leben gerufen. Der Start des Mainnets steht vor der Tür!",
+        "3": "BlackFury hat ein Projekt namens Arkeo ins Leben gerufen. Der Start des Mainnets steht vor der Tür!",
         "4": "Arkeo wurde als dezentrales Backend für alle Knotendaten entwickelt. Anwendungen, die Arkeo verwenden, profitieren von erhöhter Entwicklungsgeschwindigkeit, Zensurresistenz und",
         "5": "Nakamoto-Koeffizient",
         "6": "bei gleichzeitiger Verringerung der Abhängigkeit von zentralisierten Datenquellen."
@@ -1926,7 +1916,7 @@
     },
     "whoQualifies": {
       "title": "Wer qualifiziert sich für den Arkeo Airdrop?",
-      "body": "Es gibt eine Reihe von Möglichkeiten, wie Sie sich mit der ShapeShift dApp für den Airdrop qualifizieren können. Der Schnappschuss läuft, Sie haben noch Zeit, sich zu qualifizieren!"
+      "body": "Es gibt eine Reihe von Möglichkeiten, wie Sie sich mit der BlackFury dApp für den Airdrop qualifizieren können. Der Schnappschuss läuft, Sie haben noch Zeit, sich zu qualifizieren!"
     },
     "staking": {
       "title": "%{asset} Staker",
@@ -1935,37 +1925,46 @@
     },
     "lp": {
       "title": "%{asset1}/%{asset2} Anbieter",
-      "body": "Haben Sie %{asset1} und %{asset2}? Stellen Sie Liquidität für den Uniswap V2 Pool bereit, um %{apy} APR effektiven Jahreszins zu verdienen. PLUS der zugrunde liegende FOX in den FOX/ETH LP-Token, die Sie besitzen, qualifiziert sich für den Arkeo-Airdrop.",
+      "body": "Haben Sie %{asset1} und %{asset2}? Stellen Sie Liquidität für den Uniswap V2 Pool bereit, um %{apy} APR effektiven Jahreszins zu verdienen. PLUS der zugrunde liegende JINX in den JINX/ETH LP-Token, die Sie besitzen, qualifiziert sich für den Arkeo-Airdrop.",
       "cta": "Liquidität einzahlen"
     },
-    "foxTokenHolders": {
-      "title": "FOX-Token-Inhaber",
-      "body": "Hodl FOX Token. Je größer Ihr Anteil, desto größer Ihr Arkeo Airdrop.",
-      "cta": "Handel für FOX",
-      "secondary": "FOX kaufen"
+    "jinxTokenHolders": {
+      "title": "JINX-Token-Inhaber",
+      "body": "Hodl JINX Token. Je größer Ihr Anteil, desto größer Ihr Arkeo Airdrop.",
+      "cta": "Handel für JINX",
+      "secondary": "JINX kaufen"
     },
-    "foxFarmers": {
-      "title": "FOX/ETH LP Farmer",
-      "body": "Verdienen Sie bis zu %{apy} APR für das Staking Ihrer ETH/FOX LP-Tokens in der FOX Farm. PLUS der zugrunde liegende FOX in den ETH/FOX LP-Token, die Sie in Runde 5 der FOX Farm einsetzen, qualifiziert sich für den Arkeo Airdrop.",
-      "cta": "Stake FOX/ETH LP"
+    "jinxFarmers": {
+      "title": "JINX/ETH LP Farmer",
+      "body": "Verdienen Sie bis zu %{apy} APR für das Staking Ihrer ETH/JINX LP-Tokens in der JINX Farm. PLUS der zugrunde liegende JINX in den ETH/JINX LP-Token, die Sie in Runde 5 der JINX Farm einsetzen, qualifiziert sich für den Arkeo Airdrop.",
+      "cta": "Stake JINX/ETH LP"
     },
-    "foxyTokenHolders": {
-      "title": "FOXy-Token-Inhaber",
-      "body": "Verdienen Sie mit FOX Yieldy (FOXy) bis zu %{apy} APR auf Ihren untätigen FOX. PLUS FOXy in Ihrer Wallet wird genauso behandelt wie FOX und qualifiziert sich für den Arkeo Airdrop.",
-      "cta": "Stake FOX Token"
+    "jinxTokenHolders": {
+      "title": "JINXy-Token-Inhaber",
+      "body": "Verdienen Sie mit JINX Yieldy (JINXy) bis zu %{apy} APR auf Ihren untätigen JINX. PLUS JINXy in Ihrer Wallet wird genauso behandelt wie JINX und qualifiziert sich für den Arkeo Airdrop.",
+      "cta": "Stake JINX Token"
     },
-    "foxEthProviders": {
-      "title": "FOX/ETH Uniswap V2 LPs",
-      "body": "Haben Sie %{asset1} und %{asset2}? Stellen Sie Liquidität für den Uniswap V2-Pool bereit, um %{apy} APR zu verdienen. PLUS der zugrunde liegende FOX in den FOX/ETH LP-Token, die Sie besitzen, qualifiziert sich für den Arkeo-Airdrop.",
+    "jinxEthProviders": {
+      "title": "JINX/ETH Uniswap V2 LPs",
+      "body": "Haben Sie %{asset1} und %{asset2}? Stellen Sie Liquidität für den Uniswap V2-Pool bereit, um %{apy} APR zu verdienen. PLUS der zugrunde liegende JINX in den JINX/ETH LP-Token, die Sie besitzen, qualifiziert sich für den Arkeo-Airdrop.",
+      "cta": "Liquidität einzahlen"
+    },
+    "atomOsmoProviders": {
+      "title": "ATOM/OSMO LP Provider",
+      "body": "Haben Sie ATOM und OSMO? Stellen Sie Liquidität in den Pool, um %{apy} APR zu verdienen und sich für den Airdrop zu qualifizieren.",
       "cta": "Liquidität einzahlen"
     },
     "stakeAtom": {
       "title": "Stake ATOM",
-      "body": "Verdienen Sie bis zu %{apr} APR mit Ihrem ungenutzten ATOM. PLUS jedes ATOM, das Sie einsetzen, bringt Ihnen Arkeo-Token ein. Wenn Sie beim ShapeShift DAO Validator einsetzen, können Sie Ihre Airdrop-Qualifikation verdoppeln.",
+      "body": "Verdienen Sie bis zu %{apr} APR mit Ihrem ungenutzten ATOM. PLUS jedes ATOM, das Sie einsetzen, bringt Ihnen Arkeo-Token ein. Wenn Sie beim BlackFury DAO Validator einsetzen, können Sie Ihre Airdrop-Qualifikation verdoppeln.",
       "cta": "Stake ATOM"
     },
+    "stakeOsmo": {
+      "title": "Stake OSMO",
+      "body": "Verdienen Sie bis zu %{apr} APR auf Ihre freien OSMO. PLUS jeden OSMO, den Sie einsetzen, bringt Ihnen Arkeo-Token ein. Wenn Sie beim BlackFury DAO Prüfer einsetzen, können Sie Ihre Airdrop-Qualifikation verdoppeln."
+    },
     "footer": {
-      "title": "Es gibt auch andere Möglichkeiten, sich außerhalb der ShapeShift dApp zu qualifizieren. Eine vollständige Liste finden Sie im Governance-Vorschlag.",
+      "title": "Es gibt auch andere Möglichkeiten, sich außerhalb der BlackFury dApp zu qualifizieren. Eine vollständige Liste finden Sie im Governance-Vorschlag.",
       "cta": "Sehen Sie sich den Governance-Vorschlag an",
       "disclaimer": {
         "body": "* Nur Selbstverwaltende Wallets sind qualifiziert. Token, die über eine zentralisierte Börse in einem Wallet gehalten oder gestaket werden, sind nicht qualifiziert. Brauchen Sie eine Wallet?",
@@ -1974,7 +1973,7 @@
     }
   },
   "nft": {
-    "customizeFoxatar": "FOXatar anpassen",
+    "customizeJinxatar": "JINXatar anpassen",
     "setAsAvatar": "Als Avatar festlegen",
     "floorPrice": "niedrigster Preis",
     "lastPrice": "Letzter Preis",
@@ -1993,7 +1992,7 @@
     "emptyBody": "Keine Sorge, wir haben einen Suchtrupp ausgesandt, um noch mehr erstaunliche NFTs zurückzubringen. Nutzen Sie bis dahin die Zeit auf diese leere Stelle zu starren und über den Sinn des Daseins nachzudenken;-)"
   },
   "missions": {
-    "subtitle": "FOX Missionen",
+    "subtitle": "JINX Missionen",
     "missionEnded": "Mission beendet",
     "viewMission": "Zeige Mission",
     "comingSoon": "Demnächst",
@@ -2003,7 +2002,7 @@
       "1": "Entfessle das dezentrale Universum und",
       "2": "erhalte Belohnungen"
     },
-    "body": "Begeben Sie sich auf Missionen, verdienen Sie Belohnungen und erweitern Sie Ihr Wissen über das ständig wachsende ShapeShift-Ökosystem",
+    "body": "Begeben Sie sich auf Missionen, verdienen Sie Belohnungen und erweitern Sie Ihr Wissen über das ständig wachsende BlackFury-Ökosystem",
     "ends": "Endet",
     "ongoing": "laufende Mission",
     "optimism": {
@@ -2011,14 +2010,14 @@
       "subtitle": "Entdecke Optimism",
       "cta": "Beginne Mission"
     },
-    "foxatar": {
+    "jinxatar": {
       "title": "Holen Sie sich ein kostenloses und anpassbares NFT",
-      "subtitle": "Minte einen FOXatar",
+      "subtitle": "Minte einen JINXatar",
       "cta": "Beginne Mission"
     },
-    "foxArmy": {
-      "subtitle": "Treten Sie der FOX-Armee bei",
-      "title": "20,000 FOX Pool",
+    "jinxArmy": {
+      "subtitle": "Treten Sie der JINX-Armee bei",
+      "title": "20,000 JINX Pool",
       "cta": "Beginne Mission"
     },
     "yat": {
@@ -2031,9 +2030,9 @@
       "title": "Starten Sie eine Mission für Ihr Projekt",
       "cta": "Projekt einreichen"
     },
-    "foxRewards": {
+    "jinxRewards": {
       "subtitle": "Kaufen, verkaufen, handeln, verdienen und mehr",
-      "title": "Verdiene FOX",
+      "title": "Verdiene JINX",
       "cta": "Starte Mission"
     }
   },

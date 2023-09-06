@@ -19,7 +19,7 @@ import type {
 import type { WalletConnectRequestModalProps } from 'plugins/walletConnectToDapps/v2/WalletConnectModalManager'
 import type { FC } from 'react'
 import { useTranslate } from 'react-polyglot'
-import { FoxIcon } from 'components/Icons/FoxIcon'
+import { JinxIcon } from 'components/Icons/JinxIcon'
 import { RawText, Text } from 'components/Text'
 import { useWallet } from 'hooks/useWallet/useWallet'
 
@@ -31,7 +31,7 @@ export const EIP155SignMessageConfirmationModal: FC<
 
   const translate = useTranslate()
   const walletInfo = useWallet().state.walletInfo
-  const WalletIcon = walletInfo?.icon ?? FoxIcon
+  const WalletIcon = walletInfo?.icon ?? JinxIcon
   const cardBg = useColorModeValue('white', 'gray.850')
 
   return (

@@ -13,7 +13,7 @@ export const MobileLegacyLogin = () => {
     const mnemonic = await decryptNativeWallet(email, password, encryptedWallet)
     if (mnemonic) {
       const vault = createRevocableWallet({
-        label: 'Imported ShapeShift Wallet',
+        label: 'Imported BlackFury Wallet',
         mnemonic,
       })
       history.push('/mobile/legacy/login/success', { vault })
