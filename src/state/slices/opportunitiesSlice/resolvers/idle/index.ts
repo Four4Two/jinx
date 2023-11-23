@@ -1,5 +1,5 @@
-import type { ToAssetIdArgs } from '@shapeshiftoss/caip'
-import { fromAccountId, fromAssetId, toAssetId } from '@shapeshiftoss/caip'
+import type { ToAssetIdArgs } from '@sudophunk/caip'
+import { fromAccountId, fromAssetId, toAssetId } from '@sudophunk/caip'
 import { bn, bnOrZero } from 'lib/bignumber/bignumber'
 import { selectAssetById } from 'state/slices/assetsSlice/selectors'
 import { selectPortfolioCryptoBalanceBaseUnitByFilter } from 'state/slices/common-selectors'

@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { adapters } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { adapters } from '@sudophunk/caip'
 import axios from 'axios'
 import { getConfig } from 'config'
 import { isSome } from 'lib/utils'

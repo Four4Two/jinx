@@ -1,4 +1,4 @@
-import { adapters, CHAIN_NAMESPACE, CHAIN_REFERENCE, toAssetId } from '@shapeshiftoss/caip'
+import { adapters, CHAIN_NAMESPACE, CHAIN_REFERENCE, toAssetId } from '@sudophunk/caip'
 import type {
   FindAllMarketArgs,
   HistoryData,

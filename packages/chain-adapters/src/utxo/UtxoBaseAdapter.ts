@@ -1,4 +1,4 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
 import type {
   BTCSignTxInput,
   BTCSignTxOutput,

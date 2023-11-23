@@ -43,7 +43,7 @@ import {
 import { useAppSelector } from 'state/store'
 import { theme } from 'theme/theme'
 
-const APPROVAL_PERMISSION_URL = 'https://shapeshift.zendesk.com/hc/en-us/articles/360018501700'
+const APPROVAL_PERMISSION_URL = 'https://blackfury.zendesk.com/hc/en-us/articles/360018501700'
 
 const ApprovalInner = ({
   swapperName,

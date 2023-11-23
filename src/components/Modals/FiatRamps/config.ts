@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { adapters, btcAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { adapters, btcAssetId } from '@sudophunk/caip'
 import concat from 'lodash/concat'
 import banxaLogo from 'assets/banxa.png'
 import CoinbaseLogo from 'assets/coinbase-logo.svg'

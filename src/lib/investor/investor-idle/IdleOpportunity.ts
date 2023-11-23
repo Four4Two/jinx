@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { ethChainId, toAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { ethChainId, toAssetId } from '@sudophunk/caip'
 import type { ChainAdapter } from '@shapeshiftoss/chain-adapters'
 import { toAddressNList } from '@shapeshiftoss/chain-adapters'
 import type { ETHSignTx, HDWallet } from '@shapeshiftoss/hdwallet-core'
@@ -195,7 +195,7 @@ export class IdleOpportunity
     const { address, amount } = input
     // We use the vault directly to withdraw the vault tokens. There is no benefit to the DAO to use
     // the router to withdraw funds and there is an extra approval required for the user if we
-    // withdrew from the vault using the shapeshift router. Affiliate fees for SS are the same
+    // withdrew from the vault using the blackfury router. Affiliate fees for SS are the same
     // either way. For this reason, we simply withdraw from the vault directly.
 
     let methodName: string

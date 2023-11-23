@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { ethAssetId, jinxAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { ethAssetId, jinxAssetId } from '@sudophunk/caip'
 import type { HistoryData } from '@shapeshiftoss/types'
 import { HistoryTimeframe } from '@shapeshiftoss/types'
 import { ethereum, jinx } from 'test/mocks/assets'

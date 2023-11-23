@@ -1,14 +1,14 @@
 # Security Policy
 
-At ShapeShift, we take security seriously. We encourage independent security
+At Blackfury, we take security seriously. We encourage independent security
 researchers to contact us in order to privately report security vulnerabilities
 or issues. The information on this page is intended for those security
 researchers that are interested in reporting security vulnerabilities directly
-to the ShapeShift security team.
+to the Blackfury security team.
 
 ## Reporting a Vulnerability
 
-If you would like to disclose a vulnerability to ShapeShift, we encourage you
+If you would like to disclose a vulnerability to Blackfury, we encourage you
 to send a new email to security@shapeshiftoss.io with the word **[VULNERABILITY]** in
 the subject line.
 
@@ -129,4 +129,4 @@ following GPG key:
 
 </details>
 
-https://corp.shapeshift.io/responsible-disclosure-program
+https://corp.blackfury.io/responsible-disclosure-program

@@ -1,6 +1,6 @@
 import { MaxUint256 } from '@ethersproject/constants'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
-import { ethAssetId, ethChainId, fromAccountId, fromAssetId, toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
+import { ethAssetId, ethChainId, fromAccountId, fromAssetId, toAssetId } from '@sudophunk/caip'
 import type { ethereum } from '@shapeshiftoss/chain-adapters'
 import {
   UNISWAP_V2_ROUTER_02_CONTRACT_ADDRESS,

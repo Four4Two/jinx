@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { ASSET_REFERENCE, cosmosAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { ASSET_REFERENCE, cosmosAssetId } from '@sudophunk/caip'
 import type { CosmosSignTx } from '@shapeshiftoss/hdwallet-core'
 import { supportsCosmos } from '@shapeshiftoss/hdwallet-core'
 import type { BIP44Params } from '@shapeshiftoss/types'

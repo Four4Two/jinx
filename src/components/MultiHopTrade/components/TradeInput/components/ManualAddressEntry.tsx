@@ -1,5 +1,5 @@
 import { FormControl, FormLabel } from '@chakra-ui/react'
-import { ethChainId } from '@shapeshiftoss/caip'
+import { ethChainId } from '@sudophunk/caip'
 import type { FC } from 'react'
 import { memo, useEffect, useMemo } from 'react'
 import { useFormContext } from 'react-hook-form'

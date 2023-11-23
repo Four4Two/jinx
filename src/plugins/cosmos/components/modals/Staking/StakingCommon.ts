@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { cosmosAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { cosmosAssetId } from '@sudophunk/caip'
 import type { cosmos } from '@shapeshiftoss/chain-adapters'
 import { bnOrZero } from 'lib/bignumber/bignumber'
 

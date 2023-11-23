@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { FeeDataEstimate } from '@shapeshiftoss/chain-adapters'
 import type { ETHWallet } from '@shapeshiftoss/hdwallet-core'
 import type { BIP44Params, KnownChainIds, WithdrawType } from '@shapeshiftoss/types'

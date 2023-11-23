@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { thorchainAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { thorchainAssetId } from '@sudophunk/caip'
 import axios from 'axios'
 import fs from 'fs'
 import { isNull } from 'lodash'
@@ -24,7 +24,7 @@ const isSome = <T>(option: T | null | undefined): option is T =>
 export const generateTradableThorAssetMap = async () => {
   const thorService = axios.create(axiosConfig)
   const response = await thorService.get<ThornodePoolResponse[]>(
-    'https://dev-daemon.thorchain.shapeshift.com/lcd/thorchain/pools',
+    'https://dev-daemon.thorchain.jinx.army/lcd/thorchain/pools',
   )
   switch (response.status) {
     case 200:

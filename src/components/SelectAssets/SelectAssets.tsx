@@ -1,6 +1,6 @@
 import { ArrowBackIcon } from '@chakra-ui/icons'
 import { IconButton, ModalBody, ModalCloseButton, ModalHeader, Stack } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { useCallback } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { AssetSearch } from 'components/AssetSearch/AssetSearch'

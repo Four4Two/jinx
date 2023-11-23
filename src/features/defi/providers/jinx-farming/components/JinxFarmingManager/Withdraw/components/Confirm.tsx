@@ -1,5 +1,5 @@
 import { Alert, AlertIcon, Box, Stack } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import { Confirm as ReusableConfirm } from 'features/defi/components/Confirm/Confirm'
 import { PairIcons } from 'features/defi/components/PairIcons/PairIcons'
 import { Summary } from 'features/defi/components/Summary'

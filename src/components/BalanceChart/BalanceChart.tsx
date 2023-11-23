@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import type { HistoryTimeframe } from '@shapeshiftoss/types'
 import { useEffect } from 'react'
 import { Graph } from 'components/Graph/Graph'

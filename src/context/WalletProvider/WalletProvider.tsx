@@ -1,7 +1,7 @@
 import type { ComponentWithAs, IconProps } from '@chakra-ui/react'
 import { useColorModeValue } from '@chakra-ui/react'
 import detectEthereumProvider from '@metamask/detect-provider'
-import { CHAIN_REFERENCE } from '@shapeshiftoss/caip'
+import { CHAIN_REFERENCE } from '@sudophunk/caip'
 import type { CoinbaseProviderConfig } from '@shapeshiftoss/hdwallet-coinbase'
 import type { HDWallet } from '@shapeshiftoss/hdwallet-core'
 import { Keyring } from '@shapeshiftoss/hdwallet-core'

@@ -1,6 +1,6 @@
 import { createApi } from '@reduxjs/toolkit/query/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { polygonChainId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { polygonChainId } from '@sudophunk/caip'
 import type { AxiosRequestConfig } from 'axios'
 import axios from 'axios'
 import { getConfig } from 'config'

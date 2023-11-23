@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { filterSameChainEvmBuyAssetsBySellAssetId } from 'lib/swapper/swappers/utils/filterBuyAssetsBySellAssetId/filterBuyAssetsBySellAssetId'
 import { isNativeEvmAsset } from 'lib/swapper/swappers/utils/helpers/helpers'
 import type { BuyAssetBySellIdInput } from 'lib/swapper/types'

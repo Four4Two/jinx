@@ -1,6 +1,6 @@
 import 'dotenv/config'
 
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import fs from 'fs'
 import orderBy from 'lodash/orderBy'
 import type { Asset } from 'lib/asset-service'

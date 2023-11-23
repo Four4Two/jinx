@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import type { CosmosSdkChainAdapter, CosmosSdkChainId } from '@shapeshiftoss/chain-adapters'
 import { cosmosSdkChainIds } from '@shapeshiftoss/chain-adapters'
 import type { KnownChainIds } from '@shapeshiftoss/types'

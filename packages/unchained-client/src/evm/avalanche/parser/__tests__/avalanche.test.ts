@@ -1,4 +1,4 @@
-import { avalancheAssetId, avalancheChainId } from '@shapeshiftoss/caip'
+import { avalancheAssetId, avalancheChainId } from '@sudophunk/caip'
 import type { evm } from '@shapeshiftoss/common-api'
 
 import type { Trade, Transfer } from '../../../../types'

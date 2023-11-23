@@ -1,4 +1,4 @@
-import { bscChainId } from '@shapeshiftoss/caip'
+import { bscChainId } from '@sudophunk/caip'
 
 import { bnbsmartchain } from '../baseAssets'
 import * as coingecko from '../coingecko'

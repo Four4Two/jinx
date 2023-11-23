@@ -1,4 +1,4 @@
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
 import type { FeeDataEstimate } from '@shapeshiftoss/chain-adapters'
 import { FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import { AnimatePresence } from 'framer-motion'

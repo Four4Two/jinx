@@ -2,7 +2,7 @@
   "name": "@shapeshiftoss/types",
   "version": "8.6.0",
   "description": "Common types shared across packages",
-  "repository": "https://github.com/shapeshift/web",
+  "repository": "https://github.com/furysport/web",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

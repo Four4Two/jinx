@@ -1,6 +1,6 @@
 import type { LinkProps } from '@chakra-ui/react'
 import { Flex, Link, Tooltip, useMediaQuery } from '@chakra-ui/react'
-import { ethChainId, fromAccountId } from '@shapeshiftoss/caip'
+import { ethChainId, fromAccountId } from '@sudophunk/caip'
 import { useMemo } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { YatIcon } from 'components/Icons/YatIcon'
@@ -31,7 +31,7 @@ export const YatBanner: React.FC<YatBannerProps> = ({ isCompact, ...rest }) => {
     return account
   }, [firstEvmAccountId])
 
-  // spec https://github.com/shapeshift/web/issues/4604
+  // spec https://github.com/furysport/web/issues/4604
   const href = useMemo(() => {
     const baseUrl = 'https://www.y03btrk.com/DFBHL/7XDN2/'
     // don't track y.at purchases for demo wallet

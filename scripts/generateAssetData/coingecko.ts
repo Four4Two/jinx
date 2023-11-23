@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import {
   adapters,
   ASSET_NAMESPACE,
@@ -9,7 +9,7 @@ import {
   optimismChainId,
   polygonChainId,
   toAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import axios from 'axios'
 import type { Asset } from 'lib/asset-service'
 

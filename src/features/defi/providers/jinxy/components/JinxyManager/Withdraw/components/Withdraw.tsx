@@ -1,6 +1,6 @@
 import { useToast } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { fromAccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { fromAccountId } from '@sudophunk/caip'
 import { WithdrawType } from '@shapeshiftoss/types'
 import type { WithdrawValues } from 'features/defi/components/Withdraw/Withdraw'
 import { Field, Withdraw as ReusableWithdraw } from 'features/defi/components/Withdraw/Withdraw'

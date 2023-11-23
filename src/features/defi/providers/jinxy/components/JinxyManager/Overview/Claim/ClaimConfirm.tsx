@@ -8,8 +8,8 @@ import {
   Stack,
   useToast,
 } from '@chakra-ui/react'
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
-import { ASSET_NAMESPACE, ASSET_REFERENCE, toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
+import { ASSET_NAMESPACE, ASSET_REFERENCE, toAssetId } from '@sudophunk/caip'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import dayjs from 'dayjs'

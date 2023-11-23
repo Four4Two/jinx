@@ -1,4 +1,4 @@
-import { ethAssetId, fromAssetId, toAssetId } from '@shapeshiftoss/caip'
+import { ethAssetId, fromAssetId, toAssetId } from '@sudophunk/caip'
 import type { MarketData } from '@shapeshiftoss/types'
 import type { TokenAmount } from '@uniswap/sdk'
 import { WETH_TOKEN_CONTRACT_ADDRESS } from 'contracts/constants'

@@ -33,10 +33,10 @@ const main = async (): Promise<void> => {
 
   const ethChainAdapter = new ethereum.ChainAdapter({
     providers: {
-      ws: new unchained.ws.Client<unchained.ethereum.Tx>('wss://dev-api.ethereum.shapeshift.com'),
+      ws: new unchained.ws.Client<unchained.ethereum.Tx>('wss://dev-api.ethereum.jinx.army'),
       http: new unchained.ethereum.V1Api(
         new unchained.ethereum.Configuration({
-          basePath: 'https://dev-api.ethereum.shapeshift.com',
+          basePath: 'https://dev-api.ethereum.jinx.army',
         }),
       ),
     },

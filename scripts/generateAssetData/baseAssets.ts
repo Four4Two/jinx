@@ -1,4 +1,4 @@
-import * as caip from '@shapeshiftoss/caip'
+import * as caip from '@sudophunk/caip'
 import type { Asset } from 'lib/asset-service'
 
 type AssetWithNetworkName = Asset & { networkName: string }

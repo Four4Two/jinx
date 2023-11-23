@@ -1,5 +1,5 @@
 import { Card, CardBody, Flex } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { useMemo } from 'react'
 import { ResultsEmpty } from 'components/ResultsEmpty'
 import {

@@ -1,5 +1,5 @@
 import { createSelector } from '@reduxjs/toolkit'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { getDefaultSlippageDecimalPercentageForSwapper } from 'constants/constants'
 import type { Selector } from 'reselect'
 import type { Asset } from 'lib/asset-service'

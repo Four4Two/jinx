@@ -61,7 +61,7 @@ export const CHAIN_REFERENCE = {
   EthereumMainnet: '1',
   EthereumRopsten: '3',
   EthereumRinkeby: '4',
-  // EthereumKovan: '42', // currently unsupported by ShapeShift
+  // EthereumKovan: '42', // currently unsupported by Blackfury
   // https://github.com/bitcoin/bips/blob/master/bip-0122.mediawiki#definition-of-chain-id
   // chainId uses max length of 32 chars of the genesis block
   BitcoinMainnet: '000000000019d6689c085ae165831e93',

@@ -97,7 +97,7 @@ const styles = {
       flexDirection: 'column',
       alignItems: 'stretch',
     },
-    '--shapeshift-header-bg': mode('white', 'blackAlpha.100')(props),
+    '--blackfury-header-bg': mode('white', 'blackAlpha.100')(props),
   }),
 }
 

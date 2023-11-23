@@ -1,5 +1,5 @@
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, fromChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, fromChainId } from '@sudophunk/caip'
 import type { HistoryData } from '@shapeshiftoss/types'
 import { HistoryTimeframe } from '@shapeshiftoss/types'
 import { TransferType, TxStatus } from '@shapeshiftoss/unchained-client'

@@ -1,5 +1,5 @@
 import { Box, Button, Radio, Spinner, Stack, useColorModeValue } from '@chakra-ui/react'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import { useController, useFormContext, useWatch } from 'react-hook-form'
 import { Amount } from 'components/Amount/Amount'

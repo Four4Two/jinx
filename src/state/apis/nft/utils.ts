@@ -1,4 +1,4 @@
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
 import {
   avalancheChainId,
   bscChainId,
@@ -9,7 +9,7 @@ import {
   jinxatarAssetId,
   optimismChainId,
   polygonChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { isEvmChainId } from '@shapeshiftoss/chain-adapters'
 import { NftFilters } from 'alchemy-sdk'
 import { invert } from 'lodash'
@@ -118,7 +118,7 @@ export const updateNftCollection = (
     draftItem.socialLinks.push({
       key: 'customizeJinxatar',
       displayName: '',
-      url: 'https://app.mercle.xyz/shapeshift',
+      url: 'https://app.mercle.xyz/blackfury',
     })
   }
 

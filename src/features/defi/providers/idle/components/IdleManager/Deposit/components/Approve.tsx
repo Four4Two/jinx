@@ -1,6 +1,6 @@
 import { useToast } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { fromAccountId, toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { fromAccountId, toAssetId } from '@sudophunk/caip'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'
 import { Approve as ReusableApprove } from 'features/defi/components/Approve/Approve'
 import { ApprovePreFooter } from 'features/defi/components/Approve/ApprovePreFooter'
@@ -227,7 +227,7 @@ export const Approve: React.FC<IdleApproveProps> = ({ accountId, onNext }) => {
   return (
     <ReusableApprove
       asset={asset}
-      spenderName={translate('modals.approve.shapeshiftRouterName')}
+      spenderName={translate('modals.approve.blackfuryRouterName')}
       feeAsset={feeAsset}
       estimatedGasFeeCryptoPrecision={bnOrZero(state.approve.estimatedGasCryptoBaseUnit)
         .div(bn(10).pow(feeAsset?.precision))
@@ -241,7 +241,7 @@ export const Approve: React.FC<IdleApproveProps> = ({ accountId, onNext }) => {
       loadingText={translate('common.approve')}
       preFooter={preFooter}
       providerIcon={underlyingAsset?.icon}
-      learnMoreLink='https://shapeshift.zendesk.com/hc/en-us/articles/360018501700'
+      learnMoreLink='https://blackfury.zendesk.com/hc/en-us/articles/360018501700'
       onCancel={() => onNext(DefiStep.Info)}
       onConfirm={handleApprove}
       spenderContractAddress={ssRouterContractAddress}

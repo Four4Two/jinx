@@ -1,4 +1,4 @@
-import { CHAIN_REFERENCE, fromChainId, toAccountId } from '@shapeshiftoss/caip'
+import { CHAIN_REFERENCE, fromChainId, toAccountId } from '@sudophunk/caip'
 import type { CosmosSdkChainId } from '@shapeshiftoss/chain-adapters'
 import { cosmosSdkChainIds } from '@shapeshiftoss/chain-adapters'
 import { supportsCosmos, supportsThorchain } from '@shapeshiftoss/hdwallet-core'

@@ -1,5 +1,5 @@
-import type { ChainId } from '@shapeshiftoss/caip'
-import { cosmosAssetId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { cosmosAssetId } from '@sudophunk/caip'
 import type { CosmosSdkBaseAdapter, thorchain } from '@shapeshiftoss/chain-adapters'
 import type { CosmosSignTx, ThorchainSignTx } from '@shapeshiftoss/hdwallet-core'
 import { KnownChainIds } from '@shapeshiftoss/types'

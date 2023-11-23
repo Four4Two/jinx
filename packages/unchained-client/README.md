@@ -29,13 +29,13 @@ import * as unchained from '@shapeshiftoss/unchained-client'
 const address = 'cosmos1t5u0jfg3ljsjrh2m9e47d4ny2hea7eehxrzdgd'
 
 // configuration for the api client
-const config = new unchained.cosmos.Configuration({ basePath: 'https://dev-api.cosmos.shapeshift.com' })
+const config = new unchained.cosmos.Configuration({ basePath: 'https://dev-api.cosmos.jinx.army' })
 
 // create new instance of the api client
 const apiClient = new unchained.cosmos.V1Api(config)
 
 // create new instance of the ws client
-const wsClient = new unchained.ws.Client<unchained.cosmos.Tx>('wss://dev-api.cosmos.shapeshift.com')
+const wsClient = new unchained.ws.Client<unchained.cosmos.Tx>('wss://dev-api.cosmos.jinx.army')
 
 // create new instance of the transaction parser
 // chainId is in the format of [Caip2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md)

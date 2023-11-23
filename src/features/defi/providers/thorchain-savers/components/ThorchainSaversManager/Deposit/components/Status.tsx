@@ -1,7 +1,7 @@
 import { CheckIcon, CloseIcon, ExternalLinkIcon } from '@chakra-ui/icons'
 import { Box, Button, Link, Stack } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { fromAccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { fromAccountId } from '@sudophunk/caip'
 import { Summary } from 'features/defi/components/Summary'
 import { TxStatus } from 'features/defi/components/TxStatus/TxStatus'
 import type {

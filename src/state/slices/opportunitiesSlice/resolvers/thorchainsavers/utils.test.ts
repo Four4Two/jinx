@@ -1,4 +1,4 @@
-import { btcAssetId } from '@shapeshiftoss/caip'
+import { btcAssetId } from '@sudophunk/caip'
 import axios from 'axios'
 import { AssetService } from 'lib/asset-service'
 

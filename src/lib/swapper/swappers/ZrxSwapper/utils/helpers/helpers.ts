@@ -1,5 +1,5 @@
-import type { ChainId } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import type { EvmChainAdapter } from '@shapeshiftoss/chain-adapters'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import type { Result } from '@sniptt/monads'

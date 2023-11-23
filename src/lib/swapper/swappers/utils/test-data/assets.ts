@@ -15,7 +15,7 @@ import {
   optimismChainId,
   thorchainAssetId,
   thorchainChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import type { Asset } from 'lib/asset-service'
 
 export const BTC: Asset = {

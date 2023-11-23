@@ -1,5 +1,5 @@
 import { HStack, Tag, TagLabel } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import { RawText } from 'components/Text'
 import { accountIdToChainDisplayName, accountIdToLabel } from 'state/slices/portfolioSlice/utils'
 

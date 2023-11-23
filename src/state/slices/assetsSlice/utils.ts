@@ -4,7 +4,7 @@ import type {
   ChainId,
   ChainNamespace,
   ChainReference,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import {
   ASSET_REFERENCE,
   CHAIN_NAMESPACE,
@@ -13,7 +13,7 @@ import {
   fromChainId,
   isNft,
   toAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import type { Transaction } from '@shapeshiftoss/chain-adapters'
 import type { Asset } from 'lib/asset-service'
 
@@ -119,7 +119,7 @@ export const makeNftAssetsFromTxs = (txs: Transaction[]): AssetsState => {
           const url = tx.data.mediaById[transfer.id]?.url
           if (!url) return
           if (url.startsWith('ipfs://'))
-            return url.replace('ipfs://', 'https://gateway.shapeshift.com/ipfs/')
+            return url.replace('ipfs://', 'https://gateway.jinx.army/ipfs/')
           return url
         })()
 

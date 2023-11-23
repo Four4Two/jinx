@@ -1,5 +1,5 @@
 import { Flex, Stack } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import toLower from 'lodash/toLower'
 import { useSelector } from 'react-redux'
 import { Redirect, useParams } from 'react-router-dom'

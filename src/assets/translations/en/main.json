@@ -222,7 +222,7 @@
     "notSupported": "%{asset} is not supported by %{wallet}"
   },
   "connectWalletPage": {
-    "shapeshift": "Blackfury",
+    "blackfury": "Blackfury",
     "exploreThe": "Explore the",
     "defiUniverse": "DeFi Universe",
     "body": "100% Free. Open Source. Community Owned. Non-Custodial. Private.",
@@ -694,7 +694,7 @@
       "protocol": "This is the protocol where your trade is being routed.",
       "protocolLifi": "This is the protocol where your trade is being routed. LI.FI executes a series of intermediary trades under the hood for the best overall combination of price, safety and speed.",
       "protocolFee": "This is the fee charged by the protocol selected to process this transaction, this is not a fee charged by BlackFury",
-      "shapeshiftFee": "BlackFury does not add fees on trades 🎉",
+      "blackfuryFee": "BlackFury does not add fees on trades 🎉",
       "manualReceiveAddress": "This is the address you will receive your funds to. It has been manually entered, please ensure it is correct."
     },
     "rates": {
@@ -1011,7 +1011,7 @@
     },
     "approve": {
       "header": "Allow %{spenderName} to use your %{asset}",
-      "shapeshiftRouterName": "BlackFury DAO Router",
+      "blackfuryRouterName": "BlackFury DAO Router",
       "body": "needs your permission to use your %{asset}",
       "learnMore": "Why do I need to do this?",
       "depositFee": "There will be a separate gas fee to deposit.",
@@ -1425,7 +1425,7 @@
       },
       "onboarding": {
         "skip": "Skip",
-        "shapeshiftWallet": "BlackFury Wallet",
+        "blackfuryWallet": "BlackFury Wallet",
         "selfCustody": {
           "title": "Your BlackFury Wallet is Self-Custody",
           "subTitle": "You hold the keys and you're the only one who can access it.",
@@ -1626,7 +1626,7 @@
       "buyAssetOnCoinbase": "Buy %{assetSymbol} on Coinbase",
       "totalJinxValue": "Total Jinx Value",
       "jinxToken": "BlackFury %{assetSymbol} Token",
-      "jinxDescription": "Since 2019, our shapeshifting JINX Token has been offering users an ever-expanding world of utility and advantages. Today, our ERC-20 governance token not only enables you to influence the future of BlackFury through your vote, you also have an ever-expanding universe of investing opportunities. Invest, track, and manage your JINX holdings here.",
+      "jinxDescription": "Since 2019, our blackfurying JINX Token has been offering users an ever-expanding world of utility and advantages. Today, our ERC-20 governance token not only enables you to influence the future of BlackFury through your vote, you also have an ever-expanding universe of investing opportunities. Invest, track, and manage your JINX holdings here.",
       "getAsset": "Get %{assetSymbol}",
       "trade": "Trade",
       "receive": "Receive",

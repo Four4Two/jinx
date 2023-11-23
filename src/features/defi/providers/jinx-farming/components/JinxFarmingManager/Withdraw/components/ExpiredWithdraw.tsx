@@ -1,6 +1,6 @@
 import { Stack } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { toAssetId } from '@sudophunk/caip'
 import type { WithdrawValues } from 'features/defi/components/Withdraw/Withdraw'
 import { Withdraw as ReusableWithdraw } from 'features/defi/components/Withdraw/Withdraw'
 import type {

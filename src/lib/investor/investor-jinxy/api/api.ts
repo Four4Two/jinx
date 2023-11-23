@@ -1,5 +1,5 @@
-import type { ChainReference } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, CHAIN_REFERENCE, toAssetId } from '@shapeshiftoss/caip'
+import type { ChainReference } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, CHAIN_REFERENCE, toAssetId } from '@sudophunk/caip'
 import type {
   EvmBaseAdapter,
   EvmChainId,

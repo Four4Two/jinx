@@ -1,4 +1,4 @@
-import { CHAIN_NAMESPACE, fromChainId } from '@shapeshiftoss/caip'
+import { CHAIN_NAMESPACE, fromChainId } from '@sudophunk/caip'
 import { TxStatus } from '@shapeshiftoss/unchained-client'
 import EventEmitter from 'events'
 import { TRADE_POLL_INTERVAL_MILLISECONDS } from 'components/MultiHopTrade/hooks/constants'

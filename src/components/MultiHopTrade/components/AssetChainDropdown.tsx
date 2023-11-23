@@ -8,7 +8,7 @@ import {
   MenuList,
   MenuOptionGroup,
 } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import React, { useCallback, useMemo } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { Amount } from 'components/Amount/Amount'

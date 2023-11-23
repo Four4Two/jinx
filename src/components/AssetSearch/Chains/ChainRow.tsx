@@ -1,5 +1,5 @@
 import { Flex } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { useMemo } from 'react'
 import { Amount } from 'components/Amount/Amount'
 import { LazyLoadAvatar } from 'components/LazyLoadAvatar'

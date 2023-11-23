@@ -26,8 +26,8 @@ export const getWalletConnectWallet = async () => {
         name: 'BlackFury',
         description:
           'A free open source platform to trade, track, buy, and earn. Community-owned. Private. Non-custodial. Multi-chain.',
-        url: 'https://app.shapeshift.com/',
-        icons: ['https://app.shapeshift.com/icon-512x512.png'],
+        url: 'https://app.jinx.army/',
+        icons: ['https://app.jinx.army/icon-512x512.png'],
       },
     })
   } catch (e) {

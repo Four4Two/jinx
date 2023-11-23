@@ -1,4 +1,4 @@
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import { memo, useCallback, useEffect, useState } from 'react'
 import type { AccountDropdownProps } from 'components/AccountDropdown/AccountDropdown'
 import type { TradeAssetInputProps } from 'components/MultiHopTrade/components/TradeAssetInput'

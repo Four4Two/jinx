@@ -1,4 +1,4 @@
-import { polygonChainId } from '@shapeshiftoss/caip'
+import { polygonChainId } from '@sudophunk/caip'
 
 import { polygon } from '../baseAssets'
 import * as coingecko from '../coingecko'

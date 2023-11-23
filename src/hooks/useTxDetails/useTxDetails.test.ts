@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { MarketData } from '@shapeshiftoss/types'
 import { TradeType, TransferType } from '@shapeshiftoss/unchained-client'
 import { mockAssetState } from 'test/mocks/assets'

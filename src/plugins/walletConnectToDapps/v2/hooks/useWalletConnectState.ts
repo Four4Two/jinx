@@ -1,4 +1,4 @@
-import { CHAIN_NAMESPACE, fromChainId } from '@shapeshiftoss/caip'
+import { CHAIN_NAMESPACE, fromChainId } from '@sudophunk/caip'
 import { useIsInteractingWithContract } from 'plugins/walletConnectToDapps/hooks/useIsInteractingWithContract'
 import {
   extractConnectedAccounts,

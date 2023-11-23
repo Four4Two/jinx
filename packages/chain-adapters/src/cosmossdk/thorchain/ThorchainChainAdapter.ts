@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { ASSET_REFERENCE, thorchainAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { ASSET_REFERENCE, thorchainAssetId } from '@sudophunk/caip'
 import type { ThorchainSignTx } from '@shapeshiftoss/hdwallet-core'
 import { supportsThorchain } from '@shapeshiftoss/hdwallet-core'
 import type { BIP44Params } from '@shapeshiftoss/types'

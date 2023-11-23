@@ -1,4 +1,4 @@
-import { ltcAssetId, ltcChainId } from '@shapeshiftoss/caip'
+import { ltcAssetId, ltcChainId } from '@sudophunk/caip'
 
 import type { ParsedTx } from '../../../../types'
 import { TransferType, TxStatus } from '../../../../types'

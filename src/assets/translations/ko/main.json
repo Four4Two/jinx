@@ -105,7 +105,7 @@
     "insufficientCryptoAmountToSell": "최소 거래 가능 수량 $%{amount}"
   },
   "connectWalletPage": {
-    "shapeshift": "BlackFury (셰이프시프트)",
+    "blackfury": "BlackFury (셰이프시프트)",
     "exploreThe": "광활한 Defi Universe를",
     "defiUniverse": "지금 탐험해 보세요",
     "body": "100% 무료인, 중개인이 없는 비 수탁형(Non-custodial) 오픈소스 플랫폼입니다.",
@@ -325,7 +325,7 @@
     "previewTrade": "거래 미리보기",
     "rate": "가격",
     "minerFee": "마이너 수수료",
-    "shapeshiftFee": "셰이프시프트 수수료",
+    "blackfuryFee": "셰이프시프트 수수료",
     "gasFeeExceedsTradeAmountThreshold": "거래량에 대해 %{percentage}%만큼 가스 비용이 초과되었습니다",
     "confirmDetails": "세부 정보 확인",
     "confirmAndTrade": "확인 및 거래",
@@ -339,7 +339,7 @@
     "tooltip": {
       "rate": "해당 거래 페어에 대한 예상 거래 비율입니다.",
       "minerFee": "이 수수료는 해당 블록체인에 거래를 하기 위한 수수료이며, 절대 셰이프시프트에서 부과하는 수수료가 아닙니다!",
-      "shapeshiftFee": "BlackFury는 별도의 거래 수수료를 요구하지 않습니다 🎉"
+      "blackfuryFee": "BlackFury는 별도의 거래 수수료를 요구하지 않습니다 🎉"
     },
     "errors": {
       "title": "문제가 발생했습니다.",

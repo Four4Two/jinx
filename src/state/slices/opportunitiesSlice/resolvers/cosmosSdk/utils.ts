@@ -1,5 +1,5 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
-import { cosmosChainId, fromAccountId, toAccountId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
+import { cosmosChainId, fromAccountId, toAccountId } from '@sudophunk/caip'
 import type { Account, CosmosSdkChainId } from '@shapeshiftoss/chain-adapters'
 import type { MarketData } from '@shapeshiftoss/types'
 import dayjs from 'dayjs'

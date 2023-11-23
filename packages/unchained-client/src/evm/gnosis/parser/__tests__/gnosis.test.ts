@@ -1,4 +1,4 @@
-import { gnosisAssetId, gnosisChainId } from '@shapeshiftoss/caip'
+import { gnosisAssetId, gnosisChainId } from '@sudophunk/caip'
 import type { evm } from '@shapeshiftoss/common-api'
 
 import { TransferType, TxStatus } from '../../../../types'

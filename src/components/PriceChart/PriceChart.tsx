@@ -1,6 +1,6 @@
 import type { ChakraStyledOptions } from '@chakra-ui/react'
 import { Alert, Box } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { HistoryTimeframe } from '@shapeshiftoss/types'
 import { useEffect, useMemo } from 'react'
 import { FaInfoCircle } from 'react-icons/fa'

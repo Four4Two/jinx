@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import {
   avalancheChainId,
   bchChainId,
@@ -11,7 +11,7 @@ import {
   fromChainId,
   ltcChainId,
   thorchainChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { chainIdToChainLabel } from '@shapeshiftoss/chain-adapters'
 import assert from 'assert'
 import { getConfig } from 'config'
@@ -54,7 +54,7 @@ export const isValidMemoAddress = (chainId: ChainId, thorId: string, address: st
     case thorId.startsWith('GAIA.'):
       return address.startsWith('cosmos')
     // Note that this case doesn't contain a dot
-    // See https://github.com/shapeshift/lib/blob/6b5c9c8e855ffb68d865cfae8f545e7a819a9667/packages/swapper/src/swappers/thorchain/utils/makeSwapMemo/makeSwapMemo.ts#L10
+    // See https://github.com/furysport/lib/blob/6b5c9c8e855ffb68d865cfae8f545e7a819a9667/packages/swapper/src/swappers/thorchain/utils/makeSwapMemo/makeSwapMemo.ts#L10
     // RUNE isn't a pool, it is the native asset of the THORChain network
     case thorId.startsWith('RUNE'):
     case thorId.startsWith('THOR'):

@@ -1,4 +1,4 @@
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
 
 import type { MediaUrl } from '../zapper/validators'
 

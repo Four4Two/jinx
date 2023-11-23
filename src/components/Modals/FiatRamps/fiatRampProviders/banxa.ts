@@ -1,4 +1,4 @@
-import { adapters, fromAssetId } from '@shapeshiftoss/caip'
+import { adapters, fromAssetId } from '@sudophunk/caip'
 
 import type { CommonFiatCurrencies } from '../config'
 import { FiatRampAction } from '../FiatRampsCommon'
@@ -42,7 +42,7 @@ export const getSupportedBanxaFiatCurrencies = (): CommonFiatCurrencies[] => {
 export const createBanxaUrl = ({ assetId, address, action }: CreateUrlProps): string => {
   const asset = adapters.assetIdToBanxaTicker(assetId)
   if (!asset) throw new Error('Asset not supported by Banxa')
-  const BANXA_BASE_URL = new URL('https://shapeshift.banxa.com/')
+  const BANXA_BASE_URL = new URL('https://blackfury.banxa.com/')
 
   const params = new URLSearchParams()
   /**

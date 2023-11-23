@@ -1,4 +1,4 @@
-import { cosmosChainId, fromAssetId } from '@shapeshiftoss/caip'
+import { cosmosChainId, fromAssetId } from '@sudophunk/caip'
 import qs from 'qs'
 import { useCallback, useMemo } from 'react'
 import { useHistory, useLocation } from 'react-router'

@@ -1,4 +1,4 @@
-import { CHAIN_NAMESPACE, fromAssetId } from '@shapeshiftoss/caip'
+import { CHAIN_NAMESPACE, fromAssetId } from '@sudophunk/caip'
 import type {
   CosmosSdkBaseAdapter,
   EvmChainAdapter,

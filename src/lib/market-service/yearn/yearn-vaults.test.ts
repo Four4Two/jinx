@@ -1,4 +1,4 @@
-import { CHAIN_NAMESPACE, CHAIN_REFERENCE, toAssetId } from '@shapeshiftoss/caip'
+import { CHAIN_NAMESPACE, CHAIN_REFERENCE, toAssetId } from '@sudophunk/caip'
 import { HistoryTimeframe } from '@shapeshiftoss/types'
 
 import { YearnVaultMarketCapService } from './yearn-vaults'

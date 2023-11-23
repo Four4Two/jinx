@@ -8,8 +8,8 @@ import {
   useColorModeValue,
   useMediaQuery,
 } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { useMemo } from 'react'
 import { generatePath, Link } from 'react-router-dom'
 import { Allocations } from 'components/AccountRow/Allocations'

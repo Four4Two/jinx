@@ -1,4 +1,4 @@
-import { toAccountId } from '@shapeshiftoss/caip'
+import { toAccountId } from '@sudophunk/caip'
 import type { UtxoBaseAdapter, UtxoChainId } from '@shapeshiftoss/chain-adapters'
 import {
   convertXpubVersion,

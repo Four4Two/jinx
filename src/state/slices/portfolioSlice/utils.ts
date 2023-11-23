@@ -1,4 +1,4 @@
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
 import {
   accountIdToChainId,
   avalancheChainId,
@@ -20,7 +20,7 @@ import {
   polygonChainId,
   thorchainChainId,
   toAccountId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import type { Account } from '@shapeshiftoss/chain-adapters'
 import type { HDWallet } from '@shapeshiftoss/hdwallet-core'
 import {

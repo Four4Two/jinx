@@ -26,8 +26,8 @@ import {
   useColorModeValue,
   useMediaQuery,
 } from '@chakra-ui/react'
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { useCallback, useMemo, useState } from 'react'
 import { FaSync } from 'react-icons/fa'
 import { useTranslate } from 'react-polyglot'

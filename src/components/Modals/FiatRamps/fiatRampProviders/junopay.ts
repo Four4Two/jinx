@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { adapters } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { adapters } from '@sudophunk/caip'
 import axios from 'axios'
 import { getConfig } from 'config'
 
@@ -71,7 +71,7 @@ export const createJunoPayUrl = ({ action, address, assetId }: CreateUrlProps): 
   params.set('action', action === FiatRampAction.Sell ? 'sell' : 'buy')
   params.set('currency', asset && asset.toLowerCase())
   params.set('partnerKey', getConfig().REACT_APP_JUNOPAY_APP_ID)
-  params.set('name', 'shapeshift')
+  params.set('name', 'blackfury')
   params.set('walletAddress', address)
 
   return `${baseUrl.toString()}?${params.toString()}`

@@ -1,6 +1,6 @@
 import { Alert, AlertIcon, Box, Skeleton, Stack, useToast } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { bchChainId, fromAccountId, toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { bchChainId, fromAccountId, toAssetId } from '@sudophunk/caip'
 import { FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'
 import dayjs from 'dayjs'

@@ -1,5 +1,5 @@
 import { Flex, Image } from '@chakra-ui/react'
-import { dogeAssetId, jinxAssetId } from '@shapeshiftoss/caip'
+import { dogeAssetId, jinxAssetId } from '@sudophunk/caip'
 import { memo } from 'react'
 import OnRamperLogo from 'assets/on-ramper.png'
 import SaversVaultTop from 'assets/savers-vault-top.png'
@@ -21,7 +21,7 @@ const promoData: PromoItem[] = [
     startDate: '2023-01-01 08:00 AM',
     endDate: '2023-01-01 08:00 AM',
     id: 'apple-pay',
-    href: 'https://widget.onramper.com/?apiKey=pk_prod_ViOib9FcqKQeqqBsLF6ZPYis8X0Wdl9ma16rBhTxXmw0&defaultCrypto=ETH&supportSell=false&isAddressEditable=false&language=en&darkMode=true&redirectURL=https%3A%2F%2Fapp.shapeshift.com%2F%23%2Fbuy-crypto&onlyGateways=Mercuryo',
+    href: 'https://widget.onramper.com/?apiKey=pk_prod_ViOib9FcqKQeqqBsLF6ZPYis8X0Wdl9ma16rBhTxXmw0&defaultCrypto=ETH&supportSell=false&isAddressEditable=false&language=en&darkMode=true&redirectURL=https%3A%2F%2Fapp.jinx.army%2F%23%2Fbuy-crypto&onlyGateways=Mercuryo',
     walletRequired: false,
     rightElement: <Image width='80px' overflow='hidden' borderRadius='lg' src={OnRamperLogo} />,
     isExternal: true,
@@ -46,7 +46,7 @@ const promoData: PromoItem[] = [
     startDate: '2023-03-01 8:00 AM',
     endDate: '2023-03-07 8:00 AM',
     id: 'dappback-promo',
-    href: 'https://dappback.com/shapeshift',
+    href: 'https://dappback.com/blackfury',
     walletRequired: false,
     isExternal: true,
     rightElement: <AssetIcon assetId={jinxAssetId} />,

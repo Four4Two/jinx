@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import type { DefiAction } from 'features/defi/contexts/DefiManagerProvider/DefiCommon'
 import type { Location } from 'history'
 import qs from 'qs'

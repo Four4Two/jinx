@@ -1,5 +1,5 @@
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
-import { fromAccountId, fromAssetId, toAccountId, toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
+import { fromAccountId, fromAssetId, toAccountId, toAssetId } from '@sudophunk/caip'
 import type { MarketData } from '@shapeshiftoss/types'
 import type { Asset } from 'lib/asset-service'
 import { bn, bnOrZero } from 'lib/bignumber/bignumber'

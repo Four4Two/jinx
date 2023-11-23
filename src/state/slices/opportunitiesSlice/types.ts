@@ -1,4 +1,4 @@
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
 import type { PartialRecord } from 'lib/utils'
 import type { Nominal } from 'types/common'
 

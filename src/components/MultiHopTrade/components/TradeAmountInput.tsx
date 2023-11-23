@@ -10,7 +10,7 @@ import {
   Stack,
   useColorModeValue,
 } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import type { FocusEvent, PropsWithChildren } from 'react'
 import React, { memo, useCallback, useMemo, useRef, useState } from 'react'
 import type { FieldError } from 'react-hook-form'

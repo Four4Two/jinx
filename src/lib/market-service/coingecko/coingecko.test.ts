@@ -1,4 +1,4 @@
-import { adapters } from '@shapeshiftoss/caip'
+import { adapters } from '@sudophunk/caip'
 import type { MarketData } from '@shapeshiftoss/types'
 import { HistoryTimeframe } from '@shapeshiftoss/types'
 import axios from 'axios'
@@ -12,8 +12,8 @@ const mockedAxios = axios as jest.Mocked<typeof axios>
 
 const coinGeckoMarketService = new CoinGeckoMarketService()
 
-const coinGeckoMarketApiUrl = 'https://markets.shapeshift.com/api/v3/coins/markets'
-const coinGeckoMarketProApiUrl = 'https://markets.shapeshift.com/api/v3/coins/markets'
+const coinGeckoMarketApiUrl = 'https://markets.jinx.army/api/v3/coins/markets'
+const coinGeckoMarketProApiUrl = 'https://markets.jinx.army/api/v3/coins/markets'
 
 describe('CoinGecko market service', () => {
   describe('findAll', () => {
@@ -80,7 +80,7 @@ describe('CoinGecko market service', () => {
     }
 
     const jinx: CoinGeckoMarketCap = {
-      id: 'shapeshift-jinx-token',
+      id: 'blackfury-jinx-token',
       symbol: 'jinx',
       name: 'BlackFury JINX Token',
       image: 'https://assets.coingecko.com/coins/images/9988/large/JINX.png?1574330622',
@@ -260,7 +260,7 @@ describe('CoinGecko market service', () => {
 
       mockedAxios.get.mockResolvedValue({ data: [jinx] })
       const result = await coinGeckoMarketService.findAll()
-      const jinxAssetId = adapters.coingeckoToAssetIds('shapeshift-jinx-token')[0]
+      const jinxAssetId = adapters.coingeckoToAssetIds('blackfury-jinx-token')[0]
       expect(result[jinxAssetId!]).toEqual(jinxResult)
     })
   })

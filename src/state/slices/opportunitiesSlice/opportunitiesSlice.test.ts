@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { ethAssetId, jinxAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { ethAssetId, jinxAssetId } from '@sudophunk/caip'
 import { clearState, store } from 'state/store'
 
 import { jinxEthLpAssetId } from './constants'

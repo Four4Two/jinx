@@ -8,7 +8,7 @@ import {
   Tag,
   useColorModeValue,
 } from '@chakra-ui/react'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { PairIcons } from 'features/defi/components/PairIcons/PairIcons'
 import qs from 'qs'
 import { useCallback, useMemo } from 'react'

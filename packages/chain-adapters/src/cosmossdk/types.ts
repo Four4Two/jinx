@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type * as unchained from '@shapeshiftoss/unchained-client'
 
 import type * as types from '../types'

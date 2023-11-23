@@ -1,5 +1,5 @@
 import { IconButton, Tooltip, useMediaQuery } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { AssetIcon } from 'components/AssetIcon'
 import { chainIdToFeeAssetId } from 'state/slices/portfolioSlice/utils'
 import { selectAssetById } from 'state/slices/selectors'

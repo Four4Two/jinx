@@ -1,4 +1,4 @@
-import { ethChainId as chainId, toAssetId } from '@shapeshiftoss/caip'
+import { ethChainId as chainId, toAssetId } from '@sudophunk/caip'
 import type { Token, Vault } from '@yfi/sdk'
 import { Yearn } from '@yfi/sdk'
 import { ethers } from 'ethers'

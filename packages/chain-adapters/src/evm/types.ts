@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import type { HDWallet } from '@shapeshiftoss/hdwallet-core'
 import type * as unchained from '@shapeshiftoss/unchained-client'
 

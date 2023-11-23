@@ -5,7 +5,7 @@ import {
   highburyAssetId,
   optimismAssetId,
   polygonAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { mockChainAdapters } from 'test/mocks/portfolio'
 
 import {

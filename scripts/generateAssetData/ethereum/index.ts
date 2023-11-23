@@ -1,4 +1,4 @@
-import { ethChainId, toAssetId } from '@shapeshiftoss/caip'
+import { ethChainId, toAssetId } from '@sudophunk/caip'
 import axios from 'axios'
 import chunk from 'lodash/chunk'
 import orderBy from 'lodash/orderBy'
@@ -25,7 +25,7 @@ const jinxyToken: Asset = {
   name: 'JINX Yieldy',
   precision: 18,
   color: '#CE3885',
-  icon: 'https://raw.githubusercontent.com/shapeshift/lib/main/packages/asset-service/src/generateAssetData/ethereum/icons/jinxy-icon.png',
+  icon: 'https://raw.githubusercontent.com/blackfury/lib/main/packages/asset-service/src/generateAssetData/ethereum/icons/jinxy-icon.png',
   symbol: 'JINXy',
   explorer: ethereum.explorer,
   explorerAddressLink: ethereum.explorerAddressLink,

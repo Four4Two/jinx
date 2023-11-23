@@ -1,5 +1,5 @@
 import { AddressZero } from '@ethersproject/constants'
-import { ethAssetId, ethChainId, jinxAssetId } from '@shapeshiftoss/caip'
+import { ethAssetId, ethChainId, jinxAssetId } from '@sudophunk/caip'
 import { UtxoAccountType } from '@shapeshiftoss/types'
 import { Dex, TradeType, TransferType, TxStatus } from '@shapeshiftoss/unchained-client'
 import type { Tx } from 'state/slices/txHistorySlice/txHistorySlice'

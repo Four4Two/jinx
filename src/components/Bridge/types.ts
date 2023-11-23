@@ -1,5 +1,5 @@
 // https://docs.axelar.dev/dev/build/chain-names/mainnet
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 
 export enum AxelarChainNames {
   Avalanche = 'Avalanche',

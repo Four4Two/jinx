@@ -1,4 +1,4 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
 import {
   avalancheAssetId,
   bscAssetId,
@@ -8,7 +8,7 @@ import {
   highburyAssetId,
   optimismAssetId,
   polygonAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import type { EvmChainId } from '@shapeshiftoss/chain-adapters'
 import { isEvmChainId } from '@shapeshiftoss/chain-adapters'
 import { KnownChainIds } from '@shapeshiftoss/types'

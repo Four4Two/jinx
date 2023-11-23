@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { isTradingActive } from 'components/MultiHopTrade/utils'
 import type { SwapperName } from 'lib/swapper/types'
 import { swapperApi } from 'state/apis/swapper/swapperApi'

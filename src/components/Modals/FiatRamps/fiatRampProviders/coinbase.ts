@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { jinxAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { jinxAssetId } from '@sudophunk/caip'
 
 import type { CreateUrlProps } from '../types'
 

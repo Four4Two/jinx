@@ -1,4 +1,4 @@
-import { btcChainId } from '@shapeshiftoss/caip'
+import { btcChainId } from '@sudophunk/caip'
 import type { ethereum } from '@shapeshiftoss/chain-adapters'
 import type { Result } from '@sniptt/monads'
 import { Err, Ok } from '@sniptt/monads'

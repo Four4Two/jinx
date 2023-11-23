@@ -1,11 +1,11 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import {
   ASSET_REFERENCE,
   bchChainId,
   btcChainId,
   dogeChainId,
   ltcChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { BTCInputScriptType, BTCOutputScriptType } from '@shapeshiftoss/hdwallet-core'
 import type { BIP44Params } from '@shapeshiftoss/types'
 import { UtxoAccountType } from '@shapeshiftoss/types'

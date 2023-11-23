@@ -1,4 +1,4 @@
-import { cosmosChainId, ethChainId } from '@shapeshiftoss/caip'
+import { cosmosChainId, ethChainId } from '@sudophunk/caip'
 
 import { chainIdToLabel } from './utils'
 

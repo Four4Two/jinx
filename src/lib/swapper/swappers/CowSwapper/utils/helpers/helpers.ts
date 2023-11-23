@@ -1,6 +1,6 @@
 import type { TypedDataDomain, TypedDataField } from '@ethersproject/abstract-signer'
-import type { ChainId } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import type { Result } from '@sniptt/monads'
 import { Err, Ok } from '@sniptt/monads'

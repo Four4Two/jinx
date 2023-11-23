@@ -1,4 +1,4 @@
-import { btcAssetId, ethAssetId, jinxAssetId } from '@shapeshiftoss/caip'
+import { btcAssetId, ethAssetId, jinxAssetId } from '@sudophunk/caip'
 import { BtcSend, EthReceive, EthSend, JINXSend, yearnVaultDeposit } from 'test/mocks/txs'
 
 import { getRelatedAssetIds } from './utils'

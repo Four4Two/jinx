@@ -1,5 +1,5 @@
-import type { ChainId } from '@shapeshiftoss/caip'
-import { ethChainId, optimismChainId, polygonChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { ethChainId, optimismChainId, polygonChainId } from '@sudophunk/caip'
 import { Alchemy, Network } from 'alchemy-sdk'
 import { getConfig } from 'config'
 

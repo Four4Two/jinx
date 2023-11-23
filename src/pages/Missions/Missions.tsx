@@ -51,14 +51,14 @@ export const useGetMissions = () => {
         subtitle: translate('missions.jinxatar.subtitle'),
         buttonText: translate('missions.jinxatar.cta'),
         coverImage: JinxAtarBg,
-        onClick: () => window.open('https://app.mercle.xyz/shapeshift/events'),
+        onClick: () => window.open('https://app.mercle.xyz/blackfury/events'),
       },
       {
         title: translate('missions.optimism.title'),
         subtitle: translate('missions.optimism.subtitle'),
         buttonText: translate('missions.optimism.cta'),
         coverImage: OptimismBg,
-        onClick: () => window.open('https://rewards.shapeshift.com/optimistic-jinx-1'),
+        onClick: () => window.open('https://rewards.jinx.army/optimistic-jinx-1'),
         endDate: '2023-07-04 05:59 PM',
       },
       {
@@ -66,7 +66,7 @@ export const useGetMissions = () => {
         subtitle: translate('missions.optimism.subtitle'),
         buttonText: translate('missions.optimism.cta'),
         coverImage: OptimismBg,
-        onClick: () => window.open('https://rewards.shapeshift.com/optimistic-jinx-2'),
+        onClick: () => window.open('https://rewards.jinx.army/optimistic-jinx-2'),
         startDate: '2023-07-04 05:59 PM',
         endDate: '2023-07-31 05:59 PM',
       },
@@ -95,7 +95,7 @@ export const useGetMissions = () => {
         buttonText: translate('missions.jinxRewards.cta'),
         coverImage: JinxRewardsBg,
         startDate: '2025-01-01 7:00 AM',
-        onClick: () => window.open('https://app.shapeshift.com'),
+        onClick: () => window.open('https://app.jinx.army'),
       },
     ]
   }, [translate])

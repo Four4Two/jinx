@@ -11,7 +11,7 @@ import {
   PopoverTrigger,
   Stack,
 } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import type { MarketData } from '@shapeshiftoss/types'
 import type { PropsWithChildren, ReactNode } from 'react'
 import React from 'react'

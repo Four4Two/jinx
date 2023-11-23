@@ -1,4 +1,4 @@
-import { cosmosAssetId, cosmosChainId } from '@shapeshiftoss/caip'
+import { cosmosAssetId, cosmosChainId } from '@sudophunk/caip'
 
 import { TransferType, TxStatus } from '../../../../types'
 import type { ParsedTx } from '../../../parser'

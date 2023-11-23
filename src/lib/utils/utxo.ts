@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import type { UtxoChainAdapter, UtxoChainId } from '@shapeshiftoss/chain-adapters'
 import { utxoChainIds } from '@shapeshiftoss/chain-adapters'
 import type { KnownChainIds } from '@shapeshiftoss/types'

@@ -13,7 +13,7 @@ import {
   Tag,
   useColorModeValue,
 } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import { entries, isEmpty, uniq } from 'lodash'
 import { useCallback, useMemo } from 'react'
 import { IoMdRefresh } from 'react-icons/io'

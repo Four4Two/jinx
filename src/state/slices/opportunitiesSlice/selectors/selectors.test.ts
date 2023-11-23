@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { ethAssetId, jinxAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { ethAssetId, jinxAssetId } from '@sudophunk/caip'
 import { mockStore } from 'test/mocks/store'
 import type {
   OpportunitiesState,

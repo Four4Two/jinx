@@ -1,4 +1,4 @@
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import { AnimatePresence } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import { Route, Switch, useHistory, useLocation } from 'react-router-dom'

@@ -9,8 +9,8 @@ import {
   Text as CText,
   useColorModeValue,
 } from '@chakra-ui/react'
-import type { ToAssetIdArgs } from '@shapeshiftoss/caip'
-import { ethChainId } from '@shapeshiftoss/caip'
+import type { ToAssetIdArgs } from '@sudophunk/caip'
+import { ethChainId } from '@sudophunk/caip'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core/dist/wallet'
 import { useMemo } from 'react'
 import { Amount } from 'components/Amount/Amount'

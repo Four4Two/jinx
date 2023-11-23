@@ -1,5 +1,5 @@
-import type { AssetNamespace, ChainId } from '@shapeshiftoss/caip'
-import { ASSET_NAMESPACE, polygonChainId, toAccountId, toAssetId } from '@shapeshiftoss/caip'
+import type { AssetNamespace, ChainId } from '@sudophunk/caip'
+import { ASSET_NAMESPACE, polygonChainId, toAccountId, toAssetId } from '@sudophunk/caip'
 import type { TokenType } from '@shapeshiftoss/unchained-client/src/evm/ethereum'
 import type { Result } from '@sniptt/monads'
 import { Err, Ok } from '@sniptt/monads'
@@ -125,7 +125,7 @@ export const parseAlchemyNftToNftItem = async (
         {
           originalUrl: tokenMetadata.media.url.replace(
             'ipfs://',
-            'https://gateway.shapeshift.com/ipfs/',
+            'https://gateway.jinx.army/ipfs/',
           ),
           type: 'image',
         },
@@ -141,7 +141,7 @@ export const parseAlchemyNftToNftItem = async (
 
       if (!data) return Err('Cannot get metadata from IPNS gateway')
 
-      const image = data.image.replace('ipfs://', 'https://gateway.shapeshift.com/ipfs/')
+      const image = data.image.replace('ipfs://', 'https://gateway.jinx.army/ipfs/')
 
       return Ok([
         {

@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import {
   avalancheChainId,
   bscChainId,
@@ -7,7 +7,7 @@ import {
   highburyChainId,
   optimismChainId,
   polygonChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { getConfig } from 'config'
 import { providers } from 'ethers'
 

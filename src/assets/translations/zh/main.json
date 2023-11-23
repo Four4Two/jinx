@@ -104,7 +104,7 @@
     "insufficientCryptoAmountToSell": "出售的最低金额为$%{Amount}"
   },
   "connectWalletPage": {
-    "shapeshift": "BlackFury 平台",
+    "blackfury": "BlackFury 平台",
     "exploreThe": "探索",
     "defiUniverse": "去中心化金融的宇宙",
     "body": "100%免费。 完全开源。 社区拥有。 非托管。 高度私密。",
@@ -317,7 +317,7 @@
     "previewTrade": "预览交易",
     "rate": "兑换率",
     "minerFee": "矿工费",
-    "shapeshiftFee": "BlackFury 收取费用",
+    "blackfuryFee": "BlackFury 收取费用",
     "confirmDetails": "确认交易细节",
     "confirmAndTrade": "确认并交易",
     "complete": "交易完成",
@@ -330,7 +330,7 @@
     "tooltip": {
       "rate": "这是此交易对的预计兑换率。",
       "minerFee": "此项为区块链网络处理交易所需收费。非 Blackfury 收费。",
-      "shapeshiftFee": "BlackFury 不额外收取任何费用 🎉"
+      "blackfuryFee": "BlackFury 不额外收取任何费用 🎉"
     },
     "errors": {
       "title": "出现问题",

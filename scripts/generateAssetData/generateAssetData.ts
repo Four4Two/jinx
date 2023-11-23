@@ -7,7 +7,7 @@ import {
   gnosisAssetId,
   highburyAssetId,
   polygonAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import fs from 'fs'
 import merge from 'lodash/merge'

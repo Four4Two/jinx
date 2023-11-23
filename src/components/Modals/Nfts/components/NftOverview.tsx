@@ -1,6 +1,6 @@
 import { Button, Divider, Flex, Link, Tag } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { CopyButton } from 'plugins/walletConnectToDapps/components/modals/CopyButton'
 import { useTranslate } from 'react-polyglot'
 import { AssetIcon } from 'components/AssetIcon'

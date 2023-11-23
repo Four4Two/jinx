@@ -27,7 +27,7 @@ export const Notifications = () => {
   const [addressNList, setAddressNList] = useState<BIP32Path>()
   const [ethAddress, setEthAddress] = useState<string | null>()
 
-  const disableAnalytics = window.location.href.includes('private.shapeshift.com')
+  const disableAnalytics = window.location.href.includes('private.jinx.army')
   const partnerKey = getConfig().REACT_APP_WHEREVER_PARTNER_KEY
   const mobileBreakpoint = Number(breakpoints.md.replace('px', ''))
 

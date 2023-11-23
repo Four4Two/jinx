@@ -1,5 +1,5 @@
 import { Modal, ModalContent, ModalOverlay } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import { useRef } from 'react'
 import { MemoryRouter } from 'react-router-dom'
 import { useModal } from 'hooks/useModal/useModal'

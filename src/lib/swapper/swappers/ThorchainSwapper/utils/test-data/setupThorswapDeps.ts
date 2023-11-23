@@ -1,4 +1,4 @@
-import { ethAssetId } from '@shapeshiftoss/caip'
+import { ethAssetId } from '@sudophunk/caip'
 import type { ChainAdapter, ChainAdapterManager, evm } from '@shapeshiftoss/chain-adapters'
 import { FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import { KnownChainIds } from '@shapeshiftoss/types'

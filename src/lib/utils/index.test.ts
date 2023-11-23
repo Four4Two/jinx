@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import {
   ASSET_REFERENCE,
   cosmosAssetId,
@@ -6,7 +6,7 @@ import {
   ethChainId,
   jinxAssetId,
   jinxyAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { fauxmesAccountId } from 'state/slices/opportunitiesSlice/mocks'
 import type {
   LpId,

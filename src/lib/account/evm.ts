@@ -1,4 +1,4 @@
-import { CHAIN_REFERENCE, fromChainId, toAccountId } from '@shapeshiftoss/caip'
+import { CHAIN_REFERENCE, fromChainId, toAccountId } from '@sudophunk/caip'
 import type { EvmChainId } from '@shapeshiftoss/chain-adapters'
 import { evmChainIds } from '@shapeshiftoss/chain-adapters'
 import {

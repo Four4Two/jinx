@@ -1,4 +1,4 @@
-import { ethAssetId, ethChainId, jinxAssetId } from '@shapeshiftoss/caip'
+import { ethAssetId, ethChainId, jinxAssetId } from '@sudophunk/caip'
 import type { Asset } from 'lib/asset-service'
 
 export const WETH: Asset = {

@@ -1,4 +1,4 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
 import {
   avalancheChainId,
   bchChainId,
@@ -9,7 +9,7 @@ import {
   ethChainId,
   ltcChainId,
   thorchainChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 
 export enum ThorchainChain {
   BTC = 'BTC',

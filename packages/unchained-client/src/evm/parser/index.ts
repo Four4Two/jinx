@@ -1,5 +1,5 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
-import { ASSET_NAMESPACE, ASSET_REFERENCE, ethChainId, toAssetId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
+import { ASSET_NAMESPACE, ASSET_REFERENCE, ethChainId, toAssetId } from '@sudophunk/caip'
 import { BigNumber } from 'bignumber.js'
 import { ethers } from 'ethers'
 

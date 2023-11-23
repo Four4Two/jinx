@@ -1,4 +1,4 @@
-import { thorchainAssetId, thorchainChainId } from '@shapeshiftoss/caip'
+import { thorchainAssetId, thorchainChainId } from '@sudophunk/caip'
 
 import type { Fee } from '../../../../types'
 import { TransferType, TxStatus } from '../../../../types'

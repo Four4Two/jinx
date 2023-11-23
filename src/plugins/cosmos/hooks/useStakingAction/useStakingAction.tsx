@@ -9,7 +9,7 @@ import { useWallet } from 'hooks/useWallet/useWallet'
 import type { Asset } from 'lib/asset-service'
 import { SHAPESHIFT_COSMOS_VALIDATOR_ADDRESS } from 'state/slices/opportunitiesSlice/resolvers/cosmosSdk/constants'
 
-const shapeshiftValidators = [SHAPESHIFT_COSMOS_VALIDATOR_ADDRESS]
+const blackfuryValidators = [SHAPESHIFT_COSMOS_VALIDATOR_ADDRESS]
 
 type StakingInput = {
   asset: Asset
@@ -52,7 +52,7 @@ export const useStakingAction = () => {
         throw new Error(`no staking support for chainId: ${asset.chainId}`)
       }
 
-      const memo = shapeshiftValidators.includes(validator) ? 'Delegated with BlackFury' : ''
+      const memo = blackfuryValidators.includes(validator) ? 'Delegated with BlackFury' : ''
 
       const { txToSign } = await (() => {
         const { accountNumber } = bip44Params

@@ -1,4 +1,4 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
 import {
   ASSET_NAMESPACE,
   avalancheChainId,
@@ -7,12 +7,12 @@ import {
   optimismChainId,
   polygonChainId,
   toAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 
 import type { ZerionImplementation } from './validators/fungible'
 
 export const ZERION_CHAINS = [
-  // shapeshift supported
+  // blackfury supported
   'avalanche',
   'binance-smart-chain',
   'ethereum',

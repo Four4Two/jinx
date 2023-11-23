@@ -1,7 +1,7 @@
 import { ArrowDownIcon, ArrowUpIcon } from '@chakra-ui/icons'
 import { Center, CircularProgress } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { toAssetId } from '@sudophunk/caip'
 import { DefiModalContent } from 'features/defi/components/DefiModal/DefiModalContent'
 import { Overview } from 'features/defi/components/Overview/Overview'
 import type {

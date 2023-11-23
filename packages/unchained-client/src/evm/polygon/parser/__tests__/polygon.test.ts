@@ -1,4 +1,4 @@
-import { polygonAssetId, polygonChainId } from '@shapeshiftoss/caip'
+import { polygonAssetId, polygonChainId } from '@sudophunk/caip'
 import type { evm } from '@shapeshiftoss/common-api'
 
 import type { Trade, Transfer } from '../../../../types'

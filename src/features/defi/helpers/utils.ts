@@ -1,5 +1,5 @@
-import type { AccountId, ChainId } from '@shapeshiftoss/caip'
-import { cosmosChainId } from '@shapeshiftoss/caip'
+import type { AccountId, ChainId } from '@sudophunk/caip'
+import { cosmosChainId } from '@sudophunk/caip'
 import type { Asset } from 'lib/asset-service'
 import { bnOrZero } from 'lib/bignumber/bignumber'
 import { selectPortfolioCryptoPrecisionBalanceByFilter } from 'state/slices/selectors'

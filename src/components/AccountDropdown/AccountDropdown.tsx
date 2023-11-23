@@ -22,7 +22,7 @@ import {
   fromAccountId,
   fromAssetId,
   fromChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { UtxoAccountType } from '@shapeshiftoss/types'
 import { chain } from 'lodash'
 import isEmpty from 'lodash/isEmpty'

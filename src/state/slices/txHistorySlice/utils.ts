@@ -1,4 +1,4 @@
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 
 import type { Tx } from './txHistorySlice'
 

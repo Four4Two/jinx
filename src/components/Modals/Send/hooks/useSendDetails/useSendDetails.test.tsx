@@ -1,4 +1,4 @@
-import { btcAssetId, cosmosAssetId } from '@shapeshiftoss/caip'
+import { btcAssetId, cosmosAssetId } from '@sudophunk/caip'
 import { FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import { act, renderHook, waitFor } from '@testing-library/react'

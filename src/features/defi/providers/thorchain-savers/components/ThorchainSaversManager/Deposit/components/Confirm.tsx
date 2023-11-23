@@ -1,6 +1,6 @@
 import { Alert, AlertIcon, Box, Stack, useToast } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { bchChainId, fromAccountId, toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { bchChainId, fromAccountId, toAssetId } from '@sudophunk/caip'
 import type {
   FeeData,
   FeeDataEstimate,

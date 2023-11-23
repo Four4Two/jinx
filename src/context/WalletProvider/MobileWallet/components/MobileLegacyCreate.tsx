@@ -12,7 +12,7 @@ const DeprecationHeader = () => {
       <AlertDescription fontSize='md'>
         <Text translation={'walletProvider.shapeShift.legacy.deprecatedWarning'} />
         <Link
-          href={'https://shapeshift.zendesk.com/hc/en-us/articles/6161030693517'}
+          href={'https://blackfury.zendesk.com/hc/en-us/articles/6161030693517'}
           fontWeight='normal'
           isExternal
         >

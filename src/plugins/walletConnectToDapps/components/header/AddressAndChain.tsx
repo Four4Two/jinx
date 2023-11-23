@@ -1,5 +1,5 @@
 import { Button, Link } from '@chakra-ui/react'
-import { fromAccountId } from '@shapeshiftoss/caip'
+import { fromAccountId } from '@sudophunk/caip'
 import { AssetIcon } from 'components/AssetIcon'
 import { MiddleEllipsis } from 'components/MiddleEllipsis/MiddleEllipsis'
 import { accountIdToFeeAssetId } from 'state/slices/portfolioSlice/utils'

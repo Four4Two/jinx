@@ -1,4 +1,4 @@
-import { highburyChainId } from '@shapeshiftoss/caip'
+import { highburyChainId } from '@sudophunk/caip'
 
 import { highbury } from '../baseAssets'
 import * as coingecko from '../coingecko'

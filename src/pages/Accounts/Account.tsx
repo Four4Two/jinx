@@ -1,5 +1,5 @@
 import { Flex } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import { Route, Switch, useParams, useRouteMatch } from 'react-router-dom'
 import { AccountDetails } from 'components/AccountDetails'
 import { accountIdToFeeAssetId } from 'state/slices/portfolioSlice/utils'

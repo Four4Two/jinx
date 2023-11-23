@@ -1,5 +1,5 @@
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { DefiAction } from 'features/defi/contexts/DefiManagerProvider/DefiCommon'
 import qs from 'qs'
 import React, { useCallback, useMemo } from 'react'

@@ -1,5 +1,5 @@
 import { MaxUint256 } from '@ethersproject/constants'
-import { ethChainId, jinxAssetId } from '@shapeshiftoss/caip'
+import { ethChainId, jinxAssetId } from '@sudophunk/caip'
 import type { TxMetadata } from '@shapeshiftoss/chain-adapters'
 import type { MarketData } from '@shapeshiftoss/types'
 import { mockMarketData } from 'test/mocks/marketData'

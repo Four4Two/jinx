@@ -16,7 +16,7 @@ import {
   StatNumber,
   useColorModeValue,
 } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import type { HistoryTimeframe } from '@shapeshiftoss/types'
 import { useEffect, useMemo, useState } from 'react'
 import NumberFormat from 'react-number-format'

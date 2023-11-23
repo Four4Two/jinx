@@ -1,4 +1,4 @@
-import { fromAccountId, fromAssetId } from '@shapeshiftoss/caip'
+import { fromAccountId, fromAssetId } from '@sudophunk/caip'
 import { useCallback, useEffect, useState } from 'react'
 import type { GetReceiveAddressArgs } from 'components/MultiHopTrade/types'
 import { getChainAdapterManager } from 'context/PluginProvider/chainAdapterSingleton'

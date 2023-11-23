@@ -1,4 +1,4 @@
-import { fromAssetId, fromChainId } from '@shapeshiftoss/caip'
+import { fromAssetId, fromChainId } from '@sudophunk/caip'
 import { getConfig } from 'config'
 import type { Asset } from 'lib/asset-service'
 import { bnOrZero } from 'lib/bignumber/bignumber'

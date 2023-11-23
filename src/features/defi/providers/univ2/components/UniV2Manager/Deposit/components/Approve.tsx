@@ -1,6 +1,6 @@
 import { Flex, Text, useToast } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { ethAssetId, fromAssetId, toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { ethAssetId, fromAssetId, toAssetId } from '@sudophunk/caip'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'
 import { UNISWAP_V2_ROUTER_02_CONTRACT_ADDRESS } from 'contracts/constants'
 import { ethers } from 'ethers'
@@ -321,7 +321,7 @@ export const Approve: React.FC<UniV2ApproveProps> = ({ accountId, onNext }) => {
                 loadingText={translate('common.approve')}
                 preFooter={preFooter}
                 providerIcon={getMetadataForProvider(lpOpportunity!.provider)?.icon ?? ''}
-                learnMoreLink='https://shapeshift.zendesk.com/hc/en-us/articles/360018501700'
+                learnMoreLink='https://blackfury.zendesk.com/hc/en-us/articles/360018501700'
                 onCancel={() => onNext(DefiStep.Info)}
                 onConfirm={() => handleApprove(asset0ContractAddress)}
                 spenderContractAddress={UNISWAP_V2_ROUTER_02_CONTRACT_ADDRESS!}
@@ -350,7 +350,7 @@ export const Approve: React.FC<UniV2ApproveProps> = ({ accountId, onNext }) => {
                 loadingText={translate('common.approve')}
                 preFooter={preFooter}
                 providerIcon={getMetadataForProvider(lpOpportunity!.provider)?.icon ?? ''}
-                learnMoreLink='https://shapeshift.zendesk.com/hc/en-us/articles/360018501700'
+                learnMoreLink='https://blackfury.zendesk.com/hc/en-us/articles/360018501700'
                 onCancel={() => onNext(DefiStep.Info)}
                 onConfirm={() => handleApprove(asset1ContractAddress)}
                 spenderContractAddress={UNISWAP_V2_ROUTER_02_CONTRACT_ADDRESS}

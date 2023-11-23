@@ -1,5 +1,5 @@
 import { MaxUint256 } from '@ethersproject/constants'
-import { ethAssetId, fromAccountId } from '@shapeshiftoss/caip'
+import { ethAssetId, fromAccountId } from '@sudophunk/caip'
 import type { ethereum } from '@shapeshiftoss/chain-adapters'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'
 import { ETH_JINX_POOL_CONTRACT_ADDRESS } from 'contracts/constants'

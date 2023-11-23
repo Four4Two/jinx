@@ -1,6 +1,6 @@
 import { useToast } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { fromAccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { fromAccountId } from '@sudophunk/caip'
 import type { DepositValues } from 'features/defi/components/Deposit/Deposit'
 import { Deposit as ReusableDeposit } from 'features/defi/components/Deposit/Deposit'
 import type {

@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { Asset } from 'lib/asset-service'
 import type { BuyAssetBySellIdInput, Swapper } from 'lib/swapper/types'
 import { executeEvmTrade2 } from 'lib/utils/evm'

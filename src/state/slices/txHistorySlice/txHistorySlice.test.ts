@@ -1,4 +1,4 @@
-import { btcAssetId, ethAssetId } from '@shapeshiftoss/caip'
+import { btcAssetId, ethAssetId } from '@sudophunk/caip'
 import { UtxoAccountType } from '@shapeshiftoss/types'
 import { TxStatus } from '@shapeshiftoss/unchained-client'
 import { map, reverse } from 'lodash'

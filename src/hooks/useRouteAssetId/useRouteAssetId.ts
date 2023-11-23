@@ -1,5 +1,5 @@
-import type { AccountId, AssetId, ChainNamespace, ChainReference } from '@shapeshiftoss/caip'
-import { toChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainNamespace, ChainReference } from '@sudophunk/caip'
+import { toChainId } from '@sudophunk/caip'
 import { getJinxPageRouteAssetId } from 'plugins/jinxPage/utils/getJinxPageRouteAssetId'
 import { useMemo } from 'react'
 import { matchPath, useLocation } from 'react-router'

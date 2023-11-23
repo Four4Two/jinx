@@ -48,7 +48,7 @@ export const FeedbackAndSupport = () => {
               // @ts-ignore
               isExternal
               size='sm'
-              href='https://discord.gg/RQhAMsadpu' // unique link to attribute visitors, rather than discord.gg/shapeshift
+              href='https://discord.gg/RQhAMsadpu' // unique link to attribute visitors, rather than discord.gg/blackfury
               label={translate('common.joinDiscord')}
               leftIcon={<DiscordIcon />}
               data-test='navigation-join-discord-button'
@@ -60,7 +60,7 @@ export const FeedbackAndSupport = () => {
               label={translate('common.submitFeatureRequest')}
               // @ts-ignore
               isExternal
-              href='https://shapeshift.canny.io/feature-requests'
+              href='https://blackfury.canny.io/feature-requests'
             />
           </Stack>
         </ModalBody>

@@ -1,5 +1,5 @@
-import type { AssetNamespace, ChainId } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, CHAIN_REFERENCE, fromChainId } from '@shapeshiftoss/caip'
+import type { AssetNamespace, ChainId } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, CHAIN_REFERENCE, fromChainId } from '@sudophunk/caip'
 import { BigNumber } from 'ethers'
 
 export * from './bignumber'

@@ -1,5 +1,5 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
-import { adapters } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
+import { adapters } from '@sudophunk/caip'
 import axios from 'axios'
 import Polyglot from 'node-polyglot'
 

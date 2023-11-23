@@ -1,4 +1,4 @@
-import { adapters } from '@shapeshiftoss/caip'
+import { adapters } from '@sudophunk/caip'
 import type {
   FindAllMarketArgs,
   HistoryData,

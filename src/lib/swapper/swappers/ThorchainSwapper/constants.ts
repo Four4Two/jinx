@@ -3,7 +3,7 @@ import { bn } from 'lib/bignumber/bignumber'
 import type { ThorChainId } from 'lib/swapper/swappers/ThorchainSwapper/types'
 import type { SwapSource } from 'lib/swapper/types'
 import { SwapperName } from 'lib/swapper/types'
-// TODO: read from https://daemon.thorchain.shapeshift.com/lcd/thorchain/constants
+// TODO: read from https://daemon.thorchain.jinx.army/lcd/thorchain/constants
 export const RUNE_OUTBOUND_TRANSACTION_FEE_CRYPTO_HUMAN = bn('0.02')
 
 export const sellSupportedChainIds: Record<ThorChainId, boolean> = {

@@ -1,4 +1,4 @@
-import { btcAssetId, btcChainId, ethAssetId, ethChainId, jinxAssetId } from '@shapeshiftoss/caip'
+import { btcAssetId, btcChainId, ethAssetId, ethChainId, jinxAssetId } from '@sudophunk/caip'
 import merge from 'lodash/merge'
 import type { Asset } from 'lib/asset-service'
 

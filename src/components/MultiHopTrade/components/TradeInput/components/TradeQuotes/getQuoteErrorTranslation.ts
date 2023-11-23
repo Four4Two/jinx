@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { bnOrZero } from '@shapeshiftoss/chain-adapters'
 import type { InterpolationOptions } from 'node-polyglot'
 import type { Asset } from 'lib/asset-service'

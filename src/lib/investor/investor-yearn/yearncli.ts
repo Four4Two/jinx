@@ -29,10 +29,10 @@ const main = async (): Promise<void> => {
   const wallet = await getWallet()
   const chainAdapter = new ethereum.ChainAdapter({
     providers: {
-      ws: new unchained.ws.Client<unchained.ethereum.Tx>('wss://dev-api.ethereum.shapeshift.com'),
+      ws: new unchained.ws.Client<unchained.ethereum.Tx>('wss://dev-api.ethereum.jinx.army'),
       http: new unchained.ethereum.V1Api(
         new unchained.ethereum.Configuration({
-          basePath: 'https://dev-api.ethereum.shapeshift.com',
+          basePath: 'https://dev-api.ethereum.jinx.army',
         }),
       ),
     },
@@ -40,7 +40,7 @@ const main = async (): Promise<void> => {
   })
 
   const yearnInvestor = new YearnInvestor({
-    providerUrl: 'https://daemon.ethereum.shapeshift.com',
+    providerUrl: 'https://daemon.ethereum.jinx.army',
     dryRun: true,
     chainAdapter,
   })

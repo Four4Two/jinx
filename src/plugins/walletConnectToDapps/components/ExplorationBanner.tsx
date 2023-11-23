@@ -56,7 +56,7 @@ export const ExplorationBanner: FC = () => {
               colorScheme='blue'
               size='sm'
               variant='link'
-              href='https://shapeshift.zendesk.com/hc/en-us/articles/10316252789645'
+              href='https://blackfury.zendesk.com/hc/en-us/articles/10316252789645'
               isExternal
             >
               <Text translation='plugins.walletConnectToDapps.registry.learnMore' />

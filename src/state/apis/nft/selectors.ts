@@ -1,6 +1,6 @@
 import { QueryStatus } from '@reduxjs/toolkit/query'
-import type { AssetId } from '@shapeshiftoss/caip'
-import { isNft } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { isNft } from '@sudophunk/caip'
 import { createSelector } from 'reselect'
 import type { ReduxState } from 'state/reducer'
 import {

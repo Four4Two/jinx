@@ -1,4 +1,4 @@
-import { ethAssetId } from '@shapeshiftoss/caip'
+import { ethAssetId } from '@sudophunk/caip'
 import { ethereum } from 'test/mocks/assets'
 import { mockChainAdapters } from 'test/mocks/portfolio'
 

@@ -1,4 +1,4 @@
-import { adapters } from '@shapeshiftoss/caip'
+import { adapters } from '@sudophunk/caip'
 import { HistoryTimeframe } from '@shapeshiftoss/types'
 import axios from 'axios'
 

@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { ethAssetId, jinxAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { ethAssetId, jinxAssetId } from '@sudophunk/caip'
 import {
   ETH_JINX_STAKING_CONTRACT_ADDRESS_V1,
   ETH_JINX_STAKING_CONTRACT_ADDRESS_V2,
@@ -97,13 +97,13 @@ export const DEFI_PROVIDER_TO_METADATA: Record<DefiProvider, DefiProviderMetadat
     provider: DefiProvider.BlackFury,
     icon: 'https://assets.coincap.io/assets/icons/256/jinx.png',
     color: '#3761F9',
-    url: 'https://app.shapeshift.com',
+    url: 'https://app.jinx.army',
   },
   [DefiProvider.EthJinxStaking]: {
     provider: DefiProvider.EthJinxStaking,
     icon: 'https://assets.coincap.io/assets/icons/256/jinx.png',
     color: '#00CD98',
-    url: 'https://app.shapeshift.com',
+    url: 'https://app.jinx.army',
   },
   [DefiProvider.UniV2]: {
     provider: DefiProvider.UniV2,
@@ -115,12 +115,12 @@ export const DEFI_PROVIDER_TO_METADATA: Record<DefiProvider, DefiProviderMetadat
     provider: DefiProvider.CosmosSdk,
     icon: 'https://assets.coincap.io/assets/icons/256/atom.png',
     color: '#C5B5F2',
-    url: 'https://app.shapeshift.com',
+    url: 'https://app.jinx.army',
   },
   [DefiProvider.ThorchainSavers]: {
     provider: DefiProvider.ThorchainSavers,
     icon: 'https://assets.coincap.io/assets/icons/rune@2x.png',
     color: '#0CDBE0',
-    url: 'https://app.shapeshift.com',
+    url: 'https://app.jinx.army',
   },
 }

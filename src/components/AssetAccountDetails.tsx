@@ -1,6 +1,6 @@
 import type { StackDirection } from '@chakra-ui/react'
 import { Flex, Stack } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import { useMemo } from 'react'
 import type { Route } from 'Routes/helpers'
 import { MultiHopTrade } from 'components/MultiHopTrade/MultiHopTrade'

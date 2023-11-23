@@ -1,5 +1,5 @@
-import type { AssetId, ToAssetIdArgs } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { AssetId, ToAssetIdArgs } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { bn, bnOrZero } from 'lib/bignumber/bignumber'
 import { poolAssetIdToAssetId } from 'lib/swapper/swappers/ThorchainSwapper/utils/poolAssetHelpers/poolAssetHelpers'
 import { selectAssetById } from 'state/slices/assetsSlice/selectors'

@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import BigNumber from 'bignumber.js'
 import { baseUnitToHuman, bn, convertPrecision } from 'lib/bignumber/bignumber'
 import { BTC, ETH, JINX_MAINNET } from 'lib/swapper/swappers/utils/test-data/assets'

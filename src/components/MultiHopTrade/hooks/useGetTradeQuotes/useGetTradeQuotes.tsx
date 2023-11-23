@@ -132,7 +132,7 @@ export const useGetTradeQuotes = () => {
         const receiveAccountNumber = receiveAssetBip44Params?.accountNumber
         const walletIsKeepKey = wallet && isKeepKey(wallet)
         const isFromEvm = isEvmChainId(sellAsset.chainId)
-        // disable EVM donations on KeepKey until https://github.com/shapeshift/web/issues/4518 is resolved
+        // disable EVM donations on KeepKey until https://github.com/furysport/web/issues/4518 is resolved
         const willDonate = walletIsKeepKey ? userWillDonate && !isFromEvm : userWillDonate
 
         const updatedTradeQuoteInput: GetTradeQuoteInput | undefined = await getTradeQuoteArgs({

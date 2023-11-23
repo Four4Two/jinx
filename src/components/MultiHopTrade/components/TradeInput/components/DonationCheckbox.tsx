@@ -48,7 +48,7 @@ export const DonationCheckbox: FC<DonationCheckboxProps> = memo(
       )
     }, [sellAmountIncludingProtocolFeesCryptoBaseUnit, sellAsset, sellAssetUsdRate])
 
-    // disable EVM donations on KeepKey until https://github.com/shapeshift/web/issues/4518 is resolved
+    // disable EVM donations on KeepKey until https://github.com/furysport/web/issues/4518 is resolved
     const showDonationOption =
       (walletIsKeepKey ? !isFromEvm : true) && !isDonationAmountBelowMinimum
 

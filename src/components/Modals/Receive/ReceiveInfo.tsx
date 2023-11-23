@@ -20,8 +20,8 @@ import {
   useColorModeValue,
   useToast,
 } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, fromChainId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, fromChainId } from '@sudophunk/caip'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useTranslate } from 'react-polyglot'

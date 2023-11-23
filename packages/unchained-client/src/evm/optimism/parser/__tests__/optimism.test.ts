@@ -1,4 +1,4 @@
-import { optimismAssetId, optimismChainId } from '@shapeshiftoss/caip'
+import { optimismAssetId, optimismChainId } from '@sudophunk/caip'
 import type { evm } from '@shapeshiftoss/common-api'
 
 import type { Trade, Transfer } from '../../../../types'

@@ -1,5 +1,5 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
-import { fromChainId, generateAssetIdFromCosmosSdkDenom } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
+import { fromChainId, generateAssetIdFromCosmosSdkDenom } from '@sudophunk/caip'
 import type { BIP44Params } from '@shapeshiftoss/types'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import * as unchained from '@shapeshiftoss/unchained-client'

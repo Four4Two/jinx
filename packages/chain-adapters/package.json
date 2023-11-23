@@ -1,7 +1,7 @@
 {
   "name": "@shapeshiftoss/chain-adapters",
   "version": "11.2.2",
-  "repository": "https://github.com/shapeshift/web",
+  "repository": "https://github.com/furysport/web",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -17,9 +17,9 @@
     "dev": "yarn run -T tsc --build --watch"
   },
   "dependencies": {
-    "@shapeshiftoss/caip": "workspace:^",
     "@shapeshiftoss/types": "workspace:^",
     "@shapeshiftoss/unchained-client": "workspace:^",
+    "@sudophunk/caip": "workspace:^",
     "bech32": "^2.0.0",
     "bitcoinjs-lib": "^5.2.0",
     "coinselect": "^3.1.13",

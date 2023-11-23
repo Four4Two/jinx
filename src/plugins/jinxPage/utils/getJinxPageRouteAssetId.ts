@@ -1,4 +1,4 @@
-import { jinxAssetId, jinxyAssetId } from '@shapeshiftoss/caip'
+import { jinxAssetId, jinxyAssetId } from '@sudophunk/caip'
 import { matchPath } from 'react-router'
 
 const JINX_PAGE_DEFAULT_ASSET = 'jinx'

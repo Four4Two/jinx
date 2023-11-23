@@ -1,6 +1,6 @@
 import type { SimpleGridProps } from '@chakra-ui/react'
 import { Box, Flex, SimpleGrid } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { matchSorter } from 'match-sorter'
 import { useCallback, useMemo, useState } from 'react'
 import { NarwhalIcon } from 'components/Icons/Narwhal'

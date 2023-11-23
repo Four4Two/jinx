@@ -1,4 +1,4 @@
-import { btcAssetId, btcChainId } from '@shapeshiftoss/caip'
+import { btcAssetId, btcChainId } from '@sudophunk/caip'
 
 import type { ParsedTx } from '../../../../types'
 import { TransferType, TxStatus } from '../../../../types'

@@ -1,4 +1,4 @@
-import { bchChainId, btcChainId, ethChainId, thorchainChainId } from '@shapeshiftoss/caip'
+import { bchChainId, btcChainId, ethChainId, thorchainChainId } from '@sudophunk/caip'
 
 import { assertIsValidMemo, isValidMemoAddress } from './assertIsValidMemo'
 

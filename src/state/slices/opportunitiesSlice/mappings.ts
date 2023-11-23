@@ -6,7 +6,7 @@ import {
   dogeChainId,
   ethChainId,
   ltcChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import pipe from 'lodash/flow'
 
 import {

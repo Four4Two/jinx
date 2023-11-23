@@ -1,4 +1,4 @@
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import type { BIP44Params, UtxoAccountType } from '@shapeshiftoss/types'
 import type { PartialRecord } from 'lib/utils'
 import type { Nominal } from 'types/common'

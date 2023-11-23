@@ -10,7 +10,7 @@ import {
   Stack,
   useColorModeValue,
 } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { PairIcons } from 'features/defi/components/PairIcons/PairIcons'
 import { debounce } from 'lodash'
 import { isValidElement, useState } from 'react'

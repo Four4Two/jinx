@@ -1,5 +1,5 @@
-import type { ChainId, ChainReference } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, toChainId } from '@shapeshiftoss/caip'
+import type { ChainId, ChainReference } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, toChainId } from '@sudophunk/caip'
 
 export const lifiChainIdToChainId = (lifiChainId: number): ChainId => {
   return toChainId({

@@ -1,5 +1,5 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
-import { fromAssetId, fromChainId, toAssetId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
+import { fromAssetId, fromChainId, toAssetId } from '@sudophunk/caip'
 import type {
   ETHSignMessage,
   ETHSignTx,

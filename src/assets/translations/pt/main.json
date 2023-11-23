@@ -113,8 +113,8 @@
   },
   "consentBanner": {
     "body": {
-      "1": "Nosso dApp usa anonimiza o rastreamento de cliques para analisar o desempenho e melhorar sua experiência. Ao usar app.shapeshift.com, você concorda com nosso rastreamento. Visite",
-      "2": "private.shapeshift.com",
+      "1": "Nosso dApp usa anonimiza o rastreamento de cliques para analisar o desempenho e melhorar sua experiência. Ao usar app.jinx.army, você concorda com nosso rastreamento. Visite",
+      "2": "private.jinx.army",
       "3": "se você não quiser ser rastreado anonimamente. Veja nossa",
       "4": "Politica de Privacidade",
       "5": "para mais detalhes."
@@ -222,7 +222,7 @@
     "notSupported": "%{asset} não é suportado pela %{wallet}"
   },
   "connectWalletPage": {
-    "shapeshift": "BlackFury",
+    "blackfury": "BlackFury",
     "exploreThe": "Explore o",
     "defiUniverse": "Universo DeFi",
     "body": "Uma DEX não custodial, de código aberto, e guiada pelas decisões da comunidade.",
@@ -689,7 +689,7 @@
       "protocol": "Este é o protocolo onde sua negociação está sendo direcionada.",
       "protocolLifi": "Este é o protocolo para onde sua negociação está sendo direcionada. LI.FI intermedeia negociações, combinando o melhor preço, segurança e velocidade.",
       "protocolFee": "Esta é a taxa cobrada pelo protocolo selecionado para processar esta transação, esta não é uma taxa cobrada pela BlackFury",
-      "shapeshiftFee": "A BlackFury não adiciona taxas nas negociações 🎉",
+      "blackfuryFee": "A BlackFury não adiciona taxas nas negociações 🎉",
       "manualReceiveAddress": "Este é o endereço para o qual você receberá seus fundos. Foi inserido manualmente, verifique se está correto."
     },
     "rates": {
@@ -1003,7 +1003,7 @@
     },
     "approve": {
       "header": "Permitir %{spenderName} usar o seu %{asset}",
-      "shapeshiftRouterName": "Roteador BlackFury DAO",
+      "blackfuryRouterName": "Roteador BlackFury DAO",
       "body": "Precisamos de sua permissão para utilizar %{asset}",
       "learnMore": "Por que isso é necessário?",
       "depositFee": "Haverá incidência de taxa ao depositar.",
@@ -1417,7 +1417,7 @@
       },
       "onboarding": {
         "skip": "Pular",
-        "shapeshiftWallet": "Carteira BlackFury",
+        "blackfuryWallet": "Carteira BlackFury",
         "selfCustody": {
           "title": "Auto-custódia",
           "subTitle": "Você tem suas chaves e é o único que pode acessá-las.",

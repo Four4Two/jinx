@@ -1,5 +1,5 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
-import { bchChainId, btcChainId, dogeChainId, ethChainId, ltcChainId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
+import { bchChainId, btcChainId, dogeChainId, ethChainId, ltcChainId } from '@sudophunk/caip'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import bip21 from 'bip21'
 import { parse as parseEthUrl } from 'eth-url-parser'

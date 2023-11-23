@@ -1,5 +1,5 @@
 import { useToast } from '@chakra-ui/react'
-import { ethAssetId, ethChainId } from '@shapeshiftoss/caip'
+import { ethAssetId, ethChainId } from '@sudophunk/caip'
 import { FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import type { HDWallet } from '@shapeshiftoss/hdwallet-core'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'

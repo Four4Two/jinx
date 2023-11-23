@@ -1,6 +1,6 @@
 import type { ExtendedTransactionInfo } from '@lifi/sdk'
 import type { ChainKey, GetStatusRequest, Route } from '@lifi/sdk/dist/types'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import type { ETHSignTx } from '@shapeshiftoss/hdwallet-core'
 import { TxStatus } from '@shapeshiftoss/unchained-client'
 import type { Result } from '@sniptt/monads/build'

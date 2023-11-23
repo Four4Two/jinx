@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import type { DepositValues } from 'features/defi/components/Deposit/Deposit'
 import type { BigNumber } from 'lib/bignumber/bignumber'
 import type { DefiType } from 'state/slices/opportunitiesSlice/types'

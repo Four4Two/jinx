@@ -95,10 +95,10 @@ const validators = {
   REACT_APP_TOKEMAK_STATS_URL: url({ default: 'https://stats.tokemaklabs.com/' }),
   REACT_APP_LOCAL_IP: str({ default: '192.168.1.222' }),
   REACT_APP_BOARDROOM_API_BASE_URL: url({
-    default: 'https://api.boardroom.info/v1/protocols/shapeshift/',
+    default: 'https://api.boardroom.info/v1/protocols/blackfury/',
   }),
   REACT_APP_BOARDROOM_APP_BASE_URL: url({
-    default: 'https://boardroom.io/shapeshift/',
+    default: 'https://boardroom.io/blackfury/',
   }),
   REACT_APP_MIDGARD_URL: url({
     default: 'https://midgard.thorchain.info/v2',
@@ -107,7 +107,7 @@ const validators = {
     default: 'https://api.cow.fi',
   }),
   REACT_APP_COSMOS_NODE_URL: url({
-    default: 'https://dev-daemon.cosmos.shapeshift.com',
+    default: 'https://dev-daemon.cosmos.jinx.army',
   }),
   REACT_APP_ONRAMPER_WIDGET_URL: url(),
   REACT_APP_ONRAMPER_API_URL: url(),
@@ -126,7 +126,7 @@ const validators = {
   REACT_APP_MIXPANEL_TOKEN: str(),
   REACT_APP_FEATURE_TRADE_RATES: bool({ default: false }),
   REACT_APP_SNAPSHOT_BASE_URL: url({
-    default: 'https://snapshot.org/#/shapeshiftdao.eth',
+    default: 'https://snapshot.org/#/blackfurydao.eth',
   }),
   REACT_APP_FEATURE_MIXPANEL: bool({ default: false }),
   REACT_APP_FEATURE_JINX_BOND_CTA: bool({ default: false }),
@@ -134,7 +134,7 @@ const validators = {
   REACT_APP_FEATURE_READ_ONLY_ASSETS: bool({ default: false }),
   REACT_APP_FEATURE_ONE_INCH: bool({ default: false }),
   REACT_APP_ONE_INCH_API_URL: url({
-    default: 'https://api-shapeshift.1inch.io/v5.0',
+    default: 'https://api-blackfury.1inch.io/v5.0',
   }),
   REACT_APP_FEATURE_COVALENT_JAYPEGS: bool({ default: false }),
   REACT_APP_ALCHEMY_POLYGON_JAYPEGS_API_KEY: str(),

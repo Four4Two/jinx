@@ -1,4 +1,4 @@
-import { dogeAssetId, dogeChainId } from '@shapeshiftoss/caip'
+import { dogeAssetId, dogeChainId } from '@sudophunk/caip'
 
 import type { ParsedTx } from '../../../../types'
 import { TransferType, TxStatus } from '../../../../types'

@@ -1,6 +1,6 @@
 import { Box, Button, Center, Link, ModalBody, ModalFooter, Stack } from '@chakra-ui/react'
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
-import { ASSET_REFERENCE, toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
+import { ASSET_REFERENCE, toAssetId } from '@sudophunk/caip'
 import type { ethers } from 'ethers'
 import isNil from 'lodash/isNil'
 import { useCallback, useEffect, useState } from 'react'

@@ -25,7 +25,7 @@ export const DappBack = () => {
         <Text color='text.subtle' translation='plugins.jinxPage.dappBack.body' />
         <Button
           as={Link}
-          href='https://dappback.com/shapeshift'
+          href='https://dappback.com/blackfury'
           isExternal
           colorScheme='blue'
           onClick={handleClick}

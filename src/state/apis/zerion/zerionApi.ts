@@ -1,6 +1,6 @@
 import { createApi } from '@reduxjs/toolkit/dist/query/react'
-import type { AssetId } from '@shapeshiftoss/caip'
-import { FEE_ASSET_IDS, fromAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { FEE_ASSET_IDS, fromAssetId } from '@sudophunk/caip'
 import { isEvmChainId } from '@shapeshiftoss/chain-adapters'
 import axios from 'axios'
 import { getConfig } from 'config'

@@ -1,4 +1,4 @@
-import { fromAssetId, isAssetReference } from '@shapeshiftoss/caip'
+import { fromAssetId, isAssetReference } from '@sudophunk/caip'
 import type { Address } from 'viem'
 import type { Asset } from 'lib/asset-service'
 import { isNativeEvmAsset } from 'lib/swapper/swappers/utils/helpers/helpers'

@@ -8,7 +8,7 @@ import {
   Text as CText,
   useColorModeValue,
 } from '@chakra-ui/react'
-import { ASSET_NAMESPACE, ethChainId, fromAssetId } from '@shapeshiftoss/caip'
+import { ASSET_NAMESPACE, ethChainId, fromAssetId } from '@sudophunk/caip'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'
 import qs from 'qs'
 import { useCallback, useMemo } from 'react'

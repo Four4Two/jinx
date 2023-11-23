@@ -1,4 +1,4 @@
-import { ethAssetId, ethChainId } from '@shapeshiftoss/caip'
+import { ethAssetId, ethChainId } from '@sudophunk/caip'
 import type { evm } from '@shapeshiftoss/common-api'
 import axios from 'axios'
 

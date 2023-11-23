@@ -1,4 +1,4 @@
-import { btcAssetId, ethAssetId } from '@shapeshiftoss/caip'
+import { btcAssetId, ethAssetId } from '@sudophunk/caip'
 import {
   assetIdToPoolAssetId,
   poolAssetIdToAssetId,

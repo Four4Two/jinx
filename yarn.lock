@@ -7040,22 +7040,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shapeshiftoss/caip@workspace:^, @shapeshiftoss/caip@workspace:packages/caip":
-  version: 0.0.0-use.local
-  resolution: "@shapeshiftoss/caip@workspace:packages/caip"
-  dependencies:
-    "@shapeshiftoss/types": "workspace:^"
-    "@yfi/sdk": ^1.2.0
-  languageName: unknown
-  linkType: soft
-
 "@shapeshiftoss/chain-adapters@workspace:^, @shapeshiftoss/chain-adapters@workspace:packages/chain-adapters":
   version: 0.0.0-use.local
   resolution: "@shapeshiftoss/chain-adapters@workspace:packages/chain-adapters"
   dependencies:
-    "@shapeshiftoss/caip": "workspace:^"
     "@shapeshiftoss/types": "workspace:^"
     "@shapeshiftoss/unchained-client": "workspace:^"
+    "@sudophunk/caip": "workspace:^"
     "@types/multicoin-address-validator": ^0.5.0
     bech32: ^2.0.0
     bitcoinjs-lib: ^5.2.0
@@ -7327,9 +7318,9 @@ __metadata:
   resolution: "@shapeshiftoss/unchained-client@workspace:packages/unchained-client"
   dependencies:
     "@openapitools/openapi-generator-cli": ^2.5.1
-    "@shapeshiftoss/caip": "workspace:^"
     "@shapeshiftoss/common-api": ^9.3.0
     "@shapeshiftoss/types": "workspace:^"
+    "@sudophunk/caip": "workspace:^"
     "@types/ws": ^8.2.1
     "@yfi/sdk": ^1.2.0
     isomorphic-ws: ^4.0.1
@@ -7363,7 +7354,6 @@ __metadata:
     "@peculiar/webcrypto": ^1.3.3
     "@react-spring/web": ^9.5.2
     "@reduxjs/toolkit": ^1.9.3
-    "@shapeshiftoss/caip": "workspace:^"
     "@shapeshiftoss/chain-adapters": "workspace:^"
     "@shapeshiftoss/errors": "workspace:^"
     "@shapeshiftoss/hdwallet-coinbase": ^1.50.4
@@ -7379,6 +7369,7 @@ __metadata:
     "@shapeshiftoss/types": "workspace:^"
     "@shapeshiftoss/unchained-client": "workspace:^"
     "@sniptt/monads": ^0.5.10
+    "@sudophunk/caip": "workspace:^"
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
     "@testing-library/user-event": ^14.2.1
@@ -7825,6 +7816,15 @@ __metadata:
   checksum: 3a3fe56240e5d4059bf4e740de3be10234f3fc5fd70249c387774623485823c8ba2cda2ef0280aa8417310ddec4a9e49dddd1642e4ee7502aacfa34c163754a2
   languageName: node
   linkType: hard
+
+"@sudophunk/caip@workspace:^, @sudophunk/caip@workspace:packages/caip":
+  version: 0.0.0-use.local
+  resolution: "@sudophunk/caip@workspace:packages/caip"
+  dependencies:
+    "@shapeshiftoss/types": "workspace:^"
+    "@yfi/sdk": ^1.2.0
+  languageName: unknown
+  linkType: soft
 
 "@surma/rollup-plugin-off-main-thread@npm:^2.2.3":
   version: 2.2.3

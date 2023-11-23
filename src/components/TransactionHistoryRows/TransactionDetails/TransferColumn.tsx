@@ -1,5 +1,5 @@
 import { Stack, useColorModeValue } from '@chakra-ui/react'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { AssetIcon } from 'components/AssetIcon'
 import type { Transfer } from 'hooks/useTxDetails/useTxDetails'
 

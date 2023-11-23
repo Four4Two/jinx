@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, fromAssetId, fromChainId, thorchainAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, fromAssetId, fromChainId, thorchainAssetId } from '@sudophunk/caip'
 import type {
   CosmosSdkChainAdapter,
   SignTx,

@@ -1,6 +1,6 @@
 import { Button, Card, CardHeader, Center, Heading } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
-import { ethAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { ethAssetId } from '@sudophunk/caip'
 import { Summary } from 'features/defi/components/Summary'
 import { useEffect, useState } from 'react'
 import { isMobile } from 'react-device-detect'
@@ -15,7 +15,7 @@ import { resolveYat, validateYat } from 'lib/address/yat'
 import { isMobile as isMobileApp } from 'lib/globals'
 
 /**
- * see https://github.com/shapeshift/web/issues/4604
+ * see https://github.com/furysport/web/issues/4604
  * this route is used to handle when a user successfully purchases a yat
  *
  * https://a.y.at/emoji_id/%F0%9F%A6%8A%F0%9F%9A%80%F0%9F%8C%88 for example
@@ -37,10 +37,10 @@ export const Yat: React.FC = () => {
 
   /**
    * yat can't, or doesn't want to do device detection on their
-   * successful payment page to link back to shapeshift
+   * successful payment page to link back to blackfury
    *
    * the user will be in a browser to buy a yat, not on the mobile app.
-   * hence, when yat sends them back to the app.shapeshift.com/#/yat/eid
+   * hence, when yat sends them back to the app.jinx.army/#/yat/eid
    * link, we detect if they're on a mobile device, but not the app,
    * and invoke the handler to open the mobile app, otherwise link back to desktop
    */
@@ -135,7 +135,7 @@ export const Yat: React.FC = () => {
           </Row>
         </Summary>
         {showMobileHandler ? (
-          <Button as='a' href={`shapeshift://yat/${eid}`} colorScheme='blue' size='lg' mt={6}>
+          <Button as='a' href={`blackfury://yat/${eid}`} colorScheme='blue' size='lg' mt={6}>
             {translate('features.yat.viewInApp')}
           </Button>
         ) : (

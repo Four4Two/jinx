@@ -1,6 +1,6 @@
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import { Button, Card, CardHeader, Heading } from '@chakra-ui/react'
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
 import { useMemo } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { useLocation } from 'react-router'

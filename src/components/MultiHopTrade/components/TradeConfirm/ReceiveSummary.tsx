@@ -7,7 +7,7 @@ import {
   useColorModeValue,
   useDisclosure,
 } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { type FC, memo, useCallback, useMemo } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { Amount } from 'components/Amount/Amount'

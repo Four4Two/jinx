@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import type { WithdrawType } from '@shapeshiftoss/types'
 import type { WithdrawValues } from 'features/defi/components/Withdraw/Withdraw'
 import type { BigNumber } from 'lib/bignumber/bignumber'

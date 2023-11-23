@@ -1,4 +1,4 @@
-import { avalancheChainId } from '@shapeshiftoss/caip'
+import { avalancheChainId } from '@sudophunk/caip'
 import type { Asset } from 'lib/asset-service'
 
 import { avax } from '../baseAssets'

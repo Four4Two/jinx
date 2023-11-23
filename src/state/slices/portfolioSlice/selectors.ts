@@ -1,6 +1,6 @@
 import { createSelector } from '@reduxjs/toolkit'
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
-import { FEE_ASSET_IDS, fromAccountId, fromAssetId, jinxyAssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
+import { FEE_ASSET_IDS, fromAccountId, fromAssetId, jinxyAssetId } from '@sudophunk/caip'
 import type { BIP44Params } from '@shapeshiftoss/types'
 import cloneDeep from 'lodash/cloneDeep'
 import entries from 'lodash/entries'

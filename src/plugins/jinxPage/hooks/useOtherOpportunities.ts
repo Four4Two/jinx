@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { fromAccountId, fromAssetId, jinxAssetId, jinxyAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { fromAccountId, fromAssetId, jinxAssetId, jinxyAssetId } from '@sudophunk/caip'
 import { useMemo } from 'react'
 import { bnOrZero } from 'lib/bignumber/bignumber'
 import { jinxyAddresses } from 'lib/investor/investor-jinxy'
@@ -135,7 +135,7 @@ export const useOtherOpportunities = (assetId: AssetId) => {
               apy: null,
               link: 'https://elasticswap.org/#/liquidity',
               icons: [
-                'https://raw.githubusercontent.com/shapeshift/lib/main/packages/asset-service/src/generateAssetData/ethereum/icons/jinxy-icon.png',
+                'https://raw.githubusercontent.com/blackfury/lib/main/packages/asset-service/src/generateAssetData/ethereum/icons/jinxy-icon.png',
               ],
             },
           ],

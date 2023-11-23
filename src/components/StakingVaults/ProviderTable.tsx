@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import type { Row } from 'react-table'
 import type { AggregatedOpportunitiesByProviderReturn } from 'state/slices/opportunitiesSlice/types'
 

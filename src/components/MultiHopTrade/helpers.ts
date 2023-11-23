@@ -42,13 +42,13 @@ export const getMixpanelEventData = () => {
 
   const {
     shapeShiftFeeUserCurrency,
-    shapeshiftFeeUsd,
+    blackfuryFeeUsd,
     donationAmountUserCurrency,
     donationAmountUsd,
   } = (() => {
     if (swapperName === SwapperName.Thorchain) {
       return {
-        shapeshiftFeeUsd: _donationAmountUsd,
+        blackfuryFeeUsd: _donationAmountUsd,
         shapeShiftFeeUserCurrency: _donationAmountUserCurrency,
         donationAmountUsd: undefined,
         donationAmountUserCurrency: undefined,
@@ -56,7 +56,7 @@ export const getMixpanelEventData = () => {
     }
 
     return {
-      shapeshiftFeeUsd: undefined,
+      blackfuryFeeUsd: undefined,
       shapeShiftFeeUserCurrency: undefined,
       donationAmountUsd: _donationAmountUsd,
       donationAmountUserCurrency: _donationAmountUserCurrency,
@@ -73,7 +73,7 @@ export const getMixpanelEventData = () => {
     donationAmountUsd,
     donationAmountUserCurrency,
     shapeShiftFeeUserCurrency,
-    shapeshiftFeeUsd,
+    blackfuryFeeUsd,
     [compositeBuyAsset]: buyAmountBeforeFeesCryptoPrecision,
     [compositeSellAsset]: sellAmountBeforeFeesCryptoPrecision,
     isStreaming: activeQuote?.isStreaming ?? false,

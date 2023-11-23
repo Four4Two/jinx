@@ -5,7 +5,7 @@ import {
   ethAssetId,
   ethChainId,
   jinxAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { type Account } from '@shapeshiftoss/chain-adapters'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import merge from 'lodash/merge'

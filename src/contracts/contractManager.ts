@@ -1,5 +1,5 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
-import { fromAssetId, toAssetId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
+import { fromAssetId, toAssetId } from '@sudophunk/caip'
 import type { Token } from '@uniswap/sdk'
 import { Fetcher } from '@uniswap/sdk'
 import {

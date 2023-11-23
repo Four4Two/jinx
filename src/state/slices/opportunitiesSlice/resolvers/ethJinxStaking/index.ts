@@ -1,4 +1,4 @@
-import { fromAccountId, fromAssetId, jinxAssetId } from '@shapeshiftoss/caip'
+import { fromAccountId, fromAssetId, jinxAssetId } from '@sudophunk/caip'
 import type { MarketData } from '@shapeshiftoss/types'
 import { ETH_JINX_POOL_CONTRACT_ADDRESS } from 'contracts/constants'
 import { fetchUniV2PairData, getOrCreateContractByAddress } from 'contracts/contractManager'

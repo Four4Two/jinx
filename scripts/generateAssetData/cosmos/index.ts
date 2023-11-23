@@ -1,4 +1,4 @@
-import { cosmosChainId } from '@shapeshiftoss/caip'
+import { cosmosChainId } from '@sudophunk/caip'
 import axios from 'axios'
 import type { Asset } from 'lib/asset-service'
 

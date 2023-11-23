@@ -1,6 +1,6 @@
 import { Button, Stack, useColorModeValue } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
-import type { AccountId } from '@shapeshiftoss/caip/dist/accountId/accountId'
+import type { AssetId } from '@sudophunk/caip'
+import type { AccountId } from '@sudophunk/caip/dist/accountId/accountId'
 import get from 'lodash/get'
 import { calculateYearlyYield } from 'plugins/cosmos/components/modals/Staking/StakingCommon'
 import type { ControllerProps } from 'react-hook-form'

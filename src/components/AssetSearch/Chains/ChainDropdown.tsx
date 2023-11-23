@@ -9,7 +9,7 @@ import {
   MenuList,
   MenuOptionGroup,
 } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { useCallback, useMemo } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { Amount } from 'components/Amount/Amount'

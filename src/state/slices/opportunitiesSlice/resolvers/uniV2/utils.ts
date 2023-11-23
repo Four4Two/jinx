@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import type { TokenAmount } from '@uniswap/sdk'
 import type { IUniswapV2Pair } from 'contracts/__generated'
 import { getOrCreateContractByType } from 'contracts/contractManager'

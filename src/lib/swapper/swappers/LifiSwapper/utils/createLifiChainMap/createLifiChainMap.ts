@@ -1,6 +1,6 @@
 import type { ChainKey as LifiChainKey, EVMChain as LifiEVMChain } from '@lifi/sdk'
-import type { ChainId } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, isChainReference, toChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, isChainReference, toChainId } from '@sudophunk/caip'
 
 export const createLifiChainMap = (
   lifiChains: Pick<LifiEVMChain, 'key' | 'id'>[],

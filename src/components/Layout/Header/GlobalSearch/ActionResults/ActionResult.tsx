@@ -1,6 +1,6 @@
 import { ArrowUpIcon } from '@chakra-ui/icons'
 import { Flex, forwardRef } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { IconCircle } from 'components/IconCircle'
 import { RawText } from 'components/Text'
 import { firstFourLastFour } from 'state/slices/portfolioSlice/utils'

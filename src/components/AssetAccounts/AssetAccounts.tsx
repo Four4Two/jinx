@@ -1,5 +1,5 @@
 import { Card, CardBody, CardHeader, Grid, Heading, Stack } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import { useTranslate } from 'react-polyglot'
 import { Text } from 'components/Text'
 import { selectAccountIdsByAssetIdAboveBalanceThreshold } from 'state/slices/selectors'

@@ -1,4 +1,4 @@
-import { type AssetId, fromChainId } from '@shapeshiftoss/caip'
+import { type AssetId, fromChainId } from '@sudophunk/caip'
 import { getConfig } from 'config'
 import { ethers } from 'ethers'
 import type { Asset } from 'lib/asset-service'

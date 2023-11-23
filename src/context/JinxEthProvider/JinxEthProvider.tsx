@@ -1,5 +1,5 @@
-import type { AccountId } from '@shapeshiftoss/caip'
-import { ethAssetId, ethChainId, fromAccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { ethAssetId, ethChainId, fromAccountId } from '@sudophunk/caip'
 import { TxStatus } from '@shapeshiftoss/unchained-client'
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { opportunitiesApi } from 'state/slices/opportunitiesSlice/opportunitiesApiSlice'

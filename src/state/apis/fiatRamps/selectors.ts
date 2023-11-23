@@ -1,5 +1,5 @@
-import type { AssetId } from '@shapeshiftoss/caip'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import type { MarketData } from '@shapeshiftoss/types'
 import { uniq } from 'lodash'
 import { createSelector } from 'reselect'

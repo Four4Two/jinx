@@ -1,4 +1,4 @@
-import { fromAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import type { Result } from '@sniptt/monads'
 import { Err, Ok } from '@sniptt/monads'
 import type { AxiosError } from 'axios'

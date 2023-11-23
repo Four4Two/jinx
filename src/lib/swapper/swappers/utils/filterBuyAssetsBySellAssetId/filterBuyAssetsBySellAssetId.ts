@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { isEvmChainId } from '@shapeshiftoss/chain-adapters'
 import type { Asset } from 'lib/asset-service'
 import type { BuyAssetBySellIdInput } from 'lib/swapper/types'

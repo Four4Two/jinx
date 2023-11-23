@@ -3,7 +3,7 @@ The `investor` package is an abstraction to implement protocols that allow for s
 
 [Yearn Finance](https://yearn.finance) is an example of this type of single-sided staking protocol.
 
-You can look at [lib/investor/investor-yearn](https://github.com/shapeshift/web/tree/main/lib/investor/investor-yearn) as an example implementation.
+You can look at [lib/investor/investor-yearn](https://github.com/furysport/web/tree/main/lib/investor/investor-yearn) as an example implementation.
 
 ### 
 The `investor` package is made up of three parts.
@@ -37,7 +37,7 @@ This function must return either 1) an `InvestorOpportunity` or 2) `undefined` t
 
 ### `findByUnderlyingAssetId: (assetId: string) => Promise<Array<InvestorOpportunity<TxType, MetaData>>>`
 
-`assetId` is a `AssetId` type as defined in `@shapeshiftoss/caip`. `AssetId` is a `string` formatted per the CAIP-19 specification.
+`assetId` is a `AssetId` type as defined in `@sudophunk/caip`. `AssetId` is a `string` formatted per the CAIP-19 specification.
 
 This function must return an array of `InvestorOpportunities` in which the `InvestorOpportunity.underlyingAsset.assetId` matches the provided `assetId`.
 
@@ -81,7 +81,7 @@ This is the `Asset` that can be deposited into the `Opportunity`.
 
 #### `assetId: string`
 
-`assetId` must be of type `AssetId` from `@shapeshiftoss/caip` and is a CAIP-19 representation of the asset or token that can be deposited into this `Opportunity`.
+`assetId` must be of type `AssetId` from `@sudophunk/caip` and is a CAIP-19 representation of the asset or token that can be deposited into this `Opportunity`.
 
 For example, `AssetId` for Ethereum is `eip155:1/slip44:60`
 
@@ -218,7 +218,7 @@ It is recommended that you use a compatible `ChainAdapter` from `@shapeshiftoss/
 
 #### `wallet: HDWallet`
 
-Your function will be given an [HDWallet](https://github.com/shapeshift/hdwallet) (`@shapeshiftoss/hdwallet-core`) instance that can be used to sign the transaction.
+Your function will be given an [HDWallet](https://github.com/furysport/hdwallet) (`@shapeshiftoss/hdwallet-core`) instance that can be used to sign the transaction.
 
 #### `tx: TxType`
 

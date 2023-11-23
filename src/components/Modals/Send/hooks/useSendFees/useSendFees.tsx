@@ -1,4 +1,4 @@
-import { fromAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import type { FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import { useEffect, useState } from 'react'
 import { useFormContext, useWatch } from 'react-hook-form'

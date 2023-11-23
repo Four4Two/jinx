@@ -13,8 +13,8 @@ import {
   Stack,
   useColorModeValue,
 } from '@chakra-ui/react'
-import { fromAssetId } from '@shapeshiftoss/caip/dist/assetId/assetId'
-import { CHAIN_NAMESPACE } from '@shapeshiftoss/caip/dist/constants'
+import { fromAssetId } from '@sudophunk/caip/dist/assetId/assetId'
+import { CHAIN_NAMESPACE } from '@sudophunk/caip/dist/constants'
 import type { FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import { getConfig } from 'config'
 import type { ChangeEvent } from 'react'

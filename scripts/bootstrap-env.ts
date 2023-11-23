@@ -30,7 +30,7 @@ type Branch = (typeof VALID_BRANCHES)[number]
 
 /**
  * the keys of this object are mapped to subdomains in cloudflare
- * e.g. yeet.shapeshift.com
+ * e.g. yeet.jinx.army
  * the values of this object are the names of the .env files
  * e.g. .env.develop
  */

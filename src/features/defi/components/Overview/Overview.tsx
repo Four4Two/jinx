@@ -9,7 +9,7 @@ import {
   StatLabel,
   Tag,
 } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import type { PropsWithChildren } from 'react'
 import { useMemo } from 'react'
 import { AccountDropdown } from 'components/AccountDropdown/AccountDropdown'

@@ -1,7 +1,7 @@
 // Utility selectors, which are only used for params selecting and do NOT select from the store
 
 import type { QueryStatus } from '@reduxjs/toolkit/dist/query'
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
 import createCachedSelector from 're-reselect'
 import type { FiatRampAction } from 'components/Modals/FiatRamps/FiatRampsCommon'
 

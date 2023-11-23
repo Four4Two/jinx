@@ -15,8 +15,8 @@ import {
   useColorModeValue,
   useMediaQuery,
 } from '@chakra-ui/react'
-import type { AssetId, ToAssetIdArgs } from '@shapeshiftoss/caip'
-import { ethChainId, jinxAssetId, jinxyAssetId } from '@shapeshiftoss/caip'
+import type { AssetId, ToAssetIdArgs } from '@sudophunk/caip'
+import { ethChainId, jinxAssetId, jinxyAssetId } from '@sudophunk/caip'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'
 import qs from 'qs'
 import { useCallback, useMemo } from 'react'

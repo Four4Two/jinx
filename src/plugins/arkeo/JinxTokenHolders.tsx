@@ -1,5 +1,5 @@
 import { Button, CardBody, Flex } from '@chakra-ui/react'
-import { jinxAssetId } from '@shapeshiftoss/caip'
+import { jinxAssetId } from '@sudophunk/caip'
 import { useCallback } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { useHistory } from 'react-router'

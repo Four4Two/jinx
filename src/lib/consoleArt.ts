@@ -1,15 +1,15 @@
 export const renderConsoleArt = () => {
   console.info(`%c 🦊 BlackFury DAO`, 'color: #3761F9; font-size: 16px; font-family: monospace')
   console.info(
-    `%c 💬 Join our Discord https://discord.gg/shapeshift`,
+    `%c 💬 Join our Discord https://discord.gg/blackfury`,
     'color: #3761F9; font-size: 12px; font-family: monospace',
   )
   console.info(
-    `%c 📝 See the DAO overview https://app.boardroom.info/shapeshift/overview`,
+    `%c 📝 See the DAO overview https://app.boardroom.info/blackfury/overview`,
     'color: #3761F9; font-size: 12px; font-family: monospace',
   )
   console.info(
-    `%c 🧑‍💻 Contribute on GitHub https://github.com/shapeshift`,
+    `%c 🧑‍💻 Contribute on GitHub https://github.com/furysport`,
     'color: #3761F9; font-size: 12px; font-family: monospace',
   )
   console.info(

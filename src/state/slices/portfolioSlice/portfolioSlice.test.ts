@@ -1,4 +1,4 @@
-import { btcAssetId, ethAssetId, jinxAssetId } from '@shapeshiftoss/caip'
+import { btcAssetId, ethAssetId, jinxAssetId } from '@sudophunk/caip'
 import type { BIP44Params } from '@shapeshiftoss/types'
 import {
   assetIds,

@@ -1,5 +1,5 @@
-import type { ChainId } from '@shapeshiftoss/caip'
-import { avalancheChainId, ethChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { avalancheChainId, ethChainId } from '@sudophunk/caip'
 import { ethers } from 'ethers'
 
 import type { Tx } from '../../../generated/ethereum'

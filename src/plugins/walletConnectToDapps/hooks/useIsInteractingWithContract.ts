@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { useEffect, useState } from 'react'
 import { getEthersProvider } from 'lib/ethersProviderSingleton'
 

@@ -1,4 +1,4 @@
-import { fromAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { getConfig } from 'config'
 import type { Asset } from 'lib/asset-service'
 import { deposit } from 'lib/swapper/swappers/ThorchainSwapper/evm/routerCalldata'

@@ -5,7 +5,7 @@
  * @group unit
  */
 import { AddressZero } from '@ethersproject/constants'
-import { ASSET_REFERENCE, fromChainId, gnosisAssetId, gnosisChainId } from '@shapeshiftoss/caip'
+import { ASSET_REFERENCE, fromChainId, gnosisAssetId, gnosisChainId } from '@sudophunk/caip'
 import type { ETHSignMessage, ETHSignTx, ETHWallet } from '@shapeshiftoss/hdwallet-core'
 import type { NativeAdapterArgs } from '@shapeshiftoss/hdwallet-native'
 import { NativeHDWallet } from '@shapeshiftoss/hdwallet-native'

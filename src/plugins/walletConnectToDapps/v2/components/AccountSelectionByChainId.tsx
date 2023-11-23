@@ -1,5 +1,5 @@
 import { Checkbox } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { Account } from 'plugins/walletConnectToDapps/v2/components/Account'
 import type { FC } from 'react'
 import { useCallback, useEffect, useMemo, useState } from 'react'

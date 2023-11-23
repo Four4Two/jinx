@@ -1,6 +1,6 @@
 import type { PairingInfo } from '@keepkey/keepkey-sdk'
 import { KeepKeySdk } from '@keepkey/keepkey-sdk'
-import { jinxAssetId } from '@shapeshiftoss/caip'
+import { jinxAssetId } from '@sudophunk/caip'
 import { store } from 'state/store'
 
 type Config = {
@@ -19,7 +19,7 @@ export const setupKeepKeySDK: SetupKeepKeySDK = async () => {
     pairingInfo: {
       name: 'BlackFury',
       imageUrl,
-      url: 'https://app.shapeshift.com',
+      url: 'https://app.jinx.army',
     },
   }
 

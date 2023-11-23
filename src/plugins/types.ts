@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import type { ChainAdapter } from '@shapeshiftoss/chain-adapters'
 import type { Route } from 'Routes/helpers'
 import type { FeatureFlags } from 'state/slices/preferencesSlice/preferencesSlice'

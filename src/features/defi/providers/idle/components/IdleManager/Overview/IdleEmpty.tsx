@@ -10,7 +10,7 @@ import {
   Tag,
   useColorModeValue,
 } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { DefiModalContent } from 'features/defi/components/DefiModal/DefiModalContent'
 import { EmptyOverview } from 'features/defi/components/EmptyOverview/EmptyOverview'
 import { useCallback, useMemo } from 'react'

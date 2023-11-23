@@ -1,6 +1,6 @@
-# @shapeshiftoss/caip
+# @sudophunk/caip
 
-This package is ShapeShift's partial implementation of [CAIPs](https://github.com/ChainAgnostic/CAIPs) - Chain Agnostic Improvement Protocols.
+This package is Blackfury's partial implementation of [CAIPs](https://github.com/ChainAgnostic/CAIPs) - Chain Agnostic Improvement Protocols.
 It is not exhaustive and is currently only used internally.
 
 ## ChainId (CAIP2) - Blockchain ID Specification
@@ -134,7 +134,7 @@ and commit the generated `adapter.json` files.
 ### Usage
 
 ```ts
-console.log(coingeckoToAssetIds('shapeshift-jinx-token'))
+console.log(coingeckoToAssetIds('blackfury-jinx-token'))
 
 [eip155:1/erc20:0xc770eefad204b5180df6a14ee197d99d808ee52d]
 

@@ -104,7 +104,7 @@
     "insufficientCryptoAmountToSell": "Jumlah minimum untuk menjual $%{amount}"
   },
   "connectWalletPage": {
-    "shapeshift": "BlackFury",
+    "blackfury": "BlackFury",
     "exploreThe": "Jelajahi",
     "defiUniverse": "Alam Semesta DeFi",
     "body": "100% Gratis. Sumber Terbuka. Milik Komunitas. Non-Penahanan. Pribadi.",
@@ -326,7 +326,7 @@
     "previewTrade": "Pratinjau Perdagangan",
     "rate": "Tarif",
     "minerFee": "Biaya Penambang",
-    "shapeshiftFee": "Biaya BlackFury",
+    "blackfuryFee": "Biaya BlackFury",
     "confirmDetails": "Detail Konfirmasi",
     "confirmAndTrade": "Konfirmasi dan Perdagangan",
     "complete": "Perdagangan Selesai",
@@ -339,7 +339,7 @@
     "tooltip": {
       "rate": "Ini adalah tingkat yang diharapkan untuk pasangan perdagangan ini.",
       "minerFee": "Ini adalah biaya untuk memproses transaksi di blockchain, ini bukan biaya yang dibebankan oleh BlackFury.",
-      "shapeshiftFee": "BlackFury tidak menambahkan biaya pada perdagangan 🎉"
+      "blackfuryFee": "BlackFury tidak menambahkan biaya pada perdagangan 🎉"
     },
     "errors": {
       "title": "Ada yang salah",
@@ -515,7 +515,7 @@
       }
     },
     "approve": {
-      "shapeshiftRouterName": "BlackFury DAO Router",
+      "blackfuryRouterName": "BlackFury DAO Router",
       "body": "Kami membutuhkan izin Anda untuk menggunakan %{asset}",
       "learnMore": "Mengapa saya perlu melakukan ini??",
       "depositFee": "Akan ada biaya gas terpisah untuk deposit.",

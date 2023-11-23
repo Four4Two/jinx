@@ -1,5 +1,5 @@
 import type { LifiStep } from '@lifi/types'
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
 import { isEvmChainId } from '@shapeshiftoss/chain-adapters'
 import type { Asset } from 'lib/asset-service'
 import { bn } from 'lib/bignumber/bignumber'

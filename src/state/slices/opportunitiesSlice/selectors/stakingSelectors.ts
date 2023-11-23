@@ -1,6 +1,6 @@
 import { createSelector } from '@reduxjs/toolkit'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
-import { fromAccountId, fromAssetId, jinxAssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
+import { fromAccountId, fromAssetId, jinxAssetId } from '@sudophunk/caip'
 import type { AssetWithBalance } from 'features/defi/components/Overview/Overview'
 import partition from 'lodash/partition'
 import pickBy from 'lodash/pickBy'

@@ -1,5 +1,5 @@
 import { Alert, AlertDescription, AlertIcon, useColorModeValue } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import { DefiAction } from 'features/defi/contexts/DefiManagerProvider/DefiCommon'
 import { canCoverTxFees } from 'features/defi/helpers/utils'
 import type { InterpolationOptions } from 'node-polyglot'

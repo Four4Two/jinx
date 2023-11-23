@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { Asset } from 'lib/asset-service'
 import type { AmountDisplayMeta } from 'lib/swapper/types'
 import { isSome } from 'lib/utils'

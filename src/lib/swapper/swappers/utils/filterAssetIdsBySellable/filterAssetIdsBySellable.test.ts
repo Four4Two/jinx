@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import {
   avalancheAssetId,
   btcAssetId,
@@ -6,7 +6,7 @@ import {
   highburyAssetId,
   optimismAssetId,
   thorchainAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import type { Asset } from 'lib/asset-service'
 

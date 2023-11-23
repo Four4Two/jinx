@@ -1,4 +1,4 @@
-import type { AssetId, AssetNamespace, ChainId } from '@shapeshiftoss/caip'
+import type { AssetId, AssetNamespace, ChainId } from '@sudophunk/caip'
 import {
   ASSET_NAMESPACE,
   avalancheAssetId,
@@ -11,7 +11,7 @@ import {
   ltcAssetId,
   thorchainAssetId,
   toAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import { getAddress, isAddress } from 'viem'
 import type { ThornodePoolResponse } from 'lib/swapper/swappers/ThorchainSwapper/types'

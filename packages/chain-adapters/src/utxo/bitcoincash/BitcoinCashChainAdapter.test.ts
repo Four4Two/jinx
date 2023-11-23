@@ -6,7 +6,7 @@
  * @group unit
  */
 
-import { bchAssetId, bchChainId } from '@shapeshiftoss/caip'
+import { bchAssetId, bchChainId } from '@sudophunk/caip'
 import type { BTCSignTx, BTCWallet, HDWallet } from '@shapeshiftoss/hdwallet-core'
 import {
   BTCInputScriptType,

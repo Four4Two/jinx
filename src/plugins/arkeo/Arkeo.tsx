@@ -1,6 +1,6 @@
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import { Box, Button, Flex, Grid, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
-import { cosmosAssetId } from '@shapeshiftoss/caip'
+import { cosmosAssetId } from '@sudophunk/caip'
 import { useTranslate } from 'react-polyglot'
 import ArkeoBg from 'assets/arkeo-bg.jpg'
 import NodeImage from 'assets/node.svg'
@@ -58,7 +58,7 @@ export const ArkeoPage = () => {
                 <Link
                   color={linkColor}
                   isExternal
-                  href='https://shapeshift.com/library/jinxchain-shapeshift-partners-with-coinbase-cloud'
+                  href='https://jinx.army/library/jinxchain-blackfury-partners-with-coinbase-cloud'
                 >
                   {translate('arkeo.whatIsArkeo.bodyParts.2')}
                 </Link>
@@ -121,7 +121,7 @@ export const ArkeoPage = () => {
             rightIcon={<ArrowForwardIcon />}
             colorScheme='blue'
             size='lg'
-            href='https://snapshot.org/#/shapeshiftdao.eth/proposal/0xcc1e83822fc7668a9d9e9136e5bd8973b7dc1ed766c2a0826d3e89d624e8b1c5'
+            href='https://snapshot.org/#/blackfurydao.eth/proposal/0xcc1e83822fc7668a9d9e9136e5bd8973b7dc1ed766c2a0826d3e89d624e8b1c5'
             isExternal
           >
             {translate('arkeo.footer.cta')}

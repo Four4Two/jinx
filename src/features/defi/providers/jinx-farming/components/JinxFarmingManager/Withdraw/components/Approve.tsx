@@ -1,6 +1,6 @@
 import { useToast } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { toAssetId } from '@sudophunk/caip'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'
 import { Approve as ReusableApprove } from 'features/defi/components/Approve/Approve'
 import { ApprovePreFooter } from 'features/defi/components/Approve/ApprovePreFooter'
@@ -193,7 +193,7 @@ export const Approve: React.FC<ApproveProps> = ({ accountId, onNext }) => {
         .toFixed(2)}
       loading={state.loading}
       loadingText={translate('common.approve')}
-      learnMoreLink='https://shapeshift.zendesk.com/hc/en-us/articles/360018501700'
+      learnMoreLink='https://blackfury.zendesk.com/hc/en-us/articles/360018501700'
       preFooter={preFooter}
       onCancel={() => onNext(DefiStep.Info)}
       onConfirm={handleApprove}

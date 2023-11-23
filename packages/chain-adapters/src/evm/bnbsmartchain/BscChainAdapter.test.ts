@@ -4,7 +4,7 @@
  * Test BscChainAdapter
  * @group unit
  */
-import { ASSET_REFERENCE, bscAssetId, bscChainId, fromChainId } from '@shapeshiftoss/caip'
+import { ASSET_REFERENCE, bscAssetId, bscChainId, fromChainId } from '@sudophunk/caip'
 import type { ETHSignMessage, ETHSignTx, ETHWallet } from '@shapeshiftoss/hdwallet-core'
 import type { NativeAdapterArgs } from '@shapeshiftoss/hdwallet-native'
 import { NativeHDWallet } from '@shapeshiftoss/hdwallet-native'

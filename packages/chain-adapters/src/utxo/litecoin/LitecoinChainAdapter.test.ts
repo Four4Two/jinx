@@ -6,7 +6,7 @@
  * @group unit
  */
 
-import { ltcAssetId, ltcChainId } from '@shapeshiftoss/caip'
+import { ltcAssetId, ltcChainId } from '@sudophunk/caip'
 import type { HDWallet } from '@shapeshiftoss/hdwallet-core'
 import type { NativeAdapterArgs } from '@shapeshiftoss/hdwallet-native'
 import { NativeHDWallet } from '@shapeshiftoss/hdwallet-native'

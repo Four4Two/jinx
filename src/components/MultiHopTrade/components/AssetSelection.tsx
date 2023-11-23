@@ -1,6 +1,6 @@
 import { ChevronDownIcon } from '@chakra-ui/icons'
 import { Button, Flex, Skeleton, SkeletonCircle, Stack, useColorModeValue } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import { PairIcons } from 'features/defi/components/PairIcons/PairIcons'
 import { memo, useCallback, useMemo } from 'react'
 import type { AccountDropdownProps } from 'components/AccountDropdown/AccountDropdown'

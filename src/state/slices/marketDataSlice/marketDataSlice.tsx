@@ -1,6 +1,6 @@
 import { createSlice, prepareAutoBatched } from '@reduxjs/toolkit'
 import { createApi } from '@reduxjs/toolkit/dist/query/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { HistoryData, MarketCapResult, MarketData } from '@shapeshiftoss/types'
 import merge from 'lodash/merge'
 import { bnOrZero } from 'lib/bignumber/bignumber'

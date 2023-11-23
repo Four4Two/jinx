@@ -10,8 +10,8 @@ import {
   Stack,
   useToast,
 } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
-import { fromAccountId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
+import { fromAccountId } from '@sudophunk/caip'
 import type {
   DefiParams,
   DefiQueryParams,

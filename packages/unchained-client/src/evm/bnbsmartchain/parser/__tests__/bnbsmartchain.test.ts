@@ -1,4 +1,4 @@
-import { bscAssetId, bscChainId } from '@shapeshiftoss/caip'
+import { bscAssetId, bscChainId } from '@sudophunk/caip'
 import type { evm } from '@shapeshiftoss/common-api'
 
 import type { Trade, Transfer } from '../../../../types'

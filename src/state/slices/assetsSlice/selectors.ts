@@ -1,6 +1,6 @@
 import { createSelector } from '@reduxjs/toolkit'
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
-import { fromAssetId, isNft } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
+import { fromAssetId, isNft } from '@sudophunk/caip'
 import { matchSorter } from 'match-sorter'
 import createCachedSelector from 're-reselect'
 import type { Asset } from 'lib/asset-service'

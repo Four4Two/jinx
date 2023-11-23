@@ -13,8 +13,8 @@ import {
   Tooltip,
   useColorModeValue,
 } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
-import { fromChainId, gnosisChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { fromChainId, gnosisChainId } from '@sudophunk/caip'
 import type { EvmBaseAdapter, EvmChainId } from '@shapeshiftoss/chain-adapters'
 import type { ETHWallet } from '@shapeshiftoss/hdwallet-core'
 import { supportsEthSwitchChain } from '@shapeshiftoss/hdwallet-core'

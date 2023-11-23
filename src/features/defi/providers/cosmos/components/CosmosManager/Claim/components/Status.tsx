@@ -1,6 +1,6 @@
 import { Box, Button, Center, Link, Stack } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { fromAccountId, toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { fromAccountId, toAssetId } from '@sudophunk/caip'
 import type {
   DefiParams,
   DefiQueryParams,

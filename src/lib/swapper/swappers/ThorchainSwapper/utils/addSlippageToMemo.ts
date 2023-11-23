@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { BigNumber } from 'lib/bignumber/bignumber'
 import { subtractBasisPointAmount } from 'state/slices/tradeQuoteSlice/utils'
 

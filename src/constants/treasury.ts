@@ -1,5 +1,5 @@
 // Wallets relating to the Blackfury DAO Treasury
-// https://forum.shapeshift.com/thread/dao-treasuries-and-multisigs-43646
+// https://forum.jinx.army/thread/dao-treasuries-and-multisigs-43646
 
 // Safes
 export const DAO_TREASURY_ETHEREUM_MAINNET = '0x90a48d5cf7343b08da12e067680b4c6dbfe551be'

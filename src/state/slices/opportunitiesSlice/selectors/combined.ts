@@ -1,5 +1,5 @@
 import { QueryStatus } from '@reduxjs/toolkit/dist/query'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { MarketData } from '@shapeshiftoss/types'
 import BigNumber from 'bignumber.js'
 import isEmpty from 'lodash/isEmpty'

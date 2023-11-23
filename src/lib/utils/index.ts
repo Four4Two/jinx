@@ -1,6 +1,6 @@
 import { skipToken } from '@reduxjs/toolkit/dist/query'
-import type { AssetReference } from '@shapeshiftoss/caip'
-import { ASSET_REFERENCE } from '@shapeshiftoss/caip'
+import type { AssetReference } from '@sudophunk/caip'
+import { ASSET_REFERENCE } from '@sudophunk/caip'
 import type { HDWallet } from '@shapeshiftoss/hdwallet-core'
 import { KeepKeyHDWallet } from '@shapeshiftoss/hdwallet-keepkey'
 import { KeplrHDWallet } from '@shapeshiftoss/hdwallet-keplr'

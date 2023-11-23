@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { useEffect } from 'react'
 import { Redirect, Route, Switch, useHistory, useLocation } from 'react-router-dom'
 

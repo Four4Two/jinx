@@ -1,6 +1,6 @@
 import type { FlexProps } from '@chakra-ui/react'
 import { Flex, Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { useState } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { ChainDropdown } from 'components/AssetSearch/Chains/ChainDropdown'

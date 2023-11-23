@@ -9,7 +9,7 @@ let _jinxyApi: JinxyApi | undefined = undefined
 
 // we need to be able to access this outside react
 export const getJinxyApi = (): JinxyApi => {
-  // Infura requests are origin restricted upstream to *.shapeshift.com
+  // Infura requests are origin restricted upstream to *.jinx.army
   // Using our own node locally allows JINXy development, though the balances aren't guaranteed to be accurate
   // since our archival node isn't fully synced yet
   const isLocalhost = window.location.hostname === 'localhost'

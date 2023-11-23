@@ -1,5 +1,5 @@
-import type { ChainId } from '@shapeshiftoss/caip'
-import { polygonChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { polygonChainId } from '@sudophunk/caip'
 import invert from 'lodash/invert'
 import type { Infer } from 'myzod'
 import z from 'myzod'

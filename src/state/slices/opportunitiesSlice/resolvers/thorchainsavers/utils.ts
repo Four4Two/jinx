@@ -1,4 +1,4 @@
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
 import {
   avalancheAssetId,
   bchAssetId,
@@ -10,7 +10,7 @@ import {
   fromAccountId,
   fromAssetId,
   ltcAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import type { UtxoBaseAdapter, UtxoChainId } from '@shapeshiftoss/chain-adapters'
 import type { Result } from '@sniptt/monads'
 import { Err, Ok } from '@sniptt/monads'

@@ -1,6 +1,6 @@
 import { Box, Button, Card, Flex, Heading, Stack } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
-import { ethAssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
+import { ethAssetId } from '@sudophunk/caip'
 import { useCallback, useEffect, useState } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { useParams } from 'react-router'

@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import {
   avalancheChainId,
   bchChainId,
@@ -13,7 +13,7 @@ import {
   optimismChainId,
   polygonChainId,
   thorchainChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import type { HDWallet } from '@shapeshiftoss/hdwallet-core'
 import {
   supportsAvalanche,

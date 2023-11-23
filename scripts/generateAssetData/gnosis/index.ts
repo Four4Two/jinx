@@ -1,4 +1,4 @@
-import { gnosisChainId } from '@shapeshiftoss/caip'
+import { gnosisChainId } from '@sudophunk/caip'
 
 import { gnosis } from '../baseAssets'
 import * as coingecko from '../coingecko'

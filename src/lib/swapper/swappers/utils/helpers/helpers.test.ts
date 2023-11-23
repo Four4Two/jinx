@@ -1,4 +1,4 @@
-import { thorchainChainId } from '@shapeshiftoss/caip'
+import { thorchainChainId } from '@sudophunk/caip'
 import type { EvmChainId } from '@shapeshiftoss/chain-adapters'
 import { bn } from 'lib/bignumber/bignumber'
 

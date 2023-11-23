@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { HistoryTimeframe } from '@shapeshiftoss/types'
 import { useEffect } from 'react'
 import { marketApi } from 'state/slices/marketDataSlice/marketDataSlice'

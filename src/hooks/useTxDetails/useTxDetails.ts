@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { TxTransfer } from '@shapeshiftoss/chain-adapters'
 import type { MarketData } from '@shapeshiftoss/types'
 import type * as unchained from '@shapeshiftoss/unchained-client'

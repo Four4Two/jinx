@@ -1,5 +1,5 @@
 import { Checkbox, Flex } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import type { FC } from 'react'
 import { MiddleEllipsis } from 'components/MiddleEllipsis/MiddleEllipsis'
 import { RawText } from 'components/Text'

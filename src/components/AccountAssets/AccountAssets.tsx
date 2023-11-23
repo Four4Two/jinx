@@ -1,6 +1,6 @@
 import { Card, CardBody, CardHeader, Heading } from '@chakra-ui/react'
-import type { AccountId, AssetId, ChainNamespace } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, fromAssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainNamespace } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, fromAssetId } from '@sudophunk/caip'
 import { Text } from 'components/Text'
 import { selectPortfolioAssetIdsByAccountIdExcludeFeeAsset } from 'state/slices/selectors'
 import { useAppSelector } from 'state/store'

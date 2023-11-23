@@ -1,5 +1,5 @@
 import type { LifiStep } from '@lifi/types'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { KnownChainIds } from '@shapeshiftoss/types'
 import type { BigNumber } from 'ethers'
 import { ethers } from 'ethers'

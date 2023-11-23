@@ -1,4 +1,4 @@
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import { useCallback } from 'react'
 import { selectBuyAccountId, selectSellAccountId } from 'state/slices/selectors'
 import { swappers } from 'state/slices/swappersSlice/swappersSlice'

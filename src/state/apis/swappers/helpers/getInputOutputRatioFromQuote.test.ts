@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { mockMarketData } from 'test/mocks/marketData'
 import { mockStore } from 'test/mocks/store'
 import { SwapperName } from 'lib/swapper/types'
@@ -16,7 +16,7 @@ const usdcAssetId: AssetId = 'eip155:1/erc20:0xa0b86991c6218b36c1d19d4a2e9eb0ce3
 
 jest.mock('state/slices/assetsSlice/selectors', () => {
   const { ETH } = require('lib/swapper/swappers/utils/test-data/assets')
-  const { ethAssetId, jinxAssetId } = require('@shapeshiftoss/caip')
+  const { ethAssetId, jinxAssetId } = require('@sudophunk/caip')
   const { assertUnreachable } = require('lib/utils')
 
   return {
@@ -35,7 +35,7 @@ jest.mock('state/slices/assetsSlice/selectors', () => {
 })
 
 jest.mock('state/slices/marketDataSlice/selectors', () => {
-  const { ethAssetId, jinxAssetId } = require('@shapeshiftoss/caip')
+  const { ethAssetId, jinxAssetId } = require('@sudophunk/caip')
   const { assertUnreachable } = require('lib/utils')
 
   return {

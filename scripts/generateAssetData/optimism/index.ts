@@ -1,4 +1,4 @@
-import { optimismChainId } from '@shapeshiftoss/caip'
+import { optimismChainId } from '@sudophunk/caip'
 
 import { optimism } from '../baseAssets'
 import * as coingecko from '../coingecko'

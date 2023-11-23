@@ -12,7 +12,7 @@ export { serializeCsp } from './util'
  */
 export const cspHeader: Csp = {
   'frame-ancestors': ["'none'"],
-  // 'report-uri': ['https://shapeshift.report-uri.com/r/d/csp/wizard'],
+  // 'report-uri': ['https://blackfury.report-uri.com/r/d/csp/wizard'],
 }
 
 /**

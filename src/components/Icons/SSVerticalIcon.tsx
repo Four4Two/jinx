@@ -1,7 +1,7 @@
 import { createIcon } from '@chakra-ui/react'
 
-export const ShapeShiftVertical = createIcon({
-  displayName: 'ShapeShiftVertical',
+export const BlackfuryVertical = createIcon({
+  displayName: 'BlackfuryVertical',
   path: (
     <path
       fill='currentColor'

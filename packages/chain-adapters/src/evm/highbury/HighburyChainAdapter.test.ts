@@ -9,7 +9,7 @@ import {
   CHAIN_REFERENCE,
   highburyAssetId,
   highburyChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import type { ETHSignMessage, ETHSignTx, ETHWallet } from '@shapeshiftoss/hdwallet-core'
 import type { NativeAdapterArgs } from '@shapeshiftoss/hdwallet-native'
 import { NativeHDWallet } from '@shapeshiftoss/hdwallet-native'

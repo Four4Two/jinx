@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { TxMetadata } from '@shapeshiftoss/chain-adapters'
 import { useMemo } from 'react'
 import { useTranslate } from 'react-polyglot'

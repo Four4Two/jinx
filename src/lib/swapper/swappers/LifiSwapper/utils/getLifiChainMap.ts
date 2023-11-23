@@ -1,6 +1,6 @@
 import type { ChainId as LifiChainId, ChainKey } from '@lifi/sdk'
-import type { ChainId } from '@shapeshiftoss/caip'
-import { fromChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { fromChainId } from '@sudophunk/caip'
 import { evmChainIds } from '@shapeshiftoss/chain-adapters'
 
 import { createLifiChainMap } from './createLifiChainMap/createLifiChainMap'

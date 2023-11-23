@@ -1,5 +1,5 @@
 import { Box, Center, Spinner, useToken } from '@chakra-ui/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { HistoryData } from '@shapeshiftoss/types'
 import { HistoryTimeframe } from '@shapeshiftoss/types'
 import { curveLinear } from '@visx/curve'

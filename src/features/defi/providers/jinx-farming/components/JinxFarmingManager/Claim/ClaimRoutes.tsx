@@ -1,5 +1,5 @@
-import type { AccountId } from '@shapeshiftoss/caip'
-import { toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { toAssetId } from '@sudophunk/caip'
 import type {
   DefiParams,
   DefiQueryParams,

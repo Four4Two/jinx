@@ -1,5 +1,5 @@
 import { Button, Card, CardHeader, Heading, Stack } from '@chakra-ui/react'
-import { fromAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import { FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import axios from 'axios'
 import { Summary } from 'features/defi/components/Summary'

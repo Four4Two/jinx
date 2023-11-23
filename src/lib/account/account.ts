@@ -1,5 +1,5 @@
-import type { ChainId } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, fromChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, fromChainId } from '@sudophunk/caip'
 import type { HDWallet } from '@shapeshiftoss/hdwallet-core'
 import merge from 'lodash/merge'
 import type { AccountMetadataById } from 'state/slices/portfolioSlice/portfolioSliceCommon'

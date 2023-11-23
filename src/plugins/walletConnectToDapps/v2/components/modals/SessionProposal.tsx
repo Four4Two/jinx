@@ -1,6 +1,6 @@
 import { Alert, AlertIcon, AlertTitle, Button, VStack } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { fromAccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { fromAccountId } from '@sudophunk/caip'
 import type { HDWallet } from '@shapeshiftoss/hdwallet-core'
 import type { ProposalTypes, SessionTypes } from '@walletconnect/types'
 import { getSdkError } from '@walletconnect/utils'

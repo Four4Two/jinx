@@ -1,4 +1,4 @@
-import { fromAccountId } from '@shapeshiftoss/caip'
+import { fromAccountId } from '@sudophunk/caip'
 import type { EvmBaseAdapter, EvmChainId, FeeDataKey } from '@shapeshiftoss/chain-adapters'
 import { getFeesForTx } from 'plugins/walletConnectToDapps/utils'
 import type { WalletConnectEthSendTransactionCallRequest } from 'plugins/walletConnectToDapps/v1/bridge/types'

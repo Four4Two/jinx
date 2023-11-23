@@ -8,7 +8,7 @@ export const PrivacyPolicy = () => {
       <Flex px={{ base: 2, lg: 4 }} py={{ base: 4, lg: 8 }} direction={'column'} rowGap={4}>
         <DarkMode>
           <Center flexDirection={'column'}>
-            <Text as='h3' translation={'connectWalletPage.shapeshift'} />
+            <Text as='h3' translation={'connectWalletPage.blackfury'} />
             <Text as='h1' translation={'common.privacy'} />
             <Text as='h3' translation={'common.legalDated'} mt={4} />
           </Center>
@@ -88,7 +88,7 @@ export const PrivacyPolicy = () => {
             <RawText as='strong'>Who we are and how to contact us:</RawText> The Platform and this
             notice are maintained by the BlackFury decentralized autonomous organization. The best
             way to get in touch with us is through our discord server, which you can join{' '}
-            <Link href='https://discord.com/invite/shapeshift'>
+            <Link href='https://discord.com/invite/blackfury'>
               <RawText as='strong'>here</RawText>
             </Link>
             .

@@ -1,4 +1,4 @@
-import type { AccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
 import { useJinxyQuery } from 'features/defi/providers/jinxy/components/JinxyManager/useJinxyQuery'
 import { AnimatePresence } from 'framer-motion'
 import { useMemo } from 'react'

@@ -1,7 +1,7 @@
 import type { PayloadAction } from '@reduxjs/toolkit'
 import { createSlice } from '@reduxjs/toolkit'
 import { createApi } from '@reduxjs/toolkit/dist/query/react'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import {
   bscChainId,
   fromAssetId,
@@ -9,7 +9,7 @@ import {
   highburyChainId,
   optimismChainId,
   polygonChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import cloneDeep from 'lodash/cloneDeep'
 import type { Asset } from 'lib/asset-service'
 import { AssetService } from 'lib/asset-service'

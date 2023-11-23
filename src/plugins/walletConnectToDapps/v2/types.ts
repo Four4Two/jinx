@@ -1,4 +1,4 @@
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import type { ICore, SessionTypes, SignClientTypes } from '@walletconnect/types'
 import type { PairingTypes } from '@walletconnect/types/dist/types/core/pairing'
 import type { IWeb3Wallet, Web3WalletTypes } from '@walletconnect/web3wallet'

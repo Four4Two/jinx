@@ -1,6 +1,6 @@
 import { Alert, AlertIcon, Box, Stack } from '@chakra-ui/react'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { fromAccountId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { fromAccountId } from '@sudophunk/caip'
 import { supportsETH } from '@shapeshiftoss/hdwallet-core'
 import { WithdrawType } from '@shapeshiftoss/types'
 import type { ethers } from 'ethers'

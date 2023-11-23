@@ -1,5 +1,5 @@
 import { useToast } from '@chakra-ui/react'
-import type { AccountId, AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId, ChainId } from '@sudophunk/caip'
 import {
   avalancheChainId,
   bchChainId,
@@ -9,7 +9,7 @@ import {
   ethChainId,
   fromAccountId,
   ltcChainId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { DEFAULT_HISTORY_TIMEFRAME } from 'constants/Config'
 import difference from 'lodash/difference'
 import pull from 'lodash/pull'
@@ -266,7 +266,7 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
     const portfolioAssetIdsExcludeNoMarketData = difference(portfolioAssetIds, excluded)
 
     // https://redux-toolkit.js.org/rtk-query/api/created-api/endpoints#initiate
-    // TODO(0xdef1cafe): bring polling back once we point at markets.shapeshift.com
+    // TODO(0xdef1cafe): bring polling back once we point at markets.jinx.army
     // const pollingInterval = 1000 * 2 * 60 // refetch data every two minutes
     // const opts = { subscriptionOptions: { pollingInterval } }
     const timeframe = DEFAULT_HISTORY_TIMEFRAME

@@ -5,7 +5,7 @@
 ## Usage
 
 ```typescript
-const chainAdapters = require('@shapeshift/chain-adapters');
+const chainAdapters = require('@blackfury/chain-adapters');
 
 // TODO: DEMONSTRATE API
 ```
@@ -18,13 +18,13 @@ To enable hot reloading, you need to have [WML](https://github.com/wix/wml) and 
 
 // TODO: update package name once lib is published
 ```bash
-wml add lib/packages/chain-adapters web/node_modules/@shapeshift/chain-adapters
+wml add lib/packages/chain-adapters web/node_modules/@blackfury/chain-adapters
 ```
 
 - Check packages are linked correctly by running `wml list`, you should see a response similar to this:
 ```bash
 Links:
-enabled (0) /Users/userName/projectFolder/lib/packages/chain-adapters -> /Users/userName/projectFolder/web/node_modules/@shapeshift/chain-adapters
+enabled (0) /Users/userName/projectFolder/lib/packages/chain-adapters -> /Users/userName/projectFolder/web/node_modules/@blackfury/chain-adapters
 ```
 
 - Start `WML`

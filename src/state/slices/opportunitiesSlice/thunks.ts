@@ -1,6 +1,6 @@
 import type { StartQueryActionCreatorOptions } from '@reduxjs/toolkit/dist/query/core/buildInitiate'
-import type { AccountId, ChainId } from '@shapeshiftoss/caip'
-import { fromAccountId } from '@shapeshiftoss/caip'
+import type { AccountId, ChainId } from '@sudophunk/caip'
+import { fromAccountId } from '@sudophunk/caip'
 import { store } from 'state/store'
 
 import { jinxEthStakingIds } from '../opportunitiesSlice/constants'

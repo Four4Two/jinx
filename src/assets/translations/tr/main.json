@@ -113,8 +113,8 @@
   },
   "consentBanner": {
     "body": {
-      "1": "DApp'imiz, performansı analiz etmek ve deneyiminizi iyileştirmek için anonimleştirilmiş tıklama izlemeyi kullanır. app.shapeshift.com'u kullanarak izlememizi kabul etmiş olursunuz. ",
-      "2": "private.shapeshift.com",
+      "1": "DApp'imiz, performansı analiz etmek ve deneyiminizi iyileştirmek için anonimleştirilmiş tıklama izlemeyi kullanır. app.jinx.army'u kullanarak izlememizi kabul etmiş olursunuz. ",
+      "2": "private.jinx.army",
       "3": "Anonim olarak takip edilmek istemiyorsanız ziyaret edin. Daha fazla ayrıntı için",
       "4": "Gizlilik Politikamıza",
       "5": "göz atın."
@@ -222,7 +222,7 @@
     "notSupported": "%{asset}, %{wallet} tarafından desteklenmiyor"
   },
   "connectWalletPage": {
-    "shapeshift": "BlackFury",
+    "blackfury": "BlackFury",
     "exploreThe": "DeFi Dünyası'nı",
     "defiUniverse": "Keşfedin",
     "body": "%100 Ücretsiz. Açık kaynak. Topluluk Sahibi. Çevrimdışı. Özel.",
@@ -689,7 +689,7 @@
       "protocol": "Bu, ticaretinizin yönlendirildiği protokoldür.",
       "protocolLifi": "Bu, ticaretinizin yönlendirildiği protokoldür. LI.FI, fiyat, güvenlik ve hızın en iyi genel kombinasyonu için başlık altında bir dizi aracı işlem yürütür.",
       "protocolFee": "Bu, bu işlemi gerçekleştirmek için seçilen protokol tarafından alınan ücrettir, BlackFury tarafından alınan bir ücret değildir.",
-      "shapeshiftFee": "BlackFury, işlemlerde ücret eklemiyor 🎉",
+      "blackfuryFee": "BlackFury, işlemlerde ücret eklemiyor 🎉",
       "manualReceiveAddress": "Bu, fonunuzu çekeceğiniz adrestir. Manuel olarak girilmiştir, lütfen doğru olduğundan emin olun."
     },
     "rates": {
@@ -1003,7 +1003,7 @@
     },
     "approve": {
       "header": "%{spenderName}'ın %{asset} öğenizi kullanmasına izin verin",
-      "shapeshiftRouterName": "BlackFury DAO Yönlendirici",
+      "blackfuryRouterName": "BlackFury DAO Yönlendirici",
       "body": "%{asset} kullanımınız için izniniz gerekiyor",
       "learnMore": "Bunu neden yapmam gerekiyor?",
       "depositFee": "Yatırmak için ayrı bir gaz ücreti gerekecektir.",
@@ -1417,7 +1417,7 @@
       },
       "onboarding": {
         "skip": "Geç",
-        "shapeshiftWallet": "BlackFury Cüzdanı",
+        "blackfuryWallet": "BlackFury Cüzdanı",
         "selfCustody": {
           "title": "BlackFury Cüzdanınız kişisel velayettir",
           "subTitle": "Anahtarlar sizde ve ona erişebilecek tek kişi sizsiniz.",

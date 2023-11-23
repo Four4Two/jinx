@@ -10,7 +10,6 @@ export enum KnownChainIds {
   EthereumMainnet = 'eip155:1',
   AvalancheMainnet = 'eip155:43114',
   OptimismMainnet = 'eip155:10',
-  HighburyMainnet = 'eip155:710',
   BnbSmartChainMainnet = 'eip155:56',
   PolygonMainnet = 'eip155:137',
   GnosisMainnet = 'eip155:100',
@@ -18,6 +17,7 @@ export enum KnownChainIds {
   BitcoinCashMainnet = 'bip122:000000000000000000651ef99cb9fcbe',
   DogecoinMainnet = 'bip122:00000000001a91e3dace36e2be3bf030',
   LitecoinMainnet = 'bip122:12a765e31ffd4059bada1e25190f6e98',
+  CosmosMainnet = 'cosmos:cosmoshub-4',
   CosmosMainnet = 'cosmos:cosmoshub-4',
   ThorchainMainnet = 'cosmos:thorchain-mainnet-v1',
 }

@@ -1,4 +1,4 @@
-import { fromAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId } from '@sudophunk/caip'
 import type { evm, EvmChainAdapter } from '@shapeshiftoss/chain-adapters'
 import type { ETHWallet, HDWallet } from '@shapeshiftoss/hdwallet-core'
 import { getChainAdapterManager } from 'context/PluginProvider/chainAdapterSingleton'

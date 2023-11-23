@@ -1,4 +1,4 @@
-import { fromAssetId, toAssetId } from '@shapeshiftoss/caip'
+import { fromAssetId, toAssetId } from '@sudophunk/caip'
 import { ethereum } from '@shapeshiftoss/chain-adapters'
 import type { MarketCapResult, MarketData, MarketDataArgs } from '@shapeshiftoss/types'
 import * as unchained from '@shapeshiftoss/unchained-client'

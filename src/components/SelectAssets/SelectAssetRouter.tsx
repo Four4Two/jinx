@@ -1,4 +1,4 @@
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import { MemoryRouter, useLocation } from 'react-router-dom'
 
 import { SelectAssetRoutes } from './SelectAssetCommon'

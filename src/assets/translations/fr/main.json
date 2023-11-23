@@ -113,8 +113,8 @@
   },
   "consentBanner": {
     "body": {
-      "1": "Notre dApp utilise un suivi des clics anonymisé pour analyser les performances et améliorer votre expérience. En utilisant app.shapeshift.com, vous acceptez notre suivi. Visitez",
-      "2": "private.shapeshift.com",
+      "1": "Notre dApp utilise un suivi des clics anonymisé pour analyser les performances et améliorer votre expérience. En utilisant app.jinx.army, vous acceptez notre suivi. Visitez",
+      "2": "private.jinx.army",
       "3": "si vous ne souhaitez pas être suivi de manière anonyme. Consultez notre",
       "4": "Politique de confidentialité",
       "5": "pour plus de détails."
@@ -222,7 +222,7 @@
     "notSupported": "%{asset} n'est pas pris en charge par %{wallet}"
   },
   "connectWalletPage": {
-    "shapeshift": "BlackFury",
+    "blackfury": "BlackFury",
     "exploreThe": "Explorez",
     "defiUniverse": "l'Univers DeFi",
     "body": "100% Gratuit. Open‑Source. Propriété communautaire. Non‑dépositaire. Privé.",
@@ -689,7 +689,7 @@
       "protocol": "C'est le protocole avec lequel votre échange est routé.",
       "protocolLifi": "C'est le protocole par lequel votre échange est routé. LI.FI exécute une série de transactions intermédiaires pour trouver la meilleure combinaison globale de prix, de sécurité et de rapidité.",
       "protocolFee": "Il s'agit des frais facturés par le protocole sélectionné pour traiter cette transaction, il ne s'agit pas de frais facturés par BlackFury",
-      "shapeshiftFee": "BlackFury n'ajoute aucun frais sur les échanges 🎉",
+      "blackfuryFee": "BlackFury n'ajoute aucun frais sur les échanges 🎉",
       "manualReceiveAddress": "C'est l'adresse à laquelle vous recevrez vos fonds. Elle a été saisie manuellement, veuillez vous assurer qu'elle est correcte."
     },
     "rates": {
@@ -1003,7 +1003,7 @@
     },
     "approve": {
       "header": "Autoriser %{spenderName} à utiliser vos %{asset}",
-      "shapeshiftRouterName": "Routeur BlackFury DAO",
+      "blackfuryRouterName": "Routeur BlackFury DAO",
       "body": "a besoin de votre permission pour utiliser vos %{asset}",
       "learnMore": "Pourquoi dois-je faire cela ?",
       "depositFee": "Il y aura des frais de carburant séparés à déposer.",
@@ -1417,7 +1417,7 @@
       },
       "onboarding": {
         "skip": "Sauter",
-        "shapeshiftWallet": "Porte-monnaie BlackFury",
+        "blackfuryWallet": "Porte-monnaie BlackFury",
         "selfCustody": {
           "title": "Votre porte-monnaie BlackFury est auto-dépositaire",
           "subTitle": "Vous détenez les clés et vous êtes seul à pouvoir y accéder.",

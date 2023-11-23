@@ -25,7 +25,7 @@ import {
   Tooltip,
   useColorModeValue,
 } from '@chakra-ui/react'
-import type { ChainId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
 import { getDefaultSlippageDecimalPercentageForSwapper } from 'constants/constants'
 import { useCallback, useMemo } from 'react'
 import { FaInfoCircle } from 'react-icons/fa'

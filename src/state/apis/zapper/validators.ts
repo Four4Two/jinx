@@ -1,4 +1,4 @@
-import type { AssetId, ChainId } from '@shapeshiftoss/caip'
+import type { AssetId, ChainId } from '@sudophunk/caip'
 import {
   ASSET_NAMESPACE,
   avalancheChainId,
@@ -9,7 +9,7 @@ import {
   optimismChainId,
   polygonChainId,
   toAssetId,
-} from '@shapeshiftoss/caip'
+} from '@sudophunk/caip'
 import { invert } from 'lodash'
 import type { Infer, Type } from 'myzod'
 import z from 'myzod'

@@ -113,8 +113,8 @@
   },
   "consentBanner": {
     "body": {
-      "1": "Unsere dApp verwendet anonymisiertes Klick-Tracking, um die Leistung zu analysieren und Ihr Erlebnis zu verbessern. Durch die Nutzung von app.shapeshift.com stimmen Sie unserem Tracking zu. Besuchen",
-      "2": "private.shapeshift.com",
+      "1": "Unsere dApp verwendet anonymisiertes Klick-Tracking, um die Leistung zu analysieren und Ihr Erlebnis zu verbessern. Durch die Nutzung von app.jinx.army stimmen Sie unserem Tracking zu. Besuchen",
+      "2": "private.jinx.army",
       "3": "wenn Sie nicht anonym verfolgt werden möchten. Siehe unsere",
       "4": "Datenschutz Bestimmungen",
       "5": "für mehr Details."
@@ -222,7 +222,7 @@
     "notSupported": "%{asset} wird von %{wallet} nicht unterstützt"
   },
   "connectWalletPage": {
-    "shapeshift": "BlackFury",
+    "blackfury": "BlackFury",
     "exploreThe": "Entdecken Sie das",
     "defiUniverse": "DeFi Universum",
     "body": "100% kostenlos. Open Source. Gemeinschaftseigentum. Anwenderselbstverwaltung. Privat.",
@@ -689,7 +689,7 @@
       "protocol": "Dies ist das Protokoll, über das Ihr Handel geleitet wird.",
       "protocolLifi": "Dies ist das Protokoll, über das Ihr Handel geleitet wird. LI.FI führt eine Reihe von Zwischengeschäften durch, um die beste Gesamtkombination aus Preis, Sicherheit und Geschwindigkeit zu erzielen.",
       "protocolFee": "Dies ist die Gebühr, die von dem für die Verarbeitung dieser Transaktion ausgewählten Protokoll erhoben wird, dies ist keine Gebühr, die von BlackFury erhoben wird",
-      "shapeshiftFee": "BlackFury erhebt keine Gebühren fürs Handeln 🎉",
+      "blackfuryFee": "BlackFury erhebt keine Gebühren fürs Handeln 🎉",
       "manualReceiveAddress": "Dies ist die Adresse, an die Sie Ihr Geld erhalten. Sie wurde manuell eingegeben, bitte stellen Sie sicher, dass sie korrekt ist."
     },
     "rates": {
@@ -1003,7 +1003,7 @@
     },
     "approve": {
       "header": "Erlaube %{spenderName}, deine %{asset} zu verwenden",
-      "shapeshiftRouterName": "BlackFury DAO Router",
+      "blackfuryRouterName": "BlackFury DAO Router",
       "body": "benötigt Ihre Erlaubnis, um Ihr %{asset} zu verwenden",
       "learnMore": "Warum muss ich das tun?",
       "depositFee": "Es wird eine separate Gasgebühr zu hinterlegen sein.",
@@ -1417,7 +1417,7 @@
       },
       "onboarding": {
         "skip": "Überspringen",
-        "shapeshiftWallet": "BlackFury Wallet",
+        "blackfuryWallet": "BlackFury Wallet",
         "selfCustody": {
           "title": "Ihre Blackfury Wallet verwalten Sie",
           "subTitle": "Sie haben die Schlüssel und Sie sind der einzige, der darauf zugreifen kann.",

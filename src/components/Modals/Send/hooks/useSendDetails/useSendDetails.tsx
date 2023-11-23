@@ -1,5 +1,5 @@
-import type { ChainId } from '@shapeshiftoss/caip'
-import { CHAIN_NAMESPACE, fromAccountId, fromAssetId } from '@shapeshiftoss/caip'
+import type { ChainId } from '@sudophunk/caip'
+import { CHAIN_NAMESPACE, fromAccountId, fromAssetId } from '@sudophunk/caip'
 import type {
   CosmosSdkChainId,
   EvmBaseAdapter,
@@ -334,7 +334,7 @@ export const useSendDetails = (): UseSendDetailsReturnType => {
         setValue(otherField, amount)
 
         // TODO: work toward a consistent way of handling tx fees and minimum amounts
-        // see, https://github.com/shapeshift/web/issues/1966
+        // see, https://github.com/furysport/web/issues/1966
 
         await (async () => {
           try {

@@ -9,7 +9,7 @@ import {
   StackDivider,
   useColorModeValue,
 } from '@chakra-ui/react'
-import type { AccountId, AssetId } from '@shapeshiftoss/caip'
+import type { AccountId, AssetId } from '@sudophunk/caip'
 import { useMemo } from 'react'
 import { useTranslate } from 'react-polyglot'
 import { useSelector } from 'react-redux'

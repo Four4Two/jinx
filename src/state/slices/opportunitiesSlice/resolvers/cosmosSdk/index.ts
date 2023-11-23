@@ -1,4 +1,4 @@
-import { cosmosChainId, fromAccountId } from '@shapeshiftoss/caip'
+import { cosmosChainId, fromAccountId } from '@sudophunk/caip'
 import type { CosmosSdkBaseAdapter, CosmosSdkChainId } from '@shapeshiftoss/chain-adapters'
 import { getChainAdapterManager } from 'context/PluginProvider/chainAdapterSingleton'
 import { bn, bnOrZero } from 'lib/bignumber/bignumber'

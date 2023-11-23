@@ -8,7 +8,7 @@ export const TermsOfService = () => {
       <Flex px={{ base: 2, lg: 4 }} py={{ base: 4, lg: 8 }} direction={'column'} rowGap={4}>
         <DarkMode>
           <Center flexDirection={'column'}>
-            <Text as='h3' translation={'connectWalletPage.shapeshift'} />
+            <Text as='h3' translation={'connectWalletPage.blackfury'} />
             <Text as='h1' translation={'common.terms'} />
             <Text as='h3' translation={'common.legalDated'} mt={4} />
           </Center>
@@ -87,7 +87,7 @@ export const TermsOfService = () => {
               &quot;Connect a Wallet&quot;, but we are constantly working to add more compatibility.
               For the latest updates on the addition of new features, such as the addition of new
               wallets, join our discord server{' '}
-              <Link href='https://discord.com/invite/shapeshift'>
+              <Link href='https://discord.com/invite/blackfury'>
                 <RawText as='strong'>here</RawText>
               </Link>
               ; there are various channels dedicated to our product roadmap. You can disconnect your
@@ -116,7 +116,7 @@ export const TermsOfService = () => {
               <RawText as='strong'>BlackFury Wallet</RawText>&quot;) was originally designed and
               operated by BlackFury AG and has since had its codebase open-sourced. The code can be
               reviewed{' '}
-              <Link href='https://github.com/shapeshift/hdwallet'>
+              <Link href='https://github.com/furysport/hdwallet'>
                 <RawText as='strong'>here</RawText>
               </Link>
               . All references to the Platform in these terms also include the BlackFury Wallet,
@@ -218,7 +218,7 @@ export const TermsOfService = () => {
             <RawText as='strong'>Support of the Platform:</RawText> We have no duty to support the
             Platform, but will try our best to do so. You can contact support by opening a support
             ticket{' '}
-            <Link href='https://shapeshift.zendesk.com/hc/en-us/requests/new'>
+            <Link href='https://blackfury.zendesk.com/hc/en-us/requests/new'>
               <RawText as='strong'>here</RawText>
             </Link>
             . Additionally, we have no duty to make any updates or bug fixes to the Platform.
@@ -244,7 +244,7 @@ export const TermsOfService = () => {
             tokens for the Platform. Neither we nor BlackFury AG have ever sold JINX Tokens. To
             learn more about how JINX Token holders can participate in governance of the Platform,
             please join or discord server{' '}
-            <Link href='https://discord.com/invite/shapeshift'>
+            <Link href='https://discord.com/invite/blackfury'>
               <RawText as='strong'>here</RawText>
             </Link>{' '}
             and see the channel titled &quot;governance&quot;. The smart contract for the JINX
@@ -260,15 +260,15 @@ export const TermsOfService = () => {
             is being licensed to you for free, on an as-is basis, as a public good with a fully
             open-sourced codebase. In exchange for this, and because you can evaluate the Platform's
             codebase yourself (find it{' '}
-            <Link href='https://github.com/shapeshift/web'>
+            <Link href='https://github.com/furysport/web'>
               <RawText as='strong'>here</RawText>
             </Link>
             ,{' '}
-            <Link href='https://github.com/shapeshift/lib'>
+            <Link href='https://github.com/furysport/lib'>
               <RawText as='strong'>here</RawText>
             </Link>
             , and{' '}
-            <Link href='https://github.com/shapeshift/unchained'>
+            <Link href='https://github.com/furysport/unchained'>
               <RawText as='strong'>here</RawText>
             </Link>
             ): YOU ACKNOWLEDGE THAT YOUR USE OF THE PLATFORM IS ON AN &quot;AS IS&quot; AND &quot;AS
@@ -315,7 +315,7 @@ export const TermsOfService = () => {
           <RawText as='p'>
             <RawText as='strong'>How to contact us:</RawText> The best way to get in touch with us
             regarding the Platform is through our discord server, which you can join{' '}
-            <Link href='https://discord.com/invite/shapeshift'>
+            <Link href='https://discord.com/invite/blackfury'>
               <RawText as='strong'>here</RawText>
             </Link>
             . There are a whole host of channels with specific uses, but the

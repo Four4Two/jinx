@@ -12,8 +12,8 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 import { QueryStatus } from '@reduxjs/toolkit/dist/query'
-import type { AccountId } from '@shapeshiftoss/caip'
-import { toAssetId } from '@shapeshiftoss/caip'
+import type { AccountId } from '@sudophunk/caip'
+import { toAssetId } from '@sudophunk/caip'
 import { TxStatus } from '@shapeshiftoss/unchained-client'
 import BigNumber from 'bignumber.js'
 import type { DefiButtonProps } from 'features/defi/components/DefiActionButtons'

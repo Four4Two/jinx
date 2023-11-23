@@ -1,5 +1,5 @@
 import { createSelector } from '@reduxjs/toolkit'
-import type { AssetId } from '@shapeshiftoss/caip'
+import type { AssetId } from '@sudophunk/caip'
 import type { HistoryData, HistoryTimeframe, MarketData } from '@shapeshiftoss/types'
 import createCachedSelector from 're-reselect'
 import { bnOrZero } from 'lib/bignumber/bignumber'

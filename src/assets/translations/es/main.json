@@ -113,8 +113,8 @@
   },
   "consentBanner": {
     "body": {
-      "1": "Nuestra dApp utiliza un seguimiento de clics anónimo para analizar rendimiento y mejorar experiencia. Al utilizar app.shapeshift.com, acepta nuestro seguimiento. Visita",
-      "2": "private.shapeshift.com",
+      "1": "Nuestra dApp utiliza un seguimiento de clics anónimo para analizar rendimiento y mejorar experiencia. Al utilizar app.jinx.army, acepta nuestro seguimiento. Visita",
+      "2": "private.jinx.army",
       "3": "si no quieres que te rastreen de forma anónima. Vea nuestra",
       "4": "Política de Privacidad",
       "5": "para más detalles."
@@ -222,7 +222,7 @@
     "notSupported": "%{asset} no es compatible con %{wallet}"
   },
   "connectWalletPage": {
-    "shapeshift": "BlackFury",
+    "blackfury": "BlackFury",
     "exploreThe": "Explora El",
     "defiUniverse": "Universo DeFi",
     "body": "100% gratis. Código abierto. Propiedad de la comunidad. Sin custodia. Privado.",
@@ -689,7 +689,7 @@
       "protocol": "Este es el protocolo donde se enruta su intercambio.",
       "protocolLifi": "Este es el protocolo donde se enruta su comercio. LI.FI ejecuta una serie de transacciones intermediarias para obtener la mejor combinación general de precio, seguridad y velocidad.",
       "protocolFee": "Esta es la tarifa cobrada por el protocolo seleccionado para procesar, No es una tarifa cobrada por BlackFury",
-      "shapeshiftFee": "BlackFury no agrega tarifas a los intercambios 🎉",
+      "blackfuryFee": "BlackFury no agrega tarifas a los intercambios 🎉",
       "manualReceiveAddress": "Esta es la dirección que recibirá los fondos. Se introdujo manualmente, asegúrese que sea correcta."
     },
     "rates": {
@@ -1003,7 +1003,7 @@
     },
     "approve": {
       "header": "Permita que %{spenderName} use su %{asset}",
-      "shapeshiftRouterName": "Enrutador BlackFury DAO",
+      "blackfuryRouterName": "Enrutador BlackFury DAO",
       "body": "Necesitamos su permiso para usar su %{asset}",
       "learnMore": "¿Por qué necesito hacer esto?",
       "depositFee": "Habrá una tarifa de gas por separado para depositar.",
@@ -1417,7 +1417,7 @@
       },
       "onboarding": {
         "skip": "Saltar",
-        "shapeshiftWallet": "Billetera BlackFury",
+        "blackfuryWallet": "Billetera BlackFury",
         "selfCustody": {
           "title": "Su Billetera BlackFury es auto-custodia",
           "subTitle": "Tienes las llaves y eres el único que puede acceder a él.",

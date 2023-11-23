@@ -1,4 +1,4 @@
-import { isNft } from '@shapeshiftoss/caip'
+import { isNft } from '@sudophunk/caip'
 import type {
   FindAllMarketArgs,
   HistoryData,
